@@ -1,0 +1,25 @@
+<enemies moving along path>
+
+Traitors, rebels and heretics, hear my words!
+
+<ally bases>
+
+You have come for the Emperor, but all you will find here is your death.
+
+<allies and enemies battle>
+
+You trespass on his soil, lay waste to his works, and now you seek to defile his very throne.
+
+<Bertha fires>
+
+Now the Emperor rises, and His wrath shall shake the galaxy!
+
+// <closeup of Scipio Astra with army>
+
+// We are the Praetorian Guard, the greatest champions of the Empire.
+
+<Detriment closeup>
+
+Our will is resolute. Our faith is limitless. Our vengeance shall know no bounds.
+
+Ready yourselves, foes of the Empire, for today is your judgement day!

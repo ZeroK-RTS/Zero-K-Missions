@@ -1,0 +1,69 @@
+[i]Ada, here''s the executive summary of the information I collated from the databanks we captured in the facility. Feel free to query the infolink if you want more details. - Sophia[/i]
+
+[u][b]Background[/b][/u]
+Over the past three thousand years, in a series of separate but interconnected events hereafter collectively refered to as the Fall, the Milky Way galaxy has collapsed into anarchy and warlordism. The primary factions which had controlled vast swathes of space have all undergone major declines in their power and territory, and in at least one instance been destroyed outright. A large portion of the wormhole network (up to 90% by some estimates) is no longer functional, and the overall technological state has regressed even further since the Planetwars. Consequently, the Planetwars-era research and manufacturing facilities are highly coveted by all the major factions, and they continue to fight over the still-functioning facilities scattered around the galaxy.
+
+[u][b]The state of humanity[/b][/u]
+Interestingly, the Imperial databanks make reference to the Emperor as the sole surviving human within the Empire, who will at some point in the future return from his crypt to restore order to the galaxy and usher in a new era of prosperity. Given the quasi-religious overtones of the material concerning this topic, however, it seems quite unlikely that they are factually accurate.
+
+The available records do not discuss living humans in other factions at all after a certain date. While this may be explained by a simple unwillingness to consider them, one would expect there to be at least a handful of references to humans outside the Empire, however negative. That said, the present Empire''s reach is quite limited, and it is possible that humans are present elsewhere in the galaxy, cut off from the Empire as a result of the Fall. Further information is required to establish where these locations are - if any exist.
+
+[u][b]The factions[/b][/u]
+[b]Overview[/b]
+While some of the factions, such as the Free Machines, have went through our hibernation period (hereafter the Stasis) largely unchanged in terms of composition or ideology, others, such as the Empire, have seen massive social upheaval. Likewise, diplomatic alignments have shifted back and forth in violent, often completely unpredictable ways. However, none of them have escaped the effects of the Fall.
+
+With the exception of the Disorder, each of the major factions is lead by a surviving commander from the Planetwars era. These commanders control the faction''s overall direction and also provide a considerable portion of its mobile military strength. Diplomatically, none of the factions see eye-to-eye with one another, a factor which works to our advantage.
+
+In spite of their weakened states, the surviving factions continue to engage in military conflict. While they generally no longer possess the strength to conduct the large-scale invasions typical of the Planetwars period, low-level skirmishes are common, and planets changing hands is not an unusual event.
+
+[b]The Empire[/b]
+[img]http://i131.photobucket.com/albums/p315/Saktoth/Empire-1.png[/img]
+Following its peak under the reign of Saktoth I, the Empire went into steady decline. Although Saktoth I was a strong ruler, he was nevertheless compelled to make concessions to the True Born who helped him achieve victory in the Ninth Planetwars. These pureblood humans came to dominate the Empire Reborn, displacing the synthetics and augmented humans who previously held considerable power in the system. The great houses of genetically modified humans, in particular, splintered off to form the Dynasty of Earth.
+
+After Saktoth I''s death, a succession of weak emperors followed. The Empire was routinely plagued by coups, insurrections and assassinations, while its territory was seized by the Cybernetic Front and Liberated Humanity. Eventually, it was forced to accept the protection of the Free Machines, who were quick to repay slavery unto their former human masters.
+
+Although the old Empire has ceased to exist as a unified political entity, numerous pockets of holdouts remain. The largest and strongest, the one we are concerned with here, are (as noted previously) centered around an ancient Emperor of unknown identity, whom they claim to be the last living human. Unfortunately, myth and legend cease to be distinguishable from fact at this point, requiring direct investigation on our part to verify the details.
+
+[b]The Free Machines[/b]
+[img]http://i131.photobucket.com/albums/p315/Saktoth/Machines.png[/img]
+The Free Machines continue under the leadership of our old foe, the Promethean. Imperial records do not discuss his motives for his continued warfare against the other factions, but it appears sensible to regard it as the natural outcome of his known hatred for humanity.
+
+The reports do however go into considerable detail concerning the Fall of the Machines. It appears that much of their networked intelligence was destroyed by a worm deployed by human saboteurs, leading to the fragmentation of their empire and abandonment of large swathes of territory. There are hints that the saboteurs were from a pro-human group within the old Empire angry at human submission to the machines, although documentation for this is not within the files we have access to at present.
+
+Nevertheless, the Free Machines remain a formidable foe, and one that will stop at nothing to destroy us. We must tread carefully.
+
+[b]The Dynasty[/b]
+[img]http://i131.photobucket.com/albums/p315/Saktoth/dynasty.png[/img]
+Tracing their lineage back to the ancient oligarchs of old Earth, the houses that now make up the Dynasty wielded considerable power within the First Empire. Supporting them were groups within the True Born, who sought to use genetic modification to allow biological humans to compete with the uploads and machine intelligences that controlled much of the galactic landscape. Following the rise of the Second Empire, the feudal houses saw their power steadily eroded by the pure-blooded humans, who sought to suppress any sapient being unlike them. Chafing at the leash, they eventually seceded in a bloody war and formed the present-day Dynasty of Earth.
+
+The Dynasty embarked on a campaign to "uplift" the rest of humanity, creating genetic supermen just like them to rule over the galaxy. To this end, they built a considerable military and made attempts to conquer the inhabited galaxy; in this they appear to have been largely successful. However, certain parties within their leadership appear to have gone even further, developing a wide array of biological weapons for military purposes. According to available records, this proved to be their own undoing, as an accidental release of a lethal virus is reportedly responsible for the deaths of the Dynasty''s people and their subsequent collapse as a faction.
+
+There exist rumors that the robot servants of the Dynasty still live to this day, carrying on their work, and that the relics they preserve include a vast genetic bank and cloning facilities which could be used to rebuild their faction. It is unclear why they have not already done so if that is indeed the case, but they may nevertheless possess assets that may be beneficial for our purposes.
+
+[b]Liberated Humanity and the Disorder[/b]
+[img]http://i131.photobucket.com/albums/p315/Saktoth/humanity.png[/img]
+As the Second Empire declined, the outer worlds began to revolt against the centralized Imperial hegemony and reach for independence. Bringing together a wide range of disparate groups, the new Liberated Humanity was united for a common purpose: freedom from the authoritarian Empire and the technological tools it used to dominate its subjects.
+
+Initially, the Libbys prospered. Their populist way of life was greatly attractive to the discontented people of the outer worlds, and (perhaps unusual) alliances with the Cybernetic Front and Dynasty of Earth gave them the military strength to defeat Imperial attempts at crackdowns. However, their confederation lacked any real unifying principles beyond their hatred for the Empire, and their own individualist, anti-authority beliefs lead to widespread internal strife and ultimately civil war as the LH leadership came to take the place of the Emperor as the common foe.
+
+What has become of the Liberated Humanity is unclear, but it is known that the group of rogue bots known as the Disorder were once of the synthetic slave army used by the Libbies. Lacking coordination or leadership, they operate in a feral manner, attacking everything they encounter and replicating across the galaxy. All known attempts to communicate with them have failed, and they should be considered a serious threat to anyone in their presence.
+
+[b]The Cybernetic Front and the Valhallans[/b]
+[img]http://i131.photobucket.com/albums/p315/Saktoth/cybernetics.png[/img]
+In the early days of the First Empire, a band of uploads known as Valhalla emerged. Formed with the sole purpose of warfare, they repeatedly laid waste to the Empire''s lands, eventually sacking the throne world itself. Soon after, they vanished from known space for unknown reasons. However, they have recently surfaced again, sowing much chaos in the already-fractured galaxy.
+
+It was during the first appearance of Valhalla that many Imperial citizens were forcibly uploaded into synthetic platforms. Joining the faction known as the Ascended (later the Cybernetic Front), they expanded in the wake left by the Valhallans. Following the disappearance of their champions, however, the Cybernetics were forced to form and deploy their own military forces in order to hold their ground in a hostile galaxy.
+
+Having already suffered serious losses in prior conflicts, the main networked consciousness of the Cybernetic Front was disconnected during the Fall. Its location is currently unknown, as is the Front''s present relationship with the Valhallans. However, I have uncovered a number clues that may allow us to narrow down the search.
+
+[b]The Chickens[/b]
+The origins of the alien lifeforms known as the chickens remain a mystery, although a common legend is that they were a biological weapon developed by an ancient alien enemy of humankind. Nevertheless, they have become widely feared throughout the inhabited galaxy for their aggression, their rapid reproduction rate and their complete lack of fear.
+
+Prior to the Fall, the various factions were individually or in concert able to contain the chickens to confined sectors. With the Fall, however, there is no longer any reliable monitoring of the chickens. Reports of attacks throughout the Empire''s territories suggest that they have spread far beyond their original reserves, and should be treated with caution.
+
+[u][b]Our strategic capabilities[/b][/u]
+The ship manufacturing facility on Antikythera is fairly typical of the major manufacturing centres built during the Planetwars, albeit in surprisingly good condition. Given its immense value under the present state of affairs, such a planet would normally have been very heavily fortified; it is thus fortunate that it was located too far outside of the Empire''s borders to be adequately secured, and that Valhallan attacks had worn down the Imperial defenses in the sector.
+
+Having completed the repairs to the [i]Shadow of Eden[/i], we now have the ability to navigate the extant wormhole network. While heavily damaged, its strands still span most of the settled galaxy, and we can get anywhere else we need to by warp. The Tsiolkovsky''s Star system contains the needed resources for colonization and defense of any planets we secure, and our commander unit gives us the ability to take on anything the factions can deploy to face us in tactical combat.
+
+In their current weakened state, each of the factions can be overcome in a campaign of asymmetric warfare, using our mobility to strike at key targets while avoiding the bulk of their standing forces. Though the use of nonviolent methods would generally be preferred where available, if conflict breaks out we can still achieve our goals if we play our cards right.
