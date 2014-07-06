@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Mission xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="1" z:Type="CMissionLib.Mission" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
   <Author z:Id="2">KingRaptor</Author>
   <ContentFolderPath z:Id="3">J:\Games\Spring\ZK-Missions\kingraptor\Sunrise\episode6e</ContentFolderPath>
@@ -8091,7 +8091,7 @@ metalmult=0.75;</CustomModOptions>
                         <d10p1:string z:Id="1689">commsupport5</d10p1:string>
                         <d10p1:string z:Id="1690">coracv</d10p1:string>
                         <d10p1:string z:Id="1691">corak</d10p1:string>
-                        <d10p1:string z:Id="1692">corape</d10p1:string>
+                        <d10p1:string z:Id="1692">gunshipsupport</d10p1:string>
                         <d10p1:string z:Id="1693">corarch</d10p1:string>
                         <d10p1:string z:Id="1694">corawac</d10p1:string>
                         <d10p1:string z:Id="1695">corbats</d10p1:string>
@@ -8518,7 +8518,7 @@ metalmult=0.75;</CustomModOptions>
                         <d10p1:string z:Id="1908">blackdawn</d10p1:string>
                         <d10p1:string z:Id="1909">coracv</d10p1:string>
                         <d10p1:string z:Id="1910">corak</d10p1:string>
-                        <d10p1:string z:Id="1911">corape</d10p1:string>
+                        <d10p1:string z:Id="1911">gunshipsupport</d10p1:string>
                         <d10p1:string z:Id="1912">corcan</d10p1:string>
                         <d10p1:string z:Id="1913">corch</d10p1:string>
                         <d10p1:string z:Id="1914">corcrash</d10p1:string>
@@ -11265,7 +11265,7 @@ for group=1,5 do
     local offsetX = math.random(-deployRange, deployRange)
     local offsetZ = math.random(-deployRange, deployRange)
     local px, pz = cx + offsetX, cz + offsetZ
-    local unitID = Spring.CreateUnit("corape", px, height, pz, facings[group], 7)
+    local unitID = Spring.CreateUnit("gunshipsupport", px, height, pz, facings[group], 7)
     Spring.SetUnitPosition(unitID, px, height, pz)
     Spring.GiveOrderToUnit(unitID, CMD.FIGHT, {tx + offsetX, height, tz + offsetZ}, shiftTable)
     Spring.GiveOrderToUnit(unitID, CMD.FIGHT, {2400 + offsetX, height, 1800 + offsetZ}, shiftTable)

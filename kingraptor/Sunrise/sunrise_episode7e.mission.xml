@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Mission xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="1" z:Type="CMissionLib.Mission" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
   <Author z:Id="2">KingRaptor</Author>
   <ContentFolderPath z:Id="3">J:\Games\Spring\ZK-Missions\kingraptor\Sunrise\episode7e</ContentFolderPath>
@@ -10336,7 +10336,7 @@ Clear all enemies around the building and place a unit in the circle to disarm e
                         <d10p1:string z:Id="2160">commsupport5</d10p1:string>
                         <d10p1:string z:Id="2161">coracv</d10p1:string>
                         <d10p1:string z:Id="2162">corak</d10p1:string>
-                        <d10p1:string z:Id="2163">corape</d10p1:string>
+                        <d10p1:string z:Id="2163">gunshipsupport</d10p1:string>
                         <d10p1:string z:Id="2164">corawac</d10p1:string>
                         <d10p1:string z:Id="2165">corbats</d10p1:string>
                         <d10p1:string z:Id="2166">corbhmth</d10p1:string>

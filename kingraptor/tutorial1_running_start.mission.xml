@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Mission xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="1" z:Type="CMissionLib.Mission" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
   <Author z:Id="2">KingRaptor</Author>
   <ContentFolderPath z:Id="3">J:\Games\Spring\Missions\My Missions\tutorial1</ContentFolderPath>
@@ -3085,7 +3085,7 @@ Her thoughts flowed into the machine, and massive command unit came alive with a
                         <d10p1:string z:Id="826">commsupport5</d10p1:string>
                         <d10p1:string z:Id="827">coracv</d10p1:string>
                         <d10p1:string z:Id="828">corak</d10p1:string>
-                        <d10p1:string z:Id="829">corape</d10p1:string>
+                        <d10p1:string z:Id="829">gunshipsupport</d10p1:string>
                         <d10p1:string z:Id="830">corarch</d10p1:string>
                         <d10p1:string z:Id="831">corawac</d10p1:string>
                         <d10p1:string z:Id="832">corbats</d10p1:string>

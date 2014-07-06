@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Mission xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="1" z:Type="CMissionLib.Mission" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
   <Author z:Id="2">KingRaptor</Author>
   <ContentFolderPath z:Id="3">J:\Games\Spring\ZK-Missions\kingraptor\Sunrise\episode5e</ContentFolderPath>
@@ -4440,7 +4440,7 @@ end</CodeStr>
                         <d10p1:string z:Id="1008">commsupport5</d10p1:string>
                         <d10p1:string z:Id="1009">coracv</d10p1:string>
                         <d10p1:string z:Id="1010">corak</d10p1:string>
-                        <d10p1:string z:Id="1011">corape</d10p1:string>
+                        <d10p1:string z:Id="1011">gunshipsupport</d10p1:string>
                         <d10p1:string z:Id="1012">corarch</d10p1:string>
                         <d10p1:string z:Id="1013">corawac</d10p1:string>
                         <d10p1:string z:Id="1014">corbats</d10p1:string>
@@ -4836,7 +4836,7 @@ end</CodeStr>
                         <d10p1:string z:Id="1200">armsptk</d10p1:string>
                         <d10p1:string z:Id="1201">armwin</d10p1:string>
                         <d10p1:string z:Id="1202">coracv</d10p1:string>
-                        <d10p1:string z:Id="1203">corape</d10p1:string>
+                        <d10p1:string z:Id="1203">gunshipsupport</d10p1:string>
                         <d10p1:string z:Id="1204">corak</d10p1:string>
                         <d10p1:string z:Id="1205">corawac</d10p1:string>
                         <d10p1:string z:Id="1206">corclog</d10p1:string>
@@ -5385,7 +5385,7 @@ local y = Spring.GetGroundHeight(x, 0) + 100
 local z = -1200
 
 for i=1,4 do
-  local unitID = Spring.CreateUnit("corape", x, y, z, "s", 0)
+  local unitID = Spring.CreateUnit("gunshipsupport", x, y, z, "s", 0)
   Spring.SetUnitPosition(unitID, x, y, z)
   Spring.GiveOrderToUnit(unitID, CMD.FIGHT, {x, y, 1200}, 0)
   x = x + 64
@@ -5453,7 +5453,7 @@ end</CodeStr>
                                   <Name z:Id="1378">GUI Message (Persistent)</Name>
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                                  <ImagePath z:Id="1379" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\unitpics\corape.png</ImagePath>
+                                  <ImagePath z:Id="1379" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\unitpics\gunshipsupport.png</ImagePath>
                                   <Message z:Id="1380" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The Rapier is a good all-rounder, effective in numbers against most surface and air targets. Its chief weakness is its relative lack of speed.</Message>
                                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">320</Width>
                                 </TriggerLogic>

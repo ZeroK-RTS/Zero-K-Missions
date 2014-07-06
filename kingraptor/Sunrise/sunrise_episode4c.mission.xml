@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Mission xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="1" z:Type="CMissionLib.Mission" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
   <Author z:Id="2">KingRaptor</Author>
   <ContentFolderPath z:Id="3">J:\Games\Spring\ZK-Missions\kingraptor\Sunrise\episode4c</ContentFolderPath>
@@ -2996,7 +2996,7 @@ GG.TacticalResponse.EnableForTeam(3)</CodeStr>
                         <d10p1:string z:Id="845">commsupport5</d10p1:string>
                         <d10p1:string z:Id="846">coracv</d10p1:string>
                         <d10p1:string z:Id="847">corak</d10p1:string>
-                        <d10p1:string z:Id="848">corape</d10p1:string>
+                        <d10p1:string z:Id="848">gunshipsupport</d10p1:string>
                         <d10p1:string z:Id="849">corarch</d10p1:string>
                         <d10p1:string z:Id="850">corawac</d10p1:string>
                         <d10p1:string z:Id="851">corbats</d10p1:string>
@@ -3297,7 +3297,7 @@ GG.TacticalResponse.EnableForTeam(3)</CodeStr>
                         <d10p1:string z:Id="1046">armca</d10p1:string>
                         <d10p1:string z:Id="1047">armkam</d10p1:string>
                         <d10p1:string z:Id="1048">bladew</d10p1:string>
-                        <d10p1:string z:Id="1049">corape</d10p1:string>
+                        <d10p1:string z:Id="1049">gunshipsupport</d10p1:string>
                         <d10p1:string z:Id="1050">armartic</d10p1:string>
                         <d10p1:string z:Id="1051">hoverassault</d10p1:string>
                         <d10p1:string z:Id="1052">hoverriot</d10p1:string>
@@ -4837,7 +4837,7 @@ GG.CAI.SuspendAI(2, false)</CodeStr>
                           <d10p1:Heading>180.55682310729574</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="56" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1419">corape</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1419">gunshipsupport</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1420">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
