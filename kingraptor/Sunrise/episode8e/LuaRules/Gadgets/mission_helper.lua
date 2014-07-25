@@ -30,25 +30,18 @@ local invulnerableUnits = {}
 local damageTriggers = {}
 
 local defenderSpecificDamageTriggers = {
-  [1] = { ["Fidus Dialogue"] = {damage = 12000} },
+  [1] = { ["Astra Dialogue 1"] = {damage = 12000} },
 }
 local requireSpecificAttackerTeam = true
 local attackerTeamsForDamageTriggers = {[0] = true}
 
 local helpUnits = {}
 local helpUnitsDamage = {}
+local helpUnits_command = {}
 
 local triggerOnDeath = {
   Ada = "Ada Destroyed",
-  Fidus = "Fidus Destroyed",
-}
-
-local enemyAirTrigger1 = "Unlock Flak"
-local enemyAirTrigger1Damage = 2000
-local enemyAirTrigger1Active = false
-
-local helpUnits_command = {
-  [UnitDefNames.cafus.id] = "Tutorial: Singularity Reactor",
+  ScipioAstra = "Astra Destroyed",
 }
 
 local function SetUnitInvulnerable(unitID, bool)
@@ -103,17 +96,6 @@ function gadget:UnitDamaged(unitID, unitDefID, unitTeam, damage, paralyzer, weap
       helpUnitsDamage[attackerDefID] = nil
     end
   end
-  
-  local attackerDef = UnitDefs[attackerDefID]
-  if attackerDef and attackerDef.canFly and (unitTeam == 0 or unitTeam == 7) then
-    if enemyAirTrigger1Active then
-      enemyAirTrigger1Damage = enemyAirTrigger1Damage - damage
-      if enemyAirTrigger1Damage < 0 then
-	enemyAirTrigger1Active = false
-	GG.mission.ExecuteTriggerByName(enemyAirTrigger1)
-      end
-    end
-  end
 end
 
 function gadget:UnitDestroyed(unitID, unitDefID, unitTeam)
@@ -122,15 +104,18 @@ end
 
 function gadget:UnitPreDamaged(unitID, unitDefID, unitTeam, damage, paralyzer, weaponID, attackerID, attackerDefID, attackerTeam)
   if invulnerableUnits[unitID] then
-    return 0
+    return 0, 0
   end
   
-  for groupName, trigger in pairs(triggerOnDeath) do
-    if (GG.mission.unitGroups[unitID] or emptyTable)[groupName] and not paralyzer then
-      local health = Spring.GetUnitHealth(unitID)
-      if health - damage < 0 then
-	GG.mission.ExecuteTriggerByName(trigger)
-	return health-1
+  if GG.mission.unitGroups[unitID] then
+    for groupName, trigger in pairs(triggerOnDeath) do
+      if GG.mission.unitGroups[unitID][groupName] and not paralyzer then
+	local health = Spring.GetUnitHealth(unitID)
+	if health - damage <= 0 then
+	  GG.mission.ExecuteTriggerByName(trigger)
+	  Spring.Echo("bla", health, damage)
+	  return 0
+	end
       end
     end
   end
@@ -154,6 +139,16 @@ function gadget:AllowCommand(unitID, unitDefID, teamID,cmdID, cmdParams, cmdOpti
   if teamID == 0 and helpUnits_command[-cmdID] then
     GG.mission.ExecuteTriggerByName(helpUnits_command[-cmdID])
     helpUnits_command[-cmdID] = nil
+  end
+  return true
+end
+
+function gadget:AllowUnitTransfer(unitID, unitDefID, oldTeam, newTeam, capture)
+  local group = GG.mission.unitGroups[unitID] or emptyTable
+  if group["ScipioAstra"] then
+    GG.mission.ExecuteTriggerByName("Astra Destroyed")
+    Spring.SetUnitHealth(unitID, {capture = 0})
+    return false
   end
   return true
 end

@@ -28,6 +28,7 @@ local invulnerableUnits = {}
 local kodachiDefID = UnitDefNames.logkoda.id
 local nanoDefID = UnitDefNames.armnanotc.id
 local testBuildDefID = UnitDefNames.cafus.id
+local dirtbagDefID = UnitDefNames.corclog.id
 local access = {public = true}
 
 -- FIXME: should probably autodetect number of objectives instead of specifying here
@@ -92,9 +93,12 @@ local function CheckIdleUnits()
   
   for i=1,#units do
     local unitID = units[i]
-    local cmdQueue = Spring.GetCommandQueue(unitID, 1)
-    if (not (cmdQueue and cmdQueue[1])) then
-      Spring.GiveOrderToUnit(unitID, CMD.ATTACK, {targetID}, 0)
+    local unitDefID = Spring.GetUnitDefID(unitID)
+    if unitDefID ~= dirtbagDefID then
+      local cmdQueue = Spring.GetCommandQueue(unitID, 1)
+      if (not (cmdQueue and cmdQueue[1])) then
+	Spring.GiveOrderToUnit(unitID, CMD.ATTACK, {targetID}, 0)
+      end
     end
   end
 end

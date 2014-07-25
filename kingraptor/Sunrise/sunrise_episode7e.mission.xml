@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Mission xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="1" z:Type="CMissionLib.Mission" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
   <Author z:Id="2">KingRaptor</Author>
   <ContentFolderPath z:Id="3">J:\Games\Spring\ZK-Missions\kingraptor\Sunrise\episode7e</ContentFolderPath>
@@ -68,7 +68,7 @@ metalmult=0.75;</CustomModOptions>
   <ImagePath z:Id="38">J:\Games\Spring\ZK-Missions\kingraptor\images\dropdepot.png</ImagePath>
   <MapName z:Id="39">Lost_v2</MapName>
   <MaxUnits>5000</MaxUnits>
-  <ModName z:Id="40">Zero-K v1.2.6.20</ModName>
+  <ModName z:Id="40">Zero-K $VERSION</ModName>
   <Name z:Id="41">Sunrise Episode 7E - Great Migration</Name>
   <Players z:Id="42">
     <items z:Id="43" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
@@ -11068,6 +11068,7 @@ end</CodeStr>
                                       <d19p1:_busyCount>0</d19p1:_busyCount>
                                     </d10p1:_monitor>
                                   </Orders>
+                                  <Queue xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Queue>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="2433" z:Type="CMissionLib.Actions.GiveOrdersAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Ref="2422" i:nil="true" />
@@ -11108,6 +11109,7 @@ end</CodeStr>
                                       <d19p1:_busyCount>0</d19p1:_busyCount>
                                     </d10p1:_monitor>
                                   </Orders>
+                                  <Queue xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Queue>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="2443" z:Type="CMissionLib.Actions.GiveOrdersAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Ref="2422" i:nil="true" />
@@ -11162,6 +11164,7 @@ end</CodeStr>
                                       <d19p1:_busyCount>0</d19p1:_busyCount>
                                     </d10p1:_monitor>
                                   </Orders>
+                                  <Queue xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Queue>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="2455" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="2456">Wait</Name>
@@ -11853,6 +11856,7 @@ If a transport is destroyed, whatever it was carrying falls to the ground, poten
                       <d11p1:_busyCount>0</d11p1:_busyCount>
                     </d10p1:_monitor>
                   </Orders>
+                  <Queue xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Queue>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2633" z:Type="CMissionLib.Conditions.TimerCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="2634">Time Elapsed</Name>
@@ -12513,17 +12517,19 @@ Spring.DestroyUnit(unitID, false, true)</CodeStr>
                                                                 </TriggerLogic>
                                                                 <TriggerLogic z:Id="2836" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                                   <Name z:Ref="2349" i:nil="true" />
-                                                                  <CodeStr z:Id="2837" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local unitID = GG.mission.FindUnitInGroup("Fidus")
-local _,_,_,x, y, z = Spring.GetUnitPosition(unitID, true)
-Spring.AddUnitDamage(unitID, 0, 999999)
-GG.SetUnitInvulnerable(unitID, true)
+                                                                  <CodeStr z:Id="2837" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local fidusID = GG.mission.FindUnitInGroup("Fidus")
+local _,_,_,x, y, z = Spring.GetUnitPosition(fidusID, true)
+Spring.SetUnitHealth(fidusID, {paralyze = 999999})
+GG.SetUnitInvulnerable(fidusID, true)
+Spring.SetUnitPosition(fidusID, x, z)
+Spring.MoveCtrl.Enable(fidusID)  -- clear impulse
+Spring.MoveCtrl.Disable(fidusID)
 --Spring.SpawnCEG("gate", x, y, z)
 --Spring.SpawnCEG("teleport_out", x, y, z)
 --Spring.PlaySoundFile("sounds/misc/teleport.wav", 2.0, x, y, z, nil, nil, nil, "sfx")
---Spring.DestroyUnit(unitID, false, true)
+--Spring.DestroyUnit(fidusID, false, true)
 
 -- clear attack commands on the now-dead Fidus
-local fidusID = unitID
 local units = Spring.GetUnitsInCylinder(x, z, 700)
 
 local blankTable = {}
@@ -12539,8 +12545,10 @@ for i=1,#units do
   end
 end
 
-unitID = GG.mission.FindUnitInGroup("Ada")
-GG.SetUnitInvulnerable(unitID, true)</CodeStr>
+local units = Spring.GetTeamUnits(0)
+for i=1,#units do
+  GG.SetUnitInvulnerable(units[i], true)
+end</CodeStr>
                                                                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                                                                 </TriggerLogic>
                                                                 <TriggerLogic z:Id="2838" z:Type="CMissionLib.Actions.EnterCutsceneAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -12657,31 +12665,33 @@ Spring.SpawnCEG("babette", x, y, z)</CodeStr>
                                                                     </d10p1:_monitor>
                                                                   </Triggers>
                                                                 </TriggerLogic>
-                                                                <TriggerLogic z:Id="2874" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                                                  <Name z:Ref="2852" i:nil="true" />
-                                                                  <CodeStr z:Id="2875" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local unitID = GG.mission.FindUnitInGroup("Ada")
-GG.SetUnitInvulnerable(unitID, false)</CodeStr>
-                                                                  <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
-                                                                </TriggerLogic>
-                                                                <TriggerLogic z:Id="2876" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                                                <TriggerLogic z:Id="2874" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                                   <Name z:Ref="2456" i:nil="true" />
                                                                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">90</Frames>
                                                                   <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.05</Minutes>
                                                                   <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">3</Seconds>
                                                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT3S</Time>
                                                                 </TriggerLogic>
-                                                                <TriggerLogic z:Id="2877" z:Type="CMissionLib.Actions.ModifyCounterAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                                                <TriggerLogic z:Id="2875" z:Type="CMissionLib.Actions.ModifyCounterAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                                   <Name z:Ref="2539" i:nil="true" />
                                                                   <Action z:Ref="2540" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                                                   <Counter z:Ref="8" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                                                   <Value xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">1</Value>
                                                                 </TriggerLogic>
-                                                                <TriggerLogic z:Id="2878" z:Type="CMissionLib.Actions.LeaveCutsceneAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                                                  <Name z:Id="2879">Leave Cutscene</Name>
+                                                                <TriggerLogic z:Id="2876" z:Type="CMissionLib.Actions.LeaveCutsceneAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                                                  <Name z:Id="2877">Leave Cutscene</Name>
                                                                   <Instant xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Instant>
                                                                 </TriggerLogic>
-                                                                <TriggerLogic z:Id="2880" z:Type="CMissionLib.Actions.RestoreCameraStateAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                                                  <Name z:Id="2881">Restore Camera State</Name>
+                                                                <TriggerLogic z:Id="2878" z:Type="CMissionLib.Actions.RestoreCameraStateAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                                                  <Name z:Id="2879">Restore Camera State</Name>
+                                                                </TriggerLogic>
+                                                                <TriggerLogic z:Id="2880" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                                                  <Name z:Ref="2852" i:nil="true" />
+                                                                  <CodeStr z:Id="2881" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local units = Spring.GetTeamUnits(0)
+for i=1,#units do
+  GG.SetUnitInvulnerable(units[i], false)
+end</CodeStr>
+                                                                  <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                                                                 </TriggerLogic>
                                                                 <TriggerLogic i:nil="true" />
                                                                 <TriggerLogic i:nil="true" />
@@ -12696,7 +12706,7 @@ GG.SetUnitInvulnerable(unitID, false)</CodeStr>
                                                                 <TriggerLogic i:nil="true" />
                                                               </_items>
                                                               <_size>21</_size>
-                                                              <_version>327</_version>
+                                                              <_version>329</_version>
                                                             </items>
                                                             <_monitor xmlns:d31p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="2882">
                                                               <d31p1:_busyCount>0</d31p1:_busyCount>
@@ -12983,7 +12993,7 @@ end</CodeStr>
                                                                                   <Description z:Id="2979" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">That Moho Geothermal powerplant provides a considerable amount of energy for the enemy's war machine and contributes power to their defense grid. Destroy it to set the enemy back considerably.</Description>
                                                                                   <GroupTarget i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                                                                   <ID z:Id="2980" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">killGeo</ID>
-                                                                                  <Title z:Id="2981" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Destroy Moho Geo</Title>
+                                                                                  <Title z:Id="2981" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Destroy Moho Geo (Optional)</Title>
                                                                                   <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
                                                                                   <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                                                                                 </TriggerLogic>

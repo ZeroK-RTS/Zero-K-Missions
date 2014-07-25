@@ -62,7 +62,7 @@
   <ImagePath z:Id="34">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\kodachi.png</ImagePath>
   <MapName z:Id="35">Comet Catcher Redux v2</MapName>
   <MaxUnits>5000</MaxUnits>
-  <ModName z:Id="36">Zero-K v1.2.5.2</ModName>
+  <ModName z:Id="36">Zero-K $VERSION</ModName>
   <Name z:Id="37">Super Extreme Kodachi Rally</Name>
   <Players z:Id="38">
     <items z:Id="39" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
@@ -616,7 +616,7 @@ end</CodeStr>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <ImagePath z:Id="186" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
                   <Message z:Id="187" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Welcome back folks to another episode of SUPER EXTREME KODACHI RALLY!</Message>
-                  <SoundPath z:Id="188" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\sounds\vehicle_move2.wav</SoundPath>
+                  <SoundPath z:Id="188" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">sounds/reply/vehicle_move2.wav</SoundPath>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="189" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -673,6 +673,7 @@ end</CodeStr>
                       <d11p1:_busyCount>0</d11p1:_busyCount>
                     </d10p1:_monitor>
                   </Orders>
+                  <Queue xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Queue>
                 </TriggerLogic>
                 <TriggerLogic z:Id="204" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="175" i:nil="true" />
@@ -736,6 +737,7 @@ end</CodeStr>
                       <d11p1:_busyCount>0</d11p1:_busyCount>
                     </d10p1:_monitor>
                   </Orders>
+                  <Queue xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Queue>
                 </TriggerLogic>
                 <TriggerLogic z:Id="217" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="130" i:nil="true" />
@@ -1523,7 +1525,7 @@ GG.RefreshObjDisplay()</CodeStr>
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                                   <ImagePath z:Id="399" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
                                   <Message z:Id="400" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">ROUND ONE! Get ready!</Message>
-                                  <SoundPath z:Id="401" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\sounds\vehicle_move2.wav</SoundPath>
+                                  <SoundPath z:Id="401" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">sounds/reply/vehicle_move2.wav</SoundPath>
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">90</Time>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="402" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -1797,6 +1799,7 @@ end</CodeStr>
                       <d11p1:_busyCount>0</d11p1:_busyCount>
                     </d10p1:_monitor>
                   </Orders>
+                  <Queue xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Queue>
                 </TriggerLogic>
                 <TriggerLogic z:Id="474" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="475">Convo Message</Name>
@@ -2853,7 +2856,7 @@ GG.RefreshObjDisplay()</CodeStr>
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                                   <ImagePath z:Id="717" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
                                   <Message z:Id="718" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Time for ROUND TWO! Get ready!</Message>
-                                  <SoundPath z:Id="719" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\sounds\vehicle_move2.wav</SoundPath>
+                                  <SoundPath z:Id="719" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">sounds/reply/vehicle_move2.wav</SoundPath>
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">120</Time>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="720" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -4133,7 +4136,7 @@ GG.RefreshObjDisplay()</CodeStr>
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                                   <ImagePath z:Id="1003" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
                                   <Message z:Id="1004" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">ROUND THREE! BEGIN!</Message>
-                                  <SoundPath z:Id="1005" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\sounds\vehicle_move2.wav</SoundPath>
+                                  <SoundPath z:Id="1005" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">sounds/reply/vehicle_move2.wav</SoundPath>
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">90</Time>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="1006" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -4427,7 +4430,7 @@ Powerup every 40 seconds</Description>
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                                   <ImagePath z:Id="1075" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
                                   <Message z:Id="1076" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">And here come the Jacks!</Message>
-                                  <SoundPath z:Id="1077" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\sounds\vehicle_move2.wav</SoundPath>
+                                  <SoundPath z:Id="1077" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">sounds/reply/vehicle_move2.wav</SoundPath>
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">105</Time>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="1078" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -4479,6 +4482,7 @@ GG.RefreshObjDisplay()</CodeStr>
                                       <d19p1:_busyCount>0</d19p1:_busyCount>
                                     </d10p1:_monitor>
                                   </Orders>
+                                  <Queue xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Queue>
                                 </TriggerLogic>
                                 <TriggerLogic i:nil="true" />
                                 <TriggerLogic i:nil="true" />
@@ -6031,7 +6035,7 @@ GG.RefreshObjDisplay()</CodeStr>
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                                   <ImagePath z:Id="1429" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
                                   <Message z:Id="1430" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">And now, Round Four!</Message>
-                                  <SoundPath z:Id="1431" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\sounds\vehicle_move2.wav</SoundPath>
+                                  <SoundPath z:Id="1431" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">sounds/reply/vehicle_move2.wav</SoundPath>
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">90</Time>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="1432" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -7771,7 +7775,7 @@ GG.RefreshObjDisplay()</CodeStr>
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                                   <ImagePath z:Id="1818" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
                                   <Message z:Id="1819" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Round Five! It's starting to get really hot here!</Message>
-                                  <SoundPath z:Id="1820" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\sounds\vehicle_move2.wav</SoundPath>
+                                  <SoundPath z:Id="1820" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">sounds/reply/vehicle_move2.wav</SoundPath>
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">135</Time>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="1821" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -9677,7 +9681,7 @@ GG.RefreshObjDisplay()</CodeStr>
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                                   <ImagePath z:Id="2226" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
                                   <Message z:Id="2227" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">FINAL ROUND! Get ready! FIGHT!</Message>
-                                  <SoundPath z:Id="2228" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\sounds\vehicle_move2.wav</SoundPath>
+                                  <SoundPath z:Id="2228" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">sounds/reply/vehicle_move2.wav</SoundPath>
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">135</Time>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="2229" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -10141,6 +10145,7 @@ GG.ResetUnits()</CodeStr>
                                                       <d27p1:_busyCount>0</d27p1:_busyCount>
                                                     </d10p1:_monitor>
                                                   </Orders>
+                                                  <Queue xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Queue>
                                                 </TriggerLogic>
                                                 <TriggerLogic z:Id="2345" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Id="2346">Wait</Name>
@@ -10241,7 +10246,7 @@ Powerup every 30 seconds</Description>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="2366" z:Type="CMissionLib.Actions.SoundAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="2367">Play Sound</Name>
-                                  <SoundPath z:Id="2368" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\sounds\vehicle_select.wav</SoundPath>
+                                  <SoundPath z:Id="2368" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">sounds/reply/vehicle_select.wav</SoundPath>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="2369" z:Type="CMissionLib.Actions.SetCameraPosDirAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="2370">Set Camera Position/Direction</Name>

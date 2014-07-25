@@ -67,7 +67,7 @@
   <ImagePath z:Id="35">J:\Games\Spring\ZK-Missions\kingraptor\images\comm_praetorian.png</ImagePath>
   <MapName z:Id="36">Hills_and_Valleys-v08</MapName>
   <MaxUnits>5000</MaxUnits>
-  <ModName z:Id="37">Zero-K v1.2.1.2</ModName>
+  <ModName z:Id="37">Zero-K v1.2.7.3</ModName>
   <Name z:Id="38">Sunrise Episode 5E - Rebellion</Name>
   <Players z:Id="39">
     <items z:Id="40" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">

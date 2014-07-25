@@ -7,11 +7,11 @@ local comms = {
   },
 
   comm_campaign_ada = {
-    chassis = "cremcom4",
+    chassis = "cremcom5",
     name = "Ada's Commander",
     description = "Relic Commander, Builds at 10 m/s",
     helptext = "A special piloted commander unit from before the Fall, functioning well despite its age. Piloted by Captain Ada Caedmon, formerly of the 13th Imperial Auxiliary Cohort.",
-    modules = { "commweapon_assaultcannon", "commweapon_clusterbomb", "module_adv_targeting", "module_dmg_booster", "module_ablative_armor", "conversion_partillery", "module_autorepair", "module_high_power_servos"},
+    modules = { "commweapon_beamlaser", "commweapon_disintegrator", "module_adv_targeting", "module_dmg_booster", "module_ablative_armor", "module_autorepair", "module_high_power_servos", "weaponmod_high_frequency_beam"},
   },
   
   comm_campaign_promethean = {
@@ -61,7 +61,7 @@ local comms = {
   },  
     
   comm_campaign_praetorian = {
-    chassis = "benzcom4",
+    chassis = "benzcom5",
     name = "Scipio Astra",
     helptext = "Prefect of the elite Praetorian Guard, the Empire's paladins. A fanatic adherent of the Emperor's cult, purging heretics with massive firepower.",
     modules = { "commweapon_riotcannon", "commweapon_rocketlauncher", "module_heavy_armor", "weaponmod_standoff_rocket", "weaponmod_plasma_containment", "module_adv_targeting", "module_autorepair", "module_autorepair", "module_high_power_servos", "module_high_power_servos" },

@@ -3,7 +3,7 @@ return {
 	name                    = [[Kinetic Impactor]],
 	alphaDecay              = 0.12,
 	areaOfEffect            = 256,
-	cegTag                  = [[gauss_tag_m]],
+	cegTag                  = [[gauss_tag_h]],
 	craterBoost             = 1,
 	craterMult              = 2,
     

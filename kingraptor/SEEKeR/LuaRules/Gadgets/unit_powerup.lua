@@ -36,6 +36,7 @@ local blockedDefs = {
 	[ UnitDefNames['pw_dropdepot'].id ] = true,
 	[ UnitDefNames['fakeunit_los'].id ] = true,
 }
+local DIRTBAG_DEF_ID = UnitDefNames.corclog.id
 local teams = {
 	[0] = 0,
 }
@@ -89,7 +90,7 @@ local powerupDefs = {
 				local unitID = units[i]
 				local unitDefID = Spring.GetUnitDefID(unitID)
 				local ud = UnitDefs[unitDefID]
-				if ud.canMove and ud.canAttack and (not ud.isFactory) and (GG.mission.unitGroups[unitID] or {}).ObjMex == nil then
+				if ud.canMove and ud.canAttack and (not ud.isFactory) and (not unitDefID == DIRTBAG_DEF_ID) and (GG.mission.unitGroups[unitID] or {}).ObjMex == nil then
 					Spring.DestroyUnit(unitID)
 				end
 			end

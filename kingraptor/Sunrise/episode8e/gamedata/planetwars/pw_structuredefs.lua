@@ -2,11 +2,11 @@
 --------------------------------------------------------------------------------
 
 -- note name and description are obtained from server and modified at runtime
-ALLOW_SERVER_OVERRIDE_UNIT_TEXT = true
+ALLOW_SERVER_OVERRIDE_UNIT_TEXT = false
 
 structureConfig = {
 	generic_tech = function(unitDef)
-			unitDef.maxdamage = 10000
+			unitDef.maxdamage = 25000
 			unitDef.name = "Imperial Tomb"
 			unitDef.description = "Here Lies The Emperor"
 			unitDef.objectname = "pw_techlab.obj"

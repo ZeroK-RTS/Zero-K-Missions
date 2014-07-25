@@ -122,7 +122,7 @@ end
 
 function gadget:UnitPreDamaged(unitID, unitDefID, unitTeam, damage, paralyzer, weaponID, attackerID, attackerDefID, attackerTeam)
   if invulnerableUnits[unitID] then
-    return 0
+    return 0, 0
   end
   
   for groupName, trigger in pairs(triggerOnDeath) do
@@ -130,7 +130,7 @@ function gadget:UnitPreDamaged(unitID, unitDefID, unitTeam, damage, paralyzer, w
       local health = Spring.GetUnitHealth(unitID)
       if health - damage < 0 then
 	GG.mission.ExecuteTriggerByName(trigger)
-	return health-1
+	return math.max(health-1, 0)
       end
     end
   end
