@@ -68,7 +68,7 @@ metalmult=0.75;</CustomModOptions>
   <ImagePath z:Id="38">J:\Games\Spring\ZK-Missions\kingraptor\images\dropdepot.png</ImagePath>
   <MapName z:Id="39">Lost_v2</MapName>
   <MaxUnits>5000</MaxUnits>
-  <ModName z:Id="40">Zero-K $VERSION</ModName>
+  <ModName z:Id="40">Zero-K v1.2.7.7</ModName>
   <Name z:Id="41">Sunrise Episode 7E - Great Migration</Name>
   <Players z:Id="42">
     <items z:Id="43" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
@@ -10929,7 +10929,7 @@ end</CodeStr>
                   <Name z:Ref="2381" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <ImagePath z:Id="2385" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\vehcon_ivl.png</ImagePath>
-                  <Message z:Id="2386" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">But...</Message>
+                  <Message z:Id="2386" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">But, sir...</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">90</Time>
                 </TriggerLogic>
@@ -10955,7 +10955,7 @@ end</CodeStr>
                   <ImagePath z:Id="2390" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\comm_legion.png</ImagePath>
                   <Message z:Id="2391" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">We cannot let the heretics reach the Throne world. Set the demo charges. Now.</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">180</Time>
+                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">15</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2392" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="2381" i:nil="true" />
@@ -10967,10 +10967,10 @@ end</CodeStr>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2395" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="2371" i:nil="true" />
-                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">270</Frames>
-                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.15</Minutes>
-                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">9</Seconds>
-                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT9S</Time>
+                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Frames>
+                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.13333333333333333</Minutes>
+                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">8</Seconds>
+                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT8S</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2396" z:Type="CMissionLib.Actions.RestoreCameraStateAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="2397">Restore Camera State</Name>

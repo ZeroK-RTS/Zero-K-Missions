@@ -62,7 +62,7 @@
   <ImagePath z:Id="34">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\kodachi.png</ImagePath>
   <MapName z:Id="35">Comet Catcher Redux v2</MapName>
   <MaxUnits>5000</MaxUnits>
-  <ModName z:Id="36">Zero-K $VERSION</ModName>
+  <ModName z:Id="36">Zero-K v1.2.7.7</ModName>
   <Name z:Id="37">Super Extreme Kodachi Rally</Name>
   <Players z:Id="38">
     <items z:Id="39" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">

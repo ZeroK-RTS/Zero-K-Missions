@@ -70,7 +70,7 @@ how low can you go?</DescriptionStory>
   <ImagePath z:Id="29">J:\Games\Spring\Missions\My Missions\images\cafus.png</ImagePath>
   <MapName z:Id="30">Red Comet</MapName>
   <MaxUnits>5000</MaxUnits>
-  <ModName z:Id="31">Zero-K v1.2.4.3</ModName>
+  <ModName z:Id="31">Zero-K $VERSION</ModName>
   <Name z:Id="32">Mission Editor Test</Name>
   <Players z:Id="33">
     <items z:Id="34" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
@@ -404,8 +404,8 @@ how low can you go?</DescriptionStory>
                 </TriggerLogic>
                 <TriggerLogic z:Id="118" z:Type="CMissionLib.Actions.MakeUnitsAlwaysVisibleAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="119">Make Units Always Visible</Name>
-                  <Group z:Id="120" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Units in Region 1 (Player_2)</Group>
-                  <Value xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Value>
+                  <Group z:Id="120" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Any Unit (Player_2)</Group>
+                  <Value xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Value>
                 </TriggerLogic>
                 <TriggerLogic z:Id="121" z:Type="CMissionLib.Actions.SetCameraPointTargetAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="122">Point Camera at Map Location</Name>
@@ -424,16 +424,21 @@ how low can you go?</DescriptionStory>
                   <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">1.5</Seconds>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT1.5S</Time>
                 </TriggerLogic>
-                <TriggerLogic z:Id="127" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="128">Convo Message</Name>
+                <TriggerLogic z:Id="127" z:Type="CMissionLib.Actions.MusicLoopAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="128">Play Looping Music</Name>
+                  <TrackIntroPath z:Id="129" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\music\Gregoire_Lourme_-_Intrusion_Intro.ogg</TrackIntroPath>
+                  <TrackLoopPath z:Id="130" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\music\Gregoire_Lourme_-_Intrusion.ogg</TrackLoopPath>
+                </TriggerLogic>
+                <TriggerLogic z:Id="131" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="132">Convo Message</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="129" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\Missions\My Missions\images\cafus.png</ImagePath>
-                  <Message z:Id="130" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">I am a Singularity Reactor. I am big and powerful.  Sfireman polishes my containment sphere every day.</Message>
-                  <SoundPath z:Id="131" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\Missions\My Missions\sounds\adv_fusion_select.wav</SoundPath>
+                  <ImagePath z:Id="133" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\Missions\My Missions\images\cafus.png</ImagePath>
+                  <Message z:Id="134" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">I am a Singularity Reactor. I am big and powerful.  Sfireman polishes my containment sphere every day.</Message>
+                  <SoundPath z:Id="135" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\Missions\My Missions\sounds\adv_fusion_select.wav</SoundPath>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Time>
                 </TriggerLogic>
-                <TriggerLogic z:Id="132" z:Type="CMissionLib.Actions.SetCameraPosDirAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="133">Set Camera Position/Direction</Name>
+                <TriggerLogic z:Id="136" z:Type="CMissionLib.Actions.SetCameraPosDirAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="137">Set Camera Position/Direction</Name>
                   <PX xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">1750</PX>
                   <PY xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">300</PY>
                   <PZ xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">1380</PZ>
@@ -441,24 +446,24 @@ how low can you go?</DescriptionStory>
                   <RY xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">120</RY>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Time>
                 </TriggerLogic>
-                <TriggerLogic z:Id="134" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="135">Wait</Name>
+                <TriggerLogic z:Id="138" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="139">Wait</Name>
                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Frames>
                   <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.083333333333333329</Minutes>
                   <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">5</Seconds>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT5S</Time>
                 </TriggerLogic>
-                <TriggerLogic z:Id="136" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="137">Convo Message</Name>
+                <TriggerLogic z:Id="140" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="141">Convo Message</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="138" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\Missions\My Missions\images\corrad.png</ImagePath>
-                  <Message z:Id="139" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The almighty Radar Tower knows all and sees all!</Message>
-                  <SoundPath z:Id="140" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\Missions\My Missions\sounds\radar_select.wav</SoundPath>
+                  <ImagePath z:Id="142" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\Missions\My Missions\images\corrad.png</ImagePath>
+                  <Message z:Id="143" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The almighty Radar Tower knows all and sees all!</Message>
+                  <SoundPath z:Id="144" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\Missions\My Missions\sounds\radar_select.wav</SoundPath>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">120</Time>
                 </TriggerLogic>
-                <TriggerLogic z:Id="141" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="142">Custom Action (Alternate)</Name>
-                  <CodeStr z:Id="143" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local cam = {
+                <TriggerLogic z:Id="145" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="146">Custom Action (Alternate)</Name>
+                  <CodeStr z:Id="147" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local cam = {
  mode = 4,
  px = 1500,
  py = 350,
@@ -469,24 +474,24 @@ how low can you go?</DescriptionStory>
 Spring.SetCameraState(cam, 0)</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
-                <TriggerLogic z:Id="144" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="135" i:nil="true" />
+                <TriggerLogic z:Id="148" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Ref="139" i:nil="true" />
                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">120</Frames>
                   <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.066666666666666666</Minutes>
                   <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">4</Seconds>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT4S</Time>
                 </TriggerLogic>
-                <TriggerLogic z:Id="145" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="146">Convo Message</Name>
+                <TriggerLogic z:Id="149" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="150">Convo Message</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="147" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\Missions\My Missions\images\hacksaw.png</ImagePath>
-                  <Message z:Id="148" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">You spin my head, right round, right round...</Message>
-                  <SoundPath z:Id="149" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\Missions\My Missions\sounds\turret_select.wav</SoundPath>
+                  <ImagePath z:Id="151" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\Missions\My Missions\images\hacksaw.png</ImagePath>
+                  <Message z:Id="152" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">You spin my head, right round, right round...</Message>
+                  <SoundPath z:Id="153" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\Missions\My Missions\sounds\turret_select.wav</SoundPath>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">90</Time>
                 </TriggerLogic>
-                <TriggerLogic z:Id="150" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="142" i:nil="true" />
-                  <CodeStr z:Id="151" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local cam = {
+                <TriggerLogic z:Id="154" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Ref="146" i:nil="true" />
+                  <CodeStr z:Id="155" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local cam = {
  mode = 4,
  px = 2400,
  py = 250,
@@ -497,16 +502,16 @@ Spring.SetCameraState(cam, 0)</CodeStr>
 Spring.SetCameraState(cam, 0)</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
-                <TriggerLogic z:Id="152" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="153">Wait</Name>
+                <TriggerLogic z:Id="156" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="157">Wait</Name>
                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">90</Frames>
                   <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.05</Minutes>
                   <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">3</Seconds>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT3S</Time>
                 </TriggerLogic>
-                <TriggerLogic z:Id="154" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="142" i:nil="true" />
-                  <CodeStr z:Id="155" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local cs = {}
+                <TriggerLogic z:Id="158" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Ref="146" i:nil="true" />
+                  <CodeStr z:Id="159" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local cs = {}
  cs.px = 1950
  cs.py = 600
  cs.pz = 2100
@@ -515,60 +520,56 @@ Spring.SetCameraState(cam, 0)</CodeStr>
 Spring.SetCameraState(cs, 1)</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
-                <TriggerLogic z:Id="156" z:Type="CMissionLib.Actions.LeaveCutsceneAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="157">Leave Cutscene</Name>
+                <TriggerLogic z:Id="160" z:Type="CMissionLib.Actions.LeaveCutsceneAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="161">Leave Cutscene</Name>
                   <Instant xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Instant>
                 </TriggerLogic>
-                <TriggerLogic z:Id="158" z:Type="CMissionLib.Actions.StopMusicAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="159">Stop Music</Name>
-                  <NoContinue xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</NoContinue>
-                </TriggerLogic>
-                <TriggerLogic z:Id="160" z:Type="CMissionLib.Actions.AddObjectiveAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="161">Add Objective</Name>
-                  <Description z:Id="162" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Murder one of these punks.</Description>
+                <TriggerLogic z:Id="162" z:Type="CMissionLib.Actions.AddObjectiveAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="163">Add Objective</Name>
+                  <Description z:Id="164" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Murder one of these punks.</Description>
                   <GroupTarget i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <ID z:Id="163" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">killSomething</ID>
-                  <Title z:Id="164" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Kill Something</Title>
+                  <ID z:Id="165" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">killSomething</ID>
+                  <Title z:Id="166" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Kill Something</Title>
                   <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
                   <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                 </TriggerLogic>
-                <TriggerLogic z:Id="165" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="166">Wait</Name>
+                <TriggerLogic z:Id="167" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="168">Wait</Name>
                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">60</Frames>
                   <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.033333333333333333</Minutes>
                   <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">2</Seconds>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT2S</Time>
                 </TriggerLogic>
-                <TriggerLogic z:Id="167" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="168">Convo Message</Name>
+                <TriggerLogic z:Id="169" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="170">Convo Message</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="169" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\Missions\My Missions\advisor2.jpg</ImagePath>
-                  <Message z:Id="170" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Commander, I believe these people are in need of some laser therapy. Shall we?</Message>
+                  <ImagePath z:Id="171" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\Missions\My Missions\advisor2.jpg</ImagePath>
+                  <Message z:Id="172" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Commander, I believe these people are in need of some laser therapy. Shall we?</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">105</Time>
                 </TriggerLogic>
-                <TriggerLogic z:Id="171" z:Type="CMissionLib.Actions.ShakeCameraAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="172">Shake Camera</Name>
+                <TriggerLogic z:Id="173" z:Type="CMissionLib.Actions.ShakeCameraAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="174">Shake Camera</Name>
                   <Strength xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Strength>
                 </TriggerLogic>
-                <TriggerLogic z:Id="173" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="174">Wait</Name>
+                <TriggerLogic z:Id="175" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="176">Wait</Name>
                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">90</Frames>
                   <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.05</Minutes>
                   <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">3</Seconds>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT3S</Time>
                 </TriggerLogic>
-                <TriggerLogic z:Id="175" z:Type="CMissionLib.Actions.StartCountdownAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="176">Start Countdown</Name>
-                  <Countdown z:Id="177" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Countdown 1</Countdown>
+                <TriggerLogic z:Id="177" z:Type="CMissionLib.Actions.StartCountdownAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="178">Start Countdown</Name>
+                  <Countdown z:Id="179" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Countdown 1</Countdown>
                   <Display xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Display>
                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Frames>
                   <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.13333333333333333</Minutes>
                   <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">8</Seconds>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT8S</Time>
                 </TriggerLogic>
-                <TriggerLogic z:Id="178" z:Type="CMissionLib.Conditions.GamePreloadCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="179">Game Preload</Name>
+                <TriggerLogic z:Id="180" z:Type="CMissionLib.Conditions.GamePreloadCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="181">Game Preload</Name>
                 </TriggerLogic>
                 <TriggerLogic i:nil="true" />
                 <TriggerLogic i:nil="true" />
@@ -579,29 +580,29 @@ Spring.SetCameraState(cs, 1)</CodeStr>
                 <TriggerLogic i:nil="true" />
               </_items>
               <_size>25</_size>
-              <_version>299</_version>
+              <_version>311</_version>
             </items>
-            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="180">
+            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="182">
               <d7p1:_busyCount>0</d7p1:_busyCount>
             </_monitor>
           </Logic>
           <MaxOccurrences>1</MaxOccurrences>
-          <Name z:Id="181">Start</Name>
+          <Name z:Id="183">Start</Name>
           <Probability>1</Probability>
         </Trigger>
-        <Trigger z:Id="182">
+        <Trigger z:Id="184">
           <Enabled>true</Enabled>
           <Folder i:nil="true" />
           <IsExpanded>true</IsExpanded>
-          <Logic z:Id="183">
-            <items z:Id="184" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-              <_items z:Id="185" z:Size="8">
-                <TriggerLogic z:Id="186" z:Type="CMissionLib.Actions.ModifyScoreAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="187">Modify Score</Name>
-                  <Action z:Id="188" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Increase Score</Action>
-                  <Players xmlns:d10p1="http://schemas.datacontract.org/2004/07/CMissionLib" z:Id="189" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
-                    <d10p1:items z:Id="190" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-                      <d10p1:_items z:Id="191" z:Size="4">
+          <Logic z:Id="185">
+            <items z:Id="186" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+              <_items z:Id="187" z:Size="8">
+                <TriggerLogic z:Id="188" z:Type="CMissionLib.Actions.ModifyScoreAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="189">Modify Score</Name>
+                  <Action z:Id="190" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Increase Score</Action>
+                  <Players xmlns:d10p1="http://schemas.datacontract.org/2004/07/CMissionLib" z:Id="191" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
+                    <d10p1:items z:Id="192" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+                      <d10p1:_items z:Id="193" z:Size="4">
                         <d10p1:Player z:Ref="36" i:nil="true" />
                         <d10p1:Player i:nil="true" />
                         <d10p1:Player i:nil="true" />
@@ -610,34 +611,34 @@ Spring.SetCameraState(cs, 1)</CodeStr>
                       <d10p1:_size>1</d10p1:_size>
                       <d10p1:_version>1</d10p1:_version>
                     </d10p1:items>
-                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="192">
+                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="194">
                       <d11p1:_busyCount>0</d11p1:_busyCount>
                     </d10p1:_monitor>
                   </Players>
                   <Value xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">4000</Value>
                 </TriggerLogic>
-                <TriggerLogic z:Id="193" z:Type="CMissionLib.Actions.ExecuteTriggersAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="194">Execute Triggers</Name>
-                  <Triggers xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="195" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
-                    <d10p1:items z:Id="196" z:Type="System.Collections.Generic.List`1[[CMissionLib.INamed, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-                      <d10p1:_items z:Id="197" z:Size="4">
-                        <d10p1:anyType z:Id="198" z:Type="CMissionLib.Trigger" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                <TriggerLogic z:Id="195" z:Type="CMissionLib.Actions.ExecuteTriggersAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="196">Execute Triggers</Name>
+                  <Triggers xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="197" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
+                    <d10p1:items z:Id="198" z:Type="System.Collections.Generic.List`1[[CMissionLib.INamed, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+                      <d10p1:_items z:Id="199" z:Size="4">
+                        <d10p1:anyType z:Id="200" z:Type="CMissionLib.Trigger" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                           <Enabled xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">true</Enabled>
                           <Folder i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib" />
                           <IsExpanded xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">true</IsExpanded>
-                          <Logic z:Id="199" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
-                            <items z:Id="200" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-                              <_items z:Id="201" z:Size="4">
-                                <TriggerLogic z:Id="202" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Ref="166" i:nil="true" />
+                          <Logic z:Id="201" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
+                            <items z:Id="202" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+                              <_items z:Id="203" z:Size="4">
+                                <TriggerLogic z:Id="204" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                  <Name z:Ref="168" i:nil="true" />
                                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">30</Frames>
                                   <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.016666666666666666</Minutes>
                                   <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">1</Seconds>
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT1S</Time>
                                 </TriggerLogic>
-                                <TriggerLogic z:Id="203" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="204">Custom Action (Alternate)</Name>
-                                  <CodeStr z:Id="205" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local value = 1
+                                <TriggerLogic z:Id="205" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                  <Name z:Id="206">Custom Action (Alternate)</Name>
+                                  <CodeStr z:Id="207" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local value = 1
 local score = Spring.GetTeamRulesParam(0, "score")
 if score == 300 then 
   value = 2 
@@ -648,22 +649,22 @@ end
 GG.mission.SendMissionVariables({ testMission_journal1 = value })</CodeStr>
                                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                                 </TriggerLogic>
-                                <TriggerLogic z:Id="206" z:Type="CMissionLib.Actions.SendScoreAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="207">Send Scores</Name>
+                                <TriggerLogic z:Id="208" z:Type="CMissionLib.Actions.SendScoreAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                  <Name z:Id="209">Send Scores</Name>
                                 </TriggerLogic>
-                                <TriggerLogic z:Id="208" z:Type="CMissionLib.VictoryAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="209">Victory</Name>
+                                <TriggerLogic z:Id="210" z:Type="CMissionLib.VictoryAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                  <Name z:Id="211">Victory</Name>
                                 </TriggerLogic>
                               </_items>
                               <_size>4</_size>
                               <_version>12</_version>
                             </items>
-                            <_monitor xmlns:d15p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="210">
+                            <_monitor xmlns:d15p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="212">
                               <d15p1:_busyCount>0</d15p1:_busyCount>
                             </_monitor>
                           </Logic>
                           <MaxOccurrences xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">1</MaxOccurrences>
-                          <Name z:Id="211" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">Win</Name>
+                          <Name z:Id="213" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">Win</Name>
                           <Probability xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">1</Probability>
                         </d10p1:anyType>
                         <d10p1:anyType i:nil="true" />
@@ -673,16 +674,16 @@ GG.mission.SendMissionVariables({ testMission_journal1 = value })</CodeStr>
                       <d10p1:_size>1</d10p1:_size>
                       <d10p1:_version>3</d10p1:_version>
                     </d10p1:items>
-                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="212">
+                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="214">
                       <d11p1:_busyCount>0</d11p1:_busyCount>
                     </d10p1:_monitor>
                   </Triggers>
                 </TriggerLogic>
-                <TriggerLogic z:Id="213" z:Type="CMissionLib.Conditions.UnitDestroyedCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="214">Unit Destroyed</Name>
-                  <Groups xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="215" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">
-                    <d10p1:items z:Id="216" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
-                      <d10p1:_items z:Id="217" z:Size="4">
+                <TriggerLogic z:Id="215" z:Type="CMissionLib.Conditions.UnitDestroyedCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="216">Unit Destroyed</Name>
+                  <Groups xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="217" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">
+                    <d10p1:items z:Id="218" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
+                      <d10p1:_items z:Id="219" z:Size="4">
                         <d10p1:string z:Ref="85" i:nil="true" />
                         <d10p1:string i:nil="true" />
                         <d10p1:string i:nil="true" />
@@ -691,7 +692,7 @@ GG.mission.SendMissionVariables({ testMission_journal1 = value })</CodeStr>
                       <d10p1:_size>1</d10p1:_size>
                       <d10p1:_version>3</d10p1:_version>
                     </d10p1:items>
-                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="218">
+                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="220">
                       <d11p1:_busyCount>0</d11p1:_busyCount>
                     </d10p1:_monitor>
                   </Groups>
@@ -705,27 +706,27 @@ GG.mission.SendMissionVariables({ testMission_journal1 = value })</CodeStr>
               <_size>3</_size>
               <_version>19</_version>
             </items>
-            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="219">
+            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="221">
               <d7p1:_busyCount>0</d7p1:_busyCount>
             </_monitor>
           </Logic>
           <MaxOccurrences>1</MaxOccurrences>
-          <Name z:Id="220">Kill Singu</Name>
+          <Name z:Id="222">Kill Singu</Name>
           <Probability>1</Probability>
         </Trigger>
-        <Trigger z:Id="221">
+        <Trigger z:Id="223">
           <Enabled>true</Enabled>
           <Folder i:nil="true" />
           <IsExpanded>true</IsExpanded>
-          <Logic z:Id="222">
-            <items z:Id="223" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-              <_items z:Id="224" z:Size="8">
-                <TriggerLogic z:Id="225" z:Type="CMissionLib.Actions.ModifyScoreAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="226">Modify Score</Name>
-                  <Action z:Id="227" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Increase Score</Action>
-                  <Players xmlns:d10p1="http://schemas.datacontract.org/2004/07/CMissionLib" z:Id="228" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
-                    <d10p1:items z:Id="229" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-                      <d10p1:_items z:Id="230" z:Size="4">
+          <Logic z:Id="224">
+            <items z:Id="225" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+              <_items z:Id="226" z:Size="8">
+                <TriggerLogic z:Id="227" z:Type="CMissionLib.Actions.ModifyScoreAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="228">Modify Score</Name>
+                  <Action z:Id="229" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Increase Score</Action>
+                  <Players xmlns:d10p1="http://schemas.datacontract.org/2004/07/CMissionLib" z:Id="230" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
+                    <d10p1:items z:Id="231" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+                      <d10p1:_items z:Id="232" z:Size="4">
                         <d10p1:Player z:Ref="36" i:nil="true" />
                         <d10p1:Player i:nil="true" />
                         <d10p1:Player i:nil="true" />
@@ -734,18 +735,18 @@ GG.mission.SendMissionVariables({ testMission_journal1 = value })</CodeStr>
                       <d10p1:_size>1</d10p1:_size>
                       <d10p1:_version>1</d10p1:_version>
                     </d10p1:items>
-                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="231">
+                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="233">
                       <d11p1:_busyCount>0</d11p1:_busyCount>
                     </d10p1:_monitor>
                   </Players>
                   <Value xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">300</Value>
                 </TriggerLogic>
-                <TriggerLogic z:Id="232" z:Type="CMissionLib.Actions.ExecuteTriggersAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="194" i:nil="true" />
-                  <Triggers xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="233" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
-                    <d10p1:items z:Id="234" z:Type="System.Collections.Generic.List`1[[CMissionLib.INamed, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-                      <d10p1:_items z:Id="235" z:Size="4">
-                        <d10p1:anyType z:Ref="198" i:nil="true" />
+                <TriggerLogic z:Id="234" z:Type="CMissionLib.Actions.ExecuteTriggersAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Ref="196" i:nil="true" />
+                  <Triggers xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="235" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
+                    <d10p1:items z:Id="236" z:Type="System.Collections.Generic.List`1[[CMissionLib.INamed, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+                      <d10p1:_items z:Id="237" z:Size="4">
+                        <d10p1:anyType z:Ref="200" i:nil="true" />
                         <d10p1:anyType i:nil="true" />
                         <d10p1:anyType i:nil="true" />
                         <d10p1:anyType i:nil="true" />
@@ -753,16 +754,16 @@ GG.mission.SendMissionVariables({ testMission_journal1 = value })</CodeStr>
                       <d10p1:_size>1</d10p1:_size>
                       <d10p1:_version>7</d10p1:_version>
                     </d10p1:items>
-                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="236">
+                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="238">
                       <d11p1:_busyCount>0</d11p1:_busyCount>
                     </d10p1:_monitor>
                   </Triggers>
                 </TriggerLogic>
-                <TriggerLogic z:Id="237" z:Type="CMissionLib.Conditions.UnitDestroyedCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="214" i:nil="true" />
-                  <Groups xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="238" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">
-                    <d10p1:items z:Id="239" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
-                      <d10p1:_items z:Id="240" z:Size="4">
+                <TriggerLogic z:Id="239" z:Type="CMissionLib.Conditions.UnitDestroyedCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Ref="216" i:nil="true" />
+                  <Groups xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="240" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">
+                    <d10p1:items z:Id="241" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
+                      <d10p1:_items z:Id="242" z:Size="4">
                         <d10p1:string z:Ref="92" i:nil="true" />
                         <d10p1:string i:nil="true" />
                         <d10p1:string i:nil="true" />
@@ -771,7 +772,7 @@ GG.mission.SendMissionVariables({ testMission_journal1 = value })</CodeStr>
                       <d10p1:_size>1</d10p1:_size>
                       <d10p1:_version>1</d10p1:_version>
                     </d10p1:items>
-                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="241">
+                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="243">
                       <d11p1:_busyCount>0</d11p1:_busyCount>
                     </d10p1:_monitor>
                   </Groups>
@@ -785,27 +786,27 @@ GG.mission.SendMissionVariables({ testMission_journal1 = value })</CodeStr>
               <_size>3</_size>
               <_version>15</_version>
             </items>
-            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="242">
+            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="244">
               <d7p1:_busyCount>0</d7p1:_busyCount>
             </_monitor>
           </Logic>
           <MaxOccurrences>1</MaxOccurrences>
-          <Name z:Id="243">Kill Hacksaw</Name>
+          <Name z:Id="245">Kill Hacksaw</Name>
           <Probability>1</Probability>
         </Trigger>
-        <Trigger z:Id="244">
+        <Trigger z:Id="246">
           <Enabled>true</Enabled>
           <Folder i:nil="true" />
           <IsExpanded>true</IsExpanded>
-          <Logic z:Id="245">
-            <items z:Id="246" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-              <_items z:Id="247" z:Size="8">
-                <TriggerLogic z:Id="248" z:Type="CMissionLib.Actions.ModifyScoreAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="226" i:nil="true" />
-                  <Action z:Ref="227" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <Players xmlns:d10p1="http://schemas.datacontract.org/2004/07/CMissionLib" z:Id="249" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
-                    <d10p1:items z:Id="250" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-                      <d10p1:_items z:Id="251" z:Size="4">
+          <Logic z:Id="247">
+            <items z:Id="248" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+              <_items z:Id="249" z:Size="8">
+                <TriggerLogic z:Id="250" z:Type="CMissionLib.Actions.ModifyScoreAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Ref="228" i:nil="true" />
+                  <Action z:Ref="229" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
+                  <Players xmlns:d10p1="http://schemas.datacontract.org/2004/07/CMissionLib" z:Id="251" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
+                    <d10p1:items z:Id="252" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+                      <d10p1:_items z:Id="253" z:Size="4">
                         <d10p1:Player z:Ref="36" i:nil="true" />
                         <d10p1:Player i:nil="true" />
                         <d10p1:Player i:nil="true" />
@@ -814,18 +815,18 @@ GG.mission.SendMissionVariables({ testMission_journal1 = value })</CodeStr>
                       <d10p1:_size>1</d10p1:_size>
                       <d10p1:_version>3</d10p1:_version>
                     </d10p1:items>
-                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="252">
+                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="254">
                       <d11p1:_busyCount>0</d11p1:_busyCount>
                     </d10p1:_monitor>
                   </Players>
                   <Value xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">80</Value>
                 </TriggerLogic>
-                <TriggerLogic z:Id="253" z:Type="CMissionLib.Actions.ExecuteTriggersAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="194" i:nil="true" />
-                  <Triggers xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="254" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
-                    <d10p1:items z:Id="255" z:Type="System.Collections.Generic.List`1[[CMissionLib.INamed, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-                      <d10p1:_items z:Id="256" z:Size="4">
-                        <d10p1:anyType z:Ref="198" i:nil="true" />
+                <TriggerLogic z:Id="255" z:Type="CMissionLib.Actions.ExecuteTriggersAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Ref="196" i:nil="true" />
+                  <Triggers xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="256" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
+                    <d10p1:items z:Id="257" z:Type="System.Collections.Generic.List`1[[CMissionLib.INamed, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+                      <d10p1:_items z:Id="258" z:Size="4">
+                        <d10p1:anyType z:Ref="200" i:nil="true" />
                         <d10p1:anyType i:nil="true" />
                         <d10p1:anyType i:nil="true" />
                         <d10p1:anyType i:nil="true" />
@@ -833,16 +834,16 @@ GG.mission.SendMissionVariables({ testMission_journal1 = value })</CodeStr>
                       <d10p1:_size>1</d10p1:_size>
                       <d10p1:_version>3</d10p1:_version>
                     </d10p1:items>
-                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="257">
+                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="259">
                       <d11p1:_busyCount>0</d11p1:_busyCount>
                     </d10p1:_monitor>
                   </Triggers>
                 </TriggerLogic>
-                <TriggerLogic z:Id="258" z:Type="CMissionLib.Conditions.UnitDestroyedCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="214" i:nil="true" />
-                  <Groups xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="259" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">
-                    <d10p1:items z:Id="260" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
-                      <d10p1:_items z:Id="261" z:Size="4">
+                <TriggerLogic z:Id="260" z:Type="CMissionLib.Conditions.UnitDestroyedCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Ref="216" i:nil="true" />
+                  <Groups xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="261" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">
+                    <d10p1:items z:Id="262" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
+                      <d10p1:_items z:Id="263" z:Size="4">
                         <d10p1:string z:Ref="99" i:nil="true" />
                         <d10p1:string i:nil="true" />
                         <d10p1:string i:nil="true" />
@@ -851,7 +852,7 @@ GG.mission.SendMissionVariables({ testMission_journal1 = value })</CodeStr>
                       <d10p1:_size>1</d10p1:_size>
                       <d10p1:_version>1</d10p1:_version>
                     </d10p1:items>
-                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="262">
+                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="264">
                       <d11p1:_busyCount>0</d11p1:_busyCount>
                     </d10p1:_monitor>
                   </Groups>
@@ -865,15 +866,15 @@ GG.mission.SendMissionVariables({ testMission_journal1 = value })</CodeStr>
               <_size>3</_size>
               <_version>11</_version>
             </items>
-            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="263">
+            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="265">
               <d7p1:_busyCount>0</d7p1:_busyCount>
             </_monitor>
           </Logic>
           <MaxOccurrences>1</MaxOccurrences>
-          <Name z:Id="264">Kill Radar</Name>
+          <Name z:Id="266">Kill Radar</Name>
           <Probability>1</Probability>
         </Trigger>
-        <Trigger z:Ref="198" i:nil="true" />
+        <Trigger z:Ref="200" i:nil="true" />
         <Trigger i:nil="true" />
         <Trigger i:nil="true" />
         <Trigger i:nil="true" />
@@ -881,7 +882,7 @@ GG.mission.SendMissionVariables({ testMission_journal1 = value })</CodeStr>
       <_size>5</_size>
       <_version>9</_version>
     </items>
-    <_monitor xmlns:d3p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="265">
+    <_monitor xmlns:d3p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="267">
       <d3p1:_busyCount>0</d3p1:_busyCount>
     </_monitor>
   </Triggers>

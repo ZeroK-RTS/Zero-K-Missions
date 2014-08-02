@@ -167,6 +167,8 @@ function gadget:AllowUnitTransfer(unitID, unitDefID, oldTeam, newTeam, capture)
   elseif group["HunComm"] or group["GothComm"] or group["LombardComm"] or group["SueviComm"] or group["BulgarComm"] then
     Spring.DestroyUnit(unitID)
     return false
+  elseif group["Ada"] then
+    return false
   end
   return true
 end

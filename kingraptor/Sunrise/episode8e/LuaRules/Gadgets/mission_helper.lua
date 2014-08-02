@@ -113,7 +113,6 @@ function gadget:UnitPreDamaged(unitID, unitDefID, unitTeam, damage, paralyzer, w
 	local health = Spring.GetUnitHealth(unitID)
 	if health - damage <= 0 then
 	  GG.mission.ExecuteTriggerByName(trigger)
-	  Spring.Echo("bla", health, damage)
 	  return 0
 	end
       end
@@ -148,6 +147,8 @@ function gadget:AllowUnitTransfer(unitID, unitDefID, oldTeam, newTeam, capture)
   if group["ScipioAstra"] then
     GG.mission.ExecuteTriggerByName("Astra Destroyed")
     Spring.SetUnitHealth(unitID, {capture = 0})
+    return false
+  elseif group["Ada"] then
     return false
   end
   return true

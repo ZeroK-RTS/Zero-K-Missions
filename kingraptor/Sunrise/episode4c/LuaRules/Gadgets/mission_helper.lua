@@ -3,7 +3,7 @@
 
 function gadget:GetInfo()
   return {
-    name      = "Mission Info Helper",
+    name      = "Mission Helper",
     desc      = "Helper gadget for mission stuff",
     author    = "KingRaptor",
     date      = "2012.12.16",
@@ -39,19 +39,13 @@ local helpUnitsDamage = {
   [UnitDefNames.nsaclash.id] = {damage = 0, neededDamage = 1250, triggerName = "Fight Scalpels"},
 }
 
+local triggerOnDeath = {
+  Ada = "Ada Destroyed",
+  Odin = "Odin Destroyed",
+}
 
---local valhallansDefeated = false
---local checkValhallansCond = false
 local wave2Active = false
 local finaleActive = false
-
-local function ValhallansDefeated()
-  --Spring.Echo("Vikings pwnt!")
-  valhallansDefeated = true
-  if empireDefeated then
-    GG.mission.ExecuteTriggerByName("Victory")
-  end
-end
 
 local function SetUnitInvulnerable(unitID, bool)
   if bool == true then
@@ -68,24 +62,7 @@ end
 
 function gadget:GameFrame(n)
   gameframe = n
-  --[[
-  if checkValhallansCond and n%45 == 0 then
-    checkValhallansCond = false
-    local units = Spring.GetUnitsInCylinder(6600, 1720, 1000, 1)
-    if units and #units > 0 then
-      return
-    end
-    units = Spring.GetUnitsInCylinder(6600, 1720, 1000, 3) or {}
-    for i=1,#units do
-      local unitID = units[i]
-      local unitDef = UnitDefs[Spring.GetUnitDefID(unitID)]
-      if unitDef.canAttack then
-	return
-      end
-    end
-    ValhallansDefeated()
-  end
-  ]]--
+
   if n%30 == 0 then
     if GG.KotH.GetTimeRemaining(0) <= 60*2 and not finaleActive then
       GG.mission.ExecuteTriggerByName("Final Showdown")
@@ -128,15 +105,21 @@ end
 
 function gadget:UnitPreDamaged(unitID, unitDefID, unitTeam, damage, paralyzer, weaponID, attackerID, attackerDefID, attackerTeam)
   if invulnerableUnits[unitID] then
-    return 0
+    return 0, 0
   end
-  if (GG.mission.unitGroups[unitID] or {})["Odin"] and not paralyzer then
-    local health = Spring.GetUnitHealth(unitID)
-    if health - damage < 0 then
-      GG.mission.ExecuteTriggerByName("Odin Destroyed")
-      return health-1
+  
+  if GG.mission.unitGroups[unitID] then
+    for groupName, trigger in pairs(triggerOnDeath) do
+      if GG.mission.unitGroups[unitID][groupName] and not paralyzer then
+	local health = Spring.GetUnitHealth(unitID)
+	if health - damage <= 0 then
+	  GG.mission.ExecuteTriggerByName(trigger)
+	  return 0
+	end
+      end
     end
-  end  
+  end
+
   return damage
 end
 
