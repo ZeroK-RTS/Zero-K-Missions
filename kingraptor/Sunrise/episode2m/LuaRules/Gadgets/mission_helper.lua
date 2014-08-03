@@ -32,6 +32,11 @@ local triggers = {
   ["Dialogue 2"] = {damage = 8000}
 }
 
+local triggerOnDeath = {
+  Self = "Ada Destroyed",
+  MachineComm = "Victory",
+}
+
 local function SetUnitInvulnerable(unitID, bool)
   if bool == true then
     invulnerableUnits[unitID] = true
@@ -68,15 +73,21 @@ end
 
 function gadget:UnitPreDamaged(unitID, unitDefID, unitTeam, damage, paralyzer, weaponID, attackerID, attackerDefID, attackerTeam)
   if invulnerableUnits[unitID] then
-    return 0
+    return 0, 0
   end
-  if (GG.mission.unitGroups[unitID] or {})["MachineComm"] and not paralyzer then
-    local health = Spring.GetUnitHealth(unitID)
-    if health - damage < 0 then
-      GG.mission.ExecuteTriggerByName("Victory")
-      return health-1
+  
+  if GG.mission.unitGroups[unitID] then
+    for groupName, trigger in pairs(triggerOnDeath) do
+      if GG.mission.unitGroups[unitID][groupName] and not paralyzer then
+	local health = Spring.GetUnitHealth(unitID)
+	if health - damage <= 0 then
+	  GG.mission.ExecuteTriggerByName(trigger)
+	  return 0, 0
+	end
+      end
     end
-  end  
+  end
+
   return damage
 end
 

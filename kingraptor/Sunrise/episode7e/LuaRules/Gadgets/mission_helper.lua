@@ -130,7 +130,7 @@ function gadget:UnitPreDamaged(unitID, unitDefID, unitTeam, damage, paralyzer, w
       local health = Spring.GetUnitHealth(unitID)
       if health - damage < 0 then
 	GG.mission.ExecuteTriggerByName(trigger)
-	return math.max(health-1, 0)
+	return 0, 0
       end
     end
   end
@@ -154,6 +154,14 @@ function gadget:AllowCommand(unitID, unitDefID, teamID,cmdID, cmdParams, cmdOpti
   if teamID == 0 and helpUnits_command[-cmdID] then
     GG.mission.ExecuteTriggerByName(helpUnits_command[-cmdID])
     helpUnits_command[-cmdID] = nil
+  end
+  return true
+end
+
+function gadget:AllowUnitTransfer(unitID, unitDefID, oldTeam, newTeam, capture)
+  local group = GG.mission.unitGroups[unitID] or emptyTable
+  if group["Ada"] then
+    return false
   end
   return true
 end

@@ -116,14 +116,22 @@ end
 
 function gadget:UnitPreDamaged(unitID, unitDefID, unitTeam, damage, paralyzer, weaponID, attackerID, attackerDefID, attackerTeam)
   if invulnerableUnits[unitID] then
-    return 0
+    return 0, 0
   end
-  if (GG.mission.unitGroups[unitID] or {})["ValComm"] and not paralyzer then
+  local groups = GG.mission.unitGroups[unitID] or {}
+  if groups["ValComm"] and not paralyzer then
     local health = Spring.GetUnitHealth(unitID)
     if health - damage < 0 then
       GG.mission.ExecuteTriggerByName("Val Comm Destroyed")
       ValhallansDefeated()
-      return health-1
+      return 0, 0
+    end
+  elseif groups["Ada"] and not paralyzer then
+    local health = Spring.GetUnitHealth(unitID)
+    if health - damage < 0 then
+      GG.mission.ExecuteTriggerByName("Ada Destroyed")
+      ValhallansDefeated()
+      return 0, 0
     end
   end  
   return damage

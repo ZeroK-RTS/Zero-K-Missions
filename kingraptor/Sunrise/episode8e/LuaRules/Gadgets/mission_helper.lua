@@ -113,7 +113,7 @@ function gadget:UnitPreDamaged(unitID, unitDefID, unitTeam, damage, paralyzer, w
 	local health = Spring.GetUnitHealth(unitID)
 	if health - damage <= 0 then
 	  GG.mission.ExecuteTriggerByName(trigger)
-	  return 0
+	  return 0, 0
 	end
       end
     end
