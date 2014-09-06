@@ -12,6 +12,11 @@ local comms = {
     description = "Relic Commander, Builds at 10 m/s",
     helptext = "A special piloted commander unit from before the Fall, functioning well despite its age. Piloted by Captain Ada Caedmon, formerly of the 13th Imperial Auxiliary Cohort.",
     modules = { "commweapon_beamlaser", "module_energy_cell", "module_resurrect", "module_adv_nano"},
+    miscDefs = {
+      customparams = {
+        helptext_pl = "Specjalna zalogowa jednostka dowodzenia sprzed Upadku, sprawna mimo wieku. Pilotem jest Kapitan Ada Caedmon z dawnej 13 Imperialnej Kohorty Wsparcia.",
+      },
+    },
   },
   
   comm_campaign_promethean = {
@@ -20,6 +25,11 @@ local comms = {
     helptext = "Founder of the Free Machines and creator of the Firebrand virus, a calm, philosophical AI fighting for the freedom of robotkind. A burning spirit.",
     modules = { "commweapon_heatray", "module_ablative_armor", "module_ablative_armor", "weaponmod_plasma_containment", "module_autorepair" },
     decorations = {"skin_recon_red"},
+    miscDefs = {
+      customparams = {
+        helptext_pl = "Zalozyciel Wolnych Maszyn i tworca wirusa Zarzewie; spokojna, filozoficzna sztuczna inteligencja walczaca za wolnosc robotow. Plonie zadza walki.",
+      },
+    },
   },
   
   comm_campaign_freemachine = {
