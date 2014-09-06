@@ -83,10 +83,10 @@ local comms = {
   },
 
   comm_campaign_legion = {
-    chassis = "corcom2",
+    chassis = "corcom3",
     name = "Legate Fidus",
     helptext = "Commander of the Imperial Vanguard Legion, enforcers of the Emperor's will.  A loyal, steadfast soldier.",
-    modules = { "commweapon_shotgun", "module_heavy_armor", "weaponmod_autoflechette", "module_adv_targeting", "module_autorepair"},
+    modules = { "commweapon_shotgun", "commweapon_clusterbomb", "module_heavy_armor", "weaponmod_autoflechette", "module_adv_targeting", "module_autorepair"},
     --decorations = { "skin_battle_tiger" },
     miscDefs = {
       customparams = {
