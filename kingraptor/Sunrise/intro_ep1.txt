@@ -17,8 +17,9 @@ She struggled to recall some details of what she had been doing while last awake
 >> status crew
 > ERROR: Personnel record file corrupted
 > 1 crewmember confirmed inside platform
->	Name		|Role		| Condition
->	<unknown>	|Commander	| Healthy
+>	Name: <unknown>
+> Role: Commander
+> Condition: Healthy
 >> stasis disable
 > This will awaken the crew from stasis.
 > WARNING: Once the thaw process has started, it cannot be aborted without causing injury or death to affected crew. Confirm (Y/N)?
@@ -33,32 +34,32 @@ Slowly she realized it was glowing with a radiant white light that grew brighter
 
 ~~~~~~~~~~~~~~~~~~~~
 
-갾Wake up, Ada!갿
+혖gWake up, Ada!혖h
 
 She woke up with a startled gasp, jerking upright in her seat. Or had she? The pitch black darkness from her slumber was still here... but at least she could feel the chair beneath her.
 
 As if responding to her thoughts, an overhead light suddenly came on, an island of light in the surrounding void. Holographic consoles popped up around her chair, flashing a long list of diagnostic messages fading into the strangely familiar data feeds.
 
-She gazed at the displays in something approaching awe for a few moments, before tentatively reaching behind her back, feeling the slender cables plugged into her skinsuit. Though her conscious mind was still groggy from its long slumber, she instinctively recognized every detail of the strange chamber. It had been only 갾yesterday갿 when she last used it, after all.
+She gazed at the displays in something approaching awe for a few moments, before tentatively reaching behind her back, feeling the slender cables plugged into her skinsuit. Though her conscious mind was still groggy from its long slumber, she instinctively recognized every detail of the strange chamber. It had been only 혖gyesterday혖h when she last used it, after all.
 
-갾Oh, thank goodness you갽re alright,갿 a voice said from somewhere to her right. Ada jerked her head towards the direction of the sound, then relaxed as she saw the familiar face on the screen.
+혖gOh, thank goodness you혖fre alright,혖h a voice said from somewhere to her right. Ada jerked her head towards the direction of the sound, then relaxed as she saw the familiar face on the screen.
 
-갾Sophia?갿 she said - mumbled, really, for her vocal chords still felt like they were on ice. 갾What... happened?갿
+혖gSophia?혖h she said - mumbled, really, for her vocal chords still felt like they were on ice. 혖gWhat... happened?혖h
 
-갾Battle went horribly wrong. I put you in stasis and shut down pretty much everything else. Only recently have the solar collectors been close enough to the system primary to restore our systems.갿
+혖gBattle went horribly wrong. I put you in stasis and shut down pretty much everything else. Only recently have the solar collectors been close enough to the system primary to restore our systems.혖h
 
-갾Where are we?갿 She remembered where she갽d last been. A battle gone wrong, swarms of hostile machines... fighting for her life... but no matter how hard she tried, she could not recall the context of the battle or even its location. 갾I... can갽t remember much.갿
+혖gWhere are we?혖h She remembered where she혖fd last been. A battle gone wrong, swarms of hostile machines... fighting for her life... but no matter how hard she tried, she could not recall the context of the battle or even its location. 혖gI... can혖ft remember much.혖h
 
-갾Understandable. You were just released from stasis, after all. Well, then...갿
+혖gUnderstandable. You were just released from stasis, after all. Well, then...혖h
 
-Out of the darkness, a globe of light surrounded her, fading into a crystal-clear view of a desolate asteroid scene. The grey surface was pockmarked with craters from fragments of its fellows, with occasional rock formations rising from the landscape. The system갽s K6 primary was a large orange disc in the horizon, while the stars above shone brightly with no atmosphere to obscure the light.
+Out of the darkness, a globe of light surrounded her, fading into a crystal-clear view of a desolate asteroid scene. The grey surface was pockmarked with craters from fragments of its fellows, with occasional rock formations rising from the landscape. The system혖fs K6 primary was a large orange disc in the horizon, while the stars above shone brightly with no atmosphere to obscure the light.
 
 Everything seemed just as she remembered it.
 
-갾Enjoy the view, Ada, but we don갽t have a lot of time.갿 Sophia갽s face turned grim. 갾There갽s actually more than one reason I woke you up.갿
+혖gEnjoy the view, Ada, but we don혖ft have a lot of time.혖h Sophia혖fs face turned grim. 혖gThere혖fs actually more than one reason I woke you up.혖h
 
-A device beeped, and Ada looked upwards at another familiar sight: the primary tactical display. A precise map of the surrounding topography filled the view, with multiple bright red dots moving slowly but surely towards the lone blue icon in the center. She recognized the symbol instantly - that of the Strike-type command platform, towering leaders - manned and unmanned alike - of the vast robot armies that clashed across the galaxy in the yesterday that was now gone.
+A device beeped, and Ada looked upwards at another familiar sight: the primary tactical display. A precise map of the surrounding topography filled the view, with multiple bright red dots moving slowly but surely towards the lone blue icon in the center. She recognized the symbol instantly - that of a command platform, towering leaders - manned and unmanned alike - of the vast robot armies that clashed across the galaxy in the yesterday that was now gone.
 
-Even if she didn갽t, however, the meaning of the display was immediately obvious to all but the most naive onlooker.
+Even if she didn혖ft, however, the meaning of the display was immediately obvious to all but the most naive onlooker.
 
-갾I hope your brain has defrosted, Ada,갿 the AI said with just a trace of irony, 갾because things are going to get hot very soon.갿
+혖gI hope your brain has defrosted, Ada,혖h the AI said with just a trace of irony, 혖gbecause things are going to get hot very soon.혖h
