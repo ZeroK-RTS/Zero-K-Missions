@@ -90,10 +90,10 @@ local comms = {
   },
 
   comm_campaign_legion = {
-    chassis = "corcom2",
+    chassis = "corcom3",
     name = "Legate Fidus",
     helptext = "Commander of the Imperial Vanguard Legion, enforcers of the Emperor's will.  A loyal, steadfast soldier.",
-    modules = { "commweapon_shotgun", "module_heavy_armor", "weaponmod_autoflechette", "module_adv_targeting", "module_autorepair"},
+    modules = { "commweapon_shotgun", "commweapon_clusterbomb", "module_heavy_armor", "weaponmod_autoflechette", "module_adv_targeting", "module_autorepair"},
     --decorations = { "skin_battle_tiger" },
     miscDefs = {
       customparams = {
@@ -103,10 +103,10 @@ local comms = {
   },  
     
   comm_campaign_praetorian = {
-    chassis = "benzcom2",
+    chassis = "benzcom3",
     name = "Scipio Astra",
     helptext = "Prefect of the elite Praetorian Guard, the Empire's paladins. A fanatic adherent of the Emperor's cult, purging heretics with massive firepower.",
-    modules = { "commweapon_assaultcannon", "module_heavy_armor", "weaponmod_high_caliber_barrel", "module_adv_targeting", "module_autorepair"},
+    modules = { "commweapon_assaultcannon", "commweapon_hellfire", "module_heavy_armor", "weaponmod_high_caliber_barrel", "module_adv_targeting", "module_autorepair", "module_high_power_servos"},
     miscDefs = {
       customparams = {
         helptext_pl = "Prefekt Strazy Pretorianskiej, paladynow Imperium. Fanatyczna wyznawczyni kultu Imperatora, ktora oczyszcza heretykow ogromna sila ognia.",
