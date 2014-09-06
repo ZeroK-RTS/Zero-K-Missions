@@ -100,6 +100,7 @@ local comms = {
     name = "Scipio Astra",
     helptext = "Prefect of the elite Praetorian Guard, the Empire's paladins. A fanatic adherent of the Emperor's cult, purging heretics with massive firepower.",
     modules = { "commweapon_riotcannon", "commweapon_rocketlauncher", "module_heavy_armor", "weaponmod_standoff_rocket", "weaponmod_plasma_containment", "module_adv_targeting", "module_autorepair", "module_autorepair", "module_high_power_servos", "module_high_power_servos" },
+    cost = 2400,
     miscDefs = {
       customparams = {
         helptext_pl = "Prefekt Strazy Pretorianskiej, paladynow Imperium. Fanatyczna wyznawczyni kultu Imperatora, ktora oczyszcza heretykow ogromna sila ognia.",
