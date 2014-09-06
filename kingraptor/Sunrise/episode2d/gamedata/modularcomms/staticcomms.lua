@@ -12,6 +12,11 @@ local comms = {
     description = "Relic Commander, Builds at 10 m/s",
     helptext = "A special piloted commander unit from before the Fall, functioning well despite its age. Piloted by Captain Ada Caedmon, formerly of the 13th Imperial Auxiliary Cohort.",
     modules = { "commweapon_beamlaser", "module_ablative_armor", "module_autorepair", "module_high_power_servos"},
+    miscDefs = {
+      customparams = {
+        helptext_pl = "Specjalna zalogowa jednostka dowodzenia sprzed Upadku, sprawna mimo wieku. Pilotem jest Kapitan Ada Caedmon z dawnej 13 Imperialnej Kohorty Wsparcia.",
+      },
+    },
   },
   
   comm_campaign_promethean = {
