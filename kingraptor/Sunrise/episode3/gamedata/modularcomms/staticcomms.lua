@@ -39,6 +39,11 @@ local comms = {
     name = "Odin",
     helptext = "The leader of the Valhallans, a warrior built and bred who lives for the glory of battle. An extremely ruthless foe.",
     modules = { "commweapon_lparticlebeam", "module_ablative_armor", "module_ablative_armor", "module_high_power_servos", "module_autorepair", "module_companion_drone"},
+    miscDefs = {
+      customparams = {
+        helptext_pl = "Lider Valhallan, wojownik z krwi i kosci, ktory zyje dla chwaly bitwy. Nie ma skrupulow.",
+      },
+    },
   },
 
   comm_campaign_biovizier = {
