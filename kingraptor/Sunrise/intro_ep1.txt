@@ -17,7 +17,7 @@ She struggled to recall some details of what she had been doing while last awake
 >> status crew
 > ERROR: Personnel record file corrupted
 > 1 crewmember confirmed inside platform
->	Name: <unknown>
+> Name: <unknown>
 > Role: Commander
 > Condition: Healthy
 >> stasis disable
@@ -34,32 +34,32 @@ Slowly she realized it was glowing with a radiant white light that grew brighter
 
 ~~~~~~~~~~~~~~~~~~~~
 
-gWake up, Ada!h
+"Wake up, Ada!"
 
 She woke up with a startled gasp, jerking upright in her seat. Or had she? The pitch black darkness from her slumber was still here... but at least she could feel the chair beneath her.
 
 As if responding to her thoughts, an overhead light suddenly came on, an island of light in the surrounding void. Holographic consoles popped up around her chair, flashing a long list of diagnostic messages fading into the strangely familiar data feeds.
 
-She gazed at the displays in something approaching awe for a few moments, before tentatively reaching behind her back, feeling the slender cables plugged into her skinsuit. Though her conscious mind was still groggy from its long slumber, she instinctively recognized every detail of the strange chamber. It had been only gyesterdayh when she last used it, after all.
+She gazed at the displays in something approaching awe for a few moments, before tentatively reaching behind her back, feeling the slender cables plugged into her skinsuit. Though her conscious mind was still groggy from its long slumber, she instinctively recognized every detail of the strange chamber. It had been only "yesterday" when she last used it, after all.
 
-gOh, thank goodness youfre alright,h a voice said from somewhere to her right. Ada jerked her head towards the direction of the sound, then relaxed as she saw the familiar face on the screen.
+"Oh, thank goodness you're alright," a voice said from somewhere to her right. Ada jerked her head towards the direction of the sound, then relaxed as she saw the familiar face on the screen.
 
-gSophia?h she said - mumbled, really, for her vocal chords still felt like they were on ice. gWhat... happened?h
+"Sophia?" she said - mumbled, really, for her vocal chords still felt like they were on ice. "What... happened?"
 
-gBattle went horribly wrong. I put you in stasis and shut down pretty much everything else. Only recently have the solar collectors been close enough to the system primary to restore our systems.h
+"Battle went horribly wrong. I put you in stasis and shut down pretty much everything else. Only recently have the solar collectors been close enough to the system primary to restore our systems."
 
-gWhere are we?h She remembered where shefd last been. A battle gone wrong, swarms of hostile machines... fighting for her life... but no matter how hard she tried, she could not recall the context of the battle or even its location. gI... canft remember much.h
+"Where are we?" She remembered where she'd last been. A battle gone wrong, swarms of hostile machines... fighting for her life... but no matter how hard she tried, she could not recall the context of the battle or even its location. "I... can't remember much."
 
-gUnderstandable. You were just released from stasis, after all. Well, then...h
+"Understandable. You were just released from stasis, after all. Well, then..."
 
 Out of the darkness, a globe of light surrounded her, fading into a crystal-clear view of a desolate asteroid scene. The grey surface was pockmarked with craters from fragments of its fellows, with occasional rock formations rising from the landscape. The systemfs K6 primary was a large orange disc in the horizon, while the stars above shone brightly with no atmosphere to obscure the light.
 
 Everything seemed just as she remembered it.
 
-gEnjoy the view, Ada, but we donft have a lot of time.h Sophiafs face turned grim. gTherefs actually more than one reason I woke you up.h
+"Enjoy the view, Ada, but we don't have a lot of time." Sophia's face turned grim. "There's actually more than one reason I woke you up."
 
 A device beeped, and Ada looked upwards at another familiar sight: the primary tactical display. A precise map of the surrounding topography filled the view, with multiple bright red dots moving slowly but surely towards the lone blue icon in the center. She recognized the symbol instantly - that of a command platform, towering leaders - manned and unmanned alike - of the vast robot armies that clashed across the galaxy in the yesterday that was now gone.
 
-Even if she didnft, however, the meaning of the display was immediately obvious to all but the most naive onlooker.
+Even if she didn't, however, the meaning of the display was immediately obvious to all but the most naive onlooker.
 
-gI hope your brain has defrosted, Ada,h the AI said with just a trace of irony, gbecause things are going to get hot very soon.h
+"I hope your brain has defrosted, Ada," the AI said with just a trace of irony, "because things are going to get hot very soon."
