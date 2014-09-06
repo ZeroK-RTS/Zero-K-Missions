@@ -12,6 +12,11 @@ local comms = {
     description = "Relic Commander, Builds at 10 m/s",
     helptext = "A special piloted commander unit from before the Fall, functioning well despite its age. Piloted by Captain Ada Caedmon, formerly of the 13th Imperial Auxiliary Cohort.",
     modules = { "commweapon_lightninggun", "module_ablative_armor", "module_autorepair", "module_high_power_servos"},
+    miscDefs = {
+      customparams = {
+        helptext_pl = "Specjalna zalogowa jednostka dowodzenia sprzed Upadku, sprawna mimo wieku. Pilotem jest Kapitan Ada Caedmon z dawnej 13 Imperialnej Kohorty Wsparcia.",
+      },
+    },
   },
   
   comm_campaign_promethean = {
@@ -34,6 +39,11 @@ local comms = {
     name = "Odin",
     helptext = "The leader of the Valhallans, a warrior built and bred who lives for the glory of battle. An extremely ruthless foe.",
     modules = { "commweapon_lparticlebeam", "module_ablative_armor", "module_ablative_armor", "module_high_power_servos", "module_autorepair", "module_companion_drone"},
+    miscDefs = {
+      customparams = {
+        helptext_pl = "Lider Valhallan, wojownik z krwi i kosci, ktory zyje dla chwaly bitwy. Nie ma skrupulow.",
+      },
+    },
   },
 
   comm_campaign_biovizier = {
