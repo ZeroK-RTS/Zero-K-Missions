@@ -19,7 +19,9 @@ unitDef = {
   --corpse                        = [[DEAD]],
 
   customParams                  = {
-	helptext = [[One of the R&D facilities built during the Planetwars, widely sought after for the technology contained within.]],
+	description_pl = [[Stacja badawcza]],
+	helptext       = [[One of the R&D facilities built during the Last War, widely sought after for the technology contained within.]],
+	helptext_pl    = [[Jedna ze stacji badawczych zbudowanych podczas Ostatniej Wojny, wartosciowa ze wzgledu na zawarte tu technologie.]],
   	dontcount = [[1]],
   },
 
