@@ -18,6 +18,8 @@ structureConfig = {
 			
 			unitDef.customparams.soundselect = "radar_select"
 			unitDef.customparams.helptext = "This is the resting place of the God-Emperor of Man."
+			unitDef.customparams.description_pl = "Tu spoczywa Imperator"
+			unitDef.customparams.helptext_pl = "Miejsce spoczynku Boga-Imperatora Ludzkosci."
 		end,
 
 	pw_artefact = function(unitDef)

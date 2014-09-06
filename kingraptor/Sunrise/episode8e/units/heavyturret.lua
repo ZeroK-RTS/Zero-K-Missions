@@ -21,7 +21,7 @@ unitDef = {
   customParams                  = {
     description_pl = [[Wiezyczka przeciwpancerna]],
     helptext       = [[The Sunlance's heavy disruptor beam cripples even the heaviest assault unit and will stop any armored assault dead in its tracks.]],
-    helptext_pl    = [[Sunlance posiada ciezki promien spowalniajacy, ktory spacyfikuje i zniszczy nawet najciezsze jednostki szturmowe, ale ktory do strzalu wymaga, by wiezyczka byla podlaczona do sieci energetycznej o mocy co najmniej 25 energii. ]],	
+    helptext_pl    = [[Sunlance posiada ciezki promien spowalniajacy, ktory spacyfikuje i zniszczy nawet najciezsze jednostki szturmowe]],	
   },
 
   defaultmissiontype            = [[GUARD_NOMOVE]],
