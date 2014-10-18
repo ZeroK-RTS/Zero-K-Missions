@@ -16,7 +16,9 @@ unitDef = {
   --corpse                        = [[DEAD]],
 
   customParams                  = {
-    helptext = [[Bunkers such as this were used to store munitions during the Planetwars. Some of these may still have usable equipment hidden inside.]],
+    description_pl = [[Magazyn broni]],
+    helptext       = [[Bunkers such as this were used to store munitions during the Planetwars. Some of these may still have usable equipment hidden inside.]],
+    helptext_pl    = [[Bunkry takie jak ten przetrzymywaly uzbrojenie podczas Wojen Planet. Niektore z nich dalej moga zawierac uzyteczne wyposazenie.]],
     dontcount = [[1]],
     soundselect = "building_select1",
   },
