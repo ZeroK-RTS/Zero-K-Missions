@@ -74,7 +74,7 @@
       <d3p1:_busyCount>0</d3p1:_busyCount>
     </d2p1:_monitor>
   </DisabledWidgets>
-  <ImagePath z:Id="34">J:\Games\Spring\Missions\My Missions\zklogo.png</ImagePath>
+  <ImagePath z:Id="34">D:\Games\Spring\Missions\My Missions\zklogo.png</ImagePath>
   <MapName z:Id="35">TMA-0</MapName>
   <MaxUnits>5000</MaxUnits>
   <ModName z:Id="36">Zero-K v1.1.1.4</ModName>

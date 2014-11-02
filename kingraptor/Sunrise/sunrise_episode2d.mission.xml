@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Mission xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="1" z:Type="CMissionLib.Mission" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
   <Author z:Id="2">KingRaptor</Author>
-  <ContentFolderPath z:Id="3">J:\Games\Spring\ZK-Missions\kingraptor\Sunrise\episode2d</ContentFolderPath>
+  <ContentFolderPath z:Id="3">D:\Games\Spring\ZK-Missions\kingraptor\Sunrise\episode2d</ContentFolderPath>
   <Counters xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="4">
     <d2p1:items z:Id="5" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
       <d2p1:_items z:Id="6" z:Size="4">
@@ -68,7 +68,7 @@
       <d3p1:_busyCount>0</d3p1:_busyCount>
     </d2p1:_monitor>
   </DisabledWidgets>
-  <ImagePath z:Id="37">J:\Games\Spring\ZK-Missions\kingraptor\images\chicken.png</ImagePath>
+  <ImagePath z:Id="37">D:\Games\Spring\ZK-Missions\kingraptor\images\chicken.png</ImagePath>
   <MapName z:Id="38">Chicken_Farm_v02</MapName>
   <MaxUnits>5000</MaxUnits>
   <ModName z:Id="39">Zero-K v1.2.7.7</ModName>
@@ -2380,7 +2380,7 @@ SpawnBurrow(1450, 3200)
                 </TriggerLogic>
                 <TriggerLogic z:Id="883" z:Type="CMissionLib.Actions.MusicAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="884">Play Music</Name>
-                  <TrackPath z:Id="885" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\music\Kevin_MacLeod_-_Run_Amok.ogg</TrackPath>
+                  <TrackPath z:Id="885" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\music\Kevin_MacLeod_-_Run_Amok.ogg</TrackPath>
                 </TriggerLogic>
                 <TriggerLogic z:Id="886" z:Type="CMissionLib.Actions.EnterCutsceneAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="887">Enter Cutscene</Name>
@@ -2500,7 +2500,7 @@ SpawnBurrow(1450, 3200)
                 <TriggerLogic z:Id="913" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="906" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="914" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\Dynasty.png</ImagePath>
+                  <ImagePath z:Id="914" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\Dynasty.png</ImagePath>
                   <Message z:Id="915" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Warning: Chicken aggravation detected; source unknown. Activating Level 1 containment protocols.</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Time>
@@ -2527,7 +2527,7 @@ SpawnBurrow(1450, 3200)
                 <TriggerLogic z:Id="919" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="906" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="920" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
+                  <ImagePath z:Id="920" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
                   <Message z:Id="921" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">What do we do, Sophia?</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">105</Time>
@@ -2837,7 +2837,7 @@ end</CodeStr>
                 <TriggerLogic z:Id="1007" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="1008">Convo Message</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="1009" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
+                  <ImagePath z:Id="1009" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
                   <Message z:Id="1010" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">On that note, why isn't the automated security shooting at us?</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Time>
@@ -2877,7 +2877,7 @@ GG.GiveFacplop(unitID)</CodeStr>
                   <Name z:Id="1022">GUI Message (Persistent)</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                  <ImagePath z:Id="1023" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\unitpics\chicken.png</ImagePath>
+                  <ImagePath z:Id="1023" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\unitpics\chicken.png</ImagePath>
                   <Message z:Id="1024" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Chicken Defense is a gamemode where the players and their robot armies attempt to fend off increasingly strong waves of chickens spawning from burrows scattered across the map. Over the course of the game, you will be attacked by wave after wave of chickens. 
 
 Initially, you will only be attacked by basic chickens, which are fairly easy to defeat. As the game progresses, the hive will send increasingly powerful forms, often with unique abilities, to defeat you.</Message>
@@ -3031,7 +3031,7 @@ GG.SetUnitInvulnerable(unitID, true)
                                                   <Name z:Ref="1022" i:nil="true" />
                                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                                                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                                                  <ImagePath z:Id="1085" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\unitpics\armartic.png</ImagePath>
+                                                  <ImagePath z:Id="1085" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\unitpics\armartic.png</ImagePath>
                                                   <Message z:Id="1086" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The Faraday is an area-of-effect paralyzer turret that briefly stuns units, leaving them vulnerable while other turrets damage and kill them. Obviously, it's not particularly effective on its own, but it can act as a force-multiplier against large groups of enemy units (at least those that don't outrange it).
 
 When popped down, the Faraday only takes 25% damage from enemy fire.</Message>
@@ -3108,7 +3108,7 @@ When popped down, the Faraday only takes 25% damage from enemy fire.</Message>
                                                   <Name z:Ref="1022" i:nil="true" />
                                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                                                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                                                  <ImagePath z:Id="1109" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\unitpics\armdeva.png</ImagePath>
+                                                  <ImagePath z:Id="1109" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\unitpics\armdeva.png</ImagePath>
                                                   <Message z:Id="1110" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The Stardust's rapid-fire autocannon makes mincemeat out of any raider blob foolish enough to get too close, and is highly threatening even to assault units. Even in death, it often takes its attackers with it as it explodes violently.
 
 Due to its short range, the Stardust is uniquely vulnerable to many skirmishers and even an LLT built just outside its range.</Message>
@@ -3185,7 +3185,7 @@ Due to its short range, the Stardust is uniquely vulnerable to many skirmishers 
                                                   <Name z:Ref="1022" i:nil="true" />
                                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                                                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                                                  <ImagePath z:Id="1132" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\unitpics\corhlt.png</ImagePath>
+                                                  <ImagePath z:Id="1132" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\unitpics\corhlt.png</ImagePath>
                                                   <Message z:Id="1133" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The Stinger Heavy Laser Turret (HLT) fires a high-energy laser with considerable damage output and a good range. It is particularly effective against heavy skirmishers, and does decently against most hard targets. HLTs should always be supported by anti-raider units, which would otherwise swarm and defeat it easily.
 
 Due to its significant price, construction of a HLT should be a carefully considered investment.</Message>
@@ -3605,7 +3605,7 @@ Spring.DestroyUnit(unitID, false, true)</CodeStr>
                                 <TriggerLogic z:Id="1266" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Ref="1151" i:nil="true" />
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                  <ImagePath z:Id="1267" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
+                                  <ImagePath z:Id="1267" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
                                   <Message z:Id="1268" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">YES! We did it!</Message>
                                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">90</Time>
@@ -3750,7 +3750,7 @@ Spring.DestroyUnit(unitID, false, true)</CodeStr>
                   <Name z:Ref="1022" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                  <ImagePath z:Id="1305" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\reclaim_96.png</ImagePath>
+                  <ImagePath z:Id="1305" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\reclaim_96.png</ImagePath>
                   <Message z:Id="1306" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Wreckage left by units can be reclaimed for up to 40% of the unit's metal cost, which means that in an even battle the one who secures the wrecks will come out on top quite handily. It is strongly recommended to have constructors reclaiming wreckage wherever possible.
 
 Chickens and burrows drop eggs when killed, which can be reclaimed for metal in a similar manner.</Message>

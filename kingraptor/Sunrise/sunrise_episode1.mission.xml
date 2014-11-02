@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Mission xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="1" z:Type="CMissionLib.Mission" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
   <Author z:Id="2">KingRaptor</Author>
-  <ContentFolderPath z:Id="3">J:\Games\Spring\ZK-Missions\kingraptor\Sunrise\episode1</ContentFolderPath>
+  <ContentFolderPath z:Id="3">D:\Games\Spring\ZK-Missions\kingraptor\Sunrise\episode1</ContentFolderPath>
   <Counters xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="4">
     <d2p1:items z:Id="5" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
       <d2p1:_items z:Id="6" z:Size="4">
@@ -72,7 +72,7 @@
       <d3p1:_busyCount>0</d3p1:_busyCount>
     </d2p1:_monitor>
   </DisabledWidgets>
-  <ImagePath z:Id="36">J:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada2.png</ImagePath>
+  <ImagePath z:Id="36">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada2.png</ImagePath>
   <MapName z:Id="37">Full_Moon-v04</MapName>
   <MaxUnits>5000</MaxUnits>
   <ModName z:Id="38">Zero-K v1.2.7.7</ModName>
@@ -2481,7 +2481,7 @@
                 <TriggerLogic z:Id="891" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="888" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="892" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
+                  <ImagePath z:Id="892" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
                   <Message z:Id="893" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Still a little woozy. I think I can manage, though.</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">165</Time>
@@ -2633,7 +2633,7 @@ end</CodeStr>
                                                 <TriggerLogic z:Id="945" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Id="946">Convo Message</Name>
                                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                                  <ImagePath z:Id="947" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\pyro_disorder.png</ImagePath>
+                                                  <ImagePath z:Id="947" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\pyro_disorder.png</ImagePath>
                                                   <Message z:Id="948" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">All must be destroyed. Resistance is futile.</Message>
                                                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Time>
@@ -2649,7 +2649,7 @@ end</CodeStr>
                                                   <Name z:Id="952">GUI Message (Persistent)</Name>
                                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                                                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                                                  <ImagePath z:Id="953" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\jumpingjack.png</ImagePath>
+                                                  <ImagePath z:Id="953" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\jumpingjack.png</ImagePath>
                                                   <Message z:Id="954" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The Jumpbots, as their name suggests, are distinguished by their ability to jump. This is particularly useful for closing distances rapidly, making a quick escape, or getting over cliffs and rivers.
 
 Note that not all units in the Jumpjet / Specialist Plant can jump.</Message>
@@ -2703,7 +2703,7 @@ GG.GiveFacplop(unitID)</CodeStr>
                                                   <Name z:Id="970">GUI Message (Persistent)</Name>
                                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                                                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                                                  <ImagePath z:Id="971" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\unitpics\armwin.png</ImagePath>
+                                                  <ImagePath z:Id="971" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\unitpics\armwin.png</ImagePath>
                                                   <Message z:Id="972" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Wind generators are a cheap source of energy, more efficient than Solar Collectors. They also receive an output bonus when placed on hills. Their principal weakness is their vulnerability to raiders.
 
 Windgens are prone to chain explosion. Spread them out during construction.
@@ -3013,7 +3013,7 @@ HINT: You can increase or decrease line/block spacing with the Z and X keys.</Me
                 <TriggerLogic z:Id="1039" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="888" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="1040" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
+                  <ImagePath z:Id="1040" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
                   <Message z:Id="1041" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">That was nasty. Who were they, and why did they attack us?</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">165</Time>
@@ -3339,7 +3339,7 @@ end</CodeStr>
                 <TriggerLogic z:Id="1140" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="1141">Convo Message</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="1142" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
+                  <ImagePath z:Id="1142" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
                   <Message z:Id="1143" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">These Pyros are quite bothersome. Got any ideas, Sophia?</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">180</Time>
@@ -3376,7 +3376,7 @@ end</CodeStr>
                 <TriggerLogic z:Id="1153" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="1141" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="1154" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
+                  <ImagePath z:Id="1154" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
                   <Message z:Id="1155" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">These Jacks are tough as hell. What's a good way to deal with them?</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">180</Time>
@@ -3482,7 +3482,7 @@ end</CodeStr>
                                   <Name z:Ref="970" i:nil="true" />
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                                  <ImagePath z:Id="1193" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\unitpics\armtick.png</ImagePath>
+                                  <ImagePath z:Id="1193" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\unitpics\armtick.png</ImagePath>
                                   <Message z:Id="1194" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The Tick is an all-terrain crawling bomb designed to get in close and explode, stunning multiple enemies for up to sixteen seconds and leaving them vulnerable to allied forces. High HP units will require multiple Ticks in close sequence to disable.
 
 Like its explosive cousin, the Roach, the Tick can burrow to avoid detection until enemies are close. It should not attempt to charge enemy units with accurate weapons.
@@ -3653,7 +3653,7 @@ Be careful when using multiple Ticks together; a Tick stunned by one of its frie
                 <TriggerLogic z:Id="1243" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="1240" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="1244" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
+                  <ImagePath z:Id="1244" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
                   <Message z:Id="1245" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Feels like I've never been gone.</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">135</Time>

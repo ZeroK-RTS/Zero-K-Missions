@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Mission xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="1" z:Type="CMissionLib.Mission" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
   <Author z:Id="2">KingRaptor</Author>
-  <ContentFolderPath z:Id="3">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\SEEKeR</ContentFolderPath>
+  <ContentFolderPath z:Id="3">D:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\SEEKeR</ContentFolderPath>
   <Counters xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="4">
     <d2p1:items z:Id="5" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
       <d2p1:_items z:Id="6" z:Size="0" />
@@ -59,7 +59,7 @@
       <d3p1:_busyCount>0</d3p1:_busyCount>
     </d2p1:_monitor>
   </DisabledWidgets>
-  <ImagePath z:Id="34">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\kodachi.png</ImagePath>
+  <ImagePath z:Id="34">D:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\kodachi.png</ImagePath>
   <MapName z:Id="35">Comet Catcher Redux v2</MapName>
   <MaxUnits>5000</MaxUnits>
   <ModName z:Id="36">Zero-K v1.2.7.7</ModName>
@@ -614,7 +614,7 @@ end</CodeStr>
                 <TriggerLogic z:Id="184" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="185">Convo Message</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="186" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
+                  <ImagePath z:Id="186" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
                   <Message z:Id="187" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Welcome back folks to another episode of SUPER EXTREME KODACHI RALLY!</Message>
                   <SoundPath z:Id="188" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">sounds/reply/vehicle_move2.wav</SoundPath>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Time>
@@ -622,7 +622,7 @@ end</CodeStr>
                 <TriggerLogic z:Id="189" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="185" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="190" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
+                  <ImagePath z:Id="190" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
                   <Message z:Id="191" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Burn mexes! Torch raiders! KILL ANYONE WHO GETS IN YOUR WAY!</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Time>
@@ -1523,7 +1523,7 @@ GG.RefreshObjDisplay()</CodeStr>
                                 <TriggerLogic z:Id="398" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Ref="185" i:nil="true" />
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                  <ImagePath z:Id="399" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
+                                  <ImagePath z:Id="399" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
                                   <Message z:Id="400" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">ROUND ONE! Get ready!</Message>
                                   <SoundPath z:Id="401" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">sounds/reply/vehicle_move2.wav</SoundPath>
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">90</Time>
@@ -1549,7 +1549,7 @@ GG.RefreshObjDisplay()</CodeStr>
                                               <_items z:Id="410" z:Size="8">
                                                 <TriggerLogic z:Id="411" z:Type="CMissionLib.Actions.SoundAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Id="412">Play Sound</Name>
-                                                  <SoundPath z:Id="413" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\sounds\message_team.wav</SoundPath>
+                                                  <SoundPath z:Id="413" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\sounds\message_team.wav</SoundPath>
                                                 </TriggerLogic>
                                                 <TriggerLogic z:Id="414" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Ref="175" i:nil="true" />
@@ -1560,7 +1560,7 @@ GG.RefreshObjDisplay()</CodeStr>
                                                 </TriggerLogic>
                                                 <TriggerLogic z:Id="415" z:Type="CMissionLib.Actions.SoundAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Ref="412" i:nil="true" />
-                                                  <SoundPath z:Id="416" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\sounds\message_team.wav</SoundPath>
+                                                  <SoundPath z:Id="416" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\sounds\message_team.wav</SoundPath>
                                                 </TriggerLogic>
                                                 <TriggerLogic z:Id="417" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Ref="175" i:nil="true" />
@@ -1571,7 +1571,7 @@ GG.RefreshObjDisplay()</CodeStr>
                                                 </TriggerLogic>
                                                 <TriggerLogic z:Id="418" z:Type="CMissionLib.Actions.SoundAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Ref="412" i:nil="true" />
-                                                  <SoundPath z:Id="419" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\sounds\marker_place.wav</SoundPath>
+                                                  <SoundPath z:Id="419" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\sounds\marker_place.wav</SoundPath>
                                                 </TriggerLogic>
                                                 <TriggerLogic i:nil="true" />
                                                 <TriggerLogic i:nil="true" />
@@ -1804,7 +1804,7 @@ end</CodeStr>
                 <TriggerLogic z:Id="474" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="475">Convo Message</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="476" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
+                  <ImagePath z:Id="476" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
                   <Message z:Id="477" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">VICTORY! A NEW SEEKeR CHAMPION!!</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">180</Time>
@@ -1872,7 +1872,7 @@ end</CodeStr>
                 <TriggerLogic z:Id="496" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="497">Convo Message</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="498" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
+                  <ImagePath z:Id="498" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
                   <Message z:Id="499" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Oooooh! Looks like you'll have to try again!</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">180</Time>
@@ -1953,7 +1953,7 @@ end</CodeStr>
                 <TriggerLogic z:Id="524" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="497" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="525" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
+                  <ImagePath z:Id="525" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
                   <Message z:Id="526" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">And our contestant wins the first round! A good start!</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">180</Time>
@@ -2854,7 +2854,7 @@ GG.RefreshObjDisplay()</CodeStr>
                                 <TriggerLogic z:Id="715" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="716">Convo Message</Name>
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                  <ImagePath z:Id="717" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
+                                  <ImagePath z:Id="717" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
                                   <Message z:Id="718" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Time for ROUND TWO! Get ready!</Message>
                                   <SoundPath z:Id="719" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">sounds/reply/vehicle_move2.wav</SoundPath>
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">120</Time>
@@ -2964,7 +2964,7 @@ GG.RefreshObjDisplay()</CodeStr>
                 <TriggerLogic z:Id="746" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="747">Convo Message</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="748" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
+                  <ImagePath z:Id="748" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
                   <Message z:Id="749" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Second round complete! Can our contestant keep this up?</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">180</Time>
@@ -4134,7 +4134,7 @@ GG.RefreshObjDisplay()</CodeStr>
                                 <TriggerLogic z:Id="1001" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="1002">Convo Message</Name>
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                  <ImagePath z:Id="1003" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
+                                  <ImagePath z:Id="1003" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
                                   <Message z:Id="1004" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">ROUND THREE! BEGIN!</Message>
                                   <SoundPath z:Id="1005" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">sounds/reply/vehicle_move2.wav</SoundPath>
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">90</Time>
@@ -4243,7 +4243,7 @@ GG.RefreshObjDisplay()</CodeStr>
                 <TriggerLogic z:Id="1032" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="1033">Convo Message</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="1034" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
+                  <ImagePath z:Id="1034" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
                   <Message z:Id="1035" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Aaaaand the third! Let's see if we can't challenge our contestant a little more!</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">180</Time>
@@ -4428,7 +4428,7 @@ Powerup every 40 seconds</Description>
                                 <TriggerLogic z:Id="1073" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="1074">Convo Message</Name>
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                  <ImagePath z:Id="1075" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
+                                  <ImagePath z:Id="1075" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
                                   <Message z:Id="1076" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">And here come the Jacks!</Message>
                                   <SoundPath z:Id="1077" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">sounds/reply/vehicle_move2.wav</SoundPath>
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">105</Time>
@@ -4436,7 +4436,7 @@ Powerup every 40 seconds</Description>
                                 <TriggerLogic z:Id="1078" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Ref="497" i:nil="true" />
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                  <ImagePath z:Id="1079" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\jumpingjack.png</ImagePath>
+                                  <ImagePath z:Id="1079" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\jumpingjack.png</ImagePath>
                                   <Message z:Id="1080" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">I've got no arms to hug you with!</Message>
                                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">135</Time>
@@ -4549,7 +4549,7 @@ GG.RefreshObjDisplay()</CodeStr>
                 <TriggerLogic z:Id="1108" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="1109">Convo Message</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="1110" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
+                  <ImagePath z:Id="1110" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
                   <Message z:Id="1111" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">And our contestant comes out on top! Hang tight folks, it's only gonna get more intense from here!</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">210</Time>
@@ -6033,7 +6033,7 @@ GG.RefreshObjDisplay()</CodeStr>
                                 <TriggerLogic z:Id="1427" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="1428">Convo Message</Name>
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                  <ImagePath z:Id="1429" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
+                                  <ImagePath z:Id="1429" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
                                   <Message z:Id="1430" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">And now, Round Four!</Message>
                                   <SoundPath z:Id="1431" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">sounds/reply/vehicle_move2.wav</SoundPath>
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">90</Time>
@@ -6142,7 +6142,7 @@ GG.RefreshObjDisplay()</CodeStr>
                 <TriggerLogic z:Id="1460" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="1461">Convo Message</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="1462" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
+                  <ImagePath z:Id="1462" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
                   <Message z:Id="1463" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Fourth round complete! Our contestant is having a great day!</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">165</Time>
@@ -7773,7 +7773,7 @@ GG.RefreshObjDisplay()</CodeStr>
                                 <TriggerLogic z:Id="1816" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="1817">Convo Message</Name>
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                  <ImagePath z:Id="1818" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
+                                  <ImagePath z:Id="1818" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
                                   <Message z:Id="1819" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Round Five! It's starting to get really hot here!</Message>
                                   <SoundPath z:Id="1820" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">sounds/reply/vehicle_move2.wav</SoundPath>
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">135</Time>
@@ -7881,7 +7881,7 @@ GG.RefreshObjDisplay()</CodeStr>
                 <TriggerLogic z:Id="1849" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="1850">Convo Message</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="1851" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
+                  <ImagePath z:Id="1851" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
                   <Message z:Id="1852" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Fifth round complete! We're on the home stretch, folks!</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">165</Time>
@@ -9679,7 +9679,7 @@ GG.RefreshObjDisplay()</CodeStr>
                                 <TriggerLogic z:Id="2224" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="2225">Convo Message</Name>
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                  <ImagePath z:Id="2226" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
+                                  <ImagePath z:Id="2226" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
                                   <Message z:Id="2227" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">FINAL ROUND! Get ready! FIGHT!</Message>
                                   <SoundPath z:Id="2228" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">sounds/reply/vehicle_move2.wav</SoundPath>
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">135</Time>
@@ -9787,7 +9787,7 @@ GG.RefreshObjDisplay()</CodeStr>
                 <TriggerLogic z:Id="2257" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="2258">Convo Message</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="2259" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
+                  <ImagePath z:Id="2259" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\armcom.png</ImagePath>
                   <Message z:Id="2260" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">AMAZING! The challenger has completed all six rounds! Let's see if zir can handle the final boss!</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">210</Time>
@@ -10215,8 +10215,8 @@ GG.RefreshObjDisplay()</CodeStr>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="2353" z:Type="CMissionLib.Actions.MusicLoopAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="2354">Play Looping Music</Name>
-                                  <TrackIntroPath z:Id="2355" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\music\Butterfly_Tea_-_Ultimate_Action_V2.ogg</TrackIntroPath>
-                                  <TrackLoopPath z:Id="2356" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\music\Butterfly_Tea_-_Ultimate_Action_V2.ogg</TrackLoopPath>
+                                  <TrackIntroPath z:Id="2355" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\music\Butterfly_Tea_-_Ultimate_Action_V2.ogg</TrackIntroPath>
+                                  <TrackLoopPath z:Id="2356" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\music\Butterfly_Tea_-_Ultimate_Action_V2.ogg</TrackLoopPath>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="2357" z:Type="CMissionLib.Actions.AddObjectiveAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="2358">Add Objective</Name>
@@ -10303,7 +10303,7 @@ GG.StartRound()</CodeStr>
                                 <TriggerLogic z:Id="2381" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="2382">Convo Message</Name>
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                  <ImagePath z:Id="2383" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\goliath.png</ImagePath>
+                                  <ImagePath z:Id="2383" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-SVN\trunk\missions\kingraptor\images\goliath.png</ImagePath>
                                   <Message z:Id="2384" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">GOLIATH ONLINE</Message>
                                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">90</Time>

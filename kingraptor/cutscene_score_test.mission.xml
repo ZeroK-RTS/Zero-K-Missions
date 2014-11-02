@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Mission xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="1" z:Type="CMissionLib.Mission" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
   <Author z:Id="2">KingRaptor</Author>
   <ContentFolderPath i:nil="true" />
@@ -67,7 +67,7 @@ how low can you go?</DescriptionStory>
       <d3p1:_busyCount>0</d3p1:_busyCount>
     </d2p1:_monitor>
   </DisabledWidgets>
-  <ImagePath z:Id="29">J:\Games\Spring\Missions\My Missions\images\cafus.png</ImagePath>
+  <ImagePath z:Id="29">D:\Games\Spring\Missions\My Missions\images\cafus.png</ImagePath>
   <MapName z:Id="30">Red Comet</MapName>
   <MaxUnits>5000</MaxUnits>
   <ModName z:Id="31">Zero-K $VERSION</ModName>
@@ -426,15 +426,15 @@ how low can you go?</DescriptionStory>
                 </TriggerLogic>
                 <TriggerLogic z:Id="127" z:Type="CMissionLib.Actions.MusicLoopAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="128">Play Looping Music</Name>
-                  <TrackIntroPath z:Id="129" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\music\Gregoire_Lourme_-_Intrusion_Intro.ogg</TrackIntroPath>
-                  <TrackLoopPath z:Id="130" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\music\Gregoire_Lourme_-_Intrusion.ogg</TrackLoopPath>
+                  <TrackIntroPath z:Id="129" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\music\Gregoire_Lourme_-_Intrusion_Intro.ogg</TrackIntroPath>
+                  <TrackLoopPath z:Id="130" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\music\Gregoire_Lourme_-_Intrusion.ogg</TrackLoopPath>
                 </TriggerLogic>
                 <TriggerLogic z:Id="131" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="132">Convo Message</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="133" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\Missions\My Missions\images\cafus.png</ImagePath>
+                  <ImagePath z:Id="133" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\Missions\My Missions\images\cafus.png</ImagePath>
                   <Message z:Id="134" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">I am a Singularity Reactor. I am big and powerful.  Sfireman polishes my containment sphere every day.</Message>
-                  <SoundPath z:Id="135" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\Missions\My Missions\sounds\adv_fusion_select.wav</SoundPath>
+                  <SoundPath z:Id="135" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\Missions\My Missions\sounds\adv_fusion_select.wav</SoundPath>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="136" z:Type="CMissionLib.Actions.SetCameraPosDirAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -456,9 +456,9 @@ how low can you go?</DescriptionStory>
                 <TriggerLogic z:Id="140" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="141">Convo Message</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="142" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\Missions\My Missions\images\corrad.png</ImagePath>
+                  <ImagePath z:Id="142" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\Missions\My Missions\images\corrad.png</ImagePath>
                   <Message z:Id="143" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The almighty Radar Tower knows all and sees all!</Message>
-                  <SoundPath z:Id="144" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\Missions\My Missions\sounds\radar_select.wav</SoundPath>
+                  <SoundPath z:Id="144" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\Missions\My Missions\sounds\radar_select.wav</SoundPath>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">120</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="145" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -484,9 +484,9 @@ Spring.SetCameraState(cam, 0)</CodeStr>
                 <TriggerLogic z:Id="149" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="150">Convo Message</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="151" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\Missions\My Missions\images\hacksaw.png</ImagePath>
+                  <ImagePath z:Id="151" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\Missions\My Missions\images\hacksaw.png</ImagePath>
                   <Message z:Id="152" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">You spin my head, right round, right round...</Message>
-                  <SoundPath z:Id="153" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\Missions\My Missions\sounds\turret_select.wav</SoundPath>
+                  <SoundPath z:Id="153" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\Missions\My Missions\sounds\turret_select.wav</SoundPath>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">90</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="154" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -543,7 +543,7 @@ Spring.SetCameraState(cs, 1)</CodeStr>
                 <TriggerLogic z:Id="169" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="170">Convo Message</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="171" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\Missions\My Missions\advisor2.jpg</ImagePath>
+                  <ImagePath z:Id="171" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\Missions\My Missions\advisor2.jpg</ImagePath>
                   <Message z:Id="172" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Commander, I believe these people are in need of some laser therapy. Shall we?</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">105</Time>

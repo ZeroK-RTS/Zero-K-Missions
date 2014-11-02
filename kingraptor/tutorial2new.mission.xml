@@ -80,7 +80,7 @@
       <d3p1:_busyCount>0</d3p1:_busyCount>
     </d2p1:_monitor>
   </DisabledWidgets>
-  <ImagePath z:Id="42">J:\Games\Spring\Missions\My Missions\tutorial2_a_day_out.png</ImagePath>
+  <ImagePath z:Id="42">D:\Games\Spring\Missions\My Missions\tutorial2_a_day_out.png</ImagePath>
   <MapName z:Id="43">MoonQ10x</MapName>
   <MaxUnits>5000</MaxUnits>
   <ModName z:Id="44">Zero-K v1.2.5.3</ModName>
@@ -3257,7 +3257,7 @@ First we need to rebuild our base.  Build Metal Extractors on the metal spots; t
                   <Name z:Id="1061">GUI Message (Persistent)</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                  <ImagePath z:Id="1062" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\Missions\My Missions\unitpics\cormex.png</ImagePath>
+                  <ImagePath z:Id="1062" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\Missions\My Missions\unitpics\cormex.png</ImagePath>
                   <Message z:Id="1063" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Metal is the base resource from which units are made. The key source of metal is the Metal Extractor, which taps the so-called metal spots on the ground.
 
 Press F4 to see the metal map. The yellow rings indicate where metal can be extracted; the build command will automatically snap to the closest spot.
@@ -3883,7 +3883,7 @@ We're airdropping riot units in to deal with the problem - stand by.</Message>
                                                   <Name z:Id="1233">GUI Message (Persistent)</Name>
                                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                                                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                                                  <ImagePath z:Id="1234" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\Missions\My Missions\unitpics\armwar.png</ImagePath>
+                                                  <ImagePath z:Id="1234" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\Missions\My Missions\unitpics\armwar.png</ImagePath>
                                                   <Message z:Id="1235" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Riot units excel in close-quarter combat, capable of chewing up swarms of raiders with ease. Their low speed and armor makes them unsuitable against skirmishers or fixed defenses.</Message>
                                                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">320</Width>
                                                 </TriggerLogic>
@@ -4044,7 +4044,7 @@ We're airdropping riot units in to deal with the problem - stand by.</Message>
                   <Name z:Ref="1061" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                  <ImagePath z:Id="1272" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\Missions\My Missions\unitpics\armsolar.png</ImagePath>
+                  <ImagePath z:Id="1272" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\Missions\My Missions\unitpics\armsolar.png</ImagePath>
                   <Message z:Id="1273" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Energy is the other key resource. Unlike metal, which is primarily territorial, energy is largely territory-independent. It serves as a limiting factor on metal expenditure.
 
 Several different buildings produce energy, the Solar Collector being the most basic among them.
@@ -4539,7 +4539,7 @@ Use the Glaive raider bots to circle around and flank the enemy. Caught between 
                                   <Name z:Id="1389">GUI Message (Persistent)</Name>
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                                  <ImagePath z:Id="1390" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\Missions\My Missions\unitpics\armpw.png</ImagePath>
+                                  <ImagePath z:Id="1390" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\Missions\My Missions\unitpics\armpw.png</ImagePath>
                                   <Message z:Id="1391" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Raiders, as their name suggest, have excellent mobility and are best use for harassment and attacking vulnerable targets such as skrimishers economy structures. Most static defenses and all riot units will chew them up, however.
 
 HINT: Use a fight order to have the raider's unit AI automatically jink as needed to evade enemy fire.</Message>
@@ -4860,7 +4860,7 @@ You're cleared to produce the Cloaky Bot Factory. Build it on the designated spo
                   <Name z:Id="1479">GUI Message (Persistent)</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                  <ImagePath z:Id="1480" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\Missions\My Missions\unitpics\armrectr.png</ImagePath>
+                  <ImagePath z:Id="1480" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\Missions\My Missions\unitpics\armrectr.png</ImagePath>
                   <Message z:Id="1481" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Constructors, including your commander, can assist factories and each other, speeding up production.</Message>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">320</Width>
                 </TriggerLogic>
@@ -4950,7 +4950,7 @@ After that, we need to capture the crater in the center of the map.</Message>
                   <Name z:Ref="1479" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                  <ImagePath z:Id="1508" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\Missions\My Missions\advisor2.jpg</ImagePath>
+                  <ImagePath z:Id="1508" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\Missions\My Missions\advisor2.jpg</ImagePath>
                   <Message z:Id="1509" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Always try to control as many metal spots as you can; resources are the key to victory.
 
 Build more energy as needed to support your production.
@@ -5151,7 +5151,7 @@ There are a number of Outlaw riot bots defending them. A frontal attack could be
                   <Name z:Id="1576">GUI Message (Persistent)</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                  <ImagePath z:Id="1577" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\Missions\My Missions\unitpics\armrock.png</ImagePath>
+                  <ImagePath z:Id="1577" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\Missions\My Missions\unitpics\armrock.png</ImagePath>
                   <Message z:Id="1578" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Skirmishers harass enemies from a distance, using their range and mobility to avoid enemy fire. They are particularly effective against riot and other slow-moving units.
 
 Fast units such as raiders can easily overrun them and cut their thin armor to ribbons.
@@ -5577,7 +5577,7 @@ Advance and knock out the enemy base. Once that is done, we'll have regained eff
                   <Name z:Id="1683">GUI Message (Persistent)</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                  <ImagePath z:Id="1684" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\Missions\My Missions\unitpics\armham.png</ImagePath>
+                  <ImagePath z:Id="1684" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\Missions\My Missions\unitpics\armham.png</ImagePath>
                   <Message z:Id="1685" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Artillery units excel at picking off static defenses (and the occasional static unit) from a safe distance. They are generally unable to hit moving units, and anything that gets in close will tear them to shreds in short order.</Message>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">320</Width>
                 </TriggerLogic>
@@ -5806,7 +5806,7 @@ We could take it head on, but losses will be heavy. One trick is to use Zeus ass
                   <Name z:Ref="1479" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                  <ImagePath z:Id="1738" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\Missions\My Missions\unitpics\armzeus.png</ImagePath>
+                  <ImagePath z:Id="1738" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\Missions\My Missions\unitpics\armzeus.png</ImagePath>
                   <Message z:Id="1739" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Assault units like the Zeus are specialized in taking on enemy defenses. Though their DPS and often speed are generally mediocre, their high armor allows them to shrug off enemy fire.
 
 Most assault units fare poorly against raiders and/or skirmishers.</Message>

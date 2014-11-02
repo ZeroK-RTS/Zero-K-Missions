@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Mission xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="1" z:Type="CMissionLib.Mission" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
   <Author z:Id="2">KingRaptor</Author>
-  <ContentFolderPath z:Id="3">J:\Games\Spring\ZK-Missions\kingraptor\tutorial1</ContentFolderPath>
+  <ContentFolderPath z:Id="3">D:\Games\Spring\ZK-Missions\kingraptor\tutorial1</ContentFolderPath>
   <Counters xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="4">
     <d2p1:items z:Id="5" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
       <d2p1:_items z:Id="6" z:Size="0" />
@@ -99,7 +99,7 @@ Her thoughts flowed into the machine, and massive command unit came alive with a
       <d3p1:_busyCount>0</d3p1:_busyCount>
     </d2p1:_monitor>
   </DisabledWidgets>
-  <ImagePath z:Id="32">J:\Games\Spring\ZK-Missions\kingraptor\tutorial_running_start.png</ImagePath>
+  <ImagePath z:Id="32">D:\Games\Spring\ZK-Missions\kingraptor\tutorial_running_start.png</ImagePath>
   <MapName z:Id="33">Fields_Of_Isis</MapName>
   <MaxUnits>5000</MaxUnits>
   <ModName z:Id="34">Zero-K v1.2.7.7</ModName>
@@ -3705,7 +3705,7 @@ Her thoughts flowed into the machine, and massive command unit came alive with a
                 <TriggerLogic z:Id="1214" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="1215">Convo Message</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="1216" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
+                  <ImagePath z:Id="1216" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
                   <Message z:Id="1217" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Hostile forces have cut us off! The enemy is closing in!</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Time>
@@ -3713,7 +3713,7 @@ Her thoughts flowed into the machine, and massive command unit came alive with a
                 <TriggerLogic z:Id="1218" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="1215" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="1219" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\Empire3.png</ImagePath>
+                  <ImagePath z:Id="1219" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\Empire3.png</ImagePath>
                   <Message z:Id="1220" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">We'll hold them off, Commander! Get to safety at the end of the valley to the east!</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Time>
@@ -4654,7 +4654,7 @@ WG.EnableUnitHighlight(unitID)</CodeStr>
                 <TriggerLogic z:Id="1434" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="1215" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="1435" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\Empire3.png</ImagePath>
+                  <ImagePath z:Id="1435" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\Empire3.png</ImagePath>
                   <Message z:Id="1436" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The chokepoint up ahead has a considerable enemy presence. We're dropping in some units to assist in punching through.</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">180</Time>
@@ -4764,7 +4764,7 @@ WG.EnableUnitHighlight(unitID)</CodeStr>
                                   <Name z:Id="1466">GUI Message (Persistent)</Name>
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                                  <ImagePath z:Id="1467" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
+                                  <ImagePath z:Id="1467" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
                                   <Message z:Id="1468" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">You can select multiple units at once by holding down Left Mouse and dragging a box around them.
 
 Selection of a particular unit can be toggled on or off by Ctrl+left clicking the unit.
@@ -4814,7 +4814,7 @@ To move units in formation, hold down the mouse button while issuing the move or
                                 <TriggerLogic z:Id="1481" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Ref="1215" i:nil="true" />
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                  <ImagePath z:Id="1482" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\Empire3.png</ImagePath>
+                                  <ImagePath z:Id="1482" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\Empire3.png</ImagePath>
                                   <Message z:Id="1483" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The chokepoint up ahead has a considerable enemy presence. We're dropping in some units to assist in punching through.</Message>
                                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">180</Time>
@@ -5038,7 +5038,7 @@ To move units in formation, hold down the mouse button while issuing the move or
                 <TriggerLogic z:Id="1537" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="1215" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="1538" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\Empire3.png</ImagePath>
+                  <ImagePath z:Id="1538" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\Empire3.png</ImagePath>
                   <Message z:Id="1539" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Commander? Commander!</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">90</Time>
@@ -5321,7 +5321,7 @@ To move units in formation, hold down the mouse button while issuing the move or
                                   <Name z:Ref="1466" i:nil="true" />
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                                  <ImagePath z:Id="1624" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\repair_96.png</ImagePath>
+                                  <ImagePath z:Id="1624" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\repair_96.png</ImagePath>
                                   <Message z:Id="1625" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Your commander can repair other units. Right-click on the damaged unit, or press R and left-click.
 
 Repairing is twice as fast as building, but units will be repaired 4x slower if they have been damaged in the last ten seconds.</Message>
@@ -5535,7 +5535,7 @@ Repairing is twice as fast as building, but units will be repaired 4x slower if 
                 <TriggerLogic z:Id="1671" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="1215" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="1672" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
+                  <ImagePath z:Id="1672" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
                   <Message z:Id="1673" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Heads up, Commander! Those Stardusts will cut us to pieces if we try to take them head-on!</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">165</Time>
@@ -5543,7 +5543,7 @@ Repairing is twice as fast as building, but units will be repaired 4x slower if 
                 <TriggerLogic z:Id="1674" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="1215" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="1675" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\Empire3.png</ImagePath>
+                  <ImagePath z:Id="1675" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\Empire3.png</ImagePath>
                   <Message z:Id="1676" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">We should pick them off from a distance. I'm dropping in a few Hammer artillery bots for this purpose.
 
 Make sure to keep enemy units from getting too close, they're not built for a stand-up fight!</Message>
@@ -6356,7 +6356,7 @@ Make sure to keep enemy units from getting too close, they're not built for a st
                 <TriggerLogic z:Id="1864" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="1215" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="1865" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
+                  <ImagePath z:Id="1865" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
                   <Message z:Id="1866" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Excellent work, Commander! We've made it!</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Time>
@@ -6438,7 +6438,7 @@ Make sure to keep enemy units from getting too close, they're not built for a st
                   <Name z:Ref="1466" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                  <ImagePath z:Id="1891" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
+                  <ImagePath z:Id="1891" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
                   <Message z:Id="1892" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">You can move the camera in one of three ways: arrow keys, moving the cursor to the edge of screen, or holding down the middle mouse button and dragging.
 
 Select your commander by left-clicking on him, or pressing Ctrl+C.
@@ -6493,7 +6493,7 @@ Note that there are some places units cannot go, like steep hills.</Message>
                   <Name z:Ref="1466" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                  <ImagePath z:Id="1905" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\attackfight.png</ImagePath>
+                  <ImagePath z:Id="1905" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\attackfight.png</ImagePath>
                   <Message z:Id="1906" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Units will automatically fire on any enemy that comes within range. To attack a specific target, select the units to attack with and right-click on the enemy (or press A and left-click).
 
 To have units stop to engage enemies while moving to a destination, issue a Fight order (press F, then left-click on the destination).</Message>

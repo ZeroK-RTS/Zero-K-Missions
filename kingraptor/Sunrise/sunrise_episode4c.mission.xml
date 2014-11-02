@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Mission xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="1" z:Type="CMissionLib.Mission" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
   <Author z:Id="2">KingRaptor</Author>
-  <ContentFolderPath z:Id="3">J:\Games\Spring\ZK-Missions\kingraptor\Sunrise\episode4c</ContentFolderPath>
+  <ContentFolderPath z:Id="3">D:\Games\Spring\ZK-Missions\kingraptor\Sunrise\episode4c</ContentFolderPath>
   <Counters xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="4">
     <d2p1:items z:Id="5" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
       <d2p1:_items z:Id="6" z:Size="0" />
@@ -60,7 +60,7 @@ hilltime=10;</CustomModOptions>
       <d3p1:_busyCount>0</d3p1:_busyCount>
     </d2p1:_monitor>
   </DisabledWidgets>
-  <ImagePath z:Id="33">J:\Games\Spring\ZK-Missions\kingraptor\images\artefact.png</ImagePath>
+  <ImagePath z:Id="33">D:\Games\Spring\ZK-Missions\kingraptor\images\artefact.png</ImagePath>
   <MapName z:Id="34">Iceland_v1</MapName>
   <MaxUnits>5000</MaxUnits>
   <ModName z:Id="35">Zero-K v1.2.7.7</ModName>
@@ -3430,7 +3430,7 @@ GG.CAI.SetFactoryDefImportance(1, UnitDefNames.factoryspider.id, 0)</CodeStr>
               <_items z:Id="1085" z:Size="32">
                 <TriggerLogic z:Id="1086" z:Type="CMissionLib.Actions.MusicAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="1087">Play Music</Name>
-                  <TrackPath z:Id="1088" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\music\Epic_Soul_Factory_-_La_Busqueda_de_Lanna.ogg</TrackPath>
+                  <TrackPath z:Id="1088" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\music\Epic_Soul_Factory_-_La_Busqueda_de_Lanna.ogg</TrackPath>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1089" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="1090">Custom Action (Alternate)</Name>
@@ -3475,7 +3475,7 @@ end</CodeStr>
                 <TriggerLogic z:Id="1105" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="1106">Convo Message</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="1107" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
+                  <ImagePath z:Id="1107" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
                   <Message z:Id="1108" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Alright. Our Norse friends already have a considerable presence here; we'll need to move fast if we want to save the settlement.</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">180</Time>
@@ -3483,7 +3483,7 @@ end</CodeStr>
                 <TriggerLogic z:Id="1109" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="1106" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="1110" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
+                  <ImagePath z:Id="1110" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
                   <Message z:Id="1111" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The artefact's in the center of the island, surrounded by what defenses the villagers could muster. We need to secure whatever is inside its data core before they do.</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">210</Time>
@@ -4322,7 +4322,7 @@ GG.CAI.SuspendAI(2, false)</CodeStr>
                                 <TriggerLogic z:Id="1306" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="1307">Convo Message</Name>
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                  <ImagePath z:Id="1308" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
+                                  <ImagePath z:Id="1308" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
                                   <Message z:Id="1309" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">By the way, Sophia. What does "Norse" mean?</Message>
                                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Time>
@@ -4330,7 +4330,7 @@ GG.CAI.SuspendAI(2, false)</CodeStr>
                                 <TriggerLogic z:Id="1310" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Ref="1307" i:nil="true" />
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                  <ImagePath z:Id="1311" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
+                                  <ImagePath z:Id="1311" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
                                   <Message z:Id="1312" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Ancient Terran mythology. We can read about it together once we've resolved the situation before us.</Message>
                                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">180</Time>
@@ -5421,7 +5421,7 @@ GG.CAI.SuspendAI(2, false)</CodeStr>
                 <TriggerLogic z:Id="1550" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="1551">Convo Message</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="1552" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
+                  <ImagePath z:Id="1552" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
                   <Message z:Id="1553" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Incoming kinetic strike! Ada, get away from the artefact!</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Time>
@@ -5682,7 +5682,7 @@ Spring.DestroyUnit(unitID, false, true)
                                 <TriggerLogic z:Id="1627" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="1628">Convo Message</Name>
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                  <ImagePath z:Id="1629" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\comm_odin.png</ImagePath>
+                                  <ImagePath z:Id="1629" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_odin.png</ImagePath>
                                   <Message z:Id="1630" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">So be it.</Message>
                                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">120</Time>
@@ -5702,7 +5702,7 @@ Spring.DestroyUnit(unitID, false, true)
                                                 <TriggerLogic z:Id="1640" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Ref="1551" i:nil="true" />
                                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                                  <ImagePath z:Id="1641" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
+                                                  <ImagePath z:Id="1641" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
                                                   <Message z:Id="1642" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">What is it you want with the artefact?</Message>
                                                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">120</Time>
@@ -5710,7 +5710,7 @@ Spring.DestroyUnit(unitID, false, true)
                                                 <TriggerLogic z:Id="1643" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Ref="1551" i:nil="true" />
                                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                                  <ImagePath z:Id="1644" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\comm_odin.png</ImagePath>
+                                                  <ImagePath z:Id="1644" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_odin.png</ImagePath>
                                                   <Message z:Id="1645" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">We seek Folkvangr, lost home of the Einherjar.</Message>
                                                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">120</Time>
@@ -5718,7 +5718,7 @@ Spring.DestroyUnit(unitID, false, true)
                                                 <TriggerLogic z:Id="1646" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Ref="1551" i:nil="true" />
                                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                                  <ImagePath z:Id="1647" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
+                                                  <ImagePath z:Id="1647" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
                                                   <Message z:Id="1648" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Folkvangr?</Message>
                                                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">90</Time>
@@ -5726,7 +5726,7 @@ Spring.DestroyUnit(unitID, false, true)
                                                 <TriggerLogic z:Id="1649" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Ref="1551" i:nil="true" />
                                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                                  <ImagePath z:Id="1650" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\comm_odin.png</ImagePath>
+                                                  <ImagePath z:Id="1650" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_odin.png</ImagePath>
                                                   <Message z:Id="1651" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">You know it as the Central Consciousness. With its billions of minds bound to our cause, we will cleanse the stars once more.</Message>
                                                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">210</Time>
@@ -5734,7 +5734,7 @@ Spring.DestroyUnit(unitID, false, true)
                                                 <TriggerLogic z:Id="1652" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Ref="1551" i:nil="true" />
                                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                                  <ImagePath z:Id="1653" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
+                                                  <ImagePath z:Id="1653" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
                                                   <Message z:Id="1654" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Not if I have anything to say about it. You want the datacore, pry it from my smouldering wreckage!</Message>
                                                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">210</Time>
@@ -5742,7 +5742,7 @@ Spring.DestroyUnit(unitID, false, true)
                                                 <TriggerLogic z:Id="1655" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Ref="1551" i:nil="true" />
                                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                                  <ImagePath z:Id="1656" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\comm_odin.png</ImagePath>
+                                                  <ImagePath z:Id="1656" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_odin.png</ImagePath>
                                                   <Message z:Id="1657" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Do your worst. We expect no less.</Message>
                                                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">120</Time>
@@ -5810,7 +5810,7 @@ Spring.DestroyUnit(unitID, false, true)
                                 <TriggerLogic z:Id="1672" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="1673">Convo Message</Name>
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                  <ImagePath z:Id="1674" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
+                                  <ImagePath z:Id="1674" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
                                   <Message z:Id="1675" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">I pulled you out just in time, Ada. Please be more careful - we can't afford to lose the command unit's firepower.</Message>
                                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Time>
@@ -5924,7 +5924,7 @@ Spring.DestroyUnit(unitID, false, true)
                                                 <TriggerLogic z:Id="1711" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Ref="1551" i:nil="true" />
                                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                                  <ImagePath z:Id="1712" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
+                                                  <ImagePath z:Id="1712" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
                                                   <Message z:Id="1713" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">We're facing some nasty opposition here. Use of Sharpshooters is warranted.</Message>
                                                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Time>
@@ -5940,7 +5940,7 @@ Spring.DestroyUnit(unitID, false, true)
                                                   <Name z:Id="1716">GUI Message (Persistent)</Name>
                                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                                                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                                                  <ImagePath z:Id="1717" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\unitpics\armsnipe.png</ImagePath>
+                                                  <ImagePath z:Id="1717" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\unitpics\armsnipe.png</ImagePath>
                                                   <Message z:Id="1718" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The Sharpshooter fires an energy rifle with a lethal punch matched only by its long reload time over medium-long distances. It is the only unit that can remain cloaked while firing.
 
 Sharpshooters are easily found and killed by large groups of small, light units running sweep patterns over likely positions.</Message>
@@ -6017,7 +6017,7 @@ Sharpshooters are easily found and killed by large groups of small, light units 
                                                 <TriggerLogic z:Id="1737" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Ref="1551" i:nil="true" />
                                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                                  <ImagePath z:Id="1738" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
+                                                  <ImagePath z:Id="1738" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
                                                   <Message z:Id="1739" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Maces are really nasty customers in a sword fight. Try picking them off from a distance, if possible.</Message>
                                                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">180</Time>
@@ -6047,7 +6047,7 @@ Sharpshooters are easily found and killed by large groups of small, light units 
                                                 <TriggerLogic z:Id="1746" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Ref="1551" i:nil="true" />
                                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                                  <ImagePath z:Id="1747" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
+                                                  <ImagePath z:Id="1747" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
                                                   <Message z:Id="1748" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Scalpels have a powerful alpha strike, but this is also their weakness. Try using an expendable unit to waste their shots.</Message>
                                                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">210</Time>
@@ -6110,7 +6110,7 @@ Sharpshooters are easily found and killed by large groups of small, light units 
                                                 <TriggerLogic z:Id="1768" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Id="1769">Convo Message</Name>
                                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                                  <ImagePath z:Id="1770" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
+                                                  <ImagePath z:Id="1770" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
                                                   <Message z:Id="1771" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Use of area shields might help strengthen our defenses around the artefact.</Message>
                                                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Time>
@@ -6126,7 +6126,7 @@ Sharpshooters are easily found and killed by large groups of small, light units 
                                                   <Name z:Id="1775">GUI Message (Persistent)</Name>
                                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                                                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                                                  <ImagePath z:Id="1776" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\unitpics\corjamt.png</ImagePath>
+                                                  <ImagePath z:Id="1776" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\unitpics\corjamt.png</ImagePath>
                                                   <Message z:Id="1777" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The Aegis (static) and Aspis (mobile) area shields cover a wider area than personal shields and have a greater capacity, but require energy to charge up. They are useful for defending against artillery bombardment (assuming it isn't too heavy) and other medium-to-long range units.
 
 The static and mobile forms are freely interchangable by morphing (although the static-to-mobile morph costs resources).</Message>
@@ -6283,7 +6283,7 @@ The static and mobile forms are freely interchangable by morphing (although the 
                                                 <TriggerLogic z:Id="1820" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Id="1821">Convo Message</Name>
                                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                                  <ImagePath z:Id="1822" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
+                                                  <ImagePath z:Id="1822" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
                                                   <Message z:Id="1823" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">It appears the settlement uses geothermal power for most of its energy needs. We could do the same.</Message>
                                                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Time>
@@ -6299,7 +6299,7 @@ The static and mobile forms are freely interchangable by morphing (although the 
                                                   <Name z:Id="1826">GUI Message (Persistent)</Name>
                                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                                                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                                                  <ImagePath z:Id="1827" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\unitpics\geo.png</ImagePath>
+                                                  <ImagePath z:Id="1827" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\unitpics\geo.png</ImagePath>
                                                   <Message z:Id="1828" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Geothermal Powerplants provide a good amount of energy at an affordable price, but can only be built on steam vents. These are indicated by the smoke coming out of the ground and highlighted in economy view (F4).
 
 Geothermal plants explode violently when destroyed, so don't build things next to them.</Message>
@@ -6334,7 +6334,7 @@ Geothermal plants explode violently when destroyed, so don't build things next t
                                                 <TriggerLogic z:Id="1837" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Id="1838">Convo Message</Name>
                                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                                  <ImagePath z:Id="1839" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
+                                                  <ImagePath z:Id="1839" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
                                                   <Message z:Id="1840" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Remember that you can activate your special weapon with the 'D' key (default). It can really ruin an enemy formation's day.</Message>
                                                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">210</Time>
@@ -6350,7 +6350,7 @@ Geothermal plants explode violently when destroyed, so don't build things next t
                                                   <Name z:Id="1844">GUI Message (Persistent)</Name>
                                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                                                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                                                  <ImagePath z:Id="1845" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\unitpics\commweapon_clusterbomb.png</ImagePath>
+                                                  <ImagePath z:Id="1845" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\unitpics\commweapon_clusterbomb.png</ImagePath>
                                                   <Message z:Id="1846" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Some units have a special weapon, which can be activated with the D key (by default). These weapons have a long reload time, but can be very effective in the right situation.</Message>
                                                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">320</Width>
                                                 </TriggerLogic>
@@ -6420,7 +6420,7 @@ end</CodeStr>
                                 <TriggerLogic z:Id="1858" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Ref="1628" i:nil="true" />
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                  <ImagePath z:Id="1859" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\comm_odin.png</ImagePath>
+                                  <ImagePath z:Id="1859" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_odin.png</ImagePath>
                                   <Message z:Id="1860" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Excellent. Folkvangr will soon be ours.</Message>
                                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Time>
@@ -6428,7 +6428,7 @@ end</CodeStr>
                                 <TriggerLogic z:Id="1861" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Ref="1628" i:nil="true" />
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                  <ImagePath z:Id="1862" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
+                                  <ImagePath z:Id="1862" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
                                   <Message z:Id="1863" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Damnit! Is there nothing we can do now?</Message>
                                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Time>
@@ -6542,7 +6542,7 @@ end</CodeStr>
                 <TriggerLogic z:Id="1880" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="1628" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="1881" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
+                  <ImagePath z:Id="1881" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
                   <Message z:Id="1882" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">There we go. Datacore downloaded and purged. Valhallan units are withdrawing from the planetary surface.</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">180</Time>
@@ -6550,7 +6550,7 @@ end</CodeStr>
                 <TriggerLogic z:Id="1883" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="1628" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="1884" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
+                  <ImagePath z:Id="1884" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
                   <Message z:Id="1885" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">It seems our work here is done. Let's go.</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Time>

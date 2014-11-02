@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Mission xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="1" z:Type="CMissionLib.Mission" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
   <Author z:Id="2">Default Author</Author>
   <ContentFolderPath i:nil="true" />
@@ -304,8 +304,8 @@
               <_items z:Id="97" z:Size="16">
                 <TriggerLogic z:Id="98" z:Type="CMissionLib.Actions.MusicLoopAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="99">Play Looping Music</Name>
-                  <TrackIntroPath z:Id="100" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\Missions\My Missions\music\Gregoire_Lourme_-_Intrusion_Intro.ogg</TrackIntroPath>
-                  <TrackLoopPath z:Id="101" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">J:\Games\Spring\Missions\My Missions\music\Gregoire_Lourme_-_Intrusion.ogg</TrackLoopPath>
+                  <TrackIntroPath z:Id="100" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\Missions\My Missions\music\Gregoire_Lourme_-_Intrusion_Intro.ogg</TrackIntroPath>
+                  <TrackLoopPath z:Id="101" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\Missions\My Missions\music\Gregoire_Lourme_-_Intrusion.ogg</TrackLoopPath>
                 </TriggerLogic>
                 <TriggerLogic z:Id="102" z:Type="CMissionLib.Conditions.GameStartedCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="103">Game Starts</Name>
