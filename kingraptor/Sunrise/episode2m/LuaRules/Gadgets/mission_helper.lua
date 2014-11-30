@@ -29,7 +29,7 @@ local teams = {
 }
 local triggers = {
   ["Dialogue 1"] = {damage = 3000},
-  ["Dialogue 2"] = {damage = 8000}
+  ["Dialogue 2"] = {damage = 9000}
 }
 
 local triggerOnDeath = {
