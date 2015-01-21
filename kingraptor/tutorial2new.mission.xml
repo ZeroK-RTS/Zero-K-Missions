@@ -83,7 +83,7 @@
   <ImagePath z:Id="42">D:\Games\Spring\Missions\My Missions\tutorial2_a_day_out.png</ImagePath>
   <MapName z:Id="43">MoonQ10x</MapName>
   <MaxUnits>5000</MaxUnits>
-  <ModName z:Id="44">Zero-K v1.2.5.3</ModName>
+  <ModName z:Id="44">Zero-K v1.3.1.12</ModName>
   <Name z:Id="45">Tutorial 2 - A Day Out</Name>
   <Players z:Id="46">
     <items z:Id="47" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
