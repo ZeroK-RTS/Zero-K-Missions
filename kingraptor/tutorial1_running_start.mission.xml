@@ -102,7 +102,7 @@ Her thoughts flowed into the machine, and massive command unit came alive with a
   <ImagePath z:Id="33">D:\Games\Spring\ZK-Missions\kingraptor\tutorial_running_start.png</ImagePath>
   <MapName z:Id="34">Fields_Of_Isis</MapName>
   <MaxUnits>5000</MaxUnits>
-  <ModName z:Id="35">Zero-K v1.3.1.12</ModName>
+  <ModName z:Id="35">Zero-K v1.3.1.18</ModName>
   <Name z:Id="36">Tutorial - Running Start</Name>
   <Players z:Id="37">
     <items z:Id="38" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
