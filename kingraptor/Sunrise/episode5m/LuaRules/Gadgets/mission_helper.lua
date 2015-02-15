@@ -28,22 +28,12 @@ local gameframe = 0
 local invulnerableUnits = {}
 
 local damageTriggers = {
-  ["Dialogue 1"] = {damage = 12000},
-  ["Dialogue 2"] = {damage = 50000},
-  ["Dialogue 3"] = {damage = 120000},
+  ["Dialogue 1"] = {damage = 20000},
+  ["Dialogue 2"] = {damage = 45000},
+  ["Dialogue 3"] = {damage = 80000},
 }
 
 local defenderSpecificDamageTriggers = {}
-
-local enemyPlaneTrigger = "Trident Available"
-local enemyPlaneTriggerDamage = 8000
-local enemyPlaneTriggerActive = true
-local flakTrigger = "Hit By Flak"
-local flakTriggerActive = true
-local flakUnits = {[UnitDefNames.corflak.id] = true, [UnitDefNames.corsent.id] = true}
-local riotTrigger = "Hit By Riots"
-local riotTriggerActive = true
-local riotUnits = {[UnitDefNames.arm_venom.id] = true, [UnitDefNames.tawf114.id] = true, [UnitDefNames.armdeva.id] = true}
 
 local helpUnits = {
   --[UnitDefNames.armsnipe.id] = "Help: Sharpshooter",
@@ -55,8 +45,7 @@ local helpUnitsDamage = {
 
 local triggerOnDeath = {
   Ada = "Ada Destroyed",
-  ScipioAstra = "SA Destroyed",
-  Athenion = "Athenion Destroyed"
+  Promethean = "Promethean Destroyed",
 }
 
 local function SetUnitInvulnerable(unitID, bool)
@@ -109,26 +98,6 @@ function gadget:UnitDamaged(unitID, unitDefID, unitTeam, damage, paralyzer, weap
       helpUnitsDamage[attackerDefID] = nil
     end
   end
-  
-  local attackerDef = UnitDefs[attackerDefID]
-  if attackerDef and attackerDef.canFly and (unitTeam == 0 or unitTeam == 1) and enemyPlaneTriggerActive then
-    enemyPlaneTriggerDamage = enemyPlaneTriggerDamage - damage
-    if enemyPlaneTriggerDamage < 0 then
-      enemyPlaneTriggerActive = false
-      GG.mission.ExecuteTriggerByName(enemyPlaneTrigger)
-    end
-  end
-  
-  local unitDef = UnitDefs[unitDefID]
-  if unitDef.canFly and (unitTeam == 0) then
-    if flakTriggerActive and attackerDefID and flakUnits[attackerDefID] then
-      flakTriggerActive = false
-      GG.mission.ExecuteTriggerByName(flakTrigger)
-    elseif riotTriggerActive and attackerDefID and riotUnits[attackerDefID] then
-      riotTriggerActive = false
-      GG.mission.ExecuteTriggerByName(riotTrigger)
-    end
-  end
 end
 
 function gadget:UnitDestroyed(unitID, unitDefID, unitTeam)
@@ -159,6 +128,14 @@ function gadget:UnitFinished(unitID, unitDefID, unitTeam)
     GG.mission.ExecuteTriggerByName(helpUnits[unitDefID])
     helpUnits[unitDefID] = nil
   end
+end
+
+function gadget:AllowUnitTransfer(unitID, unitDefID, oldTeam, newTeam, capture)
+  local group = GG.mission.unitGroups[unitID] or emptyTable
+  if group["Ada"] then
+    return false
+  end
+  return true
 end
 
 function gadget:Initialize()

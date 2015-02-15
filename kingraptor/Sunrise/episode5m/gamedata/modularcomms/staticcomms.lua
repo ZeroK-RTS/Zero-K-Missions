@@ -18,7 +18,7 @@ local comms = {
     name = "Ada's Commander",
     description = "Relic Commander, Builds at 10 m/s",
     helptext = "A special piloted commander unit from before the Fall, functioning well despite its age. Piloted by Captain Ada Caedmon, formerly of the 13th Imperial Auxiliary Cohort.",
-    modules = { "commweapon_missilelauncher", "commweapon_slamrocket", "module_ablative_armor", "module_autorepair", "module_high_power_servos"},
+    modules = { "commweapon_lparticlebeam", "commweapon_sunburst", "module_ablative_armor", "module_autorepair", "module_high_power_servos", "module_energy_cell", "conversion_hparticlebeam"},
     miscDefs = {
       customparams = {
         helptext_pl = "Specjalna zalogowa jednostka dowodzenia sprzed Upadku, sprawna mimo wieku. Pilotem jest Kapitan Ada Caedmon z dawnej 13 Imperialnej Kohorty Wsparcia.",
@@ -27,10 +27,10 @@ local comms = {
   },
   
   comm_campaign_promethean = {
-    chassis = "commrecon2",
+    chassis = "commrecon4",
     name = "The Promethean",
     helptext = "Founder of the Free Machines and creator of the Firebrand virus, a calm, philosophical AI fighting for the freedom of robotkind. A burning spirit.",
-    modules = { "commweapon_heatray", "module_ablative_armor", "module_ablative_armor", "weaponmod_plasma_containment", "module_autorepair" },
+    modules = { "commweapon_heatray", "commweapon_napalmgrenade", "module_ablative_armor", "module_ablative_armor", "weaponmod_plasma_containment", "module_autorepair", "module_high_power_servos" },
     decorations = {"skin_recon_red"},
     miscDefs = {
       customparams = {
