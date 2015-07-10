@@ -14490,7 +14490,7 @@ end</CodeStr>
                                                 <TriggerLogic z:Id="3004" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Id="3005">Custom Action (Alternate)</Name>
                                                   <CodeStr z:Id="3006" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local unitID = GG.mission.FindUnitInGroup("Ada")
-GG.GiveFacplop(unitID)</CodeStr>
+Spring.SetUnitRulesParam(unitID, "facplop", 1, {inlos = true})</CodeStr>
                                                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                                                 </TriggerLogic>
                                                 <TriggerLogic z:Id="3007" z:Type="CMissionLib.Actions.DestroyUnitsAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">

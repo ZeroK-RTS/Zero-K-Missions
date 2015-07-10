@@ -5163,7 +5163,7 @@ end</CodeStr>
                   <Name z:Ref="1292" i:nil="true" />
                   <CodeStr z:Id="1316" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">GG.CAI.SuspendAI(1, false)
 local unitID = GG.mission.FindUnitInGroup("Ada")
-GG.GiveFacplop(unitID)</CodeStr>
+Spring.SetUnitRulesParam(unitID, "facplop", 1, {inlos = true})</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1317" z:Type="CMissionLib.Actions.ExecuteTriggersAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -6523,7 +6523,7 @@ GG.mission.SendMissionVariables({ AthenionDead = value })</CodeStr>
                   <Name z:Id="1697">Custom Action (Alternate)</Name>
                   <CodeStr z:Id="1698" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">GG.CAI.SuspendAI(1, false)
 local unitID = GG.mission.FindUnitInGroup("Ada")
-GG.GiveFacplop(unitID)
+Spring.SetUnitRulesParam(unitID, "facplop", 1, {inlos = true})
 
 -- note that enemies are building during the intro while allies aren't
 -- this may be a problem

@@ -8960,7 +8960,7 @@ Spring.GiveOrderToUnit(unitID, CMD.STOCKPILE, {}, { "ctrl", "shift" })</CodeStr>
                 <TriggerLogic z:Id="2043" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="2044">Custom Action (Alternate)</Name>
                   <CodeStr z:Id="2045" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local unitID = GG.mission.FindUnitInGroup("Ada")
-GG.GiveFacplop(unitID)
+Spring.SetUnitRulesParam(unitID, "facplop", 1, {inlos = true})
 local x, z = 11000, 10400
 local y = Spring.GetGroundHeight(x,z)
 Spring.GiveOrderToUnit(unitID, -UnitDefNames.factoryveh.id, {x, y, z, 3}, 0)</CodeStr>
@@ -11537,7 +11537,7 @@ end</CodeStr>
                 <TriggerLogic z:Id="2796" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="2797">Custom Action (Alternate)</Name>
                   <CodeStr z:Id="2798" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local unitID = GG.mission.FindUnitInGroup("Ada")
-GG.GiveFacplop(unitID)
+Spring.SetUnitRulesParam(unitID, "facplop", 1, {inlos = true})
 local x, z = 11000, 10400
 local y = Spring.GetGroundHeight(x,z)
 Spring.GiveOrderToUnit(unitID, -UnitDefNames.factoryveh.id, {x, y, z, 3}, 0)</CodeStr>

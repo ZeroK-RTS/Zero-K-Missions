@@ -6388,9 +6388,9 @@ end</CodeStr>
                                 <TriggerLogic z:Id="1698" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Ref="1339" i:nil="true" />
                                   <CodeStr z:Id="1699" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local unitID = GG.mission.FindUnitInGroup("Ada")
-GG.GiveFacplop(unitID)
+Spring.SetUnitRulesParam(unitID, "facplop", 1, {inlos = true})
 unitID = GG.mission.FindUnitInGroup("Promethean")
-GG.GiveFacplop(unitID)
+Spring.SetUnitRulesParam(unitID, "facplop", 1, {inlos = true})
 
 local dereg = GG.mission.FindUnitsInGroup("Dereg")
 for unitID in pairs(dereg) do
