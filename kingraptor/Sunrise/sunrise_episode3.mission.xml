@@ -4355,7 +4355,7 @@ end</CodeStr>
 GG.CAI.SuspendAI(2, false)
 
 local unitID = GG.mission.FindUnitInGroup("Ada")
-GG.GiveFacplop(unitID)
+Spring.SetUnitRulesParam(unitID, "facplop", 1, {inlos = true})
 
 Spring.SetTeamResource(0,"m",425)
 Spring.SetTeamResource(0,"e",500)

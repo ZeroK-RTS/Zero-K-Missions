@@ -2735,7 +2735,7 @@ for unitID in pairs(units) do
 end
 
 unitID = GG.mission.FindUnitInGroup("Ada")
-GG.GiveFacplop(unitID)
+Spring.SetUnitRulesParam(unitID, "facplop", 1, {inlos = true})
 
 GG.CAI.SuspendAI(1, true)
 GG.CAI.SuspendAI(2, true)
