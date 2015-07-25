@@ -9,7 +9,7 @@ function gadget:GetInfo()
     date      = "2013.06.21",
     license   = "Public Domain",
     layer     = 0,
-    enabled   = false --not (Game.version:find('91.0') and (Game.version:find('91.0.1') == nil))
+    enabled   = true --not (Game.version:find('91.0') and (Game.version:find('91.0.1') == nil))
   }
 end
 
@@ -22,7 +22,7 @@ end
 -- synced
 --------------------------------------------------------------------------------
 local ORIGIN_HEIGHT = 1500
-local FALL_SPEED = -5
+local FALL_SPEED = -250
 
 local scheduledStrikes = {}	-- [gameframe] = {weapon = weapon, x = x, z = z, spread = spread, team = team}
 
@@ -48,9 +48,9 @@ local function UseOrbitalStrike(weapon, team, x, z, spread, numShots, delayBetwe
 end
 
 function gadget:GameFrame(n)
-  if n % (30*5) == 0 then
-    UseOrbitalStrike("kinetic_impactor", 0, Game.mapSizeX/2, Game.mapSizeZ/2, 100, 15, 3)
-  end
+  --if n % (30*5) == 0 then
+  --  UseOrbitalStrike("kinetic_impactor", 0, Game.mapSizeX/2, Game.mapSizeZ/2, 200, 15, 3)
+  --end
 
   if scheduledStrikes[n] then
     local strikes = scheduledStrikes[n]
@@ -73,7 +73,7 @@ function gadget:GameFrame(n)
 	maxRange = ORIGIN_HEIGHT*2,
 	spread = {0,0,0},
 	error = {0,0,0},
-	ttl = 60,
+	ttl = 300,
 	gravity = Game.gravity,
 	startAlpha = 1,
 	endAlpha = 1,

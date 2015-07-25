@@ -18,6 +18,18 @@ function script.Create()
     Spring.DestroyUnit(unitID, false, true)
 end
 
+function script.AimWeapon()
+    return false
+end
+
+function script.QueryWeapon()
+    return base
+end
+
+function script.AimFromWeapon()
+    return base
+end
+
 function script.HitByWeapon()
     return 0
 end
