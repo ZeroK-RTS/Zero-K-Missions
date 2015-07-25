@@ -300,10 +300,10 @@ Try not to take too long or lose your units!</ScoringMethod>
                         <d10p1:UnitStartInfo z:Id="101">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
                             <d14p1:_x>224</d14p1:_x>
-                            <d14p1:_y>743</d14p1:_y>
+                            <d14p1:_y>745</d14p1:_y>
                           </d10p1:Point>
                           <d10p1:X>224</d10p1:X>
-                          <d10p1:Y>743</d10p1:Y>
+                          <d10p1:Y>745</d10p1:Y>
                           <d10p1:Groups xmlns:d14p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="102">
                             <d14p1:items z:Id="103" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
                               <d14p1:_items z:Id="104" z:Size="4">
@@ -595,7 +595,7 @@ end</CodeStr>
                   <PZ xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">7545</PZ>
                   <RX xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">-5</RX>
                   <RY xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">232</RY>
-                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Time>
+                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.1</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="182" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="175" i:nil="true" />
@@ -618,7 +618,7 @@ end</CodeStr>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <ImagePath z:Id="186" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\armcom.png</ImagePath>
                   <Message z:Id="187" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Welcome back folks to another episode of SUPER EXTREME KODACHI RALLY!</Message>
-                  <SoundPath z:Id="188" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">sounds/reply/vehicle_move2.wav</SoundPath>
+                  <SoundPath z:Id="188" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">sounds/reply/vehicle_move.wav</SoundPath>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="189" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">

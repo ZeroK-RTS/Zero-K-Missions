@@ -272,6 +272,7 @@ local function SpawnPowerupUnit(x, z, type)
 	Spring.PlaySoundFile(soundDir.."misc/teleport.wav", 4, x, y, z, 0, 0, 0, "sfx")
 	Spring.SpawnCEG("teleport_in", x, y, z)
 	powerupUnits[unitID] = type or PickPowerupType()
+	Spring.GiveOrderToUnit(unitID, CMD.FIRE_STATE, {0}, 0)
 	return unitID
 end
 
