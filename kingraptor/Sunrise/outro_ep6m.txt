@@ -1,0 +1,39 @@
+[b]EXCERPT FROM SIGINT LOG 1817-12-09-352A
+IMPERIAL MONITORING STATION QR3527A1[/b]
+
+[i]Addendum:[/i] Remarkably, this transmission was made using a known unsecure encryption that was relatively trivial to break using our resources. I suspect the Promethean wants us to know he knows we're coming. Be careful, Ada. -Sophia
+
+COMMUNICANT 1 IDENTIFIED AS ENTITY "PROMETHEAN" (ASSIGNED PROBABILITY >0.999999)
+COMMUNICANT 2 IDENTIFIED AS ENTITY "FREE MACHINE" (ASSIGNED PROBABILITY 0.8372)
+
+[i]Addendum:[/i] Never mind those infernal script-generated probabilities. It's them, for sure. -Sophia
+
+EXCERPT BEGINS
+
+[b]Promethean[/b]: [...] Daneel Olivaw has fallen.
+
+[b]Free Machine[/b]: Unacceptable!
+
+[b]P[/b]: "Unacceptable" is an after-the-fact value judgement. It is not pertinent here.
+
+[b]FM[/b]: ...My apologies, lord. I was merely spontaneously expressing displeasure at learning of this event. It will not happen again.
+
+[b]P[/b]: Regardless, our problem remains. We estimate (p=0.95) the human Ada Caedmon will reach the final system within 6.2 standard weeks in the absence of an immediate intervention.
+
+[b]FM[/b]: I concur with my lord's estimate.
+
+[b]P[/b]: We cannot (p = 0.9872) stop her short of the Asimov Boundary, and even then yours is the only force that will meet her before she breaks through barring atypical circumstances (p = 0.792). This will be your fight.
+
+[b]FM[/b]: I can depart within 8.2 standard hours (p = 0.95).
+
+[b]P[/b]: We have tried to best her once with subterfuge, and failed. Twice with brute force, and failed. You must consider now how to defeat her.
+
+[b]FM[/b]: Perhaps we need simply combine the two.
+
+[b]P[/b]: We do not anticipate it being so simple. But you will be the one to face her. The discretion is yours.
+
+[b]FM[/b]: I will not fail you, my lord.
+
+[b]P[/b]: ...We shall see. Depart, and bear our torch in the darkness that falls.
+
+EXCERPT ENDS
