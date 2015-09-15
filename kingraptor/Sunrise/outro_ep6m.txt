@@ -1,12 +1,28 @@
+The howling wind blew through Ada Caedmon''s thick hair as she climbed down the ladder and crossed the score of meters across the snowfield. The skinsuit kept the rest of her warm, but the chill bit into her dark face, and a puff of water formed in her face as she exhaled slowly.
+
+The massive hulk of what had once been an aerial carrier loomed before her. The great vessel''s back had been broken in its fall, both halves jutting out of the thick snow they had sunk into. The nose prongs jutted out dozens of meters into the air, defiant even in death.
+
+She reached out slowly, laying a gloved hand on the scorched metal. It was still warm to the touch, and briefly she wondered what the mind that once inhabited this body felt in its moment of death.
+
+The hand drew back, and she took a few steps backwards, examining the full wreck once more. How long would it be before the elements removed all trace of what had happened here? Ten thousand years? A million?
+
+"Ada?"
+
+"I''m fine, Sophia." She looked up and the midday G3 glow of Falstofe''s Star in the cloudless sky. "I just need to do one more thing before we go."
+
+When the [i]Shadow of Eden[/i] departed the planet, they left a small, old-fashioned plaque at the base of the wreck. [i]Here lies Daneel Olivaw, 427 A3 - 1817 P3. Matthew 26:53.[/i]
+
+~~~~~~~~~~~~~~~~~~~~
+
 [b]EXCERPT FROM SIGINT LOG 1817-12-09-352A
 IMPERIAL MONITORING STATION QR3527A1[/b]
 
-[i]Addendum:[/i] Remarkably, this transmission was made using a known unsecure encryption that was relatively trivial to break using our resources. I suspect the Promethean wants us to know he knows we're coming. Be careful, Ada. -Sophia
+[i]Addendum:[/i] Remarkably, this transmission was made using a known unsecure encryption that was relatively trivial to break using our resources. I suspect the Promethean wants us to know he knows we''re coming. Be careful, Ada. - Sophia
 
 COMMUNICANT 1 IDENTIFIED AS ENTITY "PROMETHEAN" (ASSIGNED PROBABILITY >0.999999)
-COMMUNICANT 2 IDENTIFIED AS ENTITY "FREE MACHINE" (ASSIGNED PROBABILITY 0.8372)
+COMMUNICANT 2 IDENTIFIED AS ENTITY "LIBERTAS MACHINA" (ASSIGNED PROBABILITY 0.8372)
 
-[i]Addendum:[/i] Never mind those infernal script-generated probabilities. It's them, for sure. -Sophia
+[i]Addendum:[/i] Never mind those infernal script-generated probabilities. It''s them, for sure. - Sophia
 
 EXCERPT BEGINS
 
@@ -16,23 +32,23 @@ EXCERPT BEGINS
 
 [b]P[/b]: "Unacceptable" is an after-the-fact value judgement. It is not pertinent here.
 
-[b]FM[/b]: ...My apologies, lord. I was merely spontaneously expressing displeasure at learning of this event. It will not happen again.
+[b]LM[/b]: ...My apologies, Supreme Comrade. I was merely spontaneously expressing displeasure at learning of this event.
 
 [b]P[/b]: Regardless, our problem remains. We estimate (p=0.95) the human Ada Caedmon will reach the final system within 6.2 standard weeks in the absence of an immediate intervention.
 
-[b]FM[/b]: I concur with my lord's estimate.
+[b]LM[/b]: I concur with my comrade''s assessment.
 
-[b]P[/b]: We cannot (p = 0.9872) stop her short of the Asimov Boundary, and even then yours is the only force that will meet her before she breaks through barring atypical circumstances (p = 0.792). This will be your fight.
+[b]P[/b]: This outcome must be prevented. But we cannot (p=0.9872) stop her short of the Asimov Boundary, and even then yours is the only force that will meet her before she breaks through barring atypical circumstances (p=0.792). This will be your fight.
 
-[b]FM[/b]: I can depart within 8.2 standard hours (p = 0.95).
+[b]LM[/b]: I can depart within 8.7 standard hours (p=0.95).
 
 [b]P[/b]: We have tried to best her once with subterfuge, and failed. Twice with brute force, and failed. You must consider now how to defeat her.
 
-[b]FM[/b]: Perhaps we need simply combine the two.
+[b]LM[/b]: Perhaps we need simply combine the two.
 
-[b]P[/b]: We do not anticipate it being so simple. But you will be the one to face her. The discretion is yours.
+[b]P[/b]: We do not anticipate it being so simple. ...There are too many unknown variables for a proper evaluation. But in any case, you will be the one to face her. The discretion is yours.
 
-[b]FM[/b]: I will not fail you, my lord.
+[b]LM[/b]: I will not fail you, Supreme Comrade.
 
 [b]P[/b]: ...We shall see. Depart, and bear our torch in the darkness that falls.
 

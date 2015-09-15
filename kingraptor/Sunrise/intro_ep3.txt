@@ -1,136 +1,136 @@
 The FTL exit dropped the [i]Eden[/i] fifteen light-seconds from its intended target: a terran-like planet in the midst of an ice age. Despite its relatively close proximity to the G0 system primary, the high albedo and an atmosphere lacking in greenhouse gases served to keep large swathes of the surface covered in permafrost and ice.
 
-ÅgWell, here we are,Åh Sophia announced. ÅgWith a little luck, we can get patched up and leave without any Murphy events.Åh
+"Well, here we are," Sophia announced. "With a little luck, we can get patched up and leave without any Murphy events."
 
-Ada nodded. ÅgHow long till we get there?Åh
+Ada nodded. "How long till we get there?"
 
-ÅgThirty-two minutes, if youÅfre going for a least-time. Of course, we want to stop by, so weÅfll be waiting around an hour before we can disembark. In the meantime, we might as well take a look around the system.Åh
+"Thirty-two minutes, if you''re going for a least-time. Of course, we want to stop by, so we''ll be waiting around an hour before we can disembark. In the meantime, we might as well take a look around the system."
 
-ÅgSee anything unusual?Åh
+"See anything unusual?"
 
-ÅgThereÅfs...Åh Sophia paused, frowning. ÅgWell, now. ItÅfs still in Imperial hands, alright... but they donÅft seem very happy to see us.Åh
+"There''s..." Sophia paused, frowning. "Well, now. It''s still in Imperial hands, alright... but they don''t seem very happy to see us."
 
-Ada was upright in her chair almost instantly. ÅgWhat do you mean?Åh
+Ada was upright in her chair almost instantly. "What do you mean?"
 
-ÅgI have eyes on an active orbital defense platform,Åh the AI muttered, popping up a viewscreen of the installation. ÅgItÅfs only a small part of the full-up defense grid, but it also happens to be sitting right over where our fabrication plant is... and its targeting radar is active and painting us.Åh Another pause. ÅgTheyÅfre hailing us. ÅeGo away,Åf it says.Åh
+"I have eyes on an active orbital defense platform," the AI muttered, popping up a viewscreen of the installation. "It''s only a small part of the full-up defense grid, but it also happens to be sitting right over where our fabrication plant is... and its targeting radar is active and painting us." Another pause. "They''re hailing us. ‚ÄòGo away,'' it says."
 
-ÅgGo away?Åh AdaÅfs eyes narrowed, ÅgJust like that?Åh
+"Go away?" Ada''s eyes narrowed, "Just like that?"
 
-ÅgWell, they used a lot more words. Bigger ones, too.Åh Sophia shrugged. ÅgBut yes, that is what is being said, once one removes all the superfluous verbiage and the threats of violence in the event of noncompliance.Åh
+"Well, they used a lot more words. Bigger ones, too." Sophia shrugged. "But yes, that is what is being said, once one removes all the superfluous verbiage and the threats of violence in the event of noncompliance."
 
-AdaÅfs jaw tightened briefly, before she forced herself to let go. ÅgDid they identify themselves?Åh
+Ada''s jaw tightened briefly, before she forced herself to let go. "Did they identify themselves?"
 
-Sophia clenched her teeth, several seconds passing in silence as her processors worked. ÅgTheyÅfre the Empire,Åh she finally said, Ågclaiming the planet of Antikythera and the entire TsiolkovskyÅfs Star system in the name of the Emperor.Åh
+Sophia clenched her teeth, several seconds passing in silence as her processors worked. "They''re the Empire," she finally said, "claiming the planet of Antikythera and the entire Tsiolkovsky''s Star system in the name of the Emperor."
 
-Ada nearly jumped out of her chair. ÅgWhat?! The EmpireÅfs still around?Åh
+Ada nearly jumped out of her chair. "What?! The Empire''s still around?"
 
-ÅgIt appears so, yes. But after three thousand years... I donÅft think itÅfs an Empire weÅfd recognize.Åh
+"It appears so, yes. But after three thousand years... I don''t think it''s an Empire we''d recognize."
 
-ÅgLet me talk to them,Åh Ada offered. ÅgI still have my Imperial officer authentication codes.Åh
+"Let me talk to them," Ada offered. "I still have my Imperial officer authentication codes."
 
-ÅgI donÅft know, Ada,Åh Sophia said carefully. ÅgLike I said, changes. It probably wonÅft work.Åh
+"I don''t know, Ada," Sophia said carefully. "Like I said, changes. It probably won''t work."
 
-ÅgBut it canÅft hurt to try, right?Åh
+"But it can''t hurt to try, right?"
 
-ÅgFine. Transmitting.Åh A pre-written message selected, a palm placed on a holographic pad in the air, and the FTL signal was off, carrying its message. 
+"Fine. Transmitting." A thought flowing through the neural link, a palm placed on a holographic pad in the air, and the FTL signal was off, carrying its message.
 
-While older, light-speed communications at this distance meant long waiting periods and telegram-like messages, contemporary superluminal transmissions meant, much like in the prespace era, people expected near-instant replies. Thus, after ten seconds without even an acknowledgement of receipt, Ada cast a sideways glance at Sophia.
+ While older, light-speed communications at this distance meant long waiting periods and telegram-like messages, contemporary superluminal transmissions meant, much like in the prespace era, people expected near-instant replies. Thus, after ten seconds without even an acknowledgement of receipt, Ada cast a sideways glance at Sophia.
 
-ÅgIs this another of those ÅedonÅft talk to the annoying dropship in orbitÅf moments?Åh she asked, equal parts bemused and annoyed.
+"Is this another of those ‚Äòdon''t talk to the annoying dropship in orbit'' moments?" she asked, equal parts bemused and annoyed.
 
-ÅgWell, well,Åh Sophia scowled. ÅgIt seems we donÅft even merit the dignity of a response to them. Guess we...Åh 
+"Well, well," Sophia scowled. "It seems we don''t even merit the dignity of a response to them. Guess we..."
 
-She froze.
+ She froze.
 
-Before Ada could even react, the [i]Shadow of Eden[/i]Åfs shields went to full power. Milliseconds later, eighty terajoules of coherent light struck the shield, the brilliant violet light lashing against the barrier with the fury of several hundred kilotons of TNT. She could only gasp in shock as the 400nm beam of light stopped just short of the [i]Eden[/i]Åfs hull proper, clawing violently at the gap, as if enraged that it had travelled four and a half million kilometers to reach its target only to be stopped at the last hundred meters.
+Before Ada could even react, the [i]Shadow of Eden[/i]''s shields went to full power. Milliseconds later, eighty terajoules of coherent light struck the shield, the brilliant violet light lashing against the barrier with the fury of several hundred kilotons of TNT. She could only gasp in shock as the 400nm beam of light stopped just short of the [i]Eden[/i]''s hull proper, clawing violently at the gap, as if enraged that it had travelled four and a half million kilometers to reach its target only to be stopped at the last hundred meters.
 
 Then, finally, the beam stopped as suddenly as it had started, leaving the ship mercifully intact if warm with the waste heat of its shield generator.
 
-ÅgCurses!Åh Sophia snarled, banking the [i]Eden[/i] hard to starboard and letting the thrust of the main engines take them clear of the field of fire. Another laser beam came streaking in, but it was aimed where the Eden had been once and had not been so for several seconds, and it missed by over a kilometer. The dropship continued breaking away at two hundred and forty gravities, Sophia guiding it carefully on a random walk headed for the cover of AntikytheraÅfs far side.
+"Curses!" Sophia snarled, banking the [i]Eden[/i] hard to starboard and letting the thrust of the main engines take them clear of the field of fire. Another laser beam came streaking in, but it was aimed where the Eden had been once and had not been so for several seconds, and it missed by over a kilometer. The dropship continued breaking away at two hundred and forty gravities, Sophia guiding it carefully on a random walk headed for the cover of Antikythera''s far side.
 
-ÅgDid they just fire on us?!Åh Ada exclaimed.
+"Did they just fire on us?!" Ada exclaimed.
 
-ÅgYes,Åh Sophia snapped, gritting her teeth. She didnÅft even bother to point out that technically, the enemy had fired on them over fifteen seconds ago. ÅgNow please refrain from taxing my CPU cycles with conversation. It can wait until we are no longer at risk of sudden, violent death.Åh
+"Yes," Sophia snapped, gritting her teeth. She didn''t even bother to point out that technically, the enemy had fired on them over fifteen seconds ago. "Now please refrain from taxing my CPU cycles with conversation. It can wait until we are no longer at risk of sudden, violent death."
 
 The laser fired again and again, but it never had a real chance to hit the ship at this range - not now that it was evading - and after the sixth shot it simply gave up. Still, Sophia kept up the random walk, not wanting to give them a chance to try again, until the defense station finally disappeared over the horizon thirteen minutes later.
 
-ÅgSophia,Åh Ada said breathlessly, Ågwhat was that all about?Åh
+"Sophia," Ada said breathlessly, "what was that all about?"
 
-ÅgStupid,Åh Sophia muttered angrily, avoiding AdaÅfs gaze. ÅgStupid!Åh
+"Stupid," Sophia muttered angrily, avoiding Ada''s gaze. "Stupid!"
 
-ÅgSophia?Åh
+"Sophia?"
 
-Åg...My apologies.Åh She turned back to face Ada. ÅgI should have been prepared for a situation where their response was Åeshoot first, ask questions laterÅf. As it is, I spotted their laser heating up just in time.Åh She smiled, in a manner that was both sardonic and sheepish simultaneously. ÅgA few milliseconds later, and our ship would be a glowing pile of scrap and molten metal.Åh
+"...My apologies." She turned back to face Ada. "I should have been prepared for a situation where their response was ‚Äòshoot first, ask questions later''. As it is, I spotted their laser heating up just in time." She smiled, in a manner that was both sardonic and sheepish simultaneously. "A few milliseconds later, and our ship would be a glowing pile of scrap and molten metal."
 
-The corners of AdaÅfs mouth twitched. ÅgI guess youÅfre going to tell me ÅeI told you soÅf, huh?Åh
+The corners of Ada''s mouth twitched. "I guess you''re going to tell me ‚ÄòI told you so'', huh?"
 
-ÅgOnly if you blame me for permitting you to send the message anyway.Åh Sophia flashed her a grin. ÅgOtherwise, letÅfs focus on what we do from here.Åh
+"Only if you blame me for permitting you to send the message anyway." Sophia flashed her a grin. "Otherwise, let''s focus on what we do from here."
 
-ÅgAnd that would be?Åh
+"And that would be?"
 
-The AIÅfs smile became something very different. Almost...menacing. ÅgWe drop onto the planetÅfs surface from where we are, and walk overland to our objective. Then,Åh here her grin was almost feral, Ågwe kick those sons of garbage compactors off the planet.Åh
+The AI''s smile became something very different. Almost...menacing. "We drop onto the planet''s surface from where we are, and walk overland to our objective. Then," here her grin was almost feral, "we kick those sons of garbage compactors off the planet."
 
-ÅgWhoa, hold on a moment there,Åh Ada said, raising her hands. ÅgAre you suggesting fratricide?!Åh
+"Whoa, hold on a moment there," Ada said, raising her hands. "Are you suggesting fratricide?!"
 
-ÅgFratricide?Åh Sophia glared at her human companion. ÅgAda, they fired on an Imperial officer neither provocation nor explanation. Imperial Defense Code, Section 31.5(A2). This is clearly classified as an act of treason, the penalty for which is death.Åh
+"Fratricide?" Sophia glared at her human companion. "Ada, they fired on an Imperial officer neither provocation nor explanation. Imperial Defense Code, Section 31.5(A2). This is clearly classified as an act of treason, the penalty for which is death."
 
-ÅgBut...Åh
+"But..."
 
-ÅgListen, Ada,Åh Sophia said, her voice carrying just the tiniest hint of sorrow, ÅgI know what youÅfre trying to say. But the Empire we knew, the Empire we served together... I donÅft know what happened. Maybe the coup succeeded, maybe the Empire was completely overthrown and replaced with another. ItÅfs happened before. But whatever the reasons, the people down there are not our friends.Åh
+"Listen, Ada," Sophia said, her voice carrying just the tiniest hint of sorrow, "I know what you''re trying to say. But the Empire we knew, the Empire we served together... I don''t know what happened. Maybe the coup succeeded, maybe the Empire was completely overthrown and replaced with another. It''s happened before. But whatever the reasons, the people down there are not our friends."
 
-ÅgI...Åh Ada mumbled, trying to find the words... but what could she say? 
+"I..." Ada mumbled, trying to find the words... but what could she say?
 
-At the Academy, theyÅfd always spoke of the virtues of the Empire. Free of strife or fear, united in a common cause. Under a common banner, everyone - organic, synthetic or any combination of the two - working together for the greater glory. Pax Terra...
+ At the Academy, they''d always spoke of the virtues of the Empire. Free of strife or fear, united in a common cause. Under a common banner, everyone - organic, synthetic or any combination of the two - working together for the greater glory. Pax Terra...
 
-(Has the galaxy really changed so much in my sleep? Or was it always this way, hidden behind the curtain?)
+[i]Has the galaxy really changed so much in my sleep? Or was it always this way, hidden behind the curtain?)[/i]
 
-She shook her head, clearing her mind of the thoughts. ÅgFine. Lead on, Sophia.Åh
+She shook her head, clearing her mind of the thoughts. "Fine. Lead on, Sophia."
 
-ÅgAye, aye, MaÅfam,Åh Sophia acknowledged, perfectly crisply.
+"Aye, aye, Ma''am," Sophia acknowledged, perfectly crisply.
 
 ~~~~~~~~~~~~~~~~~~~~
 
-It was summer in AntikytheraÅfs northern hemisphere, and the flora here had pushed the snow all the way back to thirty-seven degrees of latitude where AdaÅfs commander was standing. The planetÅfs single moon shone on to the snowfield in front of them, the white surface almost shimmering. Beyond that horizon, two hundred kilometers away, was their objective.
+It was summer in Antikythera''s northern hemisphere, and the flora here had pushed the snow all the way back to thirty-seven degrees of latitude where Ada''s commander was standing. The planet''s single moon shone on to the snowfield in front of them, the white surface almost shimmering. Beyond that horizon, two hundred kilometers away, was their objective.
 
-ÅgSophia,Åh Ada said softly.
+"Sophia," Ada said softly.
 
-ÅgYes?Åh
+"Yes?"
 
-ÅgIÅfd like to take a walk. Outside, I mean.Åh
+"I''d like to take a walk. Outside, I mean."
 
-Sophia raised an eyebrow. ÅgWhy?Åh
+Sophia raised an eyebrow. "Why?"
 
-ÅgWhat do you mean, why?Åh Ada stared at her companion. ÅgLook at the scenery outside! I want to go out there, to see it, to [i]feel[/i] it in person. DonÅft you have any sense of romance?Åh
+"What do you mean, why?" Ada stared at her companion. "Look at the scenery outside! I want to go out there, to see it, to [i]feel[/i] it in person. Don''t you have any sense of romance?"
 
-The AI frowned. ÅgItÅfs not safe-Åh
+The AI frowned. "It''s not safe-"
 
-ÅgSophia,Åh Ada said, trying not to roll her eyes. ÅgI checked the data records on the planet myself. IÅfm not stupid. This planet has no human toxins in its atmosphere, right?Åh
+"Sophia," Ada said, trying not to roll her eyes. "I checked the data records on the planet myself. I''m not stupid. This planet has no human toxins in its atmosphere, right?"
 
-ÅgWell, yes-Åh
+"Well, yes-"
 
-ÅgAnd the local biosphere consists entirely of Terran species, right? And you can pick up any hostiles long before they pose a danger, right?Åh
+"And the local biosphere consists entirely of Terran species, right? And you can pick up any hostiles long before they pose a danger, right?"
 
 Sophia just sighed.
 
-ÅgAnd IÅfve been cooped up here for five days now. Come on, let me out already.Åh
+"And I''ve been cooped up here for five days now. Come on, let me out already."
 
-ÅgFine, fine,Åh Sophia muttered, and a hatch opened behind the command chair, a ladder telescoping downwards to to the ground.
+"Fine, fine," Sophia muttered, and a hatch opened behind the command chair, a ladder telescoping downwards to to the ground.
 
-The wind was chilly on AdaÅfs face as she climbed down the ladder, her breath forming fine clouds of mist. She descended the twenty meters to the ground and walked between the commanderÅfs metallic feet, looking at the flat snowscape before her, a few snow-capped mountains visible in the distance. 
+The wind was chilly on Ada''s face as she climbed down the ladder, her breath forming fine clouds of mist. She descended the twenty meters to the ground and walked between the commander''s metallic feet, looking at the flat snowscape before her, a few snow-capped mountains visible in the distance.
 
-She smiled as childhood memories surfaced - Christmas dinners, snowball fights with the boys, watching the New YearÅfs night sky with her family... A sudden twinge of sadness followed, and she pushed the thoughts aside, content to stand alone here watching the picturesque scene.
+ She smiled as childhood memories surfaced - Christmas dinners, snowball fights with the boys, watching the New Year''s night sky with her family... A sudden twinge of sadness followed, and she pushed the thoughts aside, content to stand alone here watching the picturesque scene.
 
-ÅgAda?Åh a voice sounded in her comm.
+"Ada?" a voice sounded in her comm.
 
-ÅgYes, Sophia?Åh
+"Yes, Sophia?"
 
-ÅgYouÅfre right. It [i]is[/i] beautiful.Åh
+"You''re right. It [i]is[/i] beautiful."
 
-ÅgGlad you can appreciate it,Åh Ada said, smiling.
+"Glad you can appreciate it," Ada said, smiling.
 
 She sat down on the snow, just barely feeling the cold through her skinsuit, and leaned back, gazing up at the night sky. Without the competition of artificial lighting on the surface, the twinkling stars covered the black canvas, shining beautifully.
 
-ÅgSomewhere out there, beneath the pale moonlight...Åh
+"Somewhere out there, beneath the pale moonlight..."
 
 ~~~~~~~~~~~~~~~~~~~~
 
