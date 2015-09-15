@@ -90,7 +90,8 @@ local powerupDefs = {
 				local unitID = units[i]
 				local unitDefID = Spring.GetUnitDefID(unitID)
 				local ud = UnitDefs[unitDefID]
-				if ud.canMove and ud.canAttack and (not ud.isFactory) and (not unitDefID == DIRTBAG_DEF_ID) and (GG.mission.unitGroups[unitID] or {}).ObjMex == nil then
+				--Spring.Echo(ud.name, ud.speed > 0, ud.canAttack, (not ud.isFactory), not (unitDefID == DIRTBAG_DEF_ID))
+				if ud.speed > 0 and ud.canAttack and (not ud.isFactory) and not (unitDefID == DIRTBAG_DEF_ID) and (GG.mission.unitGroups[unitID] or {}).ObjMex == nil then
 					Spring.DestroyUnit(unitID)
 				end
 			end
