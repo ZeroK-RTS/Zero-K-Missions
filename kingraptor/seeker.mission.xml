@@ -3032,7 +3032,7 @@ GG.RefreshObjDisplay()</CodeStr>
                         <d10p1:anyType i:nil="true" />
                       </d10p1:_items>
                       <d10p1:_size>1</d10p1:_size>
-                      <d10p1:_version>1</d10p1:_version>
+                      <d10p1:_version>13</d10p1:_version>
                     </d10p1:items>
                     <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="781">
                       <d11p1:_busyCount>0</d11p1:_busyCount>
@@ -4549,7 +4549,13 @@ Powerup every 40 seconds</Description>
                                   <Name z:Id="1129">Custom Action (Alternate)</Name>
                                   <CodeStr z:Id="1130" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">GG.StartRound()
 GG.SpawnPowerups(5, nil, true)
-GG.RefreshObjDisplay()</CodeStr>
+GG.RefreshObjDisplay()
+
+local units = GG.mission.FindUnitsInGroup("ObjMex")
+for unitID in pairs(units) do
+  local health, maxHealth = Spring.GetUnitHealth(unitID)
+  Spring.SetUnitMaxHealth(unitID, maxHealth/2)
+end</CodeStr>
                                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="1131" z:Type="CMissionLib.Actions.GiveOrdersAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -10215,11 +10221,11 @@ GG.ResetUnits()</CodeStr>
                                                       <d10p1:_items z:Id="2389" z:Size="4">
                                                         <d10p1:anyType z:Id="2390" z:Type="CMissionLib.FightOrder" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                           <Point xmlns:d30p1="http://schemas.datacontract.org/2004/07/System.Windows" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
-                                                            <d30p1:_x>387.30478718724135</d30p1:_x>
-                                                            <d30p1:_y>534.87620888315166</d30p1:_y>
+                                                            <d30p1:_x>395.19954931181258</d30p1:_x>
+                                                            <d30p1:_y>517.223324629452</d30p1:_y>
                                                           </Point>
-                                                          <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">387.30478718724135</X>
-                                                          <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">534.87620888315166</Y>
+                                                          <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">395.19954931181258</X>
+                                                          <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">517.223324629452</Y>
                                                         </d10p1:anyType>
                                                         <d10p1:anyType i:nil="true" />
                                                         <d10p1:anyType i:nil="true" />
@@ -10245,7 +10251,13 @@ GG.ResetUnits()</CodeStr>
                                                   <Name z:Id="2395">Custom Action (Alternate)</Name>
                                                   <CodeStr z:Id="2396" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">GG.SpawnPowerups(12, nil, true)
 GG.StartRound()
-GG.RefreshObjDisplay()</CodeStr>
+GG.RefreshObjDisplay()
+
+local units = GG.mission.FindUnitsInGroup("ObjMex")
+for unitID in pairs(units) do
+  local health, maxHealth = Spring.GetUnitHealth(unitID)
+  Spring.SetUnitMaxHealth(unitID, maxHealth/2)
+end</CodeStr>
                                                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                                                 </TriggerLogic>
                                                 <TriggerLogic i:nil="true" />
@@ -10373,24 +10385,18 @@ Powerup every 30 seconds</Description>
                                   <Name z:Ref="532" i:nil="true" />
                                   <Instant xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Instant>
                                 </TriggerLogic>
-                                <TriggerLogic z:Id="2424" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="2425">Custom Action (Alternate)</Name>
-                                  <CodeStr z:Id="2426" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">GG.SpawnPowerups(12, nil, true)
-GG.StartRound()</CodeStr>
-                                  <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
-                                </TriggerLogic>
-                                <TriggerLogic z:Id="2427" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                <TriggerLogic z:Id="2424" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Ref="528" i:nil="true" />
                                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">60</Frames>
                                   <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.033333333333333333</Minutes>
                                   <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">2</Seconds>
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT2S</Time>
                                 </TriggerLogic>
-                                <TriggerLogic z:Id="2428" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="2429">Convo Message</Name>
+                                <TriggerLogic z:Id="2425" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                  <Name z:Id="2426">Convo Message</Name>
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                  <ImagePath z:Id="2430" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\goliath.png</ImagePath>
-                                  <Message z:Id="2431" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">GOLIATH ONLINE</Message>
+                                  <ImagePath z:Id="2427" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\goliath.png</ImagePath>
+                                  <Message z:Id="2428" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">GOLIATH ONLINE</Message>
                                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">90</Time>
                                 </TriggerLogic>
@@ -10410,16 +10416,17 @@ GG.StartRound()</CodeStr>
                                 <TriggerLogic i:nil="true" />
                                 <TriggerLogic i:nil="true" />
                                 <TriggerLogic i:nil="true" />
+                                <TriggerLogic i:nil="true" />
                               </_items>
-                              <_size>16</_size>
-                              <_version>206</_version>
+                              <_size>15</_size>
+                              <_version>207</_version>
                             </items>
-                            <_monitor xmlns:d15p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="2432">
+                            <_monitor xmlns:d15p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="2429">
                               <d15p1:_busyCount>0</d15p1:_busyCount>
                             </_monitor>
                           </Logic>
                           <MaxOccurrences xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">1</MaxOccurrences>
-                          <Name z:Id="2433" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">Boss Intro</Name>
+                          <Name z:Id="2430" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">Boss Intro</Name>
                           <Probability xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">1</Probability>
                         </d10p1:anyType>
                         <d10p1:anyType i:nil="true" />
@@ -10429,7 +10436,7 @@ GG.StartRound()</CodeStr>
                       <d10p1:_size>1</d10p1:_size>
                       <d10p1:_version>13</d10p1:_version>
                     </d10p1:items>
-                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="2434">
+                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="2431">
                       <d11p1:_busyCount>0</d11p1:_busyCount>
                     </d10p1:_monitor>
                   </Triggers>
@@ -10439,41 +10446,41 @@ GG.StartRound()</CodeStr>
               <_size>7</_size>
               <_version>11</_version>
             </items>
-            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="2435">
+            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="2432">
               <d7p1:_busyCount>0</d7p1:_busyCount>
             </_monitor>
           </Logic>
           <MaxOccurrences>1</MaxOccurrences>
-          <Name z:Id="2436">Round 6 End</Name>
+          <Name z:Id="2433">Round 6 End</Name>
           <Probability>1</Probability>
         </Trigger>
         <Trigger z:Ref="2318" i:nil="true" />
         <Trigger z:Ref="2327" i:nil="true" />
-        <Trigger z:Id="2437">
+        <Trigger z:Id="2434">
           <Enabled>true</Enabled>
           <Folder i:nil="true" />
           <IsExpanded>true</IsExpanded>
-          <Logic z:Id="2438">
-            <items z:Id="2439" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-              <_items z:Id="2440" z:Size="8">
-                <TriggerLogic z:Id="2441" z:Type="CMissionLib.Actions.ModifyObjectiveAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2442">Modify Objective</Name>
+          <Logic z:Id="2435">
+            <items z:Id="2436" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+              <_items z:Id="2437" z:Size="8">
+                <TriggerLogic z:Id="2438" z:Type="CMissionLib.Actions.ModifyObjectiveAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="2439">Modify Objective</Name>
                   <Description z:Ref="10" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <GroupTarget i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <ID z:Id="2443" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">boss</ID>
-                  <Status z:Id="2444" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Complete</Status>
+                  <ID z:Id="2440" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">boss</ID>
+                  <Status z:Id="2441" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Complete</Status>
                   <Title z:Ref="10" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                 </TriggerLogic>
-                <TriggerLogic z:Id="2445" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2446">Custom Action (Alternate)</Name>
-                  <CodeStr z:Id="2447" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">GG.EndRound()</CodeStr>
+                <TriggerLogic z:Id="2442" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="2443">Custom Action (Alternate)</Name>
+                  <CodeStr z:Id="2444" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">GG.EndRound()</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
-                <TriggerLogic z:Id="2448" z:Type="CMissionLib.Actions.ExecuteTriggersAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2449">Execute Triggers</Name>
-                  <Triggers xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="2450" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
-                    <d10p1:items z:Id="2451" z:Type="System.Collections.Generic.List`1[[CMissionLib.INamed, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-                      <d10p1:_items z:Id="2452" z:Size="4">
+                <TriggerLogic z:Id="2445" z:Type="CMissionLib.Actions.ExecuteTriggersAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="2446">Execute Triggers</Name>
+                  <Triggers xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="2447" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
+                    <d10p1:items z:Id="2448" z:Type="System.Collections.Generic.List`1[[CMissionLib.INamed, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+                      <d10p1:_items z:Id="2449" z:Size="4">
                         <d10p1:anyType z:Ref="498" i:nil="true" />
                         <d10p1:anyType i:nil="true" />
                         <d10p1:anyType i:nil="true" />
@@ -10482,7 +10489,7 @@ GG.StartRound()</CodeStr>
                       <d10p1:_size>1</d10p1:_size>
                       <d10p1:_version>9</d10p1:_version>
                     </d10p1:items>
-                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="2453">
+                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="2450">
                       <d11p1:_busyCount>0</d11p1:_busyCount>
                     </d10p1:_monitor>
                   </Triggers>
@@ -10496,12 +10503,12 @@ GG.StartRound()</CodeStr>
               <_size>3</_size>
               <_version>15</_version>
             </items>
-            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="2454">
+            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="2451">
               <d7p1:_busyCount>0</d7p1:_busyCount>
             </_monitor>
           </Logic>
           <MaxOccurrences>1</MaxOccurrences>
-          <Name z:Id="2455">Boss End</Name>
+          <Name z:Id="2452">Boss End</Name>
           <Probability>1</Probability>
         </Trigger>
         <Trigger z:Ref="305" i:nil="true" />
@@ -10510,15 +10517,15 @@ GG.StartRound()</CodeStr>
         <Trigger z:Ref="1177" i:nil="true" />
         <Trigger z:Ref="1529" i:nil="true" />
         <Trigger z:Ref="1918" i:nil="true" />
-        <Trigger z:Id="2456">
+        <Trigger z:Id="2453">
           <Enabled>true</Enabled>
           <Folder i:nil="true" />
           <IsExpanded>true</IsExpanded>
-          <Logic z:Id="2457">
-            <items z:Id="2458" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-              <_items z:Id="2459" z:Size="4">
-                <TriggerLogic z:Id="2460" z:Type="CMissionLib.Actions.SendScoreAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2461">Send Scores</Name>
+          <Logic z:Id="2454">
+            <items z:Id="2455" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+              <_items z:Id="2456" z:Size="4">
+                <TriggerLogic z:Id="2457" z:Type="CMissionLib.Actions.SendScoreAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="2458">Send Scores</Name>
                 </TriggerLogic>
                 <TriggerLogic i:nil="true" />
                 <TriggerLogic i:nil="true" />
@@ -10527,37 +10534,37 @@ GG.StartRound()</CodeStr>
               <_size>1</_size>
               <_version>1</_version>
             </items>
-            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="2462">
+            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="2459">
               <d7p1:_busyCount>0</d7p1:_busyCount>
             </_monitor>
           </Logic>
           <MaxOccurrences>-1</MaxOccurrences>
-          <Name z:Id="2463">Send Score</Name>
+          <Name z:Id="2460">Send Score</Name>
           <Probability>1</Probability>
         </Trigger>
-        <Trigger z:Id="2464">
+        <Trigger z:Id="2461">
           <Enabled>true</Enabled>
           <Folder i:nil="true" />
           <IsExpanded>true</IsExpanded>
-          <Logic z:Id="2465">
-            <items z:Id="2466" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-              <_items z:Id="2467" z:Size="4">
-                <TriggerLogic z:Id="2468" z:Type="CMissionLib.Conditions.CutsceneSkippedCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2469">Cutscene Skipped</Name>
+          <Logic z:Id="2462">
+            <items z:Id="2463" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+              <_items z:Id="2464" z:Size="4">
+                <TriggerLogic z:Id="2465" z:Type="CMissionLib.Conditions.CutsceneSkippedCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="2466">Cutscene Skipped</Name>
                   <CutsceneID z:Ref="182" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions" />
                 </TriggerLogic>
-                <TriggerLogic z:Id="2470" z:Type="CMissionLib.Actions.StopCutsceneActionsAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2471">Stop Cutscene Actions</Name>
-                  <CutsceneID z:Id="2472" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Current Cutscene</CutsceneID>
+                <TriggerLogic z:Id="2467" z:Type="CMissionLib.Actions.StopCutsceneActionsAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="2468">Stop Cutscene Actions</Name>
+                  <CutsceneID z:Id="2469" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Current Cutscene</CutsceneID>
                 </TriggerLogic>
-                <TriggerLogic z:Id="2473" z:Type="CMissionLib.Actions.ClearConvoMessageQueueAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2474">Clear Convo Message Queue</Name>
+                <TriggerLogic z:Id="2470" z:Type="CMissionLib.Actions.ClearConvoMessageQueueAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="2471">Clear Convo Message Queue</Name>
                 </TriggerLogic>
-                <TriggerLogic z:Id="2475" z:Type="CMissionLib.Actions.ExecuteTriggersAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                <TriggerLogic z:Id="2472" z:Type="CMissionLib.Actions.ExecuteTriggersAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="242" i:nil="true" />
-                  <Triggers xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="2476" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
-                    <d10p1:items z:Id="2477" z:Type="System.Collections.Generic.List`1[[CMissionLib.INamed, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-                      <d10p1:_items z:Id="2478" z:Size="4">
+                  <Triggers xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="2473" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
+                    <d10p1:items z:Id="2474" z:Type="System.Collections.Generic.List`1[[CMissionLib.INamed, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+                      <d10p1:_items z:Id="2475" z:Size="4">
                         <d10p1:anyType z:Ref="273" i:nil="true" />
                         <d10p1:anyType i:nil="true" />
                         <d10p1:anyType i:nil="true" />
@@ -10566,7 +10573,7 @@ GG.StartRound()</CodeStr>
                       <d10p1:_size>1</d10p1:_size>
                       <d10p1:_version>1</d10p1:_version>
                     </d10p1:items>
-                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="2479">
+                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="2476">
                       <d11p1:_busyCount>0</d11p1:_busyCount>
                     </d10p1:_monitor>
                   </Triggers>
@@ -10575,12 +10582,12 @@ GG.StartRound()</CodeStr>
               <_size>4</_size>
               <_version>8</_version>
             </items>
-            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="2480">
+            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="2477">
               <d7p1:_busyCount>0</d7p1:_busyCount>
             </_monitor>
           </Logic>
           <MaxOccurrences>1</MaxOccurrences>
-          <Name z:Id="2481">Intro Skipped</Name>
+          <Name z:Id="2478">Intro Skipped</Name>
           <Probability>1</Probability>
         </Trigger>
         <Trigger i:nil="true" />
@@ -10617,7 +10624,7 @@ GG.StartRound()</CodeStr>
       <_size>34</_size>
       <_version>142</_version>
     </items>
-    <_monitor xmlns:d3p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="2482">
+    <_monitor xmlns:d3p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="2479">
       <d3p1:_busyCount>0</d3p1:_busyCount>
     </_monitor>
   </Triggers>
