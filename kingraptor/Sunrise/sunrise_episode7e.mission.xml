@@ -10342,23 +10342,17 @@ GG.UseOrbitalStrike("kinetic_impactor", 3, 5450, 4550, 600, 15, 26)
                 </TriggerLogic>
                 <TriggerLogic z:Id="2035" z:Type="CMissionLib.Actions.AddObjectiveAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="2036">Add Objective</Name>
-                  <Description z:Id="2037" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Legate Fidus of the Imperial Vanguard Legion opposes you again. Neutralize his command unit.</Description>
-                  <GroupTarget i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
+                  <Description z:Id="2037" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Legate Fides of the Imperial Vanguard Legion opposes you again. Neutralize his command unit.</Description>
                   <ID z:Id="2038" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">killFidus</ID>
-                  <Title z:Id="2039" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Defeat Legate Fidus</Title>
-                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
+                  <Title z:Id="2039" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Defeat Legate Fides</Title>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2040" z:Type="CMissionLib.Actions.AddObjectiveAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="2036" i:nil="true" />
                   <Description z:Id="2041" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Disarm the explosive charges on the ship manufacturing and storage facilities. We need them intact.
 
 Clear all enemies around the building and place a unit in the circle to disarm each bomb.</Description>
-                  <GroupTarget i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <ID z:Id="2042" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">disarmBombs</ID>
                   <Title z:Id="2043" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Disarm Bombs (3)</Title>
-                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2044" z:Type="CMissionLib.Actions.LockUnitsAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="2045">Lock Units</Name>
@@ -11479,11 +11473,8 @@ end</CodeStr>
                                 <TriggerLogic z:Id="2529" z:Type="CMissionLib.Actions.AddObjectiveAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Ref="2036" i:nil="true" />
                                   <Description z:Id="2530" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Neutralize both of the enemy strongpoints on the small hills in the valley. In particular, destroy the Screamer long-range SAM batteries.</Description>
-                                  <GroupTarget i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                   <ID z:Id="2531" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">destroyStrongpoints</ID>
                                   <Title z:Id="2532" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Destroy Strongpoints (2)</Title>
-                                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="2533" z:Type="CMissionLib.Actions.MarkerPointAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="2534">Marker</Name>
@@ -11828,8 +11819,6 @@ end</CodeStr>
                   <ID z:Id="2605" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">destroyStrongpoints</ID>
                   <Status z:Id="2606" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Incomplete</Status>
                   <Title z:Id="2607" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Destroy Strongpoints (1/2)</Title>
-                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                 </TriggerLogic>
                 <TriggerLogic i:nil="true" />
               </_items>
@@ -11864,8 +11853,6 @@ end</CodeStr>
                   <ID z:Id="2618" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">destroyStrongpoints</ID>
                   <Status z:Id="2619" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Complete</Status>
                   <Title z:Id="2620" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Destroy Strongpoints (2/2)</Title>
-                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2621" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="2487" i:nil="true" />
@@ -12526,8 +12513,6 @@ If a transport is destroyed, whatever it was carrying falls to the ground, poten
                                   <ID z:Id="2798" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">disarmBombs</ID>
                                   <Status z:Ref="2606" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                   <Title z:Id="2799" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Disarm Bombs (1/3)</Title>
-                                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="2800" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Ref="2489" i:nil="true" />
@@ -12779,8 +12764,6 @@ end</CodeStr>
                                                                   <ID z:Id="2888" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">killFidus</ID>
                                                                   <Status z:Ref="2619" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                                                   <Title z:Ref="14" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                                                                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                                                                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                                                                 </TriggerLogic>
                                                                 <TriggerLogic z:Id="2889" z:Type="CMissionLib.Actions.MakeUnitsNeutralAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                                   <Name z:Id="2890">Make Units Neutral</Name>
@@ -13023,8 +13006,6 @@ end</CodeStr>
                                                                   <ID z:Id="2955" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">disarmBombs</ID>
                                                                   <Status z:Id="2956" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Incomplete</Status>
                                                                   <Title z:Id="2957" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Disarm Bombs (2/3)</Title>
-                                                                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                                                                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                                                                 </TriggerLogic>
                                                                 <TriggerLogic z:Id="2958" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                                   <Name z:Id="2959">Convo Message</Name>
@@ -13062,8 +13043,6 @@ end</CodeStr>
                                                                   <ID z:Id="2970" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">disarmBombs</ID>
                                                                   <Status z:Ref="2619" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                                                   <Title z:Id="2971" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Disarm Bombs (3/3)</Title>
-                                                                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                                                                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                                                                 </TriggerLogic>
                                                                 <TriggerLogic z:Id="2972" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                                   <Name z:Id="2973">Convo Message</Name>
@@ -13284,11 +13263,8 @@ end</CodeStr>
                                                                                 <TriggerLogic z:Id="3042" z:Type="CMissionLib.Actions.AddObjectiveAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                                                   <Name z:Id="3043">Add Objective</Name>
                                                                                   <Description z:Id="3044" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">That Moho Geothermal powerplant provides a considerable amount of energy for the enemy's war machine and contributes power to their defense grid. Destroy it to set the enemy back considerably.</Description>
-                                                                                  <GroupTarget i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                                                                   <ID z:Id="3045" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">killGeo</ID>
                                                                                   <Title z:Id="3046" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Destroy Moho Geo (Optional)</Title>
-                                                                                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                                                                                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                                                                                 </TriggerLogic>
                                                                                 <TriggerLogic z:Id="3047" z:Type="CMissionLib.Actions.EnableTriggersAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                                                   <Name z:Ref="2907" i:nil="true" />
@@ -13335,8 +13311,6 @@ end</CodeStr>
                                                                                                   <ID z:Id="3066" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">killGeo</ID>
                                                                                                   <Status z:Id="3067" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Complete</Status>
                                                                                                   <Title z:Ref="14" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                                                                                                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                                                                                                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                                                                                                 </TriggerLogic>
                                                                                                 <TriggerLogic i:nil="true" />
                                                                                               </_items>
@@ -13474,8 +13448,6 @@ end</CodeStr>
                                                                   <ID z:Id="3095" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">disarmBombs</ID>
                                                                   <Status z:Id="3096" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Failed</Status>
                                                                   <Title z:Ref="14" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                                                                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                                                                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                                                                 </TriggerLogic>
                                                                 <TriggerLogic z:Id="3097" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                                   <Name z:Ref="2489" i:nil="true" />
@@ -13733,8 +13705,6 @@ end</CodeStr>
                   <ID z:Id="3143" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">disarmBombs</ID>
                   <Status z:Ref="3096" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Title z:Ref="14" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                 </TriggerLogic>
                 <TriggerLogic z:Id="3144" z:Type="CMissionLib.Actions.EnterCutsceneAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="3120" i:nil="true" />
@@ -13887,8 +13857,6 @@ Spring.DestroyUnit(unitID, false, true)</CodeStr>
                   <ID z:Id="3181" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">killFidus</ID>
                   <Status z:Id="3182" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Complete</Status>
                   <Title z:Ref="14" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                 </TriggerLogic>
                 <TriggerLogic z:Id="3183" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="3184">Wait</Name>
