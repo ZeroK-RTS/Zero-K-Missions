@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Mission xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="1" z:Type="CMissionLib.Mission" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
   <Author z:Id="2">KingRaptor</Author>
   <ContentFolderPath z:Id="3">D:\Games\Spring\ZK-Missions\kingraptor\Sunrise\episode1</ContentFolderPath>
@@ -75,7 +75,7 @@
   <ImagePath z:Id="36">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada2.png</ImagePath>
   <MapName z:Id="37">Full_Moon-v04</MapName>
   <MaxUnits>5000</MaxUnits>
-  <ModName z:Id="38">Zero-K v1.2.7.7</ModName>
+  <ModName z:Id="38">Zero-K $VERSION</ModName>
   <Name z:Id="39">Sunrise Episode 1 - Awakening</Name>
   <Players z:Id="40">
     <items z:Id="41" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
@@ -2441,11 +2441,8 @@
                 <TriggerLogic z:Id="874" z:Type="CMissionLib.Actions.AddObjectiveAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="875">Add Objective</Name>
                   <Description z:Id="876" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Destruction of your commander unit will have fatal results for yourself. Do not let this happen under any circumstances.</Description>
-                  <GroupTarget i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <ID z:Id="877" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">protectSelf</ID>
                   <Title z:Id="878" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Protect Your Commander</Title>
-                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                 </TriggerLogic>
                 <TriggerLogic z:Id="879" z:Type="CMissionLib.Conditions.GameStartedCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="880">Game Starts</Name>
@@ -2648,12 +2645,12 @@ end</CodeStr>
                                                 <TriggerLogic z:Id="951" z:Type="CMissionLib.Actions.GuiMessagePersistentAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Id="952">GUI Message (Persistent)</Name>
                                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
-                                                  <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
+                                                  <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">160</Height>
                                                   <ImagePath z:Id="953" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\jumpingjack.png</ImagePath>
                                                   <Message z:Id="954" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The Jumpbots, as their name suggests, are distinguished by their ability to jump. This is particularly useful for closing distances rapidly, making a quick escape, or getting over cliffs and rivers.
 
 Note that not all units in the Jumpjet / Specialist Plant can jump.</Message>
-                                                  <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">320</Width>
+                                                  <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">360</Width>
                                                 </TriggerLogic>
                                                 <TriggerLogic i:nil="true" />
                                                 <TriggerLogic i:nil="true" />
@@ -2702,13 +2699,13 @@ Spring.SetUnitRulesParam(unitID, "facplop", 1, {inlos = true})</CodeStr>
                                                 <TriggerLogic z:Id="969" z:Type="CMissionLib.Actions.GuiMessagePersistentAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Id="970">GUI Message (Persistent)</Name>
                                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
-                                                  <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
+                                                  <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">160</Height>
                                                   <ImagePath z:Id="971" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\unitpics\armwin.png</ImagePath>
                                                   <Message z:Id="972" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Wind generators are a cheap source of energy, more efficient than Solar Collectors. They also receive an output bonus when placed on hills. Their principal weakness is their vulnerability to raiders.
 
 Windgens are prone to chain explosion. Spread them out during construction.
 HINT: You can increase or decrease line/block spacing with the Z and X keys.</Message>
-                                                  <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">320</Width>
+                                                  <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">360</Width>
                                                 </TriggerLogic>
                                                 <TriggerLogic z:Id="973" z:Type="CMissionLib.Conditions.UnitFinishedCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Id="974">Unit Finished</Name>
@@ -3111,11 +3108,8 @@ HINT: You can increase or decrease line/block spacing with the Z and X keys.</Me
                 <TriggerLogic z:Id="1068" z:Type="CMissionLib.Actions.AddObjectiveAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="875" i:nil="true" />
                   <Description z:Id="1069" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Destroy the enemy's Jumpjet / Specialist plant. This will cripple their unit production and give us an oppurtunity to escape.</Description>
-                  <GroupTarget i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <ID z:Id="1070" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">destroyFactory</ID>
                   <Title z:Id="1071" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Destroy Enemy Factory</Title>
-                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1072" z:Type="CMissionLib.Actions.SetCameraPointTargetAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="1073">Point Camera at Map Location</Name>
@@ -3264,8 +3258,6 @@ end</CodeStr>
                   <ID z:Id="1117" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">protectSelf</ID>
                   <Status z:Id="1118" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Failed</Status>
                   <Title z:Ref="10" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1119" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="1065" i:nil="true" />
@@ -3481,14 +3473,14 @@ end</CodeStr>
                                 <TriggerLogic z:Id="1192" z:Type="CMissionLib.Actions.GuiMessagePersistentAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Ref="970" i:nil="true" />
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
-                                  <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
+                                  <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">160</Height>
                                   <ImagePath z:Id="1193" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\unitpics\armtick.png</ImagePath>
-                                  <Message z:Id="1194" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The Tick is an all-terrain crawling bomb designed to get in close and explode, stunning multiple enemies for up to sixteen seconds and leaving them vulnerable to allied forces. High HP units will require multiple Ticks in close sequence to disable.
+                                  <Message z:Id="1194" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The Tick is an all-terrain crawling bomb designed to get in close and explode, stunning multiple enemies for up to over a dozen seconds and leaving them vulnerable to allied forces. High HP units will require multiple Ticks in close sequence to disable.
 
 Like its explosive cousin, the Roach, the Tick can burrow to avoid detection until enemies are close. It should not attempt to charge enemy units with accurate weapons.
 
 Be careful when using multiple Ticks together; a Tick stunned by one of its friends cannot detonate unless killed by weapons fire.</Message>
-                                  <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">320</Width>
+                                  <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">360</Width>
                                 </TriggerLogic>
                               </_items>
                               <_size>4</_size>
@@ -3539,8 +3531,6 @@ Be careful when using multiple Ticks together; a Tick stunned by one of its frie
                   <ID z:Id="1206" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">destroyFactory</ID>
                   <Status z:Id="1207" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Complete</Status>
                   <Title z:Ref="10" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1208" z:Type="CMissionLib.Actions.ModifyObjectiveAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="1205" i:nil="true" />
@@ -3549,8 +3539,6 @@ Be careful when using multiple Ticks together; a Tick stunned by one of its frie
                   <ID z:Id="1209" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">protectSelf</ID>
                   <Status z:Ref="1207" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Title z:Ref="10" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1210" z:Type="CMissionLib.Conditions.UnitDestroyedCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="1211">Unit Destroyed</Name>
@@ -3586,8 +3574,6 @@ Be careful when using multiple Ticks together; a Tick stunned by one of its frie
                   <ID z:Id="1222" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">destroyFactory</ID>
                   <Status z:Ref="1207" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Title z:Ref="10" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1223" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="1224">Wait</Name>
