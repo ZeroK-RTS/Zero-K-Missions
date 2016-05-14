@@ -23,9 +23,11 @@ end
 --------------------------------------------------------------------------------
 local spGetTeamInfo = Spring.GetTeamInfo
 
-local defeatTriggersByTeam = {}
+local defeatTriggersByTeam = {
+  [0] = "Defeat",  
+}
 local defeatTriggersByAllyTeam = {
-  [0] = "Defeat",
+  --[0] = "Defeat",
 }
 local countedTeams = {[0] = true}
 
