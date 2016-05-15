@@ -11,7 +11,7 @@ local comms = {
   },
   -- Hun
   comm_guardian = { 
-    chassis = "commstrike3", 
+    chassis = "armcom3", 
     modules = { "commweapon_beamlaser", "commweapon_concussion", "module_ablative_armor", "module_high_power_servos", "weaponmod_high_frequency_beam", "module_high_power_servos"},
     miscDefs = {
       customparams = {
@@ -22,7 +22,7 @@ local comms = {
   },
   -- Ostrogoth
   comm_riot = {
-    chassis = "commstrike3",
+    chassis = "corcom3",
     modules = { "commweapon_riotcannon", "commweapon_heatray", "module_autorepair", "module_high_power_servos", "module_personal_shield"},
     miscDefs = {
       customparams = {
