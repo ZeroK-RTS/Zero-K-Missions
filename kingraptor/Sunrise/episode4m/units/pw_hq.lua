@@ -21,6 +21,7 @@ unitDef = {
     helptext_pl    = [[Bunkry takie jak ten przetrzymywaly uzbrojenie podczas Wojen Planet. Niektore z nich dalej moga zawierac uzyteczne wyposazenie.]],
     dontcount = [[1]],
     soundselect = "building_select1",
+    statsname = "pw_campaign_bunker"
   },
 
   energyUse                     = 0,

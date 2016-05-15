@@ -16,6 +16,7 @@ structureConfig = {
 			
 			unitDef.buildpic = "pw_generic.png"
 			
+			unitDef.customparams.statsname = "pw_campaign_imperialtomb"
 			unitDef.customparams.soundselect = "radar_select"
 			unitDef.customparams.helptext = "This is the resting place of the God-Emperor of Man."
 			unitDef.customparams.description_pl = "Tu spoczywa Imperator"

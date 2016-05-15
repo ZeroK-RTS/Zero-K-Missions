@@ -3,7 +3,7 @@ local comms = {
   comm_mission_tutorial1 = {
     chassis = "commsupport2",
     name = "Athenion",
-    description = "Rebel Commander, Builds at 12 m/s",
+    description = "Rebel Commander",
     modules = { "commweapon_lparticlebeam", "module_autorepair", "module_autorepair", "module_ablative_armor"},
     miscDefs = {
       customparams = {
@@ -21,4 +21,6 @@ local comms = {
     chassis = "benzcom3",
     modules = { "commweapon_assaultcannon", "commweapon_napalmgrenade", "module_heavy_armor", "weaponmod_high_caliber_barrel", "module_adv_targeting", "module_autorepair", "module_high_power_servos"},
   },
+}
+
 return comms

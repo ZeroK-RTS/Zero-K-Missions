@@ -42,6 +42,7 @@ unitDef = {
     helptext_de    = [[Die Daneel Olivaw ist stark und ungeschickt, aber sie hat ein Schild um sich zu schutzen und kann seine einige Jaegerdrohne herstellen.]],
     helptext_pl    = [[Daneel Olivaw jest wytrzymala i ma problemy ze zwrotnoscia niczym latajaca cegla, jednak jest ona uzbrojona w oddzial dronow bojowych oraz tarcze obszarowa do ich ochrony.]],
     modelradius    = [[40]],
+    statsname      = [[nebula_campaign_daneel]],
   },
 
   explodeAs              = [[LARGE_BUILDINGEX]],
