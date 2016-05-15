@@ -5,7 +5,7 @@ local comms = {
   },
 
   comm_campaign_legion = {
-    chassis = "corcom4",
+    chassis = "commstrike4",
     modules = { "commweapon_shotgun", "commweapon_missilelauncher", "module_heavy_armor", "weaponmod_autoflechette", "module_adv_targeting", "module_autorepair", "module_high_power_servos", "weaponmod_standoff_rocket"},
     --decorations = { "skin_battle_tiger" },
   },
