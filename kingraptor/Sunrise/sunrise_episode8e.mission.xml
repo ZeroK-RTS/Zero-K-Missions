@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mission xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="1" z:Type="CMissionLib.Mission" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
   <Author z:Id="2">KingRaptor</Author>
-  <ContentFolderPath z:Id="3">D:\Games\Spring\ZK-Missions\kingraptor\Sunrise\episode8e\</ContentFolderPath>
+  <ContentFolderPath z:Id="3">G:\Games\Spring\ZK-Missions\kingraptor\Sunrise\episode8e\</ContentFolderPath>
   <Counters xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="4">
     <d2p1:items z:Id="5" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
       <d2p1:_items z:Id="6" z:Size="8">
@@ -71,10 +71,10 @@ cratermult = 0.5;</CustomModOptions>
       <d3p1:_busyCount>0</d3p1:_busyCount>
     </d2p1:_monitor>
   </DisabledWidgets>
-  <ImagePath z:Id="41">D:\Games\Spring\ZK-Missions\kingraptor\images\episode8e_image.png</ImagePath>
+  <ImagePath z:Id="41">G:\Games\Spring\ZK-Missions\kingraptor\images\episode8e_image.png</ImagePath>
   <MapName z:Id="42">Throne v1</MapName>
   <MaxUnits>5000</MaxUnits>
-  <ModName z:Id="43">Zero-K v1.3.7.3</ModName>
+  <ModName z:Id="43">Zero-K v1.4.5.0</ModName>
   <Name z:Id="44">Sunrise Episode 8E - The King is Dead</Name>
   <Players z:Id="45">
     <items z:Id="46" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
@@ -2076,7 +2076,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>271.97392031321965</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="65" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="472">hoverscout</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="472">corsh</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="473">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -12191,21 +12191,15 @@ end</CodeStr>
           <Logic z:Id="2427">
             <items z:Id="2428" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
               <_items z:Id="2429" z:Size="64">
-                <TriggerLogic z:Id="2430" z:Type="CMissionLib.Actions.EnterCutsceneAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2431">Enter Cutscene</Name>
-                  <ID z:Id="2432" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Intro</ID>
-                  <Instant xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Instant>
-                  <Skippable xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Skippable>
+                <TriggerLogic z:Id="2430" z:Type="CMissionLib.Actions.SaveCameraStateAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="2431">Save Camera State</Name>
                 </TriggerLogic>
-                <TriggerLogic z:Id="2433" z:Type="CMissionLib.Actions.SaveCameraStateAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2434">Save Camera State</Name>
+                <TriggerLogic z:Id="2432" z:Type="CMissionLib.Actions.MusicAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="2433">Play Music</Name>
+                  <TrackPath z:Id="2434" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\music\Arnaud_Conde_-_Posthumus_Regium.ogg</TrackPath>
                 </TriggerLogic>
-                <TriggerLogic z:Id="2435" z:Type="CMissionLib.Actions.MusicAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2436">Play Music</Name>
-                  <TrackPath z:Id="2437" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\music\Arnaud_Conde_-_Posthumus_Regium.ogg</TrackPath>
-                </TriggerLogic>
-                <TriggerLogic z:Id="2438" z:Type="CMissionLib.Actions.SetCameraPosDirAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2439">Set Camera Position/Direction</Name>
+                <TriggerLogic z:Id="2435" z:Type="CMissionLib.Actions.SetCameraPosDirAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="2436">Set Camera Position/Direction</Name>
                   <PX xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">8555</PX>
                   <PY xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">410</PY>
                   <PZ xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">5630</PZ>
@@ -12213,19 +12207,22 @@ end</CodeStr>
                   <RY xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">163</RY>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Time>
                 </TriggerLogic>
-                <TriggerLogic z:Id="2440" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2441">Wait</Name>
+                <TriggerLogic z:Id="2437" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="2438">Wait</Name>
                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">30</Frames>
-                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.016666666666666666</Minutes>
-                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">1</Seconds>
-                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT1S</Time>
+                </TriggerLogic>
+                <TriggerLogic z:Id="2439" z:Type="CMissionLib.Actions.EnterCutsceneAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="2440">Enter Cutscene</Name>
+                  <ID z:Id="2441" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Intro</ID>
+                  <Instant xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Instant>
+                  <Skippable xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Skippable>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2442" z:Type="CMissionLib.Actions.FadeInAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="2443">Fade In</Name>
                   <Instant xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Instant>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2444" z:Type="CMissionLib.Actions.SetCameraPosDirAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="2439" i:nil="true" />
+                  <Name z:Ref="2436" i:nil="true" />
                   <PX xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">8490</PX>
                   <PY i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <PZ xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">5170</PZ>
@@ -12247,7 +12244,7 @@ Spring.GiveOrderToUnitMap(units, CMD.MOVE, {x, y, z}, {"ctrl"})</CodeStr>
                 <TriggerLogic z:Id="2450" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="2451">Convo Message</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="2452" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_praetorian.png</ImagePath>
+                  <ImagePath z:Id="2452" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\images\comm_praetorian.png</ImagePath>
                   <Message z:Id="2453" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Traitors, rebels and heretics, hear my words!</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Time>
@@ -12255,7 +12252,7 @@ Spring.GiveOrderToUnitMap(units, CMD.MOVE, {x, y, z}, {"ctrl"})</CodeStr>
                 <TriggerLogic z:Id="2454" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="2451" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="2455" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_praetorian.png</ImagePath>
+                  <ImagePath z:Id="2455" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\images\comm_praetorian.png</ImagePath>
                   <Message z:Id="2456" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">You have come for the Emperor, but all you will find here is your death.</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">180</Time>
@@ -12263,7 +12260,7 @@ Spring.GiveOrderToUnitMap(units, CMD.MOVE, {x, y, z}, {"ctrl"})</CodeStr>
                 <TriggerLogic z:Id="2457" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="2451" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="2458" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_praetorian.png</ImagePath>
+                  <ImagePath z:Id="2458" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\images\comm_praetorian.png</ImagePath>
                   <Message z:Id="2459" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">You trespass on his soil, lay waste to his works, and now you seek to defile his very throne.</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">210</Time>
@@ -12271,7 +12268,7 @@ Spring.GiveOrderToUnitMap(units, CMD.MOVE, {x, y, z}, {"ctrl"})</CodeStr>
                 <TriggerLogic z:Id="2460" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="2451" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="2461" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_praetorian.png</ImagePath>
+                  <ImagePath z:Id="2461" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\images\comm_praetorian.png</ImagePath>
                   <Message z:Id="2462" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Now the Emperor rises, and His wrath shall shake the galaxy!</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Time>
@@ -12279,7 +12276,7 @@ Spring.GiveOrderToUnitMap(units, CMD.MOVE, {x, y, z}, {"ctrl"})</CodeStr>
                 <TriggerLogic z:Id="2463" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="2451" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="2464" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_praetorian.png</ImagePath>
+                  <ImagePath z:Id="2464" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\images\comm_praetorian.png</ImagePath>
                   <Message z:Id="2465" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Our will is resolute. Our faith is limitless. Our vengeance shall know no bounds.</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">210</Time>
@@ -12287,20 +12284,17 @@ Spring.GiveOrderToUnitMap(units, CMD.MOVE, {x, y, z}, {"ctrl"})</CodeStr>
                 <TriggerLogic z:Id="2466" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="2451" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="2467" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_praetorian.png</ImagePath>
+                  <ImagePath z:Id="2467" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\images\comm_praetorian.png</ImagePath>
                   <Message z:Id="2468" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Ready yourselves, foes of the Empire, for today is your judgement day!</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">180</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2469" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="2441" i:nil="true" />
+                  <Name z:Ref="2438" i:nil="true" />
                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Frames>
-                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.083333333333333329</Minutes>
-                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">5</Seconds>
-                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT5S</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2470" z:Type="CMissionLib.Actions.SetCameraPosDirAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="2439" i:nil="true" />
+                  <Name z:Ref="2436" i:nil="true" />
                   <PX xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">3040</PX>
                   <PY xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">865</PY>
                   <PZ xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">5175</PZ>
@@ -12309,14 +12303,11 @@ Spring.GiveOrderToUnitMap(units, CMD.MOVE, {x, y, z}, {"ctrl"})</CodeStr>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2471" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="2441" i:nil="true" />
-                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">53.999999999999993</Frames>
-                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.030000000000000002</Minutes>
-                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">1.7999999999999998</Seconds>
-                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT1.8S</Time>
+                  <Name z:Ref="2438" i:nil="true" />
+                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">54</Frames>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2472" z:Type="CMissionLib.Actions.SetCameraPosDirAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="2439" i:nil="true" />
+                  <Name z:Ref="2436" i:nil="true" />
                   <PX xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">8695</PX>
                   <PY xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">720</PY>
                   <PZ xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">4685</PZ>
@@ -12325,14 +12316,11 @@ Spring.GiveOrderToUnitMap(units, CMD.MOVE, {x, y, z}, {"ctrl"})</CodeStr>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2473" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="2441" i:nil="true" />
-                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">53.999999999999993</Frames>
-                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.030000000000000002</Minutes>
-                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">1.7999999999999998</Seconds>
-                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT1.8S</Time>
+                  <Name z:Ref="2438" i:nil="true" />
+                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">54</Frames>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2474" z:Type="CMissionLib.Actions.SetCameraPosDirAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="2439" i:nil="true" />
+                  <Name z:Ref="2436" i:nil="true" />
                   <PX xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">5030</PX>
                   <PY xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">675</PY>
                   <PZ xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">8545</PZ>
@@ -12341,14 +12329,11 @@ Spring.GiveOrderToUnitMap(units, CMD.MOVE, {x, y, z}, {"ctrl"})</CodeStr>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2475" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="2441" i:nil="true" />
-                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">53.999999999999993</Frames>
-                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.030000000000000002</Minutes>
-                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">1.7999999999999998</Seconds>
-                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT1.8S</Time>
+                  <Name z:Ref="2438" i:nil="true" />
+                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">54</Frames>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2476" z:Type="CMissionLib.Actions.SetCameraPosDirAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="2439" i:nil="true" />
+                  <Name z:Ref="2436" i:nil="true" />
                   <PX xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">8185</PX>
                   <PY xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">885</PY>
                   <PZ xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">7780</PZ>
@@ -12357,14 +12342,11 @@ Spring.GiveOrderToUnitMap(units, CMD.MOVE, {x, y, z}, {"ctrl"})</CodeStr>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2477" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="2441" i:nil="true" />
-                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">53.999999999999993</Frames>
-                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.030000000000000002</Minutes>
-                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">1.7999999999999998</Seconds>
-                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT1.8S</Time>
+                  <Name z:Ref="2438" i:nil="true" />
+                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">54</Frames>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2478" z:Type="CMissionLib.Actions.SetCameraPosDirAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="2439" i:nil="true" />
+                  <Name z:Ref="2436" i:nil="true" />
                   <PX xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">5250</PX>
                   <PY xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">835</PY>
                   <PZ xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">2745</PZ>
@@ -13060,14 +13042,11 @@ Spring.GiveOrderToUnitMap(units, CMD.MOVE, {x, y, z}, {"ctrl"})</CodeStr>
                   <Queue xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Queue>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2616" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="2441" i:nil="true" />
-                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">53.999999999999993</Frames>
-                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.030000000000000002</Minutes>
-                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">1.7999999999999998</Seconds>
-                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT1.8S</Time>
+                  <Name z:Ref="2438" i:nil="true" />
+                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">54</Frames>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2617" z:Type="CMissionLib.Actions.SetCameraPosDirAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="2439" i:nil="true" />
+                  <Name z:Ref="2436" i:nil="true" />
                   <PX xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">7560</PX>
                   <PY xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">600</PY>
                   <PZ xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">2680</PZ>
@@ -13076,11 +13055,8 @@ Spring.GiveOrderToUnitMap(units, CMD.MOVE, {x, y, z}, {"ctrl"})</CodeStr>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2618" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="2441" i:nil="true" />
-                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">5.9999999999999991</Frames>
-                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.0033333333333333335</Minutes>
-                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.19999999999999998</Seconds>
-                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT0.2S</Time>
+                  <Name z:Ref="2438" i:nil="true" />
+                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">6</Frames>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2619" z:Type="CMissionLib.Actions.CreateUnitsAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="2620">Create Units</Name>
@@ -13349,7 +13325,7 @@ Spring.GiveOrderToUnitMap(units, CMD.MOVE, {x, y, z}, {"ctrl"})</CodeStr>
                   <UseOrbitalDrop xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</UseOrbitalDrop>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2673" z:Type="CMissionLib.Actions.SetCameraPosDirAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="2439" i:nil="true" />
+                  <Name z:Ref="2436" i:nil="true" />
                   <PX xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">7675</PX>
                   <PY xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">535</PY>
                   <PZ xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">2320</PZ>
@@ -13358,14 +13334,11 @@ Spring.GiveOrderToUnitMap(units, CMD.MOVE, {x, y, z}, {"ctrl"})</CodeStr>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">20</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2674" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="2441" i:nil="true" />
+                  <Name z:Ref="2438" i:nil="true" />
                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">114</Frames>
-                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.063333333333333339</Minutes>
-                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">3.8</Seconds>
-                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT3.8S</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2675" z:Type="CMissionLib.Actions.SetCameraPosDirAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="2439" i:nil="true" />
+                  <Name z:Ref="2436" i:nil="true" />
                   <PX xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">4440</PX>
                   <PY xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">475</PY>
                   <PZ xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">4510</PZ>
@@ -13385,11 +13358,8 @@ end</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2678" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="2441" i:nil="true" />
-                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">2.9999999999999996</Frames>
-                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.0016666666666666668</Minutes>
-                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.099999999999999992</Seconds>
-                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT0.1S</Time>
+                  <Name z:Ref="2438" i:nil="true" />
+                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">3</Frames>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2679" z:Type="CMissionLib.Actions.DestroyUnitsAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="2680">Destroy Units</Name>
@@ -13397,7 +13367,7 @@ end</CodeStr>
                   <Group z:Ref="2488" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                 </TriggerLogic>
                 <TriggerLogic z:Id="2681" z:Type="CMissionLib.Actions.SetCameraPosDirAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="2439" i:nil="true" />
+                  <Name z:Ref="2436" i:nil="true" />
                   <PX xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">4755</PX>
                   <PY i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <PZ xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">4235</PZ>
@@ -13406,14 +13376,11 @@ end</CodeStr>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">18</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2682" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="2441" i:nil="true" />
-                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">146.99999999999997</Frames>
-                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.081666666666666665</Minutes>
-                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">4.8999999999999995</Seconds>
-                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT4.9S</Time>
+                  <Name z:Ref="2438" i:nil="true" />
+                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Frames>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2683" z:Type="CMissionLib.Actions.SetCameraPosDirAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="2439" i:nil="true" />
+                  <Name z:Ref="2436" i:nil="true" />
                   <PX xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">5930</PX>
                   <PY xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">1275</PY>
                   <PZ xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">5880</PZ>
@@ -13422,14 +13389,11 @@ end</CodeStr>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2684" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="2441" i:nil="true" />
-                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">2.9999999999999996</Frames>
-                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.0016666666666666668</Minutes>
-                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.099999999999999992</Seconds>
-                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT0.1S</Time>
+                  <Name z:Ref="2438" i:nil="true" />
+                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">3</Frames>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2685" z:Type="CMissionLib.Actions.SetCameraPosDirAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="2439" i:nil="true" />
+                  <Name z:Ref="2436" i:nil="true" />
                   <PX xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">6170</PX>
                   <PY i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <PZ i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
@@ -13438,14 +13402,11 @@ end</CodeStr>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">20</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2686" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="2441" i:nil="true" />
-                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">206.99999999999997</Frames>
-                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.115</Minutes>
-                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">6.8999999999999995</Seconds>
-                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT6.9S</Time>
+                  <Name z:Ref="2438" i:nil="true" />
+                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">210</Frames>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2687" z:Type="CMissionLib.Actions.SetCameraPosDirAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="2439" i:nil="true" />
+                  <Name z:Ref="2436" i:nil="true" />
                   <PX xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">6075</PX>
                   <PY xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">1065</PY>
                   <PZ xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">6040</PZ>
@@ -13454,14 +13415,11 @@ end</CodeStr>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2688" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="2441" i:nil="true" />
-                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">2.9999999999999996</Frames>
-                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.0016666666666666668</Minutes>
-                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.099999999999999992</Seconds>
-                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT0.1S</Time>
+                  <Name z:Ref="2438" i:nil="true" />
+                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">3</Frames>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2689" z:Type="CMissionLib.Actions.SetCameraPosDirAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="2439" i:nil="true" />
+                  <Name z:Ref="2436" i:nil="true" />
                   <PX i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <PY xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">920</PY>
                   <PZ xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">6210</PZ>
@@ -13470,11 +13428,8 @@ end</CodeStr>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">16</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2690" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="2441" i:nil="true" />
-                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">176.99999999999997</Frames>
-                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.098333333333333342</Minutes>
-                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">5.8999999999999995</Seconds>
-                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT5.9S</Time>
+                  <Name z:Ref="2438" i:nil="true" />
+                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">180</Frames>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2691" z:Type="CMissionLib.Actions.ExecuteTriggersAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="2692">Execute Triggers</Name>
@@ -13492,11 +13447,8 @@ end</CodeStr>
                                   <Name z:Id="2701">Restore Camera State</Name>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="2702" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Ref="2441" i:nil="true" />
+                                  <Name z:Ref="2438" i:nil="true" />
                                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">90</Frames>
-                                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.05</Minutes>
-                                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">3</Seconds>
-                                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT3S</Time>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="2703" z:Type="CMissionLib.Actions.MakeUnitsAlwaysVisibleAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="2704">Make Units Always Visible</Name>
@@ -13568,11 +13520,8 @@ end</CodeStr>
                                   <Description z:Id="2728" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Use your naval units to destroy the enemy base at our landing site. Neutralize their factory, fusion reactors and any heavy defenses present.
 
 The Battleship must remain alive until this task is complete.</Description>
-                                  <GroupTarget i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                   <ID z:Id="2729" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">clearBeachhead</ID>
                                   <Title z:Id="2730" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Clear Beachhead</Title>
-                                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="2731" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Ref="2417" i:nil="true" />
@@ -13720,16 +13669,13 @@ end</CodeStr>
                                   <UseOrbitalDrop xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</UseOrbitalDrop>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="2762" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Ref="2441" i:nil="true" />
+                                  <Name z:Ref="2438" i:nil="true" />
                                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">60</Frames>
-                                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.033333333333333333</Minutes>
-                                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">2</Seconds>
-                                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT2S</Time>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="2763" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Ref="2451" i:nil="true" />
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                  <ImagePath z:Id="2764" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_ally_support.png</ImagePath>
+                                  <ImagePath z:Id="2764" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\images\comm_ally_support.png</ImagePath>
                                   <Message z:Id="2765" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">You're late. The battle's already started.</Message>
                                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Time>
@@ -13737,7 +13683,7 @@ end</CodeStr>
                                 <TriggerLogic z:Id="2766" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Ref="2451" i:nil="true" />
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                  <ImagePath z:Id="2767" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
+                                  <ImagePath z:Id="2767" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
                                   <Message z:Id="2768" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">I got here as fast as we could. How are we holding up?</Message>
                                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">180</Time>
@@ -13745,17 +13691,14 @@ end</CodeStr>
                                 <TriggerLogic z:Id="2769" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Ref="2451" i:nil="true" />
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                  <ImagePath z:Id="2770" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_ally_support.png</ImagePath>
+                                  <ImagePath z:Id="2770" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\images\comm_ally_support.png</ImagePath>
                                   <Message z:Id="2771" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Like a jumper halfway down the building. Now hurry up and secure a beachhead, the Imperials aren't gonna wait for us.</Message>
                                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Time>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="2772" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Ref="2441" i:nil="true" />
+                                  <Name z:Ref="2438" i:nil="true" />
                                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">570</Frames>
-                                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.31666666666666665</Minutes>
-                                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">19</Seconds>
-                                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT19S</Time>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="2773" z:Type="CMissionLib.Actions.GiveOrdersAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="2774">Give Orders</Name>
@@ -13921,7 +13864,7 @@ end</CodeStr>
                 <TriggerLogic i:nil="true" />
               </_items>
               <_size>49</_size>
-              <_version>263</_version>
+              <_version>265</_version>
             </items>
             <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="2804">
               <d7p1:_busyCount>0</d7p1:_busyCount>
@@ -13940,11 +13883,11 @@ end</CodeStr>
               <_items z:Id="2809" z:Size="8">
                 <TriggerLogic z:Id="2810" z:Type="CMissionLib.Conditions.CutsceneSkippedCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="2811">Cutscene Skipped</Name>
-                  <CutsceneID z:Ref="2432" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions" />
+                  <CutsceneID z:Ref="2441" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions" />
                 </TriggerLogic>
                 <TriggerLogic z:Id="2812" z:Type="CMissionLib.Actions.StopCutsceneActionsAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="2813">Stop Cutscene Actions</Name>
-                  <CutsceneID z:Ref="2432" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
+                  <CutsceneID z:Ref="2441" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                 </TriggerLogic>
                 <TriggerLogic z:Id="2814" z:Type="CMissionLib.Actions.ExecuteTriggersAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="2815">Execute Triggers</Name>
@@ -14081,20 +14024,14 @@ Spring.SetTeamResource(3,"e",550)</CodeStr>
                 <TriggerLogic z:Id="2858" z:Type="CMissionLib.Actions.AddObjectiveAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="2859">Add Objective</Name>
                   <Description z:Id="2860" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Destroy all defenses around the Emperor's tomb and secure it.</Description>
-                  <GroupTarget i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <ID z:Id="2861" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">defeatImperials</ID>
                   <Title z:Id="2862" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Secure Throne</Title>
-                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2863" z:Type="CMissionLib.Actions.AddObjectiveAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="2859" i:nil="true" />
                   <Description z:Id="2864" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Eliminate the Praetorian Prefect, Scipio Astra, for good.</Description>
-                  <GroupTarget i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <ID z:Id="2865" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">killAstra</ID>
                   <Title z:Id="2866" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Kill Scipio Astra</Title>
-                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2867" z:Type="CMissionLib.Actions.EnableTriggersAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="2868">Enable Triggers</Name>
@@ -14110,6 +14047,7 @@ Spring.SetTeamResource(3,"e",550)</CodeStr>
                               <_items z:Id="2875" z:Size="4">
                                 <TriggerLogic z:Id="2876" z:Type="CMissionLib.Conditions.TimeCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="2877">Metronome Ticks</Name>
+                                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">30</Frames>
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">PT1S</Time>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="2878" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -14293,8 +14231,6 @@ end</CodeStr>
                                   <ID z:Id="2933" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">clearBeachhead</ID>
                                   <Status z:Id="2934" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Failed</Status>
                                   <Title z:Ref="16" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="2935" z:Type="CMissionLib.Actions.ModifyCounterAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="2936">Modify Counter</Name>
@@ -14302,18 +14238,15 @@ end</CodeStr>
                                   <Counter z:Ref="8" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                   <Value xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">1</Value>
                                 </TriggerLogic>
-                                <TriggerLogic z:Id="2938" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="2939">Wait</Name>
-                                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">30</Frames>
-                                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.016666666666666666</Minutes>
-                                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">1</Seconds>
-                                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT1S</Time>
-                                </TriggerLogic>
-                                <TriggerLogic z:Id="2940" z:Type="CMissionLib.Actions.EnterCutsceneAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="2941">Enter Cutscene</Name>
+                                <TriggerLogic z:Id="2938" z:Type="CMissionLib.Actions.EnterCutsceneAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                  <Name z:Id="2939">Enter Cutscene</Name>
                                   <ID i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                   <Instant xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Instant>
                                   <Skippable xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Skippable>
+                                </TriggerLogic>
+                                <TriggerLogic z:Id="2940" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                  <Name z:Id="2941">Wait</Name>
+                                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">30</Frames>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="2942" z:Type="CMissionLib.Actions.SaveCameraStateAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="2943">Save Camera State</Name>
@@ -14336,11 +14269,8 @@ end</CodeStr>
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">180</Time>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="2950" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Ref="2939" i:nil="true" />
+                                  <Name z:Ref="2941" i:nil="true" />
                                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">30</Frames>
-                                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.016666666666666666</Minutes>
-                                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">1</Seconds>
-                                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT1S</Time>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="2951" z:Type="CMissionLib.Actions.CreateUnitsAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="2952">Create Units</Name>
@@ -14433,9 +14363,6 @@ end</CodeStr>
                                 <TriggerLogic z:Id="2972" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="2973">Wait</Name>
                                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Frames>
-                                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.083333333333333329</Minutes>
-                                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">5</Seconds>
-                                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT5S</Time>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="2974" z:Type="CMissionLib.Actions.ExecuteTriggersAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="2975">Execute Triggers</Name>
@@ -14452,29 +14379,20 @@ end</CodeStr>
                                                 <TriggerLogic z:Id="2983" z:Type="CMissionLib.Actions.AddObjectiveAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Id="2984">Add Objective</Name>
                                                   <Description z:Id="2985" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Eliminate the Praetorian Prefect, Scipio Astra, for good.</Description>
-                                                  <GroupTarget i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                                   <ID z:Id="2986" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">killAstra</ID>
                                                   <Title z:Id="2987" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Defeat Scipio Astra</Title>
-                                                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                                                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                                                 </TriggerLogic>
                                                 <TriggerLogic z:Id="2988" z:Type="CMissionLib.Actions.AddObjectiveAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Id="2989">Add Objective</Name>
                                                   <Description z:Id="2990" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Destroy the Detriment ultimate strider defending the Emperor's tomb.</Description>
-                                                  <GroupTarget i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                                   <ID z:Id="2991" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">destroyDetriment</ID>
                                                   <Title z:Id="2992" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Destroy the Detriment</Title>
-                                                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                                                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                                                 </TriggerLogic>
                                                 <TriggerLogic z:Id="2993" z:Type="CMissionLib.Actions.AddObjectiveAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Id="2994">Add Objective</Name>
                                                   <Description z:Id="2995" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Destroy all defenses around the Emperor's tomb and secure it.</Description>
-                                                  <GroupTarget i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                                   <ID z:Id="2996" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">defeatImperials</ID>
                                                   <Title z:Id="2997" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Secure Throne</Title>
-                                                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                                                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                                                 </TriggerLogic>
                                                 <TriggerLogic z:Id="2998" z:Type="CMissionLib.Actions.RestoreCameraStateAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Id="2999">Restore Camera State</Name>
@@ -14501,9 +14419,6 @@ Spring.SetUnitRulesParam(unitID, "facplop", 1, {inlos = true})</CodeStr>
                                                 <TriggerLogic z:Id="3010" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Id="3011">Wait</Name>
                                                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">90</Frames>
-                                                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.05</Minutes>
-                                                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">3</Seconds>
-                                                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT3S</Time>
                                                 </TriggerLogic>
                                                 <TriggerLogic z:Id="3012" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Id="3013">Convo Message</Name>
@@ -14514,11 +14429,8 @@ Spring.SetUnitRulesParam(unitID, "facplop", 1, {inlos = true})</CodeStr>
                                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">180</Time>
                                                 </TriggerLogic>
                                                 <TriggerLogic z:Id="3016" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                                  <Name z:Ref="2939" i:nil="true" />
+                                                  <Name z:Ref="2941" i:nil="true" />
                                                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Frames>
-                                                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.13333333333333333</Minutes>
-                                                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">8</Seconds>
-                                                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT8S</Time>
                                                 </TriggerLogic>
                                                 <TriggerLogic z:Id="3017" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Ref="3006" i:nil="true" />
@@ -14575,11 +14487,8 @@ end</CodeStr>
                                                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                                                 </TriggerLogic>
                                                 <TriggerLogic z:Id="3019" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                                  <Name z:Ref="2939" i:nil="true" />
+                                                  <Name z:Ref="2941" i:nil="true" />
                                                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">120</Frames>
-                                                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.066666666666666666</Minutes>
-                                                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">4</Seconds>
-                                                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT4S</Time>
                                                 </TriggerLogic>
                                                 <TriggerLogic z:Id="3020" z:Type="CMissionLib.Actions.MakeUnitsAlwaysVisibleAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Id="3021">Make Units Always Visible</Name>
@@ -14595,17 +14504,14 @@ end</CodeStr>
                                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Time>
                                                 </TriggerLogic>
                                                 <TriggerLogic z:Id="3027" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                                  <Name z:Ref="2939" i:nil="true" />
+                                                  <Name z:Ref="2941" i:nil="true" />
                                                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Frames>
-                                                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.13333333333333333</Minutes>
-                                                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">8</Seconds>
-                                                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT8S</Time>
                                                 </TriggerLogic>
                                                 <TriggerLogic z:Id="3028" z:Type="CMissionLib.Actions.GuiMessagePersistentAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Id="3029">GUI Message (Persistent)</Name>
                                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                                                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                                                  <ImagePath z:Id="3030" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\unitpics\bladew.png</ImagePath>
+                                                  <ImagePath z:Id="3030" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\unitpics\bladew.png</ImagePath>
                                                   <Message z:Id="3031" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The Gnat is a light drone with an inaccurate stunner weapon that can nevertheless lock down heavy enemy units in fairly short order. Vulnerable to most ground weapons.</Message>
                                                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">320</Width>
                                                 </TriggerLogic>
@@ -14669,7 +14575,7 @@ end</CodeStr>
                                 <TriggerLogic i:nil="true" />
                               </_items>
                               <_size>14</_size>
-                              <_version>50</_version>
+                              <_version>52</_version>
                             </items>
                             <_monitor xmlns:d15p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="3040">
                               <d15p1:_busyCount>0</d15p1:_busyCount>
@@ -14698,11 +14604,9 @@ end</CodeStr>
                   <ID z:Id="3044" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">clearBeachhead</ID>
                   <Status z:Id="3045" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Complete</Status>
                   <Title z:Ref="16" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                 </TriggerLogic>
                 <TriggerLogic z:Id="3046" z:Type="CMissionLib.Actions.EnterCutsceneAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="2941" i:nil="true" />
+                  <Name z:Ref="2939" i:nil="true" />
                   <ID i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Instant xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Instant>
                   <Skippable xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Skippable>
@@ -14710,9 +14614,6 @@ end</CodeStr>
                 <TriggerLogic z:Id="3047" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="2973" i:nil="true" />
                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">30</Frames>
-                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.016666666666666666</Minutes>
-                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">1</Seconds>
-                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT1S</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="3048" z:Type="CMissionLib.Actions.SaveCameraStateAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="3049">Save Camera State</Name>
@@ -14729,9 +14630,6 @@ end</CodeStr>
                 <TriggerLogic z:Id="3052" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="2973" i:nil="true" />
                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">15</Frames>
-                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.0083333333333333332</Minutes>
-                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.5</Seconds>
-                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT0.5S</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="3053" z:Type="CMissionLib.Actions.CreateUnitsAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="3054">Create Units</Name>
@@ -14845,9 +14743,6 @@ end</CodeStr>
                 <TriggerLogic z:Id="3078" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="2973" i:nil="true" />
                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">105</Frames>
-                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.058333333333333334</Minutes>
-                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">3.5</Seconds>
-                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT3.5S</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="3079" z:Type="CMissionLib.Actions.ExecuteTriggersAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="2975" i:nil="true" />
@@ -14929,19 +14824,17 @@ GG.mission.AddUnitGroup(unitID, "Krow")</CodeStr>
                 <TriggerLogic z:Id="3097" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="3098">Wait</Name>
                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">210</Frames>
-                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.11666666666666667</Minutes>
-                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">7</Seconds>
-                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT7S</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="3099" z:Type="CMissionLib.Conditions.TimerCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="3100">Time Elapsed</Name>
+                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">18000</Frames>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">PT10M</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="3101" z:Type="CMissionLib.Actions.GuiMessagePersistentAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="3102">GUI Message (Persistent)</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                  <ImagePath z:Id="3103" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\unitpics\corcrw.png</ImagePath>
+                  <ImagePath z:Id="3103" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\unitpics\corcrw.png</ImagePath>
                   <Message z:Id="3104" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The Krow flying fortress is an ultra-heavy gunship with three powerful pulse weapons and the ability to carpet bomb the area directly under it. Use it to sweep in, wipe out a concentration of enemies, and break engagement before it takes too much damage, then repair and repeat.</Message>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">320</Width>
                 </TriggerLogic>
@@ -15002,7 +14895,7 @@ GG.mission.AddUnitGroup(unitID, "Krow")</CodeStr>
                 <TriggerLogic z:Id="3122" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="3123">Convo Message</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="3124" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_ally_support.png</ImagePath>
+                  <ImagePath z:Id="3124" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\images\comm_ally_support.png</ImagePath>
                   <Message z:Id="3125" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The enemy has three antinuke defense structures around the peak. If we can take them out, we can blow out the defenses with a nuclear missile or three.</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Time>
@@ -15010,15 +14903,12 @@ GG.mission.AddUnitGroup(unitID, "Krow")</CodeStr>
                 <TriggerLogic z:Id="3126" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="3127">Wait</Name>
                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Frames>
-                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.13333333333333333</Minutes>
-                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">8</Seconds>
-                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT8S</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="3128" z:Type="CMissionLib.Actions.GuiMessagePersistentAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="3129">GUI Message (Persistent)</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                  <ImagePath z:Id="3130" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\unitpics\corsilo.png</ImagePath>
+                  <ImagePath z:Id="3130" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\unitpics\corsilo.png</ImagePath>
                   <Message z:Id="3131" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The Silencer ICBM silo stockpiles nuclear missiles at the cost of metal, energy and time. Just one of these can blow most armies and bases out of existence, but antinuke units can intercept them, and heavy units can survive a nuclear blast with HP to spare.</Message>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">320</Width>
                 </TriggerLogic>
@@ -15029,6 +14919,7 @@ GG.mission.AddUnitGroup(unitID, "Krow")</CodeStr>
                 </TriggerLogic>
                 <TriggerLogic z:Id="3134" z:Type="CMissionLib.Conditions.TimerCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="3135">Time Elapsed</Name>
+                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">36000</Frames>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">PT20M</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="3136" z:Type="CMissionLib.Actions.UnlockUnitsAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -15128,15 +15019,15 @@ GG.mission.AddUnitGroup(unitID, "Krow")</CodeStr>
                 <TriggerLogic z:Id="3165" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="3166">Convo Message</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="3167" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_praetorian.png</ImagePath>
-                  <Message z:Id="3168" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Face me, murderer! In the Emperor's name, I shall avenge the Legate Fidus!</Message>
+                  <ImagePath z:Id="3167" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\images\comm_praetorian.png</ImagePath>
+                  <Message z:Id="3168" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Face me, murderer! In the Emperor's name, I shall avenge the Legate Fides!</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">180</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="3169" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="3166" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="3170" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
+                  <ImagePath z:Id="3170" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
                   <Message z:Id="3171" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Interesting. I didn't think you cared, prefect.</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Time>
@@ -15144,7 +15035,7 @@ GG.mission.AddUnitGroup(unitID, "Krow")</CodeStr>
                 <TriggerLogic z:Id="3172" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="3166" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="3173" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_praetorian.png</ImagePath>
+                  <ImagePath z:Id="3173" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\images\comm_praetorian.png</ImagePath>
                   <Message z:Id="3174" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">He was a friend, you... you...</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Time>
@@ -15152,7 +15043,7 @@ GG.mission.AddUnitGroup(unitID, "Krow")</CodeStr>
                 <TriggerLogic z:Id="3175" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="3166" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="3176" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
+                  <ImagePath z:Id="3176" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
                   <Message z:Id="3177" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">I didn't kill him, Astra. Your fallen Empire did... just as it will kill you.</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">180</Time>
@@ -15160,7 +15051,7 @@ GG.mission.AddUnitGroup(unitID, "Krow")</CodeStr>
                 <TriggerLogic z:Id="3178" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="3166" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="3179" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_praetorian.png</ImagePath>
+                  <ImagePath z:Id="3179" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\images\comm_praetorian.png</ImagePath>
                   <Message z:Id="3180" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Enough! Devil take you, traitor!</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">120</Time>
@@ -15168,12 +15059,10 @@ GG.mission.AddUnitGroup(unitID, "Krow")</CodeStr>
                 <TriggerLogic z:Id="3181" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="3182">Wait</Name>
                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">7200</Frames>
-                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">4</Minutes>
-                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Seconds>
-                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT4M</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="3183" z:Type="CMissionLib.Conditions.TimerCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="3184">Time Elapsed</Name>
+                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">14400</Frames>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">PT8M</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="3185" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -15205,7 +15094,7 @@ end</CodeStr>
                 <TriggerLogic z:Id="3194" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="3166" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="3195" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_praetorian.png</ImagePath>
+                  <ImagePath z:Id="3195" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\images\comm_praetorian.png</ImagePath>
                   <Message z:Id="3196" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Why won't you just die, Ada Caedmon?!</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Time>
@@ -15213,7 +15102,7 @@ end</CodeStr>
                 <TriggerLogic z:Id="3197" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="3166" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="3198" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
+                  <ImagePath z:Id="3198" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
                   <Message z:Id="3199" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">I didn't get thrown a thousand years into the future to die here, Astra. Not while I have my past to reclaim.</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Time>
@@ -15221,7 +15110,7 @@ end</CodeStr>
                 <TriggerLogic z:Id="3200" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="3166" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="3201" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_praetorian.png</ImagePath>
+                  <ImagePath z:Id="3201" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\images\comm_praetorian.png</ImagePath>
                   <Message z:Id="3202" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">You have no past, demon-spawn. And no future.</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">165</Time>
@@ -15322,8 +15211,6 @@ end</CodeStr>
                   <ID z:Ref="2986" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Status z:Id="3231" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Complete</Status>
                   <Title z:Ref="16" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                 </TriggerLogic>
                 <TriggerLogic z:Id="3232" z:Type="CMissionLib.Actions.MakeUnitsAlwaysVisibleAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="3233">Make Units Always Visible</Name>
@@ -15385,7 +15272,7 @@ end</CodeStr>
                                 <TriggerLogic z:Id="3256" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="3257">Convo Message</Name>
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                  <ImagePath z:Id="3258" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
+                                  <ImagePath z:Id="3258" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
                                   <Message z:Id="3259" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">My word... that's a Detriment.</Message>
                                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">90</Time>
@@ -15471,9 +15358,6 @@ end</CodeStr>
                 <TriggerLogic z:Id="3275" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="3182" i:nil="true" />
                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">60</Frames>
-                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.033333333333333333</Minutes>
-                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">2</Seconds>
-                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT2S</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="3276" z:Type="CMissionLib.Actions.BeautyShotAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="3277">Beauty Shot</Name>
@@ -15511,7 +15395,8 @@ Spring.SpawnCEG("babette", x, y, z)</CodeStr>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="3289" z:Type="CMissionLib.Conditions.TimeCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="3290">Metronome Ticks</Name>
-                                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">PT0.4S</Time>
+                                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">11</Frames>
+                                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">PT0.367S</Time>
                                 </TriggerLogic>
                                 <TriggerLogic i:nil="true" />
                                 <TriggerLogic i:nil="true" />
@@ -15542,7 +15427,7 @@ Spring.SpawnCEG("babette", x, y, z)</CodeStr>
                 <TriggerLogic z:Id="3294" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="3166" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="3295" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_praetorian.png</ImagePath>
+                  <ImagePath z:Id="3295" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\images\comm_praetorian.png</ImagePath>
                   <Message z:Id="3296" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">NO! Emperor curse you, Ada Caedmon...</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Time>
@@ -15550,7 +15435,7 @@ Spring.SpawnCEG("babette", x, y, z)</CodeStr>
                 <TriggerLogic z:Id="3297" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="3166" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <ImagePath z:Id="3298" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_praetorian.png</ImagePath>
+                  <ImagePath z:Id="3298" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\images\comm_praetorian.png</ImagePath>
                   <Message z:Id="3299" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Your Majesty... I'm sorry...</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">120</Time>
@@ -15558,9 +15443,6 @@ Spring.SpawnCEG("babette", x, y, z)</CodeStr>
                 <TriggerLogic z:Id="3300" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="3182" i:nil="true" />
                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">270</Frames>
-                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.15</Minutes>
-                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">9</Seconds>
-                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT9S</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="3301" z:Type="CMissionLib.Actions.DisableTriggersAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="3238" i:nil="true" />
@@ -15588,9 +15470,6 @@ Spring.SpawnCEG("babette", x, y, z)</CodeStr>
                 <TriggerLogic z:Id="3308" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="3182" i:nil="true" />
                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">60</Frames>
-                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.033333333333333333</Minutes>
-                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">2</Seconds>
-                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT2S</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="3309" z:Type="CMissionLib.Actions.LeaveCutsceneAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="3310">Leave Cutscene</Name>
@@ -15739,8 +15618,6 @@ Spring.DestroyUnit(unitID, false, true)</CodeStr>
                                   <ID z:Id="3357" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">chooseEnding</ID>
                                   <Status z:Id="3358" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Complete</Status>
                                   <Title z:Ref="16" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="3359" z:Type="CMissionLib.Actions.SendScoreAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="3360">Send Scores</Name>
@@ -15748,9 +15625,6 @@ Spring.DestroyUnit(unitID, false, true)</CodeStr>
                                 <TriggerLogic z:Id="3361" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="3362">Wait</Name>
                                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">30</Frames>
-                                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.016666666666666666</Minutes>
-                                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">1</Seconds>
-                                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT1S</Time>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="3363" z:Type="CMissionLib.Actions.ClearConvoMessageQueueAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="3364">Clear Convo Message Queue</Name>
@@ -16019,8 +15893,6 @@ Spring.DestroyUnit(unitID, false, true)</CodeStr>
                                                   <ID z:Ref="2996" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                                   <Status z:Id="3459" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Complete</Status>
                                                   <Title z:Ref="16" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                                                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                                                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                                                 </TriggerLogic>
                                                 <TriggerLogic z:Id="3460" z:Type="CMissionLib.Actions.ModifyCounterAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Id="3461">Modify Counter</Name>
@@ -16063,8 +15935,6 @@ end</CodeStr>
                                                   <ID z:Ref="2996" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                                   <Status z:Id="3471" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Incomplete</Status>
                                                   <Title z:Ref="16" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                                                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                                                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                                                 </TriggerLogic>
                                                 <TriggerLogic z:Id="3472" z:Type="CMissionLib.Actions.ModifyCounterAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Ref="3461" i:nil="true" />
@@ -16112,7 +15982,7 @@ end</CodeStr>
                                                 <TriggerLogic z:Id="3486" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Ref="3483" i:nil="true" />
                                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                                  <ImagePath z:Id="3487" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
+                                                  <ImagePath z:Id="3487" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
                                                   <Message z:Id="3488" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Then we take them down the hard way.</Message>
                                                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Time>
@@ -16139,6 +16009,7 @@ end</CodeStr>
                                               <_items z:Id="3494" z:Size="4">
                                                 <TriggerLogic z:Id="3495" z:Type="CMissionLib.Conditions.TimerCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Id="3496">Time Elapsed</Name>
+                                                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">21600</Frames>
                                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">PT12M</Time>
                                                 </TriggerLogic>
                                                 <TriggerLogic z:Id="3497" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -16729,9 +16600,6 @@ end</CodeStr>
                                 <TriggerLogic z:Id="3669" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="3670">Wait</Name>
                                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">60</Frames>
-                                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.033333333333333333</Minutes>
-                                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">2</Seconds>
-                                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT2S</Time>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="3671" z:Type="CMissionLib.Actions.BeautyShotAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="3672">Beauty Shot</Name>
@@ -16756,9 +16624,6 @@ end</CodeStr>
                                 <TriggerLogic z:Id="3676" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Ref="3182" i:nil="true" />
                                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">120</Frames>
-                                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.066666666666666666</Minutes>
-                                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">4</Seconds>
-                                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT4S</Time>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="3677" z:Type="CMissionLib.Actions.LeaveCutsceneAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Ref="3310" i:nil="true" />
@@ -16858,13 +16723,11 @@ end</CodeStr>
                                                   <ID z:Ref="2991" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                                   <Status z:Id="3703" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Complete</Status>
                                                   <Title z:Ref="16" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                                                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                                                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                                                 </TriggerLogic>
                                                 <TriggerLogic z:Id="3704" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Id="3705">Convo Message</Name>
                                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                                  <ImagePath z:Id="3706" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
+                                                  <ImagePath z:Id="3706" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
                                                   <Message z:Id="3707" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The bigger they are, the harder they fall.</Message>
                                                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Time>
@@ -16935,9 +16798,6 @@ end</CodeStr>
                                 <TriggerLogic z:Id="3722" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Ref="3182" i:nil="true" />
                                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">60</Frames>
-                                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.033333333333333333</Minutes>
-                                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">2</Seconds>
-                                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT2S</Time>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="3723" z:Type="CMissionLib.Actions.StopMusicAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="3724">Stop Music</Name>
@@ -17053,11 +16913,8 @@ Spring.GiveOrderToUnit(unitID, CMD.FIRE_STATE, {0}, 0)</CodeStr>
 ... Become the Empress?
 ... Renounce the Empire?
 ... or burn it all to the ground?</Description>
-                                  <GroupTarget i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                   <ID z:Ref="3357" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                   <Title z:Id="3748" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Choose your Destiny</Title>
-                                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="3749" z:Type="CMissionLib.Actions.EnterCutsceneAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="3750">Enter Cutscene</Name>
@@ -17068,7 +16925,7 @@ Spring.GiveOrderToUnit(unitID, CMD.FIRE_STATE, {0}, 0)</CodeStr>
                                 <TriggerLogic z:Id="3752" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Ref="3166" i:nil="true" />
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                  <ImagePath z:Id="3753" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
+                                  <ImagePath z:Id="3753" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
                                   <Message z:Id="3754" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">It's done.</Message>
                                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">90</Time>
@@ -17076,14 +16933,11 @@ Spring.GiveOrderToUnit(unitID, CMD.FIRE_STATE, {0}, 0)</CodeStr>
                                 <TriggerLogic z:Id="3755" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Ref="3182" i:nil="true" />
                                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Frames>
-                                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.083333333333333329</Minutes>
-                                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">5</Seconds>
-                                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT5S</Time>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="3756" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Ref="3166" i:nil="true" />
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                                  <ImagePath z:Id="3757" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
+                                  <ImagePath z:Id="3757" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada.png</ImagePath>
                                   <Message z:Id="3758" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">...Damn. I think he's been dead longer than I was out.</Message>
                                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">165</Time>
@@ -17099,9 +16953,6 @@ Spring.GiveOrderToUnit(unitID, CMD.FIRE_STATE, {0}, 0)</CodeStr>
                                 <TriggerLogic z:Id="3762" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Ref="3182" i:nil="true" />
                                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">315</Frames>
-                                  <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.17500000000000002</Minutes>
-                                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">10.5</Seconds>
-                                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT10.5S</Time>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="3763" z:Type="CMissionLib.Actions.FadeInAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="3764">Fade In</Name>
@@ -17377,7 +17228,7 @@ end</CodeStr>
           <Probability>1</Probability>
         </Trigger>
         <Trigger z:Id="3832">
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
           <Folder i:nil="true" />
           <IsExpanded>true</IsExpanded>
           <Logic z:Id="3833">
