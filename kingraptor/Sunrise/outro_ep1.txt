@@ -40,9 +40,9 @@ With a sigh, Ada settled back into the chair. "So... what''s been going on while
 
 "Good question." Sophia looked away for a moment. "It appears one of them survived and is merely incapacitated." 
 
-The commander turned to face a single Pyro jumpbot lying at the edge of some scattered wrecks, it''s legs gone, sparks flying from its body. A few long strides brought Ada and Sophia up to the broken machine as it stared defiantly up at the towering war machine before it, trying to fire a weapon that had long been disabled.
+Ada's command platform turned to face a single Pyro jumpbot lying at the edge of some scattered wrecks, it''s legs gone, sparks flying from its body. A few long strides brought Ada and Sophia up to the broken machine as it stared defiantly up at the towering war machine before it, trying to fire a weapon that had long been disabled.
 
-The commander raised a hand, and a few seconds later the Pyro deactivated, joining its companions in death as it succumbed to the hacking attack.
+The commander raised a metallic hand, and a few seconds later the Pyro deactivated, joining its companions in death as it succumbed to the hacking attack.
 
 "What did you do?" Ada asked, staring at the scene.
 
@@ -50,9 +50,9 @@ The commander raised a hand, and a few seconds later the Pyro deactivated, joini
 
 "What is?"
 
-"These files have True Born headers, or a modified version thereof, yes." Sophia frowned slightly. "But most of it is badly corrupted, and not from the battle. It''s not entirely consistent with a viral attack either, or at least I can''t find any traces of one. This looks like something went very wrong with the core control systems."
+"These files have Liberated Humanity headers, or a modified version thereof, yes." Sophia frowned slightly. "But most of it is badly corrupted, and not from the battle. It''s not entirely consistent with a viral attack either, or at least I can''t find any traces of one. This looks like something went very wrong with the core control systems."
 
-"Well, we''re probably not gonna get any more explanations from these scrap heaps." Ada sighed. "I don''t want to live the rest of my life here, either. Is there some way to get off this rock?"
+"Well, we''re probably not gonna get any more explanations from these scrap heaps." Ada sighed. "I don''t want to live the rest of my life here with a bunch of literally rabid murderbots for company, either. Is there some way to get off this rock?"
 
 "Maybe." The map came up again, this time on a smaller scale, with a location highlighted. "A ship crashed nearby three hundred and sixty T-years after your stasis, just a few hundred kilometers away. If we''re lucky, it might still be salvageable."
 
@@ -88,4 +88,4 @@ They''d walked completely around the ship a few times, and Sophia had done the n
 
 Sophia smiled. "It''s your ship, isn''t it? You should decide the name."
 
-Ada rested her head on her hands for a while, then nodded. "She shall be... the Shadow of Eden."
+Ada rested her head on her hands for a while, then nodded. "She shall be... the [i]Shadow of Eden[/i]."
