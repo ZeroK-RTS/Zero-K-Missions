@@ -6607,7 +6607,9 @@ Spring.DestroyUnit(unitID, false, true)</CodeStr>
                 <TriggerLogic z:Id="2211" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="2087" i:nil="true" />
                   <CodeStr z:Id="2212" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local unitID = GG.mission.FindUnitInGroup("Ada")
-GG.SetUnitInvulnerable(unitID, true)
+if (unitID) then
+  GG.SetUnitInvulnerable(unitID, true)
+end
 
 unitID = GG.mission.FindUnitInGroup("Athenion")
 GG.SetUnitInvulnerable(unitID, true)</CodeStr>
