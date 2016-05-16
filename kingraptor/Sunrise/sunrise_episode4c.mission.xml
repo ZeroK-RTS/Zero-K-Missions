@@ -13,7 +13,8 @@
     </d2p1:_monitor>
   </Counters>
   <CustomModOptions z:Id="8">gracetime=0;
-hilltime=10;</CustomModOptions>
+hilltime=10;
+terrarestoreonly=1;</CustomModOptions>
   <Description z:Id="9">Ada engages in a deadly race with the Valhallans to find the modern-day lost city, the Central Consciousness.</Description>
   <DescriptionStory z:Id="10"></DescriptionStory>
   <DisabledGadgets xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="11">
@@ -6515,7 +6516,7 @@ Sharpshooters are easily found and killed by large groups of small, light units 
                                                   <Name z:Ref="1661" i:nil="true" />
                                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                                                   <ImagePath z:Id="1857" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
-                                                  <Message z:Id="1858" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Scalpels have a powerful alpha strike, but this is also their weakness. Try using an expendable unit to waste their shots.</Message>
+                                                  <Message z:Id="1858" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Scalpels inflict a lot of frontloaded damage but also take a long time to reload. Try using cheap units to waste their shots and then swarm them under.</Message>
                                                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">210</Time>
                                                 </TriggerLogic>
