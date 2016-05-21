@@ -10256,7 +10256,7 @@ Unwanted units can be self-destructed (default hotkey: Ctrl+D).</Message>
                   <Name z:Ref="2293" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <ImagePath z:Id="2368" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
-                  <Message z:Id="2369" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The enemy has some heavy defences. You could simply brute-force the, but that would be so... crude.</Message>
+                  <Message z:Id="2369" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The enemy has some heavy defences. You could simply brute-force them, but that would be so... crude.</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <StringID i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">180</Time>
