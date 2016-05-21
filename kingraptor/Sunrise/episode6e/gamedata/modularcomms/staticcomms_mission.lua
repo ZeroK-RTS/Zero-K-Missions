@@ -6,7 +6,7 @@ local comms = {
   
   comm_campaign_praetorian = {
     chassis = "benzcom4",
-    modules = { "commweapon_riotcannon", "commweapon_rocketlauncher", "module_heavy_armor", "weaponmod_standoff_rocket", "weaponmod_plasma_containment", "module_adv_targeting", "module_autorepair", "module_autorepair", "module_high_power_servos", "module_high_power_servos" },
+    modules = { "commweapon_riotcannon", "commweapon_rocketlauncher", "module_heavy_armor", "weaponmod_standoff_rocket", "module_adv_targeting", "module_autorepair", "module_autorepair", "module_high_power_servos", "module_high_power_servos" },
     cost = 2400,
   },
   -- Hun

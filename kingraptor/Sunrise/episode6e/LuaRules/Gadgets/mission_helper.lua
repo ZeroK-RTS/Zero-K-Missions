@@ -23,7 +23,7 @@ end
 --------------------------------------------------------------------------------
 local emptyTable = {}
 
-local MIN_GAMEFRAME = 0	--30*75	-- damage dealt before this time will be disregarded
+local MIN_GAMEFRAME = 0        --30*75        -- damage dealt before this time will be disregarded
 local gameframe = 0
 local invulnerableUnits = {}
 
@@ -93,11 +93,11 @@ function gadget:UnitDamaged(unitID, unitDefID, unitTeam, damage, paralyzer, weap
   if (not requireSpecificAttackerTeam) or attackerTeamsForDamageTriggers[attackerTeam] then
     if defenderSpecificDamageTriggers[unitTeam] then
       for name,data in pairs(defenderSpecificDamageTriggers[unitTeam]) do
-	data.damage = data.damage - damage
-	if data.damage <= 0 then
-	  GG.mission.ExecuteTriggerByName(name)
-	  defenderSpecificDamageTriggers[unitTeam][name] = nil
-	end
+        data.damage = data.damage - damage
+        if data.damage <= 0 then
+          GG.mission.ExecuteTriggerByName(name)
+          defenderSpecificDamageTriggers[unitTeam][name] = nil
+        end
       end
     end
   end
@@ -122,15 +122,15 @@ function gadget:UnitDamaged(unitID, unitDefID, unitTeam, damage, paralyzer, weap
     if enemyAirTrigger1Active then
       enemyAirTrigger1Damage = enemyAirTrigger1Damage - damage
       if enemyAirTrigger1Damage < 0 then
-	enemyAirTrigger1Active = false
-	GG.mission.ExecuteTriggerByName(enemyAirTrigger1)
+        enemyAirTrigger1Active = false
+        GG.mission.ExecuteTriggerByName(enemyAirTrigger1)
       end
     end
     if enemyAirTrigger2Active then
       enemyAirTrigger2Damage = enemyAirTrigger2Damage - damage
       if enemyAirTrigger2Damage < 0 then
-	enemyAirTrigger2Active = false
-	GG.mission.ExecuteTriggerByName(enemyAirTrigger2)
+        enemyAirTrigger2Active = false
+        GG.mission.ExecuteTriggerByName(enemyAirTrigger2)
       end
     end    
   end 
@@ -145,12 +145,28 @@ function gadget:UnitPreDamaged(unitID, unitDefID, unitTeam, damage, paralyzer, w
     return 0
   end
   
+  if (unitTeam >= 2 and unitTeam <= 6) then
+    local unitDef = UnitDefs[unitDefID]
+    if (unitDef.customParams.level) and ((not attackerTeam) or (attackerTeam >= 1 and attackerTeam <= 6)) then
+      local health, maxHealth = Spring.GetUnitHealth(unitID)
+      local healthThreshold = maxHealth * 0.25
+      if health - damage < healthThreshold then
+        local newDamage = health-healthThreshold
+        if newDamage < 0 then
+          newDamage = 0
+        end
+        return newDamage
+      end
+    end
+    return damage
+  end
+  
   for groupName, trigger in pairs(triggerOnDeath) do
     if (GG.mission.unitGroups[unitID] or emptyTable)[groupName] and not paralyzer then
       local health = Spring.GetUnitHealth(unitID)
       if health - damage < 0 then
-	GG.mission.ExecuteTriggerByName(trigger)
-	return health-1
+        GG.mission.ExecuteTriggerByName(trigger)
+        return health-1
       end
     end
   end
