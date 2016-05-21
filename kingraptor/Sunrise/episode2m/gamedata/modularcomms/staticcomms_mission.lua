@@ -6,6 +6,8 @@ local comms = {
   
   comm_campaign_promethean = {
     chassis = "commrecon2",
-    modules = { "commweapon_heatray", "module_heavy_armor", "module_ablative_armor", "weaponmod_plasma_containment", "module_autorepair", },
+    modules = { "commweapon_heatray", "module_heavy_armor", "module_ablative_armor", "module_autorepair", },
   },
 }
+
+return comms
