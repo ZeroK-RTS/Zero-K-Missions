@@ -4631,7 +4631,7 @@ WG.Cutscene.SetDrawCameraScreen(false)</CodeStr>
                   <Name z:Id="1348">Convo Message</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <ImagePath z:Id="1349" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">LuaUI/Images/advisor2.jpg</ImagePath>
-                  <Message z:Id="1350" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Wait. I'm picking something up-</Message>
+                  <Message z:Id="1350" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Wait. I'm picking something up –</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <StringID i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">120</Time>
@@ -4762,7 +4762,7 @@ end</CodeStr>
                   <Name z:Ref="1348" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <ImagePath z:Id="1385" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
-                  <Message z:Id="1386" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Famous last words, Ada. Let's not make them yours - get ready! We'll save the "minimum force" approach for another day.</Message>
+                  <Message z:Id="1386" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Famous last words, Ada. Let's not make them yours – get ready! We'll save the "minimum force" approach for another day.</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <StringID i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">210</Time>
