@@ -19,7 +19,7 @@ local comms = {
   
   comm_campaign_praetorian = {
     chassis = "benzcom3",
-    modules = { "commweapon_assaultcannon", "commweapon_napalmgrenade", "module_heavy_armor", "weaponmod_high_caliber_barrel", "module_adv_targeting", "module_autorepair", "module_high_power_servos"},
+    modules = { "commweapon_assaultcannon", "commweapon_flamethrower", "module_heavy_armor", "weaponmod_high_caliber_barrel", "module_adv_targeting", "module_autorepair", "module_high_power_servos"},
   },
 }
 
