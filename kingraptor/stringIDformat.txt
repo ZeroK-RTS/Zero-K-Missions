@@ -1,0 +1,18 @@
+== Examples ==
+
+Message:			sunrise2m_msg_mex
+Persistent msg:		sunrise2m_persistent_mex
+Convo msg?:			sunrise2m_convo_mex
+Obj title:			sunrise2m_objTitle_mex
+Obj desc:			sunrise2m_objDesc_mex
+Marker:				sunrise2m_marker_freeUnits
+
+Victory:			sunrise2m_convo_victory1
+Defeat:				sunrise2m_convo_defeat1
+Teleport out:		sunrise2m_convo_escape
+Dialog:				sunrise2m_convo_dialog1-1
+
+Unit tips:			sunrise2m_convo_tipThug
+					sunrise2m_persistent_tipThug
+
+sunrise1_convo_reinforcementsGunships
