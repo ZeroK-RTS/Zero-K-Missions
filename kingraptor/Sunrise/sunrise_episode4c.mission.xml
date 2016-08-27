@@ -4502,9 +4502,9 @@ GG.CAI.SuspendAI(2, false)</CodeStr>
                                   <Name z:Id="1354">Add Objective</Name>
                                   <Description z:Id="1355" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The artefact's data core contains information the Valhallans want. Whatever it is, we can't let them have it.</Description>
                                   <ID z:Id="1356" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">secureArtefact</ID>
-                                  <StringID z:Id="1357" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">sunrice4c_objDesc_secureArtefact</StringID>
+                                  <StringID z:Id="1357" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">sunrise4c_objDesc_secureArtefact</StringID>
                                   <Title z:Id="1358" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Secure the Artefact</Title>
-                                  <TitleStringID z:Id="1359" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">sunrice4c_objTitle_secureArtefact</TitleStringID>
+                                  <TitleStringID z:Id="1359" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">sunrise4c_objTitle_secureArtefact</TitleStringID>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="1360" z:Type="CMissionLib.Actions.CreateUnitsAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="1361">Create Units</Name>
@@ -6415,7 +6415,7 @@ Spring.DestroyUnit(unitID, false, true)
                                                   <Name z:Ref="1667" i:nil="true" />
                                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                                                   <ImagePath z:Id="1837" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">LuaUI/images/advisor2.jpg</ImagePath>
-                                                  <Message z:Id="1838" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">We're facing some nasty opposition here. Use of Spectre is warranted.</Message>
+                                                  <Message z:Id="1838" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">We're facing some nasty opposition here. Use of the Spectre sniper walker is warranted.</Message>
                                                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                                   <StringID z:Id="1839" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">sunrise4c_convo_tipSpectre</StringID>
                                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Time>
@@ -6431,7 +6431,7 @@ Spring.DestroyUnit(unitID, false, true)
                                                   <ImagePath z:Id="1843" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\unitpics\armsnipe.png</ImagePath>
                                                   <Message z:Id="1844" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The Spectre fires an energy rifle with a lethal punch matched only by its long reload time over medium-long distances. It is the only unit that can remain cloaked while firing.
 
-Sharpshooters are easily found and killed by large groups of small, light units running sweep patterns over likely positions.</Message>
+Spectres are easily found and killed by large groups of small, light units running sweep patterns over likely positions.</Message>
                                                   <StringID z:Id="1845" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">sunrise4c_persistent_tipSpectre</StringID>
                                                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">320</Width>
                                                 </TriggerLogic>
@@ -6621,7 +6621,7 @@ Sharpshooters are easily found and killed by large groups of small, light units 
                                                   <Message z:Id="1907" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The Aegis (static) and Aspis (mobile) area shields cover a wider area than personal shields and have a greater capacity, but require energy to charge up. They are useful for defending against artillery bombardment (assuming it isn't too heavy) and other medium-to-long range units.
 
 The static and mobile forms are freely interchangable by morphing (although the static-to-mobile morph costs resources).</Message>
-                                                  <StringID z:Id="1908" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">sunrise4c_convo_persistentShield</StringID>
+                                                  <StringID z:Id="1908" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">sunrise4c_persistent_tipShield</StringID>
                                                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">320</Width>
                                                 </TriggerLogic>
                                                 <TriggerLogic z:Id="1909" z:Type="CMissionLib.Actions.CreateUnitsAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -6794,7 +6794,7 @@ The static and mobile forms are freely interchangable by morphing (although the 
                                                   <Message z:Id="1960" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Geothermal Powerplants provide a good amount of energy at an affordable price, but can only be built on steam vents. These are indicated by the smoke coming out of the ground and highlighted in economy view (F4).
 
 Geothermal plants explode violently when destroyed, so don't build things next to them.</Message>
-                                                  <StringID z:Id="1961" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">sunrise4c_convo_persistentGeo</StringID>
+                                                  <StringID z:Id="1961" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">sunrise4c_persistent_tipGeo</StringID>
                                                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">320</Width>
                                                 </TriggerLogic>
                                                 <TriggerLogic i:nil="true" />
@@ -6843,7 +6843,7 @@ Geothermal plants explode violently when destroyed, so don't build things next t
                                                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
                                                   <ImagePath z:Id="1979" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\unitpics\commweapon_clusterbomb.png</ImagePath>
                                                   <Message z:Id="1980" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Some units have a special weapon, which can be activated with the D key (by default). These weapons have a long reload time, but can be very effective in the right situation.</Message>
-                                                  <StringID z:Id="1981" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">sunrise4c_convo_persistentSpecialWeapon</StringID>
+                                                  <StringID z:Id="1981" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">sunrise4c_persistent_tipSpecialWeapon</StringID>
                                                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">320</Width>
                                                 </TriggerLogic>
                                               </_items>
