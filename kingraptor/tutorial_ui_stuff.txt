@@ -1,0 +1,73 @@
+1) Camera
+	- Try panning with the mouse or keys
+	- Press tab to toggle overview mode
+	- Find radar to continue
+
+2) Selecting your comm
+	- Click on comm to select
+	- Press Ctrl + C or click the selector button
+	- Now try selecting the LLT
+	
+3) Moving
+	- Press M and click on the destination, or right click on the ground
+	- Move to the designated location
+	
+4) Attacking
+	- Units will normally automatically fire on enemies in range
+	- We've issued a _Hold Fire_ command to your command unit, so you'll need to manually give attack orders
+	- Press A and click on the target, or right click on the target
+	- Giving an attack order on the ground will make your unit force-fire on the ground
+		- This can be useful for weapons that level the ground or to hit a specific spot with area-of-effect weapons, but you don't usually need to do this
+	- Destroy the target vehicle to the east to continue
+	
+5) Fight move
+	- We've ordered your commander to _Fire at Will_ again
+	- A Fight order will make your unit stop to engage enemies (in contrast to a move order which makes them focus on getting to their destination)
+	- Constructors with a Fight order will randomly find something appropriate to do (repair, reclaim wreckages, etc.) as they move
+	- Demo
+		- The unit on the left is on a Move order
+		- The unit on the right is on a Fight order
+		- Which is better? It depends on what you need to do
+	- Destroy all the new targets to proceed
+		
+6) Line move
+	- You can drag out a move command to make your units move in a line
+	- Try it out, press next when done
+	
+7) Building 
+	- Build a solar collector to generate some energy
+	- Most buildings can be built anywhere
+	- You can find the solar collector in the Econ section of the menu
+	- Build a solar collector to continue
+	
+8) Building mex
+	- Metal extractors (mexes) are the main source of metal and can only be built on metal spots.
+	- You can find the mex in the Econ section of the menu
+	- Build a mex to continue
+		
+9) Facplop
+	- In a skirmish or multiplayer game, you can place your first factory instantly and for free
+	- You can do it now, place a Cloaky Bot Factory somewhere
+
+10) Building units
+	- Select the factory and make 10 Glaives
+	- In the units tab of the menu, click a unit to queue it for building, right click to remove
+	- Hold Shift while clicking to add/remove five units at a time, Ctrl for 20
+	- Holding down Alt while clicking adds the unit to the front of the queue
+	
+11) Repair
+	- This tank is damaged
+	- Press R or right-click on a damaged friendly unit to repair
+	- Repair the tank to continue
+	
+12) Fog of war
+	- The fog of war hides enemies that aren't close to your units
+	- Some units can see further than others
+	- Find and destroy the enemy to continue
+	
+== Stuff needed ==
+Arrow pointing to destination
+	- Draw a wedge at screen edge rotated towards target
+	- Hide if target is on screen
+
+Command locking
