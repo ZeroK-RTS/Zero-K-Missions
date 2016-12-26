@@ -18,6 +18,8 @@ end
 local Chili
 local window
 local button
+
+local locked = false
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 function widget:Update(dt)
@@ -35,20 +37,29 @@ function widget:Update(dt)
   end
 end
 
+function widget:GameFrame(f)
+  locked = false
+end
+
 function widget:Initialize()
+  local vsx, vsy = Spring.GetWindowGeometry()
   Chili = WG.Chili
   window = Chili.Window:New {
+    name = "uitutorial_nextButtonWindow",
     parent = Chili.Screen0,
     right = 0,
-    bottom = 128,
-    height = 64,
-    width = 96,
+    y = 50 + vsy * 0.20 + 64 + (240 + 24),	-- put it under proconsole, objectives button and persistent message window
+    height = 48,
+    width = 80,
     color = {0,0,0,0},
     caption = "",
     padding = {0,0,0,0},
+    dockable = true,
+    dockableSavePositionOnly = true,
     draggable = false,
     resizable = false,
-    tweakResizable = false
+    tweakDraggable = true,
+    tweakResizable = true
   }
   button = Chili.Button:New {
     parent = window,
@@ -57,8 +68,9 @@ function widget:Initialize()
     caption = "Next",
     font = {size = 16},
     OnClick = { function(self, x, y, mouse)
-        if mouse == 1 then
+        if mouse == 1 and not locked then
           Spring.SendLuaRulesMsg("uitutorial_next")
+          locked = true -- only allow one click per gameframe, so it doesn't super increment when paused
         end
       end
     },
