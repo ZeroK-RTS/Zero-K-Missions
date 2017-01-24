@@ -5,7 +5,7 @@ function widget:GetInfo()
     author    = "Evil4Zerggin",
     date      = "29 December 2008",
     license   = "GNU LGPL, v2.1 or later",
-    layer     = 0,
+    layer     = -math.huge,
     enabled   = true  --  loaded by default?
   }
 end

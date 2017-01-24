@@ -127,15 +127,9 @@ end
 function gadget:Initialize()
 	Spring.SetGameRulesParam(BUTTON_PARAM, 0)
 	Spring.SetGameRulesParam(STAGE_PARAM, 0)
-	GG.MissionHelper = {
-		SetCheckReaper = function(bool)
-			checkReaper = bool
-		end
-	}
 end
 
 function gadget:Shutdown()
-	GG.MissionHelper = nil
 end
 
 function gadget:GameFrame(n)
