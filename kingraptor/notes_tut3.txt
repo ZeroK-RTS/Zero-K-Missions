@@ -1,0 +1,43 @@
+[Modified from current Glacies mission, or use Adansonia?]
+
+Screen 1:
+*Riots* excel at wiping out large numbers of small enemy units, such as raiders.
+TIP: Use attack move
+<Some raiders are shown nearby, send Warriors at them>
+<Remove units afterwards>
+
+Screen 2:
+*Raiders* are fast and and do a lot of damage quickly. They are good against units with inaccurate weapons, such as skirmishers.
+TIP: Use attack move
+<Some Rogues are shown nearby, send Glaives after them>
+<Remove units afterwards>
+
+Screen 3:
+*Skirmishers* have good range and are effective against slow, short-ranged units such as riots. Don't let them get into close combat.
+TIP: Use attack move
+<Some Outlaws are shown nearby, send Rockos after them>
+<Remove units afterwards>
+
+Screen 4:
+Depending on their type, skirmishers also work well against some static defences.
+<Stardust and LLT are nearby, use Rocko and Rogue>
+<Remove units afterwards>
+
+Screen 5:
+For longer-ranged units you can use artillery. However, it is usually best to just go around the enemy defences if you can.
+Artillery is usually ineffective against moving targets.
+<HLT is nearby, use Hammer>
+<Remove units afterwards>
+
+Screen 6:
+Assault units are tough and can brute-force enemy defences. Most have trouble with fast-moving units.
+<Some defences are nearby, use Reapers>
+<Remove units afterwards>
+
+Screen 7:
+Anti-air units are only effective against air targets but have long range.
+<Banshee is nearby, send Jethros after them>
+<Remove units afterwards>
+
+Screen 8:
+That concludes the unit classes tutorial. Hit Next to end.

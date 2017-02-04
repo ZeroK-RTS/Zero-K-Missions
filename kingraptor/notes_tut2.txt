@@ -1,0 +1,74 @@
+[Player starts with a Commander, Mex and about 5 wrecks nearby.]
+
+Screen 1:
+Explain the role of metal in one or two setances. Zoom camera on Mex as demonsration. Next to continue.
+
+Screen 2:
+Metal is also gained by reclaiming. Select Commander and right click a wreck to reclaim it [marker on wreck].
+<Reclaim a wreck>
+
+Screen 3:
+Right click and drag on a wreck to reclaim the entire field of wrecks. You can also select the Reclaim order, left click and drag a circle. Reclaim all the wrecks now.
+<Reclaim all wrecks>
+(Wrecks are slightly-breadcrumbed to lead commander towards three damaged solars)
+
+Screen 4:
+Constructors can also repair damaged units. Select your commander and right click a damaged Solar Collector to repair it.
+<Repair a Solar Collector>
+
+Screen 5:
+Repair also has an area command. Repair all the Solar Collectors by right clicking and draging an area. You can also select the Repair order, left click and drag a circle. Repair all the Solar Collectors now.
+<Repair all Solar Collectors>
+
+Screen 6:
+Briefly explain energy. Next to continue.
+
+Screen 7:
+Expand you energy production by building another Solar Collector
+ * Select your commander
+ * Left click the Econ tab [highlight]
+ * Left click Solar Collector [highlight]
+ * Left click on the ground [highlight]
+<Build a Solar Collector>
+
+Screen 8:
+Expand you metal production by building a metal extractor (there is one near the solar collectors.
+ * Select your commander
+ * Left click the Econ tab [highlight]
+ * Left click Metal Extractor [highlight]
+ * Left click on the ground [highlight]
+<Build a Metal Extractor>
+ 
+Screen 9:
+You need a factory to produce units. Build one at the highlighted location. The <icon> above your Commander means it has a free factory ready to deploy.
+ * Select your commander
+ * Left click the Factory tab [highlight]
+ * Left click Clockybot Factory [highlight]
+ * Left click on the ground [highlight]
+<Build a Cloakybot Factory>
+
+Screeen 10:
+Now to build an army. 
+ * Select your new factory
+ * Left click the Units tab [highlight]
+ * Left click Glaive [highlight]
+ * Left click on the ground [highlight]
+<Build a Glaive>
+
+Screeen 11:
+Build an army of Glaives. Set your factory to Repeat and queue a Glaive.
+ * Select the factory and toggle Repeat [highlighted]
+ * Queue a Glaive [highlighted]
+<Enable repeat production of Glaives>
+
+Screeen 12:
+Factories build slowly by themselves. To speed up production assist it with your commander.
+ * Select your commander.
+ * Left click on the factory.
+<Assist your factory>
+
+Screen 13:
+Good work. Assisting factories with constructors or your Commander is often the most efficient way of increasing your production capacity. Click Next to continue.
+
+Screen 14:
+(Something about using your army of Glaives to find and kill the enemy because it seems like a nice end. The enemy can provide a little resitence because the player should have 8 metal income and a factory pumping Glaives.)

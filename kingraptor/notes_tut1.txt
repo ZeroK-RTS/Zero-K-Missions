@@ -1,0 +1,66 @@
+[Player starts with a solar collector. Not on screen.]
+
+Screen 1:
+There are multiple ways to move the camera:
+ * The arrow keys.
+ * Moving the cursor to the edge of the screen.
+ * Middle click and drag the terrain.
+ * Middle click or left click on the minimap.
+ * Scrollwheel to zoom in/out.
+ * Page Up/Down to zoom in/out.
+ * Tab to switch into map overview mode.
+Practise by looking around the map. Find your Solar Collector and zoom in on it to continue.
+<Look at your Solar Collector>
+
+Screen 2:
+Select the Solar Collector by lefting clicking on it.
+<Select the Solar Collector>
+
+Screen 2:
+[Small base with solar collector in it becomes visible (like they were transfered from gaia). Contains LLT and Commander and some other solar collectors. None of this was visible before]
+(some introduction sentence) If you lose track of your Commander you can select them with Ctrl+C or the highlighted button [highlight button]. Select your Commander now.
+<Select Commander>
+
+Screen 5:
+Select multiple units by holding left click and dragging a box around them. Select your Commander (and the stuff around your commander) now.
+<Select (stuff)>
+
+Screen 6:
+Good work. Here are some other ways to select units.
+ * Shift left click an unselected unit to add it to your selection.
+ * Ctrl left click a selected unit to deselect it.
+ * Left click on empty terrain to deselect your units, if you are not issuing an order.
+Click Next to continue. (this is possibly far too much info)
+
+Screen 7:
+[Make LOS appear around some location a bit to the right, note that everything referencing locations needs a widget marker]
+Now to move your units. Select your Commander right click the highlighted location to have it move there. The location is to the right of the Commander, remember you may need to move your camera to find it.
+<Move commander to highlighted location>
+[Some inactive Warriors become visible on approach]
+
+Screen 8:
+[Activate Warriors]
+Moving multiple units is best done in formation. Move your Commander and the Warriors to the line. (show markers Left Click here, fancy custom drawing (hold and drag here), marker at end (release here)).
+ * Select all your units.
+ * Right click.
+ * Hold right click and drag to draw a line.
+ * Release right click.
+<Move Commander and Warriors to a line>
+[Completing movement reveals an enemy about 500 elos away.]
+
+Screen 9:
+Right click the enemy to attack it.
+<Kill enemy>
+
+Screen 10:
+You can also directly attack enemies with the Force Attack order. This order is useful for selecting targets but can cause your units to get in each others way. Most of the time it is good to line move near or past an enemy since most units can fire when moving. Click Next to continue.
+
+Screen 11:
+[Reveal a group of enemies]
+Attack move is often a good way to engage more than one enemy.
+ * Select your units.
+ * Select Attack Move with the button or hotkey A [highlight].
+ * Click near the group of enemies.
+<Kill all enemies>
+
+Victory

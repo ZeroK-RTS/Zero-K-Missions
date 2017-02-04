@@ -1,73 +1,29 @@
 {
-  "tutorial2_msg_mex": "Welcome, Commander. Hostiles have entered our territory; we need to build up our forces and drive them out.\n\nFirst we need to build our base.  Build Metal Extractors on the metal spots; these will provide the raw resources we need. The build menu is (by default) in the bottom left of your screen; look under the Econ tab for Metal Extractors.",
-
-  "tutorial2_objTitle_mex": "Build Starting Mexes",
-
-  "tutorial2_objDesc_mex": "Build Metal Extractors on the designated metal spots next to your starting position.",
-
-  "tutorial2_persistent_mex": "Metal is the base resource from which units are made. The key source of metal is the Metal Extractor, which taps the so-called metal spots on the ground.\n\nPress F4 to see the metal map. The yellow rings indicate where metal can be extracted; the build command will automatically snap to the closest spot.\n\nOnly one metal extractor can be placed per spot.",
-
-  "tutorial2_msg_solar": "Excellent work. Now place a couple of Solar Collectors to produce energy. Right next to the metal extractors will do.",
-
-  "tutorial2_objTitle_solar": "Build Solar Collectors",
-
-  "tutorial2_objDesc_solar": "Build two Solar Collectors.",
-
-  "tutorial2_persistent_solar": "Energy is the other key resource. Several different buildings produce energy; the Solar Collector is the most basic.\n\nHINT: Hold down Shift to queue unit or construction orders. This is a vital ability.\n\nUnlike metal, energy is largely territory-independent. It serves as a limiting factor on metal expenditure.",
-
-  "tutorial2_msg_riot": "Uh oh. We may have trouble - enemy raiders incoming.\n\nWe're airdropping riot units in to deal with the problem - stand by.",
-
-  "tutorial2_persistent_riot": "Riot units excel in close-quarter combat, capable of chewing up swarms of raiders with ease. Their low speed and armor makes them unsuitable against skirmishers or fixed defenses.",
-
-  "tutorial2_objTitle_riot": "Destroy Raiders",
-
-  "tutorial2_objDesc_riot": "A group of Bandit raider bots is attacking our outpost. Destroy them with your Warrior riot bots.",
-
-  "tutorial2_msg_riotDone": "Excellent! Notice how the Warriors pulverized the swarming raiders. This is the specialty of riot units.\n\nWe're sending in additional reinforcements now.",
-
-  "tutorial2_msg_raider": "Heads up! We have new problems.\n\nA small detachment of Rogue skirmisher bots is deploying in the nearby pocket. They have the range and speed to pick off our Warriors at will.\n\nUse the Glaive raider bots to run down the enemy. When they run, try to pin them against other friendly units... or perhaps that mountain wall over there...",
-
-  "tutorial2_persistent_raider": "Raiders, as their name suggest, have excellent mobility and are best used for harassment and attacking vulnerable targets such as skrimishers and economy structures. Most static defenses and all riot units will chew them up, however.\n\nHINT: Use a fight order to have the raider's unit AI automatically jink as needed to evade enemy fire.",
-
-  "tutorial2_objTitle_raider": "Destroy Skirmishers",
-
-  "tutorial2_objDesc_raider": "A group of Rogue skirmisher bots is bearing down on our outpost from the crater ridge. Run them down with your Glaive raider bots.",
-
-  "tutorial2_msg_fac": "Great, that's the last of those skirmishers.\n\nTime to secure our foothold. We'll need a factory to produce units.\n\nYou're cleared to produce the Cloaky Bot Factory. Build it on the designated spot. (Look under the Factory tab)",
-
-  "tutorial2_objTitle_fac": "Build Factory",
-
-  "tutorial2_objDesc_fac": "Build a Cloaky Bot Factory on the indicated spot.",
-
-  "tutorial2_persistent_con": "Constructors (including your commander) can assist factories and each other, speeding up production.",
-
-  "tutorial2_msg_attackValley": "Excellent! Now we have a leg to stand on.\n\nYou're cleared to build new units from the factory. Take control of nearby metal extractors and build more solar collectors.\n\nAfter that, we need to advance through the valley in the center of the map.",
-
-  "tutorial2_objTitle_attackValley": "Push Through Valley",
-
-  "tutorial2_objDesc_attackValley": "Enemy forces are likely lurking in the valley. Flush them out.",
-
-  "tutorial2_persistent_tip1": "Always try to control as many metal spots as you can; resources are the key to victory.\n\nBuild more energy as needed to support your production.\n\nHINT: Set your factories to Repeat to keep them turning out units.",
-
-  "tutorial2_msg_skirm": "Interesting. Fusion reactors - a high-value target, and with all the defences on the wrong side...\n\nThere are a number of Outlaw riot bots obstructing the path. A head-on rush could be quite costly. Try using Rocko skirmisher bots to neutralize them from a distance.",
-
-  "tutorial2_persistent_skirm": "Skirmishers harass enemies from a distance, using their range and mobility to avoid enemy fire. They are particularly effective against riot and other slow-moving units.\n\nFast units such as raiders can easily overrun them and cut their thin armor to ribbons.\n\nHINT: Giving skirmishers a fight order enables their unit AI to maintain distance from enemies as appropriate.",
-
-  "tutorial2_msg_skirmAlt": "There are a number of Outlaw riot bots obstructing the path. A head-on rush could be quite costly. Try using Rocko skirmisher bots to neutralize them from a distance.",
-
+  "tutorial2_marker_enemyBase": "Destroy Enemy Base",
+  "tutorial2_marker_valley": "Valley",
   "tutorial2_msg_arty": "Excellent! That'll teach them to put their energy source on the wrong side of their defences. Now advance and knock out the enemy base; that'll finish them off here.\n\nTheir Doomsday Machine overlooking the valley cannot fire its powerful main gun now that it's lost power, but their unpowered fixed defences could still give us trouble. Some Hammer light artillery bots might help with that.\n\nBy the way, did you know you can give your factory orders that the units it builds will then inherit? The most straightforward use of this is to set a rally point where units will gather after leaving the factory. You should set one close to the front line, so your forces will be close at hand when the action begins.",
-
-  "tutorial2_objTitle_attackBase": "Attack Enemy Base",
-
-  "tutorial2_objDesc_attackBase": "The enemy base is in the corner to the left side of the map. Level it and end this battle!",
-
-  "tutorial2_persistent_arty": "Artillery units excel at picking off static defenses (and the occasional static unit) from a safe distance. They are generally unable to hit moving units, and anything that gets in close will tear them to shreds in short order.",
-
   "tutorial2_msg_artyAlt": "Alright, we're closing in. They have some fixed defences up ahead that could give us trouble. Some Hammer light artillery bots might help with that.\n\nBy the way, did you know you can give your factory orders that the units it builds will then inherit? The most straightforward use of this is to set a rally point where units will gather after leaving the factory. You should set one close to the front line, so your forces will be close at hand when the action begins.",
-
   "tutorial2_msg_assault": "Uh oh. They have a Felon fire support bot defending the base. This unit drains its shield to fire devastating lightning bolts at enemies.\n\nWe could take it head on, but losses will be heavy. One trick is to use Zeus assault bots to draw its fire, attacking while its shield is depleted. We're dropping in a few of them now, and additional Zeuses can now be built from your factory.",
-
+  "tutorial2_msg_fac": "Great, that's the last of those skirmishers.\n\nYou're cleared to build new units from the factory. Take control of nearby metal extractors and build more solar collectors.\n\nAfter that, we need to advance through the valley in the center of the map.",
+  "tutorial2_msg_intro": "Welcome, commander. Hostiles have entrenched themselves in this valley; we need to build up our forces and drive them out.",
+  "tutorial2_msg_raider": "Heads up! We have new problems.\n\nA small detachment of Rogue skirmisher bots is deploying in the nearby pocket. They have the range and speed to pick off our Warriors at will.\n\nUse the Glaive raider bots to run down the enemy. When they run, try to pin them against other friendly units... or perhaps that mountain wall over there...",
+  "tutorial2_msg_riot": "Uh oh. We may have trouble - enemy raiders incoming.\n\nWe're airdropping riot units in to deal with the problem - stand by.",
+  "tutorial2_msg_riotDone": "Excellent! Notice how the Warriors pulverized the swarming raiders. This is the specialty of riot units.\n\nWe're sending in additional reinforcements now.",
+  "tutorial2_msg_skirm": "Interesting. Fusion reactors - a high-value target, and with all the defences on the wrong side...\n\nThere are a number of Outlaw riot bots obstructing the path. A head-on rush could be quite costly. Try using Rocko skirmisher bots to neutralize them from a distance.",
+  "tutorial2_msg_skirmAlt": "There are a number of Outlaw riot bots obstructing the path. A head-on rush could be quite costly. Try using Rocko skirmisher bots to neutralize them from a distance.",
+  "tutorial2_msg_victory": "Excellent work, Commander! The day is ours!",
+  "tutorial2_objDesc_attackBase": "The enemy base is in the corner to the left side of the map. Level it and end this battle!",
+  "tutorial2_objDesc_attackValley": "Enemy forces are likely lurking in the valley. Flush them out.",
+  "tutorial2_objDesc_raider": "A group of Rogue skirmisher bots is bearing down on our outpost from the crater ridge. Run them down with your Glaive raider bots.",
+  "tutorial2_objDesc_riot": "A group of Bandit raider bots is attacking our outpost. Destroy them with your Warrior riot bots.",
+  "tutorial2_objTitle_attackBase": "Attack Enemy Base",
+  "tutorial2_objTitle_attackValley": "Push Through Valley",
+  "tutorial2_objTitle_raider": "Destroy Skirmishers",
+  "tutorial2_objTitle_riot": "Destroy Raiders",
+  "tutorial2_persistent_arty": "Artillery units excel at picking off static defenses (and the occasional static unit) from a safe distance. They are generally unable to hit moving units, and anything that gets in close will tear them to shreds in short order.",
   "tutorial2_persistent_assault": "Assault units like the Zeus are specialized in taking on enemy defenses. Though their DPS and often speed are generally mediocre, their high armor allows them to shrug off enemy fire.\n\nMost assault units fare poorly against raiders and/or skirmishers.",
-
-  "tutorial2_msg_victory": "Excellent work, Commander! The day is ours!"
+  "tutorial2_persistent_raider": "Raiders, as their name suggest, have excellent mobility and are best used for harassment and attacking vulnerable targets such as skrimishers and economy structures. Most static defenses and all riot units will chew them up, however.\n\nHINT: Use a fight order to have the raider's unit AI automatically jink as needed to evade enemy fire.",
+  "tutorial2_persistent_riot": "Riot units excel in close-quarter combat, capable of chewing up swarms of raiders with ease. Their low speed and armor makes them unsuitable against skirmishers or fixed defenses.",
+  "tutorial2_persistent_skirm": "Skirmishers harass enemies from a distance, using their range and mobility to avoid enemy fire. They are particularly effective against riot and other slow-moving units.\n\nFast units such as raiders can easily overrun them and cut their thin armor to ribbons.\n\nHINT: Giving skirmishers a fight order enables their unit AI to maintain distance from enemies as appropriate.",
+  "tutorial2_persistent_tip1": "Always try to control as many metal spots as you can; resources are the key to victory.\n\nBuild more energy as needed to support your production.\n\nHINT: Set your factories to Repeat to keep them turning out units."
 }
