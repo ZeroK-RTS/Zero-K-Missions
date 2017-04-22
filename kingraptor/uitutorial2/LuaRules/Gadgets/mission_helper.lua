@@ -17,7 +17,7 @@ end
 --------------------------------------------------------------------------------
 -- shared constants
 
-local STAGE_PARAM = "uitutorial_stage"
+local STAGE_PARAM = "tutorial_stage"
 local MOVE_CIRCLE_RADIUS = 60
 local MOVE_CIRCLE_RADIUS_SQ = MOVE_CIRCLE_RADIUS^2
 
@@ -39,7 +39,7 @@ if (gadgetHandler:IsSyncedCode()) then
 -- SYNCED
 --------------------------------------------------------------------------------
 
-local BUTTON_PARAM = "uitutorial_show_next_button"
+local BUTTON_PARAM = "tutorial_show_next_button"
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -119,7 +119,7 @@ function gadget:UnitCreated(unitID, unitDefID, unitTeam)
 end
 
 function gadget:RecvLuaMsg(msg)
-	if msg == "uitutorial_next" then
+	if msg == "tutorial_next" then
 		AdvanceStage()
 	end
 end
@@ -193,7 +193,7 @@ function gadget:Update()
 		
 		local stage = Spring.GetGameRulesParam(STAGE_PARAM)
 		if stageChecks[stage] and stageChecks[stage]() == true then	-- NEXT!
-			Spring.SendLuaRulesMsg("uitutorial_next")
+			Spring.SendLuaRulesMsg("tutorial_next")
 		end
 	end
 end

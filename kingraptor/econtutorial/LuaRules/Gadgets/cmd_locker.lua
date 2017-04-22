@@ -21,6 +21,7 @@ if (gadgetHandler:IsSyncedCode()) then
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 -- synced
+VFS.Include("LuaRules/Configs/customcmds.h.lua")
 
 local unlockedCMDs = {
 	[CMD.STOP] = true,
@@ -44,6 +45,10 @@ local unlockedCMDs = {
 	[CMD.SET_WANTED_MAX_SPEED] = true,
 	[CMD.SETBASE] = true,
 	[CMD.INTERNAL] = true,
+	
+	[CMD_ORBIT] = true,
+	[CMD_ORBIT_DRAW] = true,
+	[CMD_RAW_MOVE] = true,
 }
 
 _G.unlockedCMDs = unlockedCMDs

@@ -181,7 +181,10 @@ local function _ShowPersistentMessageBox(text, width, height, fontsize, imagePat
 	if msgBoxPersistent then
 		msgBoxPersistent.width = width
 		msgBoxPersistent.height = height + PERSISTENT_SUBBAR_HEIGHT
-		msgBoxPersistent.x = vsx - width
+		local onRightSide = msgBoxPersistent.x + (width/2) > (vsx/2)
+		if onRightSide then
+			msgBoxPersistent.x = vsx - width
+		end
 		
 		local x = ((imagePath and imagePersistent.width + imagePersistent.x) or 0) + 5
 		if imagePath then
@@ -343,7 +346,7 @@ local function _ShowPersistentMessageBox(text, width, height, fontsize, imagePat
     font = {size = 14},
     OnClick = { function(self, x, y, mouse)
         if mouse == 1 and not nextButtonLocked then
-          Spring.SendLuaRulesMsg("uitutorial_next")
+          Spring.SendLuaRulesMsg("tutorial_next")
           nextButtonLocked = true -- only allow one click per gameframe, so it doesn't super increment when paused
         end
       end
@@ -507,7 +510,7 @@ local flashPhase = false
 
 function widget:Update(dt)
 	if nextButton then
-		if Spring.GetGameRulesParam("uitutorial_show_next_button") == 1 then
+		if Spring.GetGameRulesParam("tutorial_show_next_button") == 1 then
 			if not nextButton.visible then
 				nextButton:Show()
 			end

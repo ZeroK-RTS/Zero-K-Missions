@@ -106,7 +106,7 @@ Her thoughts flowed into the machine, and massive command unit came alive with a
   <ImagePath z:Id="34">G:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada_running.png</ImagePath>
   <MapName z:Id="35">Fields_Of_Isis</MapName>
   <MaxUnits>5000</MaxUnits>
-  <ModName z:Id="36">Zero-K v1.4.5.0</ModName>
+  <ModName z:Id="36">Zero-K v1.4.7.1</ModName>
   <Name z:Id="37">Tutorial - Running Start</Name>
   <Players z:Id="38">
     <items z:Id="39" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
@@ -304,7 +304,7 @@ Her thoughts flowed into the machine, and massive command unit came alive with a
                 <TriggerLogic z:Id="79" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="80">Custom Action (Alternate)</Name>
                   <CodeStr z:Id="81" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">-- disable resource bars
-Spring.SendCommands("resbar")</CodeStr>
+Spring.SendCommands("resbar 0")</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
                 <TriggerLogic z:Id="82" z:Type="CMissionLib.Actions.CreateUnitsAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -4236,7 +4236,9 @@ Spring.SendCommands("resbar")</CodeStr>
                   <Name z:Id="1307">Add Objective</Name>
                   <Description z:Id="1308" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Get your commander to safety in the east, punching through any opposistion while allied forces hold a delaying action in the rear.</Description>
                   <ID z:Id="1309" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">escapeObj</ID>
+                  <StringID i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Title z:Id="1310" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Escape to the East</Title>
+                  <TitleStringID i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                 </TriggerLogic>
                 <TriggerLogic z:Id="1311" z:Type="CMissionLib.Actions.StartCountdownAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="1312">Start Countdown</Name>
@@ -4292,6 +4294,7 @@ Spring.SendCommands("resbar")</CodeStr>
                   <ImagePath z:Id="1333" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
                   <Message z:Id="1334" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Hostile forces have cut us off! The enemy is closing in!</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
+                  <StringID i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1335" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -4300,6 +4303,7 @@ Spring.SendCommands("resbar")</CodeStr>
                   <ImagePath z:Id="1336" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\images\Empire3.png</ImagePath>
                   <Message z:Id="1337" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">We'll hold them off, Commander! Get to safety at the end of the valley to the east!</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
+                  <StringID i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1338" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -4324,6 +4328,7 @@ Spring.SendCommands("resbar")</CodeStr>
                                 <TriggerLogic z:Id="1350" z:Type="CMissionLib.Actions.MarkerPointAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="1351">Marker</Name>
                                   <CenterCamera xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</CenterCamera>
+                                  <StringID i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                   <Text z:Id="1352" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Commander, head east! Don't linger!</Text>
                                   <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">247.5</X>
                                   <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">290.07</Y>
@@ -4331,6 +4336,7 @@ Spring.SendCommands("resbar")</CodeStr>
                                 <TriggerLogic z:Id="1353" z:Type="CMissionLib.Actions.MarkerPointAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="1354">Marker</Name>
                                   <CenterCamera xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</CenterCamera>
+                                  <StringID i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                   <Text z:Id="1355" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Destination</Text>
                                   <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">863.28000000000009</X>
                                   <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">286.11</Y>
@@ -5456,6 +5462,7 @@ WG.EnableUnitHighlight(unitID)</CodeStr>
                   <ImagePath z:Id="1616" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\images\Empire3.png</ImagePath>
                   <Message z:Id="1617" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The chokepoint up ahead has a considerable enemy presence. We're dropping in some units to assist in punching through.</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
+                  <StringID i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">180</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1618" z:Type="CMissionLib.Actions.CreateUnitsAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -5569,6 +5576,7 @@ WG.EnableUnitHighlight(unitID)</CodeStr>
 Selection of a particular unit can be toggled on or off by Ctrl+left clicking the unit.
 
 To move units in formation, hold down the mouse button while issuing the move order and draw the desired formation.</Message>
+                                  <StringID i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">320</Width>
                                 </TriggerLogic>
                                 <TriggerLogic i:nil="true" />
@@ -5616,6 +5624,7 @@ To move units in formation, hold down the mouse button while issuing the move or
                                   <ImagePath z:Id="1663" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\images\Empire3.png</ImagePath>
                                   <Message z:Id="1664" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The chokepoint up ahead has a considerable enemy presence. We're dropping in some units to assist in punching through.</Message>
                                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
+                                  <StringID i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">180</Time>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="1665" z:Type="CMissionLib.Conditions.UnitsAreInAreaCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -5842,6 +5851,7 @@ To move units in formation, hold down the mouse button while issuing the move or
                   <ImagePath z:Id="1719" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\images\Empire3.png</ImagePath>
                   <Message z:Id="1720" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Commander? Commander!</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
+                  <StringID i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">90</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1721" z:Type="CMissionLib.Conditions.UnitDestroyedCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -5868,7 +5878,9 @@ To move units in formation, hold down the mouse button while issuing the move or
                   <GroupTarget i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <ID z:Id="1729" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">escapeObj</ID>
                   <Status z:Id="1730" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Failed</Status>
+                  <StringID i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Title z:Ref="71" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
+                  <TitleStringID i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                 </TriggerLogic>
                 <TriggerLogic z:Id="1731" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="1732">Wait</Name>
@@ -6121,6 +6133,7 @@ To move units in formation, hold down the mouse button while issuing the move or
                                   <Message z:Id="1807" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Your commander can repair other units. Right-click on the damaged unit, or press R and left-click.
 
 Repairing is twice as fast as building, but units will be repaired 4x slower if they have been damaged in the last ten seconds.</Message>
+                                  <StringID i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">320</Width>
                                 </TriggerLogic>
                                 <TriggerLogic i:nil="true" />
@@ -6279,19 +6292,19 @@ Repairing is twice as fast as building, but units will be repaired 4x slower if 
                       <d10p1:_items z:Id="1846" z:Size="4">
                         <d10p1:anyType z:Id="1847" z:Type="CMissionLib.MoveOrder" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                           <Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
-                            <d14p1:_x>815.08038884317034</d14p1:_x>
-                            <d14p1:_y>218.10430059308749</d14p1:_y>
+                            <d14p1:_x>827.99217959415057</d14p1:_x>
+                            <d14p1:_y>218.2493768936603</d14p1:_y>
                           </Point>
-                          <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">815.08038884317034</X>
-                          <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">218.10430059308749</Y>
+                          <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">827.99217959415057</X>
+                          <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">218.2493768936603</Y>
                         </d10p1:anyType>
                         <d10p1:anyType z:Id="1848" z:Type="CMissionLib.MoveOrder" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                           <Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
-                            <d14p1:_x>811.52244117578107</d14p1:_x>
-                            <d14p1:_y>327.29342961204952</d14p1:_y>
+                            <d14p1:_x>822.55549383434334</d14p1:_x>
+                            <d14p1:_y>328.27414540392169</d14p1:_y>
                           </Point>
-                          <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">811.52244117578107</X>
-                          <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">327.29342961204952</Y>
+                          <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">822.55549383434334</X>
+                          <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">328.27414540392169</Y>
                         </d10p1:anyType>
                         <d10p1:anyType z:Id="1849" z:Type="CMissionLib.MoveOrder" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                           <Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
@@ -6328,6 +6341,7 @@ Repairing is twice as fast as building, but units will be repaired 4x slower if 
                   <ImagePath z:Id="1854" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
                   <Message z:Id="1855" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Heads up, Commander! Those Stardusts will cut us to pieces if we try to take them head-on!</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
+                  <StringID i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">165</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1856" z:Type="CMissionLib.Actions.ConvoMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -6338,6 +6352,7 @@ Repairing is twice as fast as building, but units will be repaired 4x slower if 
 
 Make sure to keep enemy units from getting too close, they're not built for a stand-up fight!</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
+                  <StringID i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">330</Time>
                 </TriggerLogic>
                 <TriggerLogic i:nil="true" />
@@ -6707,6 +6722,7 @@ Make sure to keep enemy units from getting too close, they're not built for a st
                                 <TriggerLogic z:Id="1953" z:Type="CMissionLib.Actions.MarkerPointAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="1954">Marker</Name>
                                   <CenterCamera xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</CenterCamera>
+                                  <StringID i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                   <Text z:Id="1955" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Hammers</Text>
                                   <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">668.25</X>
                                   <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">142.56</Y>
@@ -6954,6 +6970,7 @@ Make sure to keep enemy units from getting too close, they're not built for a st
                 <TriggerLogic z:Id="2002" z:Type="CMissionLib.Actions.MarkerPointAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="1954" i:nil="true" />
                   <CenterCamera xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</CenterCamera>
+                  <StringID i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Text z:Id="2003" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Hammers</Text>
                   <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">663.3</X>
                   <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">391.05</Y>
@@ -7135,7 +7152,9 @@ Make sure to keep enemy units from getting too close, they're not built for a st
                   <GroupTarget i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <ID z:Id="2050" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">escapeObj</ID>
                   <Status z:Id="2051" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Complete</Status>
+                  <StringID i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Title z:Ref="71" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
+                  <TitleStringID i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                 </TriggerLogic>
                 <TriggerLogic z:Id="2052" z:Type="CMissionLib.Actions.DisableTriggersAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="1739" i:nil="true" />
@@ -7187,6 +7206,7 @@ Spring.GiveOrderToUnit(unitID, CMD.LOAD_UNITS, {commID}, 0)</CodeStr>
                   <ImagePath z:Id="2065" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\images\advisor2.jpg</ImagePath>
                   <Message z:Id="2066" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Excellent work, Commander! We've made it!</Message>
                   <SoundPath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
+                  <StringID i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2067" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -7245,6 +7265,7 @@ To order your commander to move somewhere, first select him, then right-click on
 Orders can be queued by holding down SHIFT and issuing the orders.
 
 Note that there are some places units cannot go, like steep hills.</Message>
+                  <StringID i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">320</Width>
                 </TriggerLogic>
                 <TriggerLogic i:nil="true" />
@@ -7294,6 +7315,7 @@ Note that there are some places units cannot go, like steep hills.</Message>
                   <Message z:Id="2098" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Units will automatically fire on any enemy that comes within range. To attack a specific target, select the units to attack with and right-click on the enemy (or press A and left-click).
 
 To have units stop to engage enemies while moving to a destination, issue a Fight order (press F, then left-click on the destination).</Message>
+                  <StringID i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">320</Width>
                 </TriggerLogic>
                 <TriggerLogic i:nil="true" />

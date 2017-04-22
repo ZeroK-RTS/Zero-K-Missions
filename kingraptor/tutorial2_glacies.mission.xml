@@ -3999,7 +3999,7 @@ Use the Glaive raider bots to run down the enemy. When they run, try to pin them
                                   <ImagePath z:Id="1278" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\unitpics\armpw.png</ImagePath>
                                   <Message z:Id="1279" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Raiders, as their name suggest, have excellent mobility and are best used for harassment and attacking vulnerable targets such as skrimishers and economy structures. Most static defenses and all riot units will chew them up, however.
 
-HINT: Use a fight order to have the raider's unit AI automatically jink as needed to evade enemy fire.</Message>
+HINT: Use an \255\255\255\0\Attack Move\008 order to have the raider's unit AI automatically jink as needed to evade enemy fire.</Message>
                                   <StringID z:Id="1280" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">tutorial2_persistent_raider</StringID>
                                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">360</Width>
                                 </TriggerLogic>
@@ -4575,7 +4575,7 @@ There are a number of Outlaw riot bots obstructing the path. A head-on rush coul
 
 Fast units such as raiders can easily overrun them and cut their thin armor to ribbons.
 
-HINT: Giving skirmishers a fight order enables their unit AI to maintain distance from enemies as appropriate.</Message>
+HINT: Giving skirmishers an \255\255\255\0\Attack Move\008 order enables their unit AI to maintain distance from enemies as appropriate.</Message>
                   <StringID z:Id="1460" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">tutorial2_persistent_skirm</StringID>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">360</Width>
                 </TriggerLogic>
@@ -4835,8 +4835,8 @@ HINT: Giving skirmishers a fight order enables their unit AI to maintain distanc
 
 Fast units such as raiders can easily overrun them and cut their thin armor to ribbons.
 
-HINT: Giving skirmishers a fight order enables their unit AI to maintain distance from enemies as appropriate.</Message>
-                  <StringID z:Id="1531" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">tutorial2_persistent_skirm</StringID>
+HINT: Giving skirmishers an \255\255\255\0\Attack Move\008 order enables their unit AI to maintain distance from enemies as appropriate.</Message>
+                  <StringID z:Id="1531" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">tutorial2_persistent_skirmAlt</StringID>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">360</Width>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1532" z:Type="CMissionLib.Actions.CreateUnitsAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
