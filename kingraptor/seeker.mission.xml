@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Mission xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="1" z:Type="CMissionLib.Mission" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
   <Author z:Id="2">KingRaptor</Author>
   <ContentFolderPath z:Id="3">G:\Games\Spring\ZK-Missions\kingraptor\SEEKeR</ContentFolderPath>
@@ -241,7 +241,7 @@ Try not to take too long or lose your units!</ScoringMethod>
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="41" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="87">logkoda</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="87">tankraid</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="88">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -268,7 +268,7 @@ Try not to take too long or lose your units!</ScoringMethod>
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="48" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="95">cormex</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="95">staticmex</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="96">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -295,7 +295,7 @@ Try not to take too long or lose your units!</ScoringMethod>
                           <d10p1:Heading>179.50310737664714</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="48" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="103">corllt</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="103">turretlaser</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="104">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -349,7 +349,7 @@ Try not to take too long or lose your units!</ScoringMethod>
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="48" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="118">armpw</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="118">cloakraid</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="119">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1083,7 +1083,7 @@ end</CodeStr>
                                                                           <d34p1:Heading>178.915762750413</d34p1:Heading>
                                                                           <d34p1:IsGhost>false</d34p1:IsGhost>
                                                                           <d34p1:Player z:Ref="48" i:nil="true" />
-                                                                          <d34p1:UnitDefName z:Id="335">cordoom</d34p1:UnitDefName>
+                                                                          <d34p1:UnitDefName z:Id="335">turretheavy</d34p1:UnitDefName>
                                                                         </d34p1:UnitStartInfo>
                                                                         <d34p1:UnitStartInfo z:Id="336">
                                                                           <d34p1:Point xmlns:d38p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1127,7 +1127,7 @@ end</CodeStr>
                                                                           <d34p1:Heading>180.06279792047394</d34p1:Heading>
                                                                           <d34p1:IsGhost>false</d34p1:IsGhost>
                                                                           <d34p1:Player z:Ref="48" i:nil="true" />
-                                                                          <d34p1:UnitDefName z:Id="344">armfus</d34p1:UnitDefName>
+                                                                          <d34p1:UnitDefName z:Id="344">energyfusion</d34p1:UnitDefName>
                                                                         </d34p1:UnitStartInfo>
                                                                         <d34p1:UnitStartInfo z:Id="345">
                                                                           <d34p1:Point xmlns:d38p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1171,7 +1171,7 @@ end</CodeStr>
                                                                           <d34p1:Heading>0</d34p1:Heading>
                                                                           <d34p1:IsGhost>false</d34p1:IsGhost>
                                                                           <d34p1:Player z:Ref="48" i:nil="true" />
-                                                                          <d34p1:UnitDefName z:Id="353">armestor</d34p1:UnitDefName>
+                                                                          <d34p1:UnitDefName z:Id="353">energypylon</d34p1:UnitDefName>
                                                                         </d34p1:UnitStartInfo>
                                                                         <d34p1:UnitStartInfo z:Id="354">
                                                                           <d34p1:Point xmlns:d38p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1362,7 +1362,7 @@ Powerup every 45 seconds</Description>
                                                           <d26p1:Heading>0</d26p1:Heading>
                                                           <d26p1:IsGhost>false</d26p1:IsGhost>
                                                           <d26p1:Player z:Ref="48" i:nil="true" />
-                                                          <d26p1:UnitDefName z:Id="395">armsolar</d26p1:UnitDefName>
+                                                          <d26p1:UnitDefName z:Id="395">energysolar</d26p1:UnitDefName>
                                                         </d26p1:UnitStartInfo>
                                                         <d26p1:UnitStartInfo z:Id="396">
                                                           <d26p1:Point xmlns:d30p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1560,7 +1560,7 @@ GG.RefreshObjDisplay()</CodeStr>
                                                   <BuildOrders z:Id="430" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
                                                     <d10p1:items z:Id="431" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
                                                       <d10p1:_items z:Id="432" z:Size="4">
-                                                        <d10p1:string z:Id="433">armpw</d10p1:string>
+                                                        <d10p1:string z:Id="433">cloakraid</d10p1:string>
                                                         <d10p1:string i:nil="true" />
                                                         <d10p1:string i:nil="true" />
                                                         <d10p1:string i:nil="true" />
@@ -2705,7 +2705,7 @@ Powerup every 45 seconds</Description>
                                           <d18p1:Heading>0</d18p1:Heading>
                                           <d18p1:IsGhost>false</d18p1:IsGhost>
                                           <d18p1:Player z:Ref="48" i:nil="true" />
-                                          <d18p1:UnitDefName z:Id="715">corak</d18p1:UnitDefName>
+                                          <d18p1:UnitDefName z:Id="715">shieldraid</d18p1:UnitDefName>
                                         </d18p1:UnitStartInfo>
                                         <d18p1:UnitStartInfo z:Id="716">
                                           <d18p1:Point xmlns:d22p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -2926,7 +2926,7 @@ GG.RefreshObjDisplay()</CodeStr>
                                   <BuildOrders z:Id="749" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
                                     <d10p1:items z:Id="750" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
                                       <d10p1:_items z:Id="751" z:Size="4">
-                                        <d10p1:string z:Id="752">corak</d10p1:string>
+                                        <d10p1:string z:Id="752">shieldraid</d10p1:string>
                                         <d10p1:string i:nil="true" />
                                         <d10p1:string i:nil="true" />
                                         <d10p1:string i:nil="true" />
@@ -3660,7 +3660,7 @@ Powerup every 40 seconds</Description>
                                           <d18p1:Heading>0</d18p1:Heading>
                                           <d18p1:IsGhost>false</d18p1:IsGhost>
                                           <d18p1:Player z:Ref="48" i:nil="true" />
-                                          <d18p1:UnitDefName z:Id="930">corrl</d18p1:UnitDefName>
+                                          <d18p1:UnitDefName z:Id="930">turretmissile</d18p1:UnitDefName>
                                         </d18p1:UnitStartInfo>
                                         <d18p1:UnitStartInfo z:Id="931">
                                           <d18p1:Point xmlns:d22p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -3902,7 +3902,7 @@ Powerup every 40 seconds</Description>
                                           <d18p1:Heading>129.62373516805212</d18p1:Heading>
                                           <d18p1:IsGhost>false</d18p1:IsGhost>
                                           <d18p1:Player z:Ref="48" i:nil="true" />
-                                          <d18p1:UnitDefName z:Id="975">corfav</d18p1:UnitDefName>
+                                          <d18p1:UnitDefName z:Id="975">vehscout</d18p1:UnitDefName>
                                         </d18p1:UnitStartInfo>
                                         <d18p1:UnitStartInfo z:Id="976">
                                           <d18p1:Point xmlns:d22p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -3946,7 +3946,7 @@ Powerup every 40 seconds</Description>
                                           <d18p1:Heading>127.07292512453984</d18p1:Heading>
                                           <d18p1:IsGhost>false</d18p1:IsGhost>
                                           <d18p1:Player z:Ref="48" i:nil="true" />
-                                          <d18p1:UnitDefName z:Id="984">corgator</d18p1:UnitDefName>
+                                          <d18p1:UnitDefName z:Id="984">vehraid</d18p1:UnitDefName>
                                         </d18p1:UnitStartInfo>
                                         <d18p1:UnitStartInfo z:Id="985">
                                           <d18p1:Point xmlns:d22p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -4034,7 +4034,7 @@ Powerup every 40 seconds</Description>
                                           <d18p1:Heading>0</d18p1:Heading>
                                           <d18p1:IsGhost>false</d18p1:IsGhost>
                                           <d18p1:Player z:Ref="48" i:nil="true" />
-                                          <d18p1:UnitDefName z:Id="1001">armwin</d18p1:UnitDefName>
+                                          <d18p1:UnitDefName z:Id="1001">energywind</d18p1:UnitDefName>
                                         </d18p1:UnitStartInfo>
                                         <d18p1:UnitStartInfo z:Id="1002">
                                           <d18p1:Point xmlns:d22p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -4157,8 +4157,8 @@ GG.RefreshObjDisplay()</CodeStr>
                                   <BuildOrders z:Id="1019" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
                                     <d10p1:items z:Id="1020" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
                                       <d10p1:_items z:Id="1021" z:Size="4">
-                                        <d10p1:string z:Id="1022">corfav</d10p1:string>
-                                        <d10p1:string z:Id="1023">corgator</d10p1:string>
+                                        <d10p1:string z:Id="1022">vehscout</d10p1:string>
+                                        <d10p1:string z:Id="1023">vehraid</d10p1:string>
                                         <d10p1:string i:nil="true" />
                                         <d10p1:string i:nil="true" />
                                       </d10p1:_items>
@@ -4201,9 +4201,9 @@ GG.RefreshObjDisplay()</CodeStr>
                                   <BuildOrders z:Id="1035" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
                                     <d10p1:items z:Id="1036" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
                                       <d10p1:_items z:Id="1037" z:Size="4">
-                                        <d10p1:string z:Id="1038">armpw</d10p1:string>
+                                        <d10p1:string z:Id="1038">cloakraid</d10p1:string>
                                         <d10p1:string z:Ref="1038" i:nil="true" />
-                                        <d10p1:string z:Id="1039">armwar</d10p1:string>
+                                        <d10p1:string z:Id="1039">cloakriot</d10p1:string>
                                         <d10p1:string i:nil="true" />
                                       </d10p1:_items>
                                       <d10p1:_size>3</d10p1:_size>
@@ -4428,7 +4428,7 @@ Powerup every 40 seconds</Description>
                                           <d18p1:Heading>62.729167025686479</d18p1:Heading>
                                           <d18p1:IsGhost>false</d18p1:IsGhost>
                                           <d18p1:Player z:Ref="48" i:nil="true" />
-                                          <d18p1:UnitDefName z:Id="1113">corcan</d18p1:UnitDefName>
+                                          <d18p1:UnitDefName z:Id="1113">jumpassault</d18p1:UnitDefName>
                                         </d18p1:UnitStartInfo>
                                         <d18p1:UnitStartInfo z:Id="1114">
                                           <d18p1:Point xmlns:d22p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -5679,7 +5679,7 @@ Powerup every 35 seconds</Description>
                                           <d18p1:Heading>88.483030404573327</d18p1:Heading>
                                           <d18p1:IsGhost>false</d18p1:IsGhost>
                                           <d18p1:Player z:Ref="48" i:nil="true" />
-                                          <d18p1:UnitDefName z:Id="1376">corsh</d18p1:UnitDefName>
+                                          <d18p1:UnitDefName z:Id="1376">hoverraid</d18p1:UnitDefName>
                                         </d18p1:UnitStartInfo>
                                         <d18p1:UnitStartInfo z:Id="1377">
                                           <d18p1:Point xmlns:d22p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -5987,7 +5987,7 @@ Powerup every 35 seconds</Description>
                                           <d18p1:Heading>84.903563809681245</d18p1:Heading>
                                           <d18p1:IsGhost>false</d18p1:IsGhost>
                                           <d18p1:Player z:Ref="48" i:nil="true" />
-                                          <d18p1:UnitDefName z:Id="1434">armwar</d18p1:UnitDefName>
+                                          <d18p1:UnitDefName z:Id="1434">cloakriot</d18p1:UnitDefName>
                                         </d18p1:UnitStartInfo>
                                         <d18p1:UnitStartInfo z:Id="1435">
                                           <d18p1:Point xmlns:d22p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -6052,7 +6052,7 @@ GG.RefreshObjDisplay()</CodeStr>
                                   <BuildOrders z:Id="1445" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
                                     <d10p1:items z:Id="1446" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
                                       <d10p1:_items z:Id="1447" z:Size="4">
-                                        <d10p1:string z:Id="1448">corsh</d10p1:string>
+                                        <d10p1:string z:Id="1448">hoverraid</d10p1:string>
                                         <d10p1:string i:nil="true" />
                                         <d10p1:string i:nil="true" />
                                         <d10p1:string i:nil="true" />
@@ -6096,9 +6096,9 @@ GG.RefreshObjDisplay()</CodeStr>
                                   <BuildOrders z:Id="1460" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
                                     <d10p1:items z:Id="1461" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
                                       <d10p1:_items z:Id="1462" z:Size="4">
-                                        <d10p1:string z:Id="1463">corak</d10p1:string>
+                                        <d10p1:string z:Id="1463">shieldraid</d10p1:string>
                                         <d10p1:string z:Ref="1463" i:nil="true" />
-                                        <d10p1:string z:Id="1464">cormak</d10p1:string>
+                                        <d10p1:string z:Id="1464">shieldriot</d10p1:string>
                                         <d10p1:string i:nil="true" />
                                       </d10p1:_items>
                                       <d10p1:_size>3</d10p1:_size>
@@ -7370,7 +7370,7 @@ Powerup every 35 seconds</Description>
                                           <d18p1:Heading>0</d18p1:Heading>
                                           <d18p1:IsGhost>false</d18p1:IsGhost>
                                           <d18p1:Player z:Ref="48" i:nil="true" />
-                                          <d18p1:UnitDefName z:Id="1748">armartic</d18p1:UnitDefName>
+                                          <d18p1:UnitDefName z:Id="1748">turretemp</d18p1:UnitDefName>
                                         </d18p1:UnitStartInfo>
                                         <d18p1:UnitStartInfo z:Id="1749">
                                           <d18p1:Point xmlns:d22p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -7436,7 +7436,7 @@ Powerup every 35 seconds</Description>
                                           <d18p1:Heading>115.72602267846025</d18p1:Heading>
                                           <d18p1:IsGhost>false</d18p1:IsGhost>
                                           <d18p1:Player z:Ref="48" i:nil="true" />
-                                          <d18p1:UnitDefName z:Id="1761">puppy</d18p1:UnitDefName>
+                                          <d18p1:UnitDefName z:Id="1761">jumpscout</d18p1:UnitDefName>
                                         </d18p1:UnitStartInfo>
                                         <d18p1:UnitStartInfo z:Id="1762">
                                           <d18p1:Point xmlns:d22p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -7656,7 +7656,7 @@ Powerup every 35 seconds</Description>
                                           <d18p1:Heading>0</d18p1:Heading>
                                           <d18p1:IsGhost>false</d18p1:IsGhost>
                                           <d18p1:Player z:Ref="48" i:nil="true" />
-                                          <d18p1:UnitDefName z:Id="1802">cormak</d18p1:UnitDefName>
+                                          <d18p1:UnitDefName z:Id="1802">shieldriot</d18p1:UnitDefName>
                                         </d18p1:UnitStartInfo>
                                         <d18p1:UnitStartInfo z:Id="1803">
                                           <d18p1:Point xmlns:d22p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -7739,13 +7739,13 @@ GG.RefreshObjDisplay()</CodeStr>
                                   <BuildOrders z:Id="1818" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
                                     <d10p1:items z:Id="1819" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
                                       <d10p1:_items z:Id="1820" z:Size="8">
-                                        <d10p1:string z:Id="1821">corfav</d10p1:string>
+                                        <d10p1:string z:Id="1821">vehscout</d10p1:string>
                                         <d10p1:string z:Ref="1821" i:nil="true" />
-                                        <d10p1:string z:Id="1822">corgator</d10p1:string>
+                                        <d10p1:string z:Id="1822">vehraid</d10p1:string>
                                         <d10p1:string z:Ref="1821" i:nil="true" />
                                         <d10p1:string z:Ref="1821" i:nil="true" />
                                         <d10p1:string z:Ref="1822" i:nil="true" />
-                                        <d10p1:string z:Id="1823">cormist</d10p1:string>
+                                        <d10p1:string z:Id="1823">vehsupport</d10p1:string>
                                         <d10p1:string z:Ref="1823" i:nil="true" />
                                       </d10p1:_items>
                                       <d10p1:_size>8</d10p1:_size>
@@ -7787,9 +7787,9 @@ GG.RefreshObjDisplay()</CodeStr>
                                   <BuildOrders z:Id="1835" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
                                     <d10p1:items z:Id="1836" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
                                       <d10p1:_items z:Id="1837" z:Size="4">
-                                        <d10p1:string z:Id="1838">corak</d10p1:string>
+                                        <d10p1:string z:Id="1838">shieldraid</d10p1:string>
                                         <d10p1:string z:Ref="1838" i:nil="true" />
-                                        <d10p1:string z:Id="1839">cormak</d10p1:string>
+                                        <d10p1:string z:Id="1839">shieldriot</d10p1:string>
                                         <d10p1:string i:nil="true" />
                                       </d10p1:_items>
                                       <d10p1:_size>3</d10p1:_size>
@@ -7831,7 +7831,7 @@ GG.RefreshObjDisplay()</CodeStr>
                                   <BuildOrders z:Id="1850" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
                                     <d10p1:items z:Id="1851" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
                                       <d10p1:_items z:Id="1852" z:Size="4">
-                                        <d10p1:string z:Id="1853">puppy</d10p1:string>
+                                        <d10p1:string z:Id="1853">jumpscout</d10p1:string>
                                         <d10p1:string i:nil="true" />
                                         <d10p1:string i:nil="true" />
                                         <d10p1:string i:nil="true" />
@@ -9219,7 +9219,7 @@ Powerup every 30 seconds</Description>
                                           <d18p1:Heading>0</d18p1:Heading>
                                           <d18p1:IsGhost>false</d18p1:IsGhost>
                                           <d18p1:Player z:Ref="48" i:nil="true" />
-                                          <d18p1:UnitDefName z:Id="2160">armdeva</d18p1:UnitDefName>
+                                          <d18p1:UnitDefName z:Id="2160">turretriot</d18p1:UnitDefName>
                                         </d18p1:UnitStartInfo>
                                         <d18p1:UnitStartInfo z:Id="2161">
                                           <d18p1:Point xmlns:d22p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -9427,7 +9427,7 @@ Powerup every 30 seconds</Description>
                                           <d18p1:Heading>0</d18p1:Heading>
                                           <d18p1:IsGhost>false</d18p1:IsGhost>
                                           <d18p1:Player z:Ref="48" i:nil="true" />
-                                          <d18p1:UnitDefName z:Id="2200">panther</d18p1:UnitDefName>
+                                          <d18p1:UnitDefName z:Id="2200">tankheavyraid</d18p1:UnitDefName>
                                         </d18p1:UnitStartInfo>
                                         <d18p1:UnitStartInfo z:Id="2201">
                                           <d18p1:Point xmlns:d22p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -9471,7 +9471,7 @@ Powerup every 30 seconds</Description>
                                           <d18p1:Heading>56.316510103621539</d18p1:Heading>
                                           <d18p1:IsGhost>false</d18p1:IsGhost>
                                           <d18p1:Player z:Ref="48" i:nil="true" />
-                                          <d18p1:UnitDefName z:Id="2210">corpyro</d18p1:UnitDefName>
+                                          <d18p1:UnitDefName z:Id="2210">jumpraid</d18p1:UnitDefName>
                                         </d18p1:UnitStartInfo>
                                         <d18p1:UnitStartInfo z:Id="2211">
                                           <d18p1:Point xmlns:d22p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -9636,7 +9636,7 @@ GG.RefreshObjDisplay()</CodeStr>
                                   <BuildOrders z:Id="2228" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
                                     <d10p1:items z:Id="2229" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
                                       <d10p1:_items z:Id="2230" z:Size="4">
-                                        <d10p1:string z:Id="2231">panther</d10p1:string>
+                                        <d10p1:string z:Id="2231">tankheavyraid</d10p1:string>
                                         <d10p1:string i:nil="true" />
                                         <d10p1:string i:nil="true" />
                                         <d10p1:string i:nil="true" />
@@ -9728,11 +9728,11 @@ GG.RefreshObjDisplay()</CodeStr>
                                   <BuildOrders z:Id="2257" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
                                     <d10p1:items z:Id="2258" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
                                       <d10p1:_items z:Id="2259" z:Size="8">
-                                        <d10p1:string z:Id="2260">puppy</d10p1:string>
+                                        <d10p1:string z:Id="2260">jumpscout</d10p1:string>
                                         <d10p1:string z:Ref="2260" i:nil="true" />
                                         <d10p1:string z:Ref="2260" i:nil="true" />
-                                        <d10p1:string z:Id="2261">corpyro</d10p1:string>
-                                        <d10p1:string z:Id="2262">slowmort</d10p1:string>
+                                        <d10p1:string z:Id="2261">jumpraid</d10p1:string>
+                                        <d10p1:string z:Id="2262">jumpskirm</d10p1:string>
                                         <d10p1:string i:nil="true" />
                                         <d10p1:string i:nil="true" />
                                         <d10p1:string i:nil="true" />
@@ -9961,7 +9961,7 @@ GG.ResetUnits()</CodeStr>
                                                           <d26p1:Heading>179.93173604909833</d26p1:Heading>
                                                           <d26p1:IsGhost>false</d26p1:IsGhost>
                                                           <d26p1:Player z:Ref="48" i:nil="true" />
-                                                          <d26p1:UnitDefName z:Id="2343">corgol</d26p1:UnitDefName>
+                                                          <d26p1:UnitDefName z:Id="2343">tankheavyassault</d26p1:UnitDefName>
                                                         </d26p1:UnitStartInfo>
                                                         <d26p1:UnitStartInfo z:Id="2344">
                                                           <d26p1:Point xmlns:d30p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -10027,7 +10027,7 @@ GG.ResetUnits()</CodeStr>
                                                           <d26p1:Heading>0</d26p1:Heading>
                                                           <d26p1:IsGhost>false</d26p1:IsGhost>
                                                           <d26p1:Player z:Ref="48" i:nil="true" />
-                                                          <d26p1:UnitDefName z:Id="2358">slowmort</d26p1:UnitDefName>
+                                                          <d26p1:UnitDefName z:Id="2358">jumpskirm</d26p1:UnitDefName>
                                                         </d26p1:UnitStartInfo>
                                                         <d26p1:UnitStartInfo z:Id="2359">
                                                           <d26p1:Point xmlns:d30p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -10071,7 +10071,7 @@ GG.ResetUnits()</CodeStr>
                                                           <d26p1:Heading>89.380320754946652</d26p1:Heading>
                                                           <d26p1:IsGhost>false</d26p1:IsGhost>
                                                           <d26p1:Player z:Ref="48" i:nil="true" />
-                                                          <d26p1:UnitDefName z:Id="2367">cormist</d26p1:UnitDefName>
+                                                          <d26p1:UnitDefName z:Id="2367">vehsupport</d26p1:UnitDefName>
                                                         </d26p1:UnitStartInfo>
                                                         <d26p1:UnitStartInfo z:Id="2368">
                                                           <d26p1:Point xmlns:d30p1="http://schemas.datacontract.org/2004/07/System.Windows">

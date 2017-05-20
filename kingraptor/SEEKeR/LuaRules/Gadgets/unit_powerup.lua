@@ -36,7 +36,7 @@ local blockedDefs = {
 	[ UnitDefNames['pw_dropdepot'].id ] = true,
 	[ UnitDefNames['fakeunit_los'].id ] = true,
 }
-local DIRTBAG_DEF_ID = UnitDefNames.corclog.id
+local DIRTBAG_DEF_ID = UnitDefNames.shieldscout.id
 local teams = {
 	[0] = 0,
 }
@@ -59,7 +59,7 @@ local powerupDefs = {
 		round = 2,
 		func = function(boxID)
 			local x, y, z = Spring.GetUnitPosition(boxID)
-			local newUnitID = Spring.CreateUnit("logkoda", x, y, z, "s", 0)
+			local newUnitID = Spring.CreateUnit("tankraid", x, y, z, "s", 0)
 			Spring.PlaySoundFile(soundDir.."misc/teleport.wav", 4, x, y, z, 0, 0, 0, "sfx")
 			Spring.SpawnCEG("teleport_in", x, y, z)
 			
@@ -269,7 +269,7 @@ end
 
 local function SpawnPowerupUnit(x, z, type)
 	local y = Spring.GetGroundHeight(x, z)
-	local unitID = Spring.CreateUnit("corclog", x, y, z, math.random(0,3), 1)
+	local unitID = Spring.CreateUnit("shieldscout", x, y, z, math.random(0,3), 1)
 	Spring.PlaySoundFile(soundDir.."misc/teleport.wav", 4, x, y, z, 0, 0, 0, "sfx")
 	Spring.SpawnCEG("teleport_in", x, y, z)
 	powerupUnits[unitID] = type or PickPowerupType()

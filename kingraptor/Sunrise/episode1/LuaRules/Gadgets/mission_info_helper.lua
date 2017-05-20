@@ -24,8 +24,8 @@ end
 local MIN_GAMEFRAME = 30*60*2	-- damage dealt before this time will be disregarded
 local gameframe = 0
 local units = {
-  [UnitDefNames.corpyro.id] = {damage = 0, neededDamage = 1200, triggerName = "Fight Pyros"},
-  [UnitDefNames.corcan.id] = {damage = 0, neededDamage = 3000, triggerName = "Fight Jacks"},
+  [UnitDefNames.jumpraid.id] = {damage = 0, neededDamage = 1200, triggerName = "Fight Pyros"},
+  [UnitDefNames.jumpassault.id] = {damage = 0, neededDamage = 3000, triggerName = "Fight Jacks"},
 }
 
 function gadget:GameFrame(n)

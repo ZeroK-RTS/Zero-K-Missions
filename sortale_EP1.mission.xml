@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Mission xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="1" z:Type="CMissionLib.Mission" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
   <Author z:Id="2">Default Author</Author>
   <ContentFolderPath i:nil="true" />
@@ -1044,7 +1044,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="45" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="272">armspy</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="272"spiderantiheavy/d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="273">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1223,7 +1223,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="38" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="313">armrectr</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="313"cloakcon/d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo i:nil="true" />
                         <d10p1:UnitStartInfo i:nil="true" />
@@ -1336,7 +1336,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="38" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="341">cormex</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="341"staticmex/d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="342">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1424,7 +1424,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="38" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="358">armsolar</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="358"energysolar/d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="359">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1580,7 +1580,7 @@ end</CodeStr>
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="45" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="400">corbtrans</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="400"gunshipheavytrans/d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo i:nil="true" />
                         <d10p1:UnitStartInfo i:nil="true" />
@@ -1654,7 +1654,7 @@ Spring.GiveOrderToUnit(unitID, CMD.MOVE, {1106, 277, 972}, {"shift"})</CodeStr>
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="45" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="421">arm_venom</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="421"spideremp/d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="422">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1681,7 +1681,7 @@ Spring.GiveOrderToUnit(unitID, CMD.MOVE, {1106, 277, 972}, {"shift"})</CodeStr>
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="45" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="428">armflea</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="428"spiderscout/d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="429">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -2308,7 +2308,7 @@ Spring.GiveOrderToUnit(unitID, CMD.ATTACK, {targetID}, {})</CodeStr>
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="45" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="581">armsptk</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="581"spiderskirm/d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="582">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -3285,7 +3285,7 @@ Spring.GiveOrderToUnit(unitID, CMD.ATTACK, {targetID}, {})</CodeStr>
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="45" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="811">armcrabe</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="811"spidercrabe/d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo i:nil="true" />
                         <d10p1:UnitStartInfo i:nil="true" />

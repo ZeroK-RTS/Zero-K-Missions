@@ -48,7 +48,7 @@ local enemyAirTrigger1Damage = 2000
 local enemyAirTrigger1Active = false
 
 local helpUnits_command = {
-  [UnitDefNames.cafus.id] = "Tutorial: Singularity Reactor",
+  [UnitDefNames.energysingu.id] = "Tutorial: Singularity Reactor",
 }
 
 local function SetUnitInvulnerable(unitID, bool)

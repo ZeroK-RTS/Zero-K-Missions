@@ -35,11 +35,11 @@ local damageTriggers = {
 local defenderSpecificDamageTriggers = {}
 
 local helpUnits = {
-  --[UnitDefNames.armsnipe.id] = "Help: Sharpshooter",
+  --[UnitDefNames.cloaksnipe.id] = "Help: Sharpshooter",
 }
 local helpUnitsDamage = {
   --[UnitDefNames.hoverriot.id] = {damage = 0, neededDamage = 2000, triggerName = "Fight Maces"},
-  --[UnitDefNames.nsaclash.id] = {damage = 0, neededDamage = 1250, triggerName = "Fight Scalpels"},
+  --[UnitDefNames.hoverskirm.id] = {damage = 0, neededDamage = 1250, triggerName = "Fight Scalpels"},
 }
 
 local triggerOnDeath = {

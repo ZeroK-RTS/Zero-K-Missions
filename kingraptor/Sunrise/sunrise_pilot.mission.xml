@@ -390,79 +390,79 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                     <d10p1:items z:Id="124" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
                       <d10p1:_items z:Id="125" z:Size="512">
                         <d10p1:string z:Id="126">amphassault</d10p1:string>
-                        <d10p1:string z:Id="127">amgeo</d10p1:string>
+                        <d10p1:string z:Id="127">energyheavygeo</d10p1:string>
                         <d10p1:string z:Id="128">amphaa</d10p1:string>
                         <d10p1:string z:Id="129">amphcon</d10p1:string>
                         <d10p1:string z:Id="130">amphfloater</d10p1:string>
-                        <d10p1:string z:Id="131">amphraider</d10p1:string>
-                        <d10p1:string z:Id="132">amphraider2</d10p1:string>
-                        <d10p1:string z:Id="133">amphraider3</d10p1:string>
+                        <d10p1:string z:Id="131">grebe</d10p1:string>
+                        <d10p1:string z:Id="132">amphimpulse</d10p1:string>
+                        <d10p1:string z:Id="133">amphraid</d10p1:string>
                         <d10p1:string z:Id="134">amphriot</d10p1:string>
                         <d10p1:string z:Id="135">amphtele</d10p1:string>
-                        <d10p1:string z:Id="136">arm_spider</d10p1:string>
-                        <d10p1:string z:Id="137">arm_venom</d10p1:string>
-                        <d10p1:string z:Id="138">armaak</d10p1:string>
-                        <d10p1:string z:Id="139">armamd</d10p1:string>
-                        <d10p1:string z:Id="140">armanni</d10p1:string>
-                        <d10p1:string z:Id="141">armarad</d10p1:string>
-                        <d10p1:string z:Id="142">armartic</d10p1:string>
-                        <d10p1:string z:Id="143">armasp</d10p1:string>
-                        <d10p1:string z:Id="144">armbanth</d10p1:string>
-                        <d10p1:string z:Id="145">armbrawl</d10p1:string>
-                        <d10p1:string z:Id="146">armbrtha</d10p1:string>
-                        <d10p1:string z:Id="147">armca</d10p1:string>
+                        <d10p1:string z:Id="136">spidercon</d10p1:string>
+                        <d10p1:string z:Id="137">spideremp</d10p1:string>
+                        <d10p1:string z:Id="138">jumpaa</d10p1:string>
+                        <d10p1:string z:Id="139">staticantinuke</d10p1:string>
+                        <d10p1:string z:Id="140">turretantiheavy</d10p1:string>
+                        <d10p1:string z:Id="141">staticheavyradar</d10p1:string>
+                        <d10p1:string z:Id="142">turretemp</d10p1:string>
+                        <d10p1:string z:Id="143">staticrearm</d10p1:string>
+                        <d10p1:string z:Id="144">striderbantha</d10p1:string>
+                        <d10p1:string z:Id="145">gunshipheavyskirm</d10p1:string>
+                        <d10p1:string z:Id="146">staticheavyarty</d10p1:string>
+                        <d10p1:string z:Id="147">planecon</d10p1:string>
                         <d10p1:string z:Id="148">armcarry</d10p1:string>
-                        <d10p1:string z:Id="149">armcir</d10p1:string>
+                        <d10p1:string z:Id="149">turretaafar</d10p1:string>
                         <d10p1:string z:Id="150">armcom1</d10p1:string>
                         <d10p1:string z:Id="151">armcom2</d10p1:string>
                         <d10p1:string z:Id="152">armcom3</d10p1:string>
                         <d10p1:string z:Id="153">armcom4</d10p1:string>
                         <d10p1:string z:Id="154">armcom5</d10p1:string>
-                        <d10p1:string z:Id="155">armcomdgun</d10p1:string>
-                        <d10p1:string z:Id="156">armcrabe</d10p1:string>
-                        <d10p1:string z:Id="157">armcsa</d10p1:string>
-                        <d10p1:string z:Id="158">armcybr</d10p1:string>
-                        <d10p1:string z:Id="159">armdeva</d10p1:string>
-                        <d10p1:string z:Id="160">armestor</d10p1:string>
-                        <d10p1:string z:Id="161">armflea</d10p1:string>
-                        <d10p1:string z:Id="162">armfus</d10p1:string>
-                        <d10p1:string z:Id="163">armham</d10p1:string>
-                        <d10p1:string z:Id="164">armjamt</d10p1:string>
-                        <d10p1:string z:Id="165">armjeth</d10p1:string>
-                        <d10p1:string z:Id="166">armkam</d10p1:string>
-                        <d10p1:string z:Id="167">armmanni</d10p1:string>
-                        <d10p1:string z:Id="168">armmerl</d10p1:string>
-                        <d10p1:string z:Id="169">armmstor</d10p1:string>
-                        <d10p1:string z:Id="170">armnanotc</d10p1:string>
-                        <d10p1:string z:Id="171">armorco</d10p1:string>
-                        <d10p1:string z:Id="172">armpb</d10p1:string>
+                        <d10p1:string z:Id="155">striderantiheavy</d10p1:string>
+                        <d10p1:string z:Id="156">spidercrabe</d10p1:string>
+                        <d10p1:string z:Id="157">athena</d10p1:string>
+                        <d10p1:string z:Id="158">bomberheavy</d10p1:string>
+                        <d10p1:string z:Id="159">turretriot</d10p1:string>
+                        <d10p1:string z:Id="160">energypylon</d10p1:string>
+                        <d10p1:string z:Id="161">spiderscout</d10p1:string>
+                        <d10p1:string z:Id="162">energyfusion</d10p1:string>
+                        <d10p1:string z:Id="163">cloakarty</d10p1:string>
+                        <d10p1:string z:Id="164">staticjammer</d10p1:string>
+                        <d10p1:string z:Id="165">cloakaa</d10p1:string>
+                        <d10p1:string z:Id="166">gunshipraid</d10p1:string>
+                        <d10p1:string z:Id="167">hoverarty</d10p1:string>
+                        <d10p1:string z:Id="168">vehheavyarty</d10p1:string>
+                        <d10p1:string z:Id="169">staticstorage</d10p1:string>
+                        <d10p1:string z:Id="170">staticcon</d10p1:string>
+                        <d10p1:string z:Id="171">striderdetriment</d10p1:string>
+                        <d10p1:string z:Id="172">turretgauss</d10p1:string>
                         <d10p1:string z:Id="173">armpt</d10p1:string>
-                        <d10p1:string z:Id="174">armpw</d10p1:string>
-                        <d10p1:string z:Id="175">armraven</d10p1:string>
+                        <d10p1:string z:Id="174">cloakraid</d10p1:string>
+                        <d10p1:string z:Id="175">striderarty</d10p1:string>
                         <d10p1:string z:Id="176">armraz</d10p1:string>
-                        <d10p1:string z:Id="177">armrectr</d10p1:string>
-                        <d10p1:string z:Id="178">armrock</d10p1:string>
+                        <d10p1:string z:Id="177">cloakcon</d10p1:string>
+                        <d10p1:string z:Id="178">cloakskirm</d10p1:string>
                         <d10p1:string z:Id="179">armroy</d10p1:string>
-                        <d10p1:string z:Id="180">armsnipe</d10p1:string>
-                        <d10p1:string z:Id="181">armsolar</d10p1:string>
-                        <d10p1:string z:Id="182">armsonar</d10p1:string>
-                        <d10p1:string z:Id="183">armsptk</d10p1:string>
-                        <d10p1:string z:Id="184">armspy</d10p1:string>
-                        <d10p1:string z:Id="185">armstiletto_laser</d10p1:string>
+                        <d10p1:string z:Id="180">cloaksnipe</d10p1:string>
+                        <d10p1:string z:Id="181">energysolar</d10p1:string>
+                        <d10p1:string z:Id="182">staticsonar</d10p1:string>
+                        <d10p1:string z:Id="183">spiderskirm</d10p1:string>
+                        <d10p1:string z:Id="184">spiderantiheavy</d10p1:string>
+                        <d10p1:string z:Id="185">bomberdisarm</d10p1:string>
                         <d10p1:string z:Id="186">armtboat</d10p1:string>
-                        <d10p1:string z:Id="187">armtick</d10p1:string>
-                        <d10p1:string z:Id="188">armwar</d10p1:string>
-                        <d10p1:string z:Id="189">armwin</d10p1:string>
-                        <d10p1:string z:Id="190">armzeus</d10p1:string>
+                        <d10p1:string z:Id="187">cloakbomb</d10p1:string>
+                        <d10p1:string z:Id="188">cloakriot</d10p1:string>
+                        <d10p1:string z:Id="189">energywind</d10p1:string>
+                        <d10p1:string z:Id="190">cloakassault</d10p1:string>
                         <d10p1:string z:Id="191">assaultcruiser</d10p1:string>
                         <d10p1:string z:Id="192">asteroid</d10p1:string>
-                        <d10p1:string z:Id="193">attackdrone</d10p1:string>
-                        <d10p1:string z:Id="194">blackdawn</d10p1:string>
-                        <d10p1:string z:Id="195">bladew</d10p1:string>
-                        <d10p1:string z:Id="196">blastwing</d10p1:string>
-                        <d10p1:string z:Id="197">cafus</d10p1:string>
-                        <d10p1:string z:Id="198">capturecar</d10p1:string>
-                        <d10p1:string z:Id="199">carrydrone</d10p1:string>
+                        <d10p1:string z:Id="193">dronelight</d10p1:string>
+                        <d10p1:string z:Id="194">gunshipassault</d10p1:string>
+                        <d10p1:string z:Id="195">gunshipemp</d10p1:string>
+                        <d10p1:string z:Id="196">gunshipbomb</d10p1:string>
+                        <d10p1:string z:Id="197">energysingu</d10p1:string>
+                        <d10p1:string z:Id="198">vehcapture</d10p1:string>
+                        <d10p1:string z:Id="199">dronecarry</d10p1:string>
                         <d10p1:string z:Id="200">chicken</d10p1:string>
                         <d10p1:string z:Id="201">chicken_blimpy</d10p1:string>
                         <d10p1:string z:Id="202">chicken_digger</d10p1:string>
@@ -517,76 +517,76 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                         <d10p1:string z:Id="251">commsupport3</d10p1:string>
                         <d10p1:string z:Id="252">commsupport4</d10p1:string>
                         <d10p1:string z:Id="253">commsupport5</d10p1:string>
-                        <d10p1:string z:Id="254">coracv</d10p1:string>
-                        <d10p1:string z:Id="255">corak</d10p1:string>
-                        <d10p1:string z:Id="256">gunshipsupport</d10p1:string>
+                        <d10p1:string z:Id="254">tankcon</d10p1:string>
+                        <d10p1:string z:Id="255">shieldraid</d10p1:string>
+                        <d10p1:string z:Id="256">gunshipskirm</d10p1:string>
                         <d10p1:string z:Id="257">corarch</d10p1:string>
-                        <d10p1:string z:Id="258">corawac</d10p1:string>
+                        <d10p1:string z:Id="258">planescout</d10p1:string>
                         <d10p1:string z:Id="259">corbats</d10p1:string>
-                        <d10p1:string z:Id="260">corbhmth</d10p1:string>
-                        <d10p1:string z:Id="261">corbtrans</d10p1:string>
-                        <d10p1:string z:Id="262">corcan</d10p1:string>
-                        <d10p1:string z:Id="263">corch</d10p1:string>
-                        <d10p1:string z:Id="264">corclog</d10p1:string>
+                        <d10p1:string z:Id="260">staticarty</d10p1:string>
+                        <d10p1:string z:Id="261">gunshipheavytrans</d10p1:string>
+                        <d10p1:string z:Id="262">jumpassault</d10p1:string>
+                        <d10p1:string z:Id="263">hovercon</d10p1:string>
+                        <d10p1:string z:Id="264">shieldscout</d10p1:string>
                         <d10p1:string z:Id="265">corcom1</d10p1:string>
                         <d10p1:string z:Id="266">corcom2</d10p1:string>
                         <d10p1:string z:Id="267">corcom3</d10p1:string>
                         <d10p1:string z:Id="268">corcom4</d10p1:string>
                         <d10p1:string z:Id="269">corcom5</d10p1:string>
-                        <d10p1:string z:Id="270">corcrash</d10p1:string>
-                        <d10p1:string z:Id="271">corcrw</d10p1:string>
+                        <d10p1:string z:Id="270">shieldaa</d10p1:string>
+                        <d10p1:string z:Id="271">gunshipkrow</d10p1:string>
                         <d10p1:string z:Id="272">corcs</d10p1:string>
-                        <d10p1:string z:Id="273">cordoom</d10p1:string>
-                        <d10p1:string z:Id="274">core_spectre</d10p1:string>
+                        <d10p1:string z:Id="273">turretheavy</d10p1:string>
+                        <d10p1:string z:Id="274">shieldshield</d10p1:string>
                         <d10p1:string z:Id="275">coresupp</d10p1:string>
-                        <d10p1:string z:Id="276">corfast</d10p1:string>
-                        <d10p1:string z:Id="277">corfav</d10p1:string>
-                        <d10p1:string z:Id="278">corflak</d10p1:string>
-                        <d10p1:string z:Id="279">corgarp</d10p1:string>
-                        <d10p1:string z:Id="280">corgator</d10p1:string>
-                        <d10p1:string z:Id="281">corgol</d10p1:string>
-                        <d10p1:string z:Id="282">corgrav</d10p1:string>
-                        <d10p1:string z:Id="283">corhlt</d10p1:string>
-                        <d10p1:string z:Id="284">corhurc2</d10p1:string>
-                        <d10p1:string z:Id="285">corjamt</d10p1:string>
-                        <d10p1:string z:Id="286">corlevlr</d10p1:string>
-                        <d10p1:string z:Id="287">corllt</d10p1:string>
-                        <d10p1:string z:Id="288">cormak</d10p1:string>
-                        <d10p1:string z:Id="289">cormart</d10p1:string>
-                        <d10p1:string z:Id="290">cormex</d10p1:string>
-                        <d10p1:string z:Id="291">cormist</d10p1:string>
-                        <d10p1:string z:Id="292">cornecro</d10p1:string>
-                        <d10p1:string z:Id="293">corned</d10p1:string>
+                        <d10p1:string z:Id="276">jumpcon</d10p1:string>
+                        <d10p1:string z:Id="277">vehscout</d10p1:string>
+                        <d10p1:string z:Id="278">turretaaflak</d10p1:string>
+                        <d10p1:string z:Id="279">veharty</d10p1:string>
+                        <d10p1:string z:Id="280">vehraid</d10p1:string>
+                        <d10p1:string z:Id="281">tankheavyassault</d10p1:string>
+                        <d10p1:string z:Id="282">turretimpulse</d10p1:string>
+                        <d10p1:string z:Id="283">turretheavylaser</d10p1:string>
+                        <d10p1:string z:Id="284">bomberriot</d10p1:string>
+                        <d10p1:string z:Id="285">staticshield</d10p1:string>
+                        <d10p1:string z:Id="286">vehriot</d10p1:string>
+                        <d10p1:string z:Id="287">turretlaser</d10p1:string>
+                        <d10p1:string z:Id="288">shieldriot</d10p1:string>
+                        <d10p1:string z:Id="289">tankarty</d10p1:string>
+                        <d10p1:string z:Id="290">staticmex</d10p1:string>
+                        <d10p1:string z:Id="291">vehsupport</d10p1:string>
+                        <d10p1:string z:Id="292">shieldcon</d10p1:string>
+                        <d10p1:string z:Id="293">vehcon</d10p1:string>
                         <d10p1:string z:Id="294">cornukesub</d10p1:string>
                         <d10p1:string z:Id="295">corpre</d10p1:string>
-                        <d10p1:string z:Id="296">corpyro</d10p1:string>
-                        <d10p1:string z:Id="297">corpyro2</d10p1:string>
-                        <d10p1:string z:Id="298">corraid</d10p1:string>
-                        <d10p1:string z:Id="299">corrazor</d10p1:string>
-                        <d10p1:string z:Id="300">correap</d10p1:string>
-                        <d10p1:string z:Id="301">corrl</d10p1:string>
-                        <d10p1:string z:Id="302">corroach</d10p1:string>
+                        <d10p1:string z:Id="296">jumpraid</d10p1:string>
+                        <d10p1:string z:Id="297">jumpraid2</d10p1:string>
+                        <d10p1:string z:Id="298">vehassault</d10p1:string>
+                        <d10p1:string z:Id="299">turretaalaser</d10p1:string>
+                        <d10p1:string z:Id="300">tankassault</d10p1:string>
+                        <d10p1:string z:Id="301">turretmissile</d10p1:string>
+                        <d10p1:string z:Id="302">shieldbomb</d10p1:string>
                         <d10p1:string z:Id="303">corroy</d10p1:string>
-                        <d10p1:string z:Id="304">corsent</d10p1:string>
-                        <d10p1:string z:Id="305">corsh</d10p1:string>
-                        <d10p1:string z:Id="306">corshad</d10p1:string>
-                        <d10p1:string z:Id="307">corsilo</d10p1:string>
-                        <d10p1:string z:Id="308">corsktl</d10p1:string>
-                        <d10p1:string z:Id="309">corstorm</d10p1:string>
+                        <d10p1:string z:Id="304">tankaa</d10p1:string>
+                        <d10p1:string z:Id="305">hoverraid</d10p1:string>
+                        <d10p1:string z:Id="306">bomberprec</d10p1:string>
+                        <d10p1:string z:Id="307">staticnuke</d10p1:string>
+                        <d10p1:string z:Id="308">jumpbomb</d10p1:string>
+                        <d10p1:string z:Id="309">shieldskirm</d10p1:string>
                         <d10p1:string z:Id="310">corsub</d10p1:string>
-                        <d10p1:string z:Id="311">corsumo</d10p1:string>
+                        <d10p1:string z:Id="311">jumpsumo</d10p1:string>
                         <d10p1:string z:Id="312">corsy</d10p1:string>
-                        <d10p1:string z:Id="313">corthud</d10p1:string>
+                        <d10p1:string z:Id="313">shieldassault</d10p1:string>
                         <d10p1:string z:Id="314">cortl</d10p1:string>
-                        <d10p1:string z:Id="315">corvalk</d10p1:string>
-                        <d10p1:string z:Id="316">corvamp</d10p1:string>
+                        <d10p1:string z:Id="315">gunshiptrans</d10p1:string>
+                        <d10p1:string z:Id="316">planeheavyfighter</d10p1:string>
                         <d10p1:string z:Id="317">corvrad</d10p1:string>
                         <d10p1:string z:Id="318">cremcom1</d10p1:string>
                         <d10p1:string z:Id="319">cremcom2</d10p1:string>
                         <d10p1:string z:Id="320">cremcom3</d10p1:string>
                         <d10p1:string z:Id="321">cremcom4</d10p1:string>
                         <d10p1:string z:Id="322">cremcom5</d10p1:string>
-                        <d10p1:string z:Id="323">dante</d10p1:string>
+                        <d10p1:string z:Id="323">striderdante</d10p1:string>
                         <d10p1:string z:Id="324">dclship</d10p1:string>
                         <d10p1:string z:Id="325">destroyer</d10p1:string>
                         <d10p1:string z:Id="326">empiricaldpser</d10p1:string>
@@ -603,49 +603,49 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                         <d10p1:string z:Id="337">factoryveh</d10p1:string>
                         <d10p1:string z:Id="338">fakeunit</d10p1:string>
                         <d10p1:string z:Id="339">fakeunit_aatarget</d10p1:string>
-                        <d10p1:string z:Id="340">fighter</d10p1:string>
+                        <d10p1:string z:Id="340">planefighter</d10p1:string>
                         <d10p1:string z:Id="341">firebug</d10p1:string>
-                        <d10p1:string z:Id="342">firewalker</d10p1:string>
-                        <d10p1:string z:Id="343">funnelweb</d10p1:string>
-                        <d10p1:string z:Id="344">geo</d10p1:string>
+                        <d10p1:string z:Id="342">jumparty</d10p1:string>
+                        <d10p1:string z:Id="343">striderfunnelweb</d10p1:string>
+                        <d10p1:string z:Id="344">energygeo</d10p1:string>
                         <d10p1:string z:Id="345">gorg</d10p1:string>
-                        <d10p1:string z:Id="346">heavyturret</d10p1:string>
+                        <d10p1:string z:Id="346">turretsunlance</d10p1:string>
                         <d10p1:string z:Id="347">hoveraa</d10p1:string>
                         <d10p1:string z:Id="348">hoverassault</d10p1:string>
                         <d10p1:string z:Id="349">hoverminer</d10p1:string>
                         <d10p1:string z:Id="350">hoverriot</d10p1:string>
                         <d10p1:string z:Id="351">hovershotgun</d10p1:string>
-                        <d10p1:string z:Id="352">hoverskirm</d10p1:string>
-                        <d10p1:string z:Id="353">logkoda</d10p1:string>
+                        <d10p1:string z:Id="352">hoverskirm2</d10p1:string>
+                        <d10p1:string z:Id="353">tankraid</d10p1:string>
                         <d10p1:string z:Id="354">mahlazer</d10p1:string>
-                        <d10p1:string z:Id="355">missilesilo</d10p1:string>
-                        <d10p1:string z:Id="356">missiletower</d10p1:string>
+                        <d10p1:string z:Id="355">staticmissilesilo</d10p1:string>
+                        <d10p1:string z:Id="356">turretaaclose</d10p1:string>
                         <d10p1:string z:Id="357">napalmmissile</d10p1:string>
                         <d10p1:string z:Id="358">neebcomm</d10p1:string>
                         <d10p1:string z:Id="359">nest</d10p1:string>
-                        <d10p1:string z:Id="360">nsaclash</d10p1:string>
-                        <d10p1:string z:Id="361">panther</d10p1:string>
-                        <d10p1:string z:Id="362">puppy</d10p1:string>
+                        <d10p1:string z:Id="360">hoverskirm</d10p1:string>
+                        <d10p1:string z:Id="361">tankheavyraid</d10p1:string>
+                        <d10p1:string z:Id="362">jumpscout</d10p1:string>
                         <d10p1:string z:Id="363">pw_generic</d10p1:string>
                         <d10p1:string z:Id="364">pw_hq</d10p1:string>
                         <d10p1:string z:Id="365">raveparty</d10p1:string>
                         <d10p1:string z:Id="366">roost</d10p1:string>
                         <d10p1:string z:Id="367">roostfac</d10p1:string>
-                        <d10p1:string z:Id="368">scorpion</d10p1:string>
-                        <d10p1:string z:Id="369">screamer</d10p1:string>
+                        <d10p1:string z:Id="368">striderscorpion</d10p1:string>
+                        <d10p1:string z:Id="369">turretaaheavy</d10p1:string>
                         <d10p1:string z:Id="370">seismic</d10p1:string>
                         <d10p1:string z:Id="371">serpent</d10p1:string>
                         <d10p1:string z:Id="372">shieldarty</d10p1:string>
                         <d10p1:string z:Id="373">shieldfelon</d10p1:string>
-                        <d10p1:string z:Id="374">slowmort</d10p1:string>
-                        <d10p1:string z:Id="375">spherecloaker</d10p1:string>
-                        <d10p1:string z:Id="376">spherepole</d10p1:string>
+                        <d10p1:string z:Id="374">jumpskirm</d10p1:string>
+                        <d10p1:string z:Id="375">cloakjammer</d10p1:string>
+                        <d10p1:string z:Id="376">cloakheavyraid</d10p1:string>
                         <d10p1:string z:Id="377">spideraa</d10p1:string>
                         <d10p1:string z:Id="378">spiderassault</d10p1:string>
                         <d10p1:string z:Id="379">striderhub</d10p1:string>
                         <d10p1:string z:Id="380">subscout</d10p1:string>
                         <d10p1:string z:Id="381">tacnuke</d10p1:string>
-                        <d10p1:string z:Id="382">tawf114</d10p1:string>
+                        <d10p1:string z:Id="382">tankriot</d10p1:string>
                         <d10p1:string z:Id="383">tele_beacon</d10p1:string>
                         <d10p1:string z:Id="384">terraunit</d10p1:string>
                         <d10p1:string z:Id="385">test_a1_aa</d10p1:string>
@@ -740,7 +740,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                         <d10p1:string z:Id="474">test_s4_shotty</d10p1:string>
                         <d10p1:string z:Id="475">thicket</d10p1:string>
                         <d10p1:string z:Id="476">tiptest</d10p1:string>
-                        <d10p1:string z:Id="477">trem</d10p1:string>
+                        <d10p1:string z:Id="477">tankheavyarty</d10p1:string>
                         <d10p1:string z:Id="478">vehaa</d10p1:string>
                         <d10p1:string z:Id="479">wolverine_mine</d10p1:string>
                         <d10p1:string z:Id="480">zenith</d10p1:string>
@@ -1044,7 +1044,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="46" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="520">armjamt</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="520">staticjammer</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="521">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1066,7 +1066,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="46" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="525">armfus</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="525">energyfusion</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="526">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1088,7 +1088,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                           <d10p1:Heading>91.104473845512317</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="46" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="530">corllt</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="530">turretlaser</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="531">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1132,7 +1132,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="46" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="539">cormex</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="539">staticmex</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="540">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1198,7 +1198,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                           <d10p1:Heading>136.67937690637734</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="46" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="552">corcan</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="552">jumpassault</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="553">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1220,7 +1220,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                           <d10p1:Heading>138.23484031119037</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="46" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="557">tawf114</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="557">tankriot</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="558">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1247,7 +1247,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                           <d10p1:Heading>136.33801895751981</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="46" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="564">armcsa</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="564">athena</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="565">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1269,7 +1269,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                           <d10p1:Heading>134.34900391169754</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="46" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="569">armpw</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="569">cloakraid</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="570">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1472,7 +1472,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                           <d10p1:Heading>268.68923356614584</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="53" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="609">armdeva</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="609">turretriot</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="610">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1526,7 +1526,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                           <d10p1:Heading>277.03040404503821</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="53" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="624">corhlt</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="624">turretheavylaser</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="625">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1680,7 +1680,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="53" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="653">corak</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="653">shieldraid</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="654">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1724,7 +1724,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="53" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="662">cornecro</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="662">shieldcon</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="663">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1800,7 +1800,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                           <d10p1:Heading>184.73447420372406</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="53" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="679">cormak</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="679">shieldriot</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="680">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1854,7 +1854,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                           <d10p1:Heading>178.96200078979493</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="53" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="692">corrl</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="692">turretmissile</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="693">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -2231,7 +2231,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="53" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="767">corgator</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="767">vehraid</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="768">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -2307,7 +2307,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="53" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="784">corlevlr</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="784">vehriot</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="785">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -2459,7 +2459,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="53" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="817">corstorm</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="817">shieldskirm</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="818">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -2486,7 +2486,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="53" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="824">corpyro</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="824">jumpraid</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="825">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -2540,7 +2540,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                           <d10p1:Heading>175.97317257866129</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="53" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="837">corned</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="837">vehcon</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="838">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -2677,7 +2677,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                           <d10p1:Heading>273.81335032162156</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="53" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="865">armwar</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="865">cloakriot</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="866">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -2726,7 +2726,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                           <d10p1:Heading>183.60830089153103</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="53" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="877">corrad</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="877">staticradar</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="878">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -2748,7 +2748,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="53" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="882">armsolar</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="882">energysolar</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="883">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -2880,7 +2880,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                           <d10p1:Heading>256.87852855574835</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="53" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="907">corraid</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="907">vehassault</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="908">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -3034,7 +3034,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                           <d10p1:Heading>280.06475149889695</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="53" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="936">armzeus</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="936">cloakassault</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="937">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -3078,7 +3078,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                           <d10p1:Heading>271.55230863278268</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="53" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="945">armrock</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="945">cloakskirm</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="946">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -3540,7 +3540,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="53" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1030">cormist</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1030">vehsupport</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1031">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -3672,7 +3672,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                           <d10p1:Heading>268.92541096836158</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="53" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1055">armsptk</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1055">spiderskirm</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1056">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -3892,7 +3892,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                           <d10p1:Heading>6.2005315929508242</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="53" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1097">correap</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1097">tankassault</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1098">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -3919,7 +3919,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                           <d10p1:Heading>177.60995403858877</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="53" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1104">missiletower</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1104">turretaaclose</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1105">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -4271,7 +4271,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                           <d10p1:Heading>140.49106689601172</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="46" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1169">armsnipe</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1169">cloaksnipe</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1170">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -4315,7 +4315,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="53" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1178">armwin</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1178">energywind</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1179">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -4839,7 +4839,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                           <d10p1:Heading>180.74622044177369</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="53" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1284">arm_venom</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1284">spideremp</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1285">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -4905,7 +4905,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="53" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1297">gunshipsupport</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1297">gunshipskirm</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1298">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -5375,7 +5375,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="53" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1394">corthud</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1394">shieldassault</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1395">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -5600,7 +5600,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="53" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1439">armkam</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1439">gunshipraid</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1440">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -6109,7 +6109,7 @@ Spring.GiveOrderToUnit(unitID, CMD.CLOAK, {1}, {})</CodeStr>
                                   <Name z:Id="1562">GUI Message (Persistent)</Name>
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                                  <ImagePath z:Id="1563" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\unitpics\corrad.png</ImagePath>
+                                  <ImagePath z:Id="1563" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\unitpics\staticradar.png</ImagePath>
                                   <Message z:Id="1564" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Radar indicates the position of nearby enemy units as "dots" or "blips". The position of the dots "wavers" around the unit's true position, so long-range precision weapons are unlikely to hit. Additionally, radar cannot see through terrain, and radar-stealthed/jammed or cloaked units can go undetected by radar.
 
 The Radar Tower also has good visual sight distance in addition to its radar, which can be useful for getting more line-of-sight coverage.</Message>
@@ -6737,7 +6737,7 @@ Spring.SetUnitNeutral(unitID, true)
                           <d10p1:Heading>231.86593650854579</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="46" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1725">firewalker</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1725">jumparty</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo i:nil="true" />
                         <d10p1:UnitStartInfo i:nil="true" />
@@ -6881,7 +6881,7 @@ Spring.SetUnitNeutral(unitID, true)</CodeStr>
                           <d10p1:Heading>280.48118366867755</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="46" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1767">corroach</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1767">shieldbomb</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1768">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -7061,7 +7061,7 @@ end</CodeStr>
                   <Name z:Id="1806">GUI Message (Persistent)</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                  <ImagePath z:Id="1807" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\unitpics\corroach.png</ImagePath>
+                  <ImagePath z:Id="1807" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\unitpics\shieldbomb.png</ImagePath>
                   <Message z:Id="1808" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Crawling bombs like the Roach are designed to get close and explode, inflicting heavy damage on anyone in the vicinity. They should be spaced out to prevent chain explosions.
 
 The Roach can burrow to avoid detection until enemies are close, then jump them and blow up. It should not attempt to charge enemy units with accurate weapons.</Message>
@@ -7167,7 +7167,7 @@ The Roach can burrow to avoid detection until enemies are close, then jump them 
                           <d10p1:Heading>269.87142434562196</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="46" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1839">armcrabe</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1839">spidercrabe</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo i:nil="true" />
                         <d10p1:UnitStartInfo i:nil="true" />
@@ -7848,7 +7848,7 @@ Spring.SetUnitNeutral(unitID, true)</CodeStr>
                   <Name z:Id="2023">GUI Message (Persistent)</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                  <ImagePath z:Id="2024" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\unitpics\corllt.png</ImagePath>
+                  <ImagePath z:Id="2024" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\unitpics\turretlaser.png</ImagePath>
                   <Message z:Id="2025" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The LLT is your basic defense. Armed with a continuous-fire beamlaser, it is cheap and works reasonably well against most targets, particularly raiders. Long-ranged skirmishers and artillery units can hit it with impunity from outside its range, however, while assault units can tank its damage and punch through - or destroy - an LLT line.</Message>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">320</Width>
                 </TriggerLogic>
@@ -8511,7 +8511,7 @@ end</CodeStr>
                   <Units xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="2192" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
                     <d10p1:items z:Id="2193" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
                       <d10p1:_items z:Id="2194" z:Size="4">
-                        <d10p1:string z:Id="2195">corrl</d10p1:string>
+                        <d10p1:string z:Id="2195">turretmissile</d10p1:string>
                         <d10p1:string i:nil="true" />
                         <d10p1:string i:nil="true" />
                         <d10p1:string i:nil="true" />
@@ -8528,7 +8528,7 @@ end</CodeStr>
                   <Name z:Ref="2023" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                  <ImagePath z:Id="2198" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\unitpics\corrl.png</ImagePath>
+                  <ImagePath z:Id="2198" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\unitpics\turretmissile.png</ImagePath>
                   <Message z:Id="2199" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The Defender missile turret is the other "basic" defense. This cheap, fragile turret fires three missiles in a quick volley, after which it must spend some time reloading. Its range and upfront damage make it quite effective as a deterrent against skirmishers and aircraft, but anything with a decent amount of HP will simply absorb the damage and smash it.</Message>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">320</Width>
                 </TriggerLogic>
@@ -8917,7 +8917,7 @@ end</CodeStr>
                   <Units xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="2301" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
                     <d10p1:items z:Id="2302" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
                       <d10p1:_items z:Id="2303" z:Size="4">
-                        <d10p1:string z:Id="2304">corrazor</d10p1:string>
+                        <d10p1:string z:Id="2304">turretaalaser</d10p1:string>
                         <d10p1:string i:nil="true" />
                         <d10p1:string i:nil="true" />
                         <d10p1:string i:nil="true" />
@@ -8934,7 +8934,7 @@ end</CodeStr>
                   <Name z:Ref="2023" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                  <ImagePath z:Id="2307" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\unitpics\corrazor.png</ImagePath>
+                  <ImagePath z:Id="2307" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\unitpics\turretaalaser.png</ImagePath>
                   <Message z:Id="2308" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The cheapest of the "true" anti-air fixed defenses, the Razor's Kiss has a rapid-fire weapon that does well against gunships, although it has trouble hitting fast-moving planes. When no firing, the Razor's Kiss "pops down" into its hardened shell, taking only 25% damage from enemy fire.</Message>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">320</Width>
                 </TriggerLogic>
@@ -9206,7 +9206,7 @@ end</CodeStr>
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="53" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="2381">cormart</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="2381">tankarty</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="2382">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -9478,7 +9478,7 @@ end</CodeStr>
                           <d10p1:Heading>131.72834637658454</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="46" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="2448">corbtrans</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="2448">gunshipheavytrans</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo i:nil="true" />
                         <d10p1:UnitStartInfo i:nil="true" />

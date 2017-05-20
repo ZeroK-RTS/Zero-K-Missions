@@ -8,7 +8,7 @@ local carrierDefNames = {
 	armcarry = {
 		spawnPieces = {"base"},
 		{
-			drone = UnitDefNames.carrydrone.id, 
+			drone = UnitDefNames.dronecarry.id, 
 			reloadTime = 15, 
 			maxDrones = 8, 
 			spawnSize = 2, 
@@ -22,7 +22,7 @@ local carrierDefNames = {
 	reef = {
 		spawnPieces = {"DroneAft", "DroneFore", "DroneLower","DroneUpper"},
 		{
-			drone = UnitDefNames.carrydrone.id, 
+			drone = UnitDefNames.dronecarry.id, 
 			reloadTime = 5, 
 			maxDrones = 8, 
 			spawnSize = 1, 
@@ -32,12 +32,12 @@ local carrierDefNames = {
 			offsets = {0, 0, 0, colvolMidX = 0, colvolMidY = 0, colvolMidZ = 0, aimX = 0, aimY = 0, aimZ = 0}
 		},
 	},
-	--corcrw = { {drone = UnitDefNames.attackdrone.id, reloadTime = 15, maxDrones = 6, spawnSize = 2, range = 900, buildTime=3,
+	--corcrw = { {drone = UnitDefNames.dronelight.id, reloadTime = 15, maxDrones = 6, spawnSize = 2, range = 900, buildTime=3,
 			-- offsets = {0,0,0,colvolMidX=0, colvolMidY=0,colvolMidZ=0,aimX=0,aimY=0,aimZ=0}},
 	funnelweb = {
 		spawnPieces = {"emitl", "emitr"},
 		{
-			drone = UnitDefNames.attackdrone.id, 
+			drone = UnitDefNames.dronelight.id, 
 			reloadTime = 15, 
 			maxDrones = 6, 
 			spawnSize = 2, 
@@ -47,7 +47,7 @@ local carrierDefNames = {
 			offsets = {0, 35, 0, colvolMidX = 0, colvolMidY = 0, colvolMidZ = 0, aimX = 0, aimY = 0, aimZ = 0}
 		},
 		{
-			drone = UnitDefNames.battledrone.id,
+			drone = UnitDefNames.droneheavyslow.id,
 			reloadTime = 25, 
 			maxDrones = 2, 
 			spawnSize = 1, 
@@ -60,7 +60,7 @@ local carrierDefNames = {
 	nebula = {
 		spawnPieces = {"pad1", "pad2", "pad3", "pad4"},
 		{
-			drone = UnitDefNames.fighterdrone.id, 
+			drone = UnitDefNames.dronefighter.id, 
 			reloadTime = 10, 
 			maxDrones = 10, 
 			spawnSize = 2, 
@@ -74,7 +74,7 @@ local carrierDefNames = {
 
 local presets = {
 	module_companion_drone = {
-		drone = UnitDefNames.attackdrone.id, 
+		drone = UnitDefNames.dronelight.id, 
 		reloadTime = 15, 
 		maxDrones = 2,
 		spawnSize = 1, 
@@ -84,7 +84,7 @@ local presets = {
 		offsets = {0, 35, 0, colvolMidX = 0, colvolMidY = 0, colvolMidZ = 0, aimX = 0, aimY = 0, aimZ = 0}
 	},
 	module_battle_drone = {
-		drone = UnitDefNames.battledrone.id, 
+		drone = UnitDefNames.droneheavyslow.id, 
 		reloadTime = 25,
 		maxDrones = 1, 
 		spawnSize = 1, 
@@ -97,7 +97,7 @@ local presets = {
 
 local unitRulesCarrierDefs = {
 	drone = {
-		drone = UnitDefNames.attackdrone.id, 
+		drone = UnitDefNames.dronelight.id, 
 		reloadTime = 15, 
 		maxDrones = 2,
 		spawnSize = 1, 
@@ -107,7 +107,7 @@ local unitRulesCarrierDefs = {
 		offsets = {0, 50, 0, colvolMidX = 0, colvolMidY = 0, colvolMidZ = 0, aimX = 0, aimY = 0, aimZ = 0}
 	},
 	battleDrone = {
-		drone = UnitDefNames.battledrone.id, 
+		drone = UnitDefNames.droneheavyslow.id, 
 		reloadTime = 25,
 		maxDrones = 1, 
 		spawnSize = 1, 
@@ -143,10 +143,10 @@ for name, data in pairs(carrierDefNames) do
 end
 
 local thingsWhichAreDrones = {
-	[UnitDefNames.carrydrone.id] = true,
-	[UnitDefNames.attackdrone.id] = true,
-	[UnitDefNames.battledrone.id] = true,
-	[UnitDefNames.fighterdrone.id] = true
+	[UnitDefNames.dronecarry.id] = true,
+	[UnitDefNames.dronelight.id] = true,
+	[UnitDefNames.droneheavyslow.id] = true,
+	[UnitDefNames.dronefighter.id] = true
 }
 
 local function ProcessCarrierDef(carrierData)

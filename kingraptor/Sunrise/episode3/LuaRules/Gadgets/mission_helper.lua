@@ -31,13 +31,13 @@ local triggers = {
   ["Dialogue 1"] = {damage = 3000},
 }
 local helpUnits = {
-  [UnitDefNames.corgator.id] = "Help: Scorcher",
-  [UnitDefNames.corraid.id] = "Help: Ravager",
-  [UnitDefNames.cormist.id] = "Help: Slasher",
-  [UnitDefNames.corgarp.id] = "Help: Wolverine",
+  [UnitDefNames.vehraid.id] = "Help: Scorcher",
+  [UnitDefNames.vehassault.id] = "Help: Ravager",
+  [UnitDefNames.vehsupport.id] = "Help: Slasher",
+  [UnitDefNames.veharty.id] = "Help: Wolverine",
 }
 local helpUnits_command = {
-  [UnitDefNames.armfus.id] = "Help: Fusion",
+  [UnitDefNames.energyfusion.id] = "Help: Fusion",
 }
 
 local empireDefeated = false

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Mission xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="1" z:Type="CMissionLib.Mission" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
   <Author z:Id="2">KingRaptor</Author>
   <ContentFolderPath z:Id="3">G:\Games\Spring\ZK-Missions\kingraptor\Sunrise\episode8e\</ContentFolderPath>
@@ -373,7 +373,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="61" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="119">cormex</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="119">staticmex</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="120">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -481,7 +481,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="61" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="146">cordoom</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="146">turretheavy</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="147">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -589,7 +589,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>270.68100777795405</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="61" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="175">screamer</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="175">turretaaheavy</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="176">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -802,7 +802,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>90.730387367515789</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="61" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="226">heavyturret</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="226">turretsunlance</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="227">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -934,7 +934,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="65" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="252">armsolar</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="252">energysolar</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="253">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1374,7 +1374,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>183.27439434936628</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="65" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="333">corfast</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="333">jumpcon</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="334">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1396,7 +1396,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>179.37484938546561</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="65" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="338">corllt</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="338">turretlaser</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="339">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1440,7 +1440,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="65" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="347">corflak</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="347">turretaaflak</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="348">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1484,7 +1484,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>270.1579952054409</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="65" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="356">corch</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="356">hovercon</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="357">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1616,7 +1616,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>89.663784935683267</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="65" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="381">missiletower</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="381">turretaaclose</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="382">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1726,7 +1726,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="65" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="402">armrectr</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="402">cloakcon</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="403">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1748,7 +1748,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="65" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="407">arm_spider</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="407">spidercon</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="408">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1770,7 +1770,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>86.535196060001212</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="65" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="412">corned</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="412">vehcon</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="413">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1924,7 +1924,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>268.45393274084324</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="65" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="441">nsaclash</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="441">hoverskirm</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="442">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1973,7 +1973,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>91.514023208959756</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="65" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="452">hoverskirm</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="452">hoverskirm2</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="453">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -2076,7 +2076,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>271.97392031321965</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="65" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="472">corsh</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="472">hoverraid</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="473">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -2164,7 +2164,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>267.25028277745412</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="65" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="489">armwar</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="489">cloakriot</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="490">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -2252,7 +2252,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="65" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="506">armrock</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="506">cloakskirm</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="507">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -2340,7 +2340,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="61" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="523">armestor</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="523">energypylon</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="524">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -2362,7 +2362,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="65" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="528">corrazor</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="528">turretaalaser</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="529">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -2538,7 +2538,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="65" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="562">armcrabe</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="562">spidercrabe</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="563">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -2560,7 +2560,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>90.022805394236784</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="65" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="567">corraid</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="567">vehassault</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="568">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -2648,7 +2648,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>179.75517263444152</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="65" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="584">corlevlr</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="584">vehriot</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="585">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -2692,7 +2692,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>178.9100488732893</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="65" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="593">corpyro</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="593">jumpraid</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="594">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -2922,7 +2922,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="65" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="642">armasp</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="642">staticrearm</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="643">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -3147,7 +3147,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>90.451372899351526</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="61" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="687">correap</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="687">tankassault</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="688">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -3417,7 +3417,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>208.07663922692112</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="61" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="738">funnelweb</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="738">striderfunnelweb</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="739">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -3493,7 +3493,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>87.9911945729863</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="61" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="753">fighter</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="753">planefighter</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="754">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -3603,7 +3603,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>90.6981132034228</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="61" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="774">corshad</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="774">bomberprec</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="775">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -3647,7 +3647,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>180.89419750891307</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="61" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="783">corgol</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="783">tankheavyassault</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="784">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -3669,7 +3669,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>177.8971044649343</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="61" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="788">cormart</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="788">tankarty</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="789">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -3718,7 +3718,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="61" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="799">armamd</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="799">staticantinuke</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="800">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -4392,7 +4392,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>270.44910535368109</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="65" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="935">armfus</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="935">energyfusion</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="936">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -4517,7 +4517,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>271.56958030862819</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="65" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="962">armanni</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="962">turretantiheavy</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="963">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -4544,7 +4544,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>268.89735091379606</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="65" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="969">corbhmth</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="969">staticarty</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="970">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -4588,7 +4588,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>265.64842002461842</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="65" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="978">armnanotc</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="978">staticcon</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="979">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -4696,7 +4696,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>273.52917239952308</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="65" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1010">amphraider2</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1010">amphimpulse</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1011">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -4816,7 +4816,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>177.00495783773704</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="65" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1038">armdeva</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1038">turretriot</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1039">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -4860,7 +4860,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>268.45313257367928</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="65" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1047">armartic</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1047">turretemp</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1048">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -5542,7 +5542,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="55" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1172">armpw</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1172">cloakraid</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1173">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -5762,7 +5762,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="55" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1213">armsnipe</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1213">cloaksnipe</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1214">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -5784,7 +5784,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="55" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1218">spherepole</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1218">cloakheavyraid</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1219">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -5828,7 +5828,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>270.056513605914</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="55" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1227">corcan</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1227">jumpassault</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1228">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -5894,7 +5894,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>269.33404459318024</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="55" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1240">firewalker</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1240">jumparty</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1241">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -6070,7 +6070,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>268.71226884784375</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="55" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1273">amphraider3</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1273">amphraid</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1274">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -6136,7 +6136,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>180.30089005497948</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="55" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1286">arm_venom</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1286">spideremp</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1287">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -6180,7 +6180,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>177.8577387920283</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="55" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1295">armsptk</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1295">spiderskirm</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1296">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -6378,7 +6378,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>91.625454490957637</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="55" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1333">corthud</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1333">shieldassault</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1334">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -6488,7 +6488,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>89.264181837087122</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="55" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1354">core_spectre</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1354">shieldshield</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1355">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -6532,7 +6532,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>90.429751253930036</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="55" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1364">corak</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1364">shieldraid</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1365">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -6625,7 +6625,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>179.44158444489773</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="61" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1384">armorco</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1384">striderdetriment</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1385">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -7022,7 +7022,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>177.82404711522935</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="65" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1469">armmerl</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1469">vehheavyarty</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1470">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -7211,7 +7211,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>89.493462987878686</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="61" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1510">armraven</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1510">striderarty</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1511">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -7507,7 +7507,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="65" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1571">armarad</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1571">staticheavyradar</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1572">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -7649,7 +7649,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>269.40096354053048</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="55" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1601">corhlt</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1601">turretheavylaser</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1602">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -8112,7 +8112,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="55" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1705">armmstor</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1705">staticstorage</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1706">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -8310,7 +8310,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="61" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1742">corjamt</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1742">staticshield</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1743">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -8574,7 +8574,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>89.737446437863738</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="55" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1791">dante</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1791">striderdante</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1792">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -8596,7 +8596,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>180.6466153290329</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="55" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1796">scorpion</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1796">striderscorpion</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1797">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -8684,7 +8684,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>180.02251050913745</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="65" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1814">slowmort</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1814">jumpskirm</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1815">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -9256,7 +9256,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>267.89870297038152</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="55" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1920">corrl</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1920">turretmissile</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1921">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -9432,7 +9432,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="61" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1954">cafus</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1954">energysingu</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1955">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -9608,7 +9608,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="55" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1988">armzeus</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1988">cloakassault</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1989">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -9674,7 +9674,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>268.57933457445813</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="55" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="2001">corsumo</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="2001">jumpsumo</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="2002">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -9784,7 +9784,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="55" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="2023">corrad</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="2023">staticradar</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="2024">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -10356,7 +10356,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>269.7072427133773</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="65" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="2129">armpb</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="2129">turretgauss</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="2130">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -11102,7 +11102,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>178.68448839805416</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="61" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="2268">armcir</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="2268">turretaafar</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="2269">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -11393,7 +11393,7 @@ cratermult = 0.5;</CustomModOptions>
                           <d10p1:Heading>265.19915980532261</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="61" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="2325">coracv</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="2325">tankcon</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="2326">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -11590,21 +11590,21 @@ cratermult = 0.5;</CustomModOptions>
                   <Units xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="2369" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
                     <d10p1:items z:Id="2370" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
                       <d10p1:_items z:Id="2371" z:Size="512">
-                        <d10p1:string z:Id="2372">armamd</d10p1:string>
-                        <d10p1:string z:Id="2373">armanni</d10p1:string>
-                        <d10p1:string z:Id="2374">armbanth</d10p1:string>
-                        <d10p1:string z:Id="2375">armbrtha</d10p1:string>
+                        <d10p1:string z:Id="2372">staticantinuke</d10p1:string>
+                        <d10p1:string z:Id="2373">turretantiheavy</d10p1:string>
+                        <d10p1:string z:Id="2374">striderbantha</d10p1:string>
+                        <d10p1:string z:Id="2375">staticheavyarty</d10p1:string>
                         <d10p1:string z:Id="2376">armcarry</d10p1:string>
-                        <d10p1:string z:Id="2377">armcsa</d10p1:string>
-                        <d10p1:string z:Id="2378">armorco</d10p1:string>
-                        <d10p1:string z:Id="2379">armraven</d10p1:string>
+                        <d10p1:string z:Id="2377">athena</d10p1:string>
+                        <d10p1:string z:Id="2378">striderdetriment</d10p1:string>
+                        <d10p1:string z:Id="2379">striderarty</d10p1:string>
                         <d10p1:string z:Id="2380">corbats</d10p1:string>
-                        <d10p1:string z:Id="2381">corbhmth</d10p1:string>
-                        <d10p1:string z:Id="2382">cordoom</d10p1:string>
+                        <d10p1:string z:Id="2381">staticarty</d10p1:string>
+                        <d10p1:string z:Id="2382">turretheavy</d10p1:string>
                         <d10p1:string z:Id="2383">cornukesub</d10p1:string>
-                        <d10p1:string z:Id="2384">corsilo</d10p1:string>
-                        <d10p1:string z:Id="2385">dante</d10p1:string>
-                        <d10p1:string z:Id="2386">funnelweb</d10p1:string>
+                        <d10p1:string z:Id="2384">staticnuke</d10p1:string>
+                        <d10p1:string z:Id="2385">striderdante</d10p1:string>
+                        <d10p1:string z:Id="2386">striderfunnelweb</d10p1:string>
                         <d10p1:string z:Id="2387">mahlazer</d10p1:string>
                         <d10p1:string z:Id="2388">raveparty</d10p1:string>
                         <d10p1:string z:Id="2389">shipaa</d10p1:string>
@@ -11616,7 +11616,7 @@ cratermult = 0.5;</CustomModOptions>
                         <d10p1:string z:Id="2395">shiptorp</d10p1:string>
                         <d10p1:string z:Id="2396">zenith</d10p1:string>
                         <d10p1:string z:Id="2397">factoryship</d10p1:string>
-                        <d10p1:string z:Id="2398">blastwing</d10p1:string>
+                        <d10p1:string z:Id="2398">gunshipbomb</d10p1:string>
                         <d10p1:string z:Id="2399">factoryamph</d10p1:string>
                         <d10p1:string z:Id="2400">factorycloak</d10p1:string>
                         <d10p1:string z:Id="2401">factoryhover</d10p1:string>
@@ -11625,7 +11625,7 @@ cratermult = 0.5;</CustomModOptions>
                         <d10p1:string z:Id="2404">factoryshield</d10p1:string>
                         <d10p1:string z:Id="2405">factoryspider</d10p1:string>
                         <d10p1:string z:Id="2406">striderhub</d10p1:string>
-                        <d10p1:string z:Id="2407">screamer</d10p1:string>
+                        <d10p1:string z:Id="2407">turretaaheavy</d10p1:string>
                         <d10p1:string z:Id="2408">turrettorp</d10p1:string>
                         <d10p1:string i:nil="true" />
                         <d10p1:string i:nil="true" />
@@ -12466,7 +12466,7 @@ Spring.GiveOrderToUnitMap(units, CMD.MOVE, {x, y, z}, {"ctrl"})</CodeStr>
                           <d10p1:Heading>37.184440129164045</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="61" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="2505">tawf114</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="2505">tankriot</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="2506">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -13534,7 +13534,7 @@ local berthasToBuild = {
   {6272, 5088},
   {6400, 6048},
 }
-local cmdID = -UnitDefNames.armbrtha.id
+local cmdID = -UnitDefNames.staticheavyarty.id
 
 for i=1,3 do
   local unitID = GG.mission.FindUnitInGroup("BBuilder" .. i)
@@ -14448,7 +14448,7 @@ end
 local y = Spring.GetGroundHeight(x,z)
 
 for i=1,2 do
-  local unitID = Spring.CreateUnit("corgol", x, y, z, altPos and "w" or "e", 2)
+  local unitID = Spring.CreateUnit("tankheavyassault", x, y, z, altPos and "w" or "e", 2)
   Spring.SpawnCEG("teleport_in", x, y, z)
   GG.mission.AddUnitGroup(unitID, "Goliath")
   GG.CAI.RemoveUnit(unitID)
@@ -14472,7 +14472,7 @@ local dx = altPos and -3200 or 3200
 local dz = -dx
 
 for i=1,10 do
-  unitID = Spring.CreateUnit("bladew", x, 50, z, altPos and "n" or "s", 0)
+  unitID = Spring.CreateUnit("gunshipemp", x, 50, z, altPos and "n" or "s", 0)
   Spring.SetUnitPosition(unitID, x, z)
   local mx, mz = x + dx, z + dz
   local my = Spring.GetGroundHeight(mx, mz)
@@ -14511,7 +14511,7 @@ end</CodeStr>
                                                   <Name z:Id="3029">GUI Message (Persistent)</Name>
                                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                                                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                                                  <ImagePath z:Id="3030" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\unitpics\bladew.png</ImagePath>
+                                                  <ImagePath z:Id="3030" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\unitpics\gunshipemp.png</ImagePath>
                                                   <Message z:Id="3031" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The Gnat is a light drone with an inaccurate stunner weapon that can nevertheless lock down heavy enemy units in fairly short order. Vulnerable to most ground weapons.</Message>
                                                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">320</Width>
                                                 </TriggerLogic>
@@ -14728,7 +14728,7 @@ end</CodeStr>
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="48" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="3076">corsent</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="3076">tankaa</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                       </d10p1:_items>
                       <d10p1:_size>4</d10p1:_size>
@@ -14804,7 +14804,7 @@ end
 local dx = altPos and -3200 or 3200
 local dz = -dx
 
-local unitID = Spring.CreateUnit("corcrw", x, 50, z, altPos and "n" or "s", 0)
+local unitID = Spring.CreateUnit("gunshipkrow", x, 50, z, altPos and "n" or "s", 0)
 Spring.SetUnitPosition(unitID, x, z)
 local mx, mz = x + dx, z + dz
 local my = Spring.GetGroundHeight(mx, mz)
@@ -14834,7 +14834,7 @@ GG.mission.AddUnitGroup(unitID, "Krow")</CodeStr>
                   <Name z:Id="3102">GUI Message (Persistent)</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                  <ImagePath z:Id="3103" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\unitpics\corcrw.png</ImagePath>
+                  <ImagePath z:Id="3103" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\unitpics\gunshipkrow.png</ImagePath>
                   <Message z:Id="3104" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The Krow flying fortress is an ultra-heavy gunship with three powerful pulse weapons and the ability to carpet bomb the area directly under it. Use it to sweep in, wipe out a concentration of enemies, and break engagement before it takes too much damage, then repair and repeat.</Message>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">320</Width>
                 </TriggerLogic>
@@ -14858,7 +14858,7 @@ GG.mission.AddUnitGroup(unitID, "Krow")</CodeStr>
                   <Units xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="3111" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
                     <d10p1:items z:Id="3112" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
                       <d10p1:_items z:Id="3113" z:Size="4">
-                        <d10p1:string z:Id="3114">corcrw</d10p1:string>
+                        <d10p1:string z:Id="3114">gunshipkrow</d10p1:string>
                         <d10p1:string i:nil="true" />
                         <d10p1:string i:nil="true" />
                         <d10p1:string i:nil="true" />
@@ -14908,7 +14908,7 @@ GG.mission.AddUnitGroup(unitID, "Krow")</CodeStr>
                   <Name z:Id="3129">GUI Message (Persistent)</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                  <ImagePath z:Id="3130" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\unitpics\corsilo.png</ImagePath>
+                  <ImagePath z:Id="3130" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\unitpics\staticnuke.png</ImagePath>
                   <Message z:Id="3131" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The Silencer ICBM silo stockpiles nuclear missiles at the cost of metal, energy and time. Just one of these can blow most armies and bases out of existence, but antinuke units can intercept them, and heavy units can survive a nuclear blast with HP to spare.</Message>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">320</Width>
                 </TriggerLogic>
@@ -14942,7 +14942,7 @@ GG.mission.AddUnitGroup(unitID, "Krow")</CodeStr>
                   <Units xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="3142" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
                     <d10p1:items z:Id="3143" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
                       <d10p1:_items z:Id="3144" z:Size="4">
-                        <d10p1:string z:Id="3145">corsilo</d10p1:string>
+                        <d10p1:string z:Id="3145">staticnuke</d10p1:string>
                         <d10p1:string i:nil="true" />
                         <d10p1:string i:nil="true" />
                         <d10p1:string i:nil="true" />
@@ -17292,7 +17292,7 @@ end</CodeStr>
                           <d10p1:Heading>181.05542931130788</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="48" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="3851">bladew</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="3851">gunshipemp</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="3852">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -17319,7 +17319,7 @@ end</CodeStr>
                           <d10p1:Heading>179.96666242974641</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="48" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="3858">corcrw</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="3858">gunshipkrow</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="3859">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">

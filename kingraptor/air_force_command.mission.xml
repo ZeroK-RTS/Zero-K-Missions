@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Mission xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="1" z:Type="CMissionLib.Mission" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
   <Author z:Id="2">KingRaptor</Author>
   <ContentFolderPath z:Id="3">D:\Games\Spring\ZK-Missions\kingraptor\AirForceCommand</ContentFolderPath>
@@ -365,86 +365,86 @@
                         <d10p1:string z:Id="107">test_s4_partbeam</d10p1:string>
                         <d10p1:string z:Id="108">vehicleaa</d10p1:string>
                         <d10p1:string z:Id="109">factoryship</d10p1:string>
-                        <d10p1:string z:Id="110">amgeo</d10p1:string>
+                        <d10p1:string z:Id="110">energyheavygeo</d10p1:string>
                         <d10p1:string z:Id="111">amphaa</d10p1:string>
                         <d10p1:string z:Id="112">amphassault</d10p1:string>
                         <d10p1:string z:Id="113">amphcon</d10p1:string>
                         <d10p1:string z:Id="114">amphfloater</d10p1:string>
-                        <d10p1:string z:Id="115">amphraider</d10p1:string>
-                        <d10p1:string z:Id="116">amphraider2</d10p1:string>
-                        <d10p1:string z:Id="117">amphraider3</d10p1:string>
+                        <d10p1:string z:Id="115">grebe</d10p1:string>
+                        <d10p1:string z:Id="116">amphimpulse</d10p1:string>
+                        <d10p1:string z:Id="117">amphraid</d10p1:string>
                         <d10p1:string z:Id="118">amphriot</d10p1:string>
                         <d10p1:string z:Id="119">amphtele</d10p1:string>
-                        <d10p1:string z:Id="120">arm_spider</d10p1:string>
-                        <d10p1:string z:Id="121">arm_venom</d10p1:string>
-                        <d10p1:string z:Id="122">armaak</d10p1:string>
-                        <d10p1:string z:Id="123">armamd</d10p1:string>
-                        <d10p1:string z:Id="124">armanni</d10p1:string>
-                        <d10p1:string z:Id="125">armarad</d10p1:string>
-                        <d10p1:string z:Id="126">armartic</d10p1:string>
-                        <d10p1:string z:Id="127">armasp</d10p1:string>
-                        <d10p1:string z:Id="128">armbanth</d10p1:string>
-                        <d10p1:string z:Id="129">armbrawl</d10p1:string>
-                        <d10p1:string z:Id="130">armbrtha</d10p1:string>
-                        <d10p1:string z:Id="131">armca</d10p1:string>
+                        <d10p1:string z:Id="120">spidercon</d10p1:string>
+                        <d10p1:string z:Id="121">spideremp</d10p1:string>
+                        <d10p1:string z:Id="122">jumpaa</d10p1:string>
+                        <d10p1:string z:Id="123">staticantinuke</d10p1:string>
+                        <d10p1:string z:Id="124">turretantiheavy</d10p1:string>
+                        <d10p1:string z:Id="125">staticheavyradar</d10p1:string>
+                        <d10p1:string z:Id="126">turretemp</d10p1:string>
+                        <d10p1:string z:Id="127">staticrearm</d10p1:string>
+                        <d10p1:string z:Id="128">striderbantha</d10p1:string>
+                        <d10p1:string z:Id="129">gunshipheavyskirm</d10p1:string>
+                        <d10p1:string z:Id="130">staticheavyarty</d10p1:string>
+                        <d10p1:string z:Id="131">planecon</d10p1:string>
                         <d10p1:string z:Id="132">armcarry</d10p1:string>
-                        <d10p1:string z:Id="133">armcir</d10p1:string>
+                        <d10p1:string z:Id="133">turretaafar</d10p1:string>
                         <d10p1:string z:Id="134">armcom1</d10p1:string>
                         <d10p1:string z:Id="135">armcom2</d10p1:string>
                         <d10p1:string z:Id="136">armcom3</d10p1:string>
                         <d10p1:string z:Id="137">armcom4</d10p1:string>
                         <d10p1:string z:Id="138">armcom5</d10p1:string>
-                        <d10p1:string z:Id="139">armcomdgun</d10p1:string>
-                        <d10p1:string z:Id="140">armcrabe</d10p1:string>
-                        <d10p1:string z:Id="141">armcsa</d10p1:string>
-                        <d10p1:string z:Id="142">armcybr</d10p1:string>
-                        <d10p1:string z:Id="143">armdeva</d10p1:string>
-                        <d10p1:string z:Id="144">armestor</d10p1:string>
-                        <d10p1:string z:Id="145">armflea</d10p1:string>
-                        <d10p1:string z:Id="146">armfus</d10p1:string>
-                        <d10p1:string z:Id="147">armham</d10p1:string>
-                        <d10p1:string z:Id="148">armjamt</d10p1:string>
-                        <d10p1:string z:Id="149">armjeth</d10p1:string>
-                        <d10p1:string z:Id="150">armkam</d10p1:string>
-                        <d10p1:string z:Id="151">armmanni</d10p1:string>
-                        <d10p1:string z:Id="152">armmerl</d10p1:string>
-                        <d10p1:string z:Id="153">armmstor</d10p1:string>
-                        <d10p1:string z:Id="154">armnanotc</d10p1:string>
-                        <d10p1:string z:Id="155">armorco</d10p1:string>
-                        <d10p1:string z:Id="156">armpb</d10p1:string>
+                        <d10p1:string z:Id="139">striderantiheavy</d10p1:string>
+                        <d10p1:string z:Id="140">spidercrabe</d10p1:string>
+                        <d10p1:string z:Id="141">athena</d10p1:string>
+                        <d10p1:string z:Id="142">bomberheavy</d10p1:string>
+                        <d10p1:string z:Id="143">turretriot</d10p1:string>
+                        <d10p1:string z:Id="144">energypylon</d10p1:string>
+                        <d10p1:string z:Id="145">spiderscout</d10p1:string>
+                        <d10p1:string z:Id="146">energyfusion</d10p1:string>
+                        <d10p1:string z:Id="147">cloakarty</d10p1:string>
+                        <d10p1:string z:Id="148">staticjammer</d10p1:string>
+                        <d10p1:string z:Id="149">cloakaa</d10p1:string>
+                        <d10p1:string z:Id="150">gunshipraid</d10p1:string>
+                        <d10p1:string z:Id="151">hoverarty</d10p1:string>
+                        <d10p1:string z:Id="152">vehheavyarty</d10p1:string>
+                        <d10p1:string z:Id="153">staticstorage</d10p1:string>
+                        <d10p1:string z:Id="154">staticcon</d10p1:string>
+                        <d10p1:string z:Id="155">striderdetriment</d10p1:string>
+                        <d10p1:string z:Id="156">turretgauss</d10p1:string>
                         <d10p1:string z:Id="157">armpt</d10p1:string>
-                        <d10p1:string z:Id="158">armpw</d10p1:string>
-                        <d10p1:string z:Id="159">armraven</d10p1:string>
+                        <d10p1:string z:Id="158">cloakraid</d10p1:string>
+                        <d10p1:string z:Id="159">striderarty</d10p1:string>
                         <d10p1:string z:Id="160">armraz</d10p1:string>
-                        <d10p1:string z:Id="161">armrectr</d10p1:string>
-                        <d10p1:string z:Id="162">armrock</d10p1:string>
+                        <d10p1:string z:Id="161">cloakcon</d10p1:string>
+                        <d10p1:string z:Id="162">cloakskirm</d10p1:string>
                         <d10p1:string z:Id="163">armroy</d10p1:string>
-                        <d10p1:string z:Id="164">armsnipe</d10p1:string>
-                        <d10p1:string z:Id="165">armsolar</d10p1:string>
-                        <d10p1:string z:Id="166">armsonar</d10p1:string>
-                        <d10p1:string z:Id="167">armsptk</d10p1:string>
-                        <d10p1:string z:Id="168">armspy</d10p1:string>
-                        <d10p1:string z:Id="169">armstiletto_laser</d10p1:string>
+                        <d10p1:string z:Id="164">cloaksnipe</d10p1:string>
+                        <d10p1:string z:Id="165">energysolar</d10p1:string>
+                        <d10p1:string z:Id="166">staticsonar</d10p1:string>
+                        <d10p1:string z:Id="167">spiderskirm</d10p1:string>
+                        <d10p1:string z:Id="168">spiderantiheavy</d10p1:string>
+                        <d10p1:string z:Id="169">bomberdisarm</d10p1:string>
                         <d10p1:string z:Id="170">armtboat</d10p1:string>
-                        <d10p1:string z:Id="171">armtick</d10p1:string>
-                        <d10p1:string z:Id="172">armwar</d10p1:string>
-                        <d10p1:string z:Id="173">armwin</d10p1:string>
-                        <d10p1:string z:Id="174">armzeus</d10p1:string>
+                        <d10p1:string z:Id="171">cloakbomb</d10p1:string>
+                        <d10p1:string z:Id="172">cloakriot</d10p1:string>
+                        <d10p1:string z:Id="173">energywind</d10p1:string>
+                        <d10p1:string z:Id="174">cloakassault</d10p1:string>
                         <d10p1:string z:Id="175">assaultcruiser</d10p1:string>
                         <d10p1:string z:Id="176">asteroid</d10p1:string>
-                        <d10p1:string z:Id="177">attackdrone</d10p1:string>
-                        <d10p1:string z:Id="178">battledrone</d10p1:string>
+                        <d10p1:string z:Id="177">dronelight</d10p1:string>
+                        <d10p1:string z:Id="178">droneheavyslow</d10p1:string>
                         <d10p1:string z:Id="179">benzcom1</d10p1:string>
                         <d10p1:string z:Id="180">benzcom2</d10p1:string>
                         <d10p1:string z:Id="181">benzcom3</d10p1:string>
                         <d10p1:string z:Id="182">benzcom4</d10p1:string>
                         <d10p1:string z:Id="183">benzcom5</d10p1:string>
-                        <d10p1:string z:Id="184">blackdawn</d10p1:string>
-                        <d10p1:string z:Id="185">bladew</d10p1:string>
-                        <d10p1:string z:Id="186">blastwing</d10p1:string>
-                        <d10p1:string z:Id="187">cafus</d10p1:string>
-                        <d10p1:string z:Id="188">capturecar</d10p1:string>
-                        <d10p1:string z:Id="189">carrydrone</d10p1:string>
+                        <d10p1:string z:Id="184">gunshipassault</d10p1:string>
+                        <d10p1:string z:Id="185">gunshipemp</d10p1:string>
+                        <d10p1:string z:Id="186">gunshipbomb</d10p1:string>
+                        <d10p1:string z:Id="187">energysingu</d10p1:string>
+                        <d10p1:string z:Id="188">vehcapture</d10p1:string>
+                        <d10p1:string z:Id="189">dronecarry</d10p1:string>
                         <d10p1:string z:Id="190">chicken</d10p1:string>
                         <d10p1:string z:Id="191">chicken_blimpy</d10p1:string>
                         <d10p1:string z:Id="192">chicken_digger</d10p1:string>
@@ -500,75 +500,75 @@
                         <d10p1:string z:Id="242">commsupport3</d10p1:string>
                         <d10p1:string z:Id="243">commsupport4</d10p1:string>
                         <d10p1:string z:Id="244">commsupport5</d10p1:string>
-                        <d10p1:string z:Id="245">coracv</d10p1:string>
-                        <d10p1:string z:Id="246">corak</d10p1:string>
-                        <d10p1:string z:Id="247">gunshipsupport</d10p1:string>
+                        <d10p1:string z:Id="245">tankcon</d10p1:string>
+                        <d10p1:string z:Id="246">shieldraid</d10p1:string>
+                        <d10p1:string z:Id="247">gunshipskirm</d10p1:string>
                         <d10p1:string z:Id="248">corarch</d10p1:string>
-                        <d10p1:string z:Id="249">corawac</d10p1:string>
+                        <d10p1:string z:Id="249">planescout</d10p1:string>
                         <d10p1:string z:Id="250">corbats</d10p1:string>
-                        <d10p1:string z:Id="251">corbhmth</d10p1:string>
-                        <d10p1:string z:Id="252">corbtrans</d10p1:string>
-                        <d10p1:string z:Id="253">corcan</d10p1:string>
-                        <d10p1:string z:Id="254">corch</d10p1:string>
-                        <d10p1:string z:Id="255">corclog</d10p1:string>
+                        <d10p1:string z:Id="251">staticarty</d10p1:string>
+                        <d10p1:string z:Id="252">gunshipheavytrans</d10p1:string>
+                        <d10p1:string z:Id="253">jumpassault</d10p1:string>
+                        <d10p1:string z:Id="254">hovercon</d10p1:string>
+                        <d10p1:string z:Id="255">shieldscout</d10p1:string>
                         <d10p1:string z:Id="256">corcom1</d10p1:string>
                         <d10p1:string z:Id="257">corcom2</d10p1:string>
                         <d10p1:string z:Id="258">corcom3</d10p1:string>
                         <d10p1:string z:Id="259">corcom4</d10p1:string>
                         <d10p1:string z:Id="260">corcom5</d10p1:string>
-                        <d10p1:string z:Id="261">corcrash</d10p1:string>
-                        <d10p1:string z:Id="262">corcrw</d10p1:string>
-                        <d10p1:string z:Id="263">cordoom</d10p1:string>
-                        <d10p1:string z:Id="264">core_spectre</d10p1:string>
+                        <d10p1:string z:Id="261">shieldaa</d10p1:string>
+                        <d10p1:string z:Id="262">gunshipkrow</d10p1:string>
+                        <d10p1:string z:Id="263">turretheavy</d10p1:string>
+                        <d10p1:string z:Id="264">shieldshield</d10p1:string>
                         <d10p1:string z:Id="265">coresupp</d10p1:string>
-                        <d10p1:string z:Id="266">corfast</d10p1:string>
-                        <d10p1:string z:Id="267">corfav</d10p1:string>
-                        <d10p1:string z:Id="268">corflak</d10p1:string>
-                        <d10p1:string z:Id="269">corgarp</d10p1:string>
-                        <d10p1:string z:Id="270">corgator</d10p1:string>
-                        <d10p1:string z:Id="271">corgol</d10p1:string>
-                        <d10p1:string z:Id="272">corgrav</d10p1:string>
-                        <d10p1:string z:Id="273">corhlt</d10p1:string>
-                        <d10p1:string z:Id="274">corhurc2</d10p1:string>
-                        <d10p1:string z:Id="275">corjamt</d10p1:string>
-                        <d10p1:string z:Id="276">corlevlr</d10p1:string>
-                        <d10p1:string z:Id="277">corllt</d10p1:string>
-                        <d10p1:string z:Id="278">cormak</d10p1:string>
-                        <d10p1:string z:Id="279">cormart</d10p1:string>
-                        <d10p1:string z:Id="280">cormex</d10p1:string>
-                        <d10p1:string z:Id="281">cormist</d10p1:string>
-                        <d10p1:string z:Id="282">cornecro</d10p1:string>
-                        <d10p1:string z:Id="283">corned</d10p1:string>
+                        <d10p1:string z:Id="266">jumpcon</d10p1:string>
+                        <d10p1:string z:Id="267">vehscout</d10p1:string>
+                        <d10p1:string z:Id="268">turretaaflak</d10p1:string>
+                        <d10p1:string z:Id="269">veharty</d10p1:string>
+                        <d10p1:string z:Id="270">vehraid</d10p1:string>
+                        <d10p1:string z:Id="271">tankheavyassault</d10p1:string>
+                        <d10p1:string z:Id="272">turretimpulse</d10p1:string>
+                        <d10p1:string z:Id="273">turretheavylaser</d10p1:string>
+                        <d10p1:string z:Id="274">bomberriot</d10p1:string>
+                        <d10p1:string z:Id="275">staticshield</d10p1:string>
+                        <d10p1:string z:Id="276">vehriot</d10p1:string>
+                        <d10p1:string z:Id="277">turretlaser</d10p1:string>
+                        <d10p1:string z:Id="278">shieldriot</d10p1:string>
+                        <d10p1:string z:Id="279">tankarty</d10p1:string>
+                        <d10p1:string z:Id="280">staticmex</d10p1:string>
+                        <d10p1:string z:Id="281">vehsupport</d10p1:string>
+                        <d10p1:string z:Id="282">shieldcon</d10p1:string>
+                        <d10p1:string z:Id="283">vehcon</d10p1:string>
                         <d10p1:string z:Id="284">cornukesub</d10p1:string>
                         <d10p1:string z:Id="285">corpre</d10p1:string>
-                        <d10p1:string z:Id="286">corpyro</d10p1:string>
-                        <d10p1:string z:Id="287">corpyro2</d10p1:string>
-                        <d10p1:string z:Id="288">corrad</d10p1:string>
-                        <d10p1:string z:Id="289">corraid</d10p1:string>
-                        <d10p1:string z:Id="290">corrazor</d10p1:string>
-                        <d10p1:string z:Id="291">correap</d10p1:string>
-                        <d10p1:string z:Id="292">corrl</d10p1:string>
-                        <d10p1:string z:Id="293">corroach</d10p1:string>
+                        <d10p1:string z:Id="286">jumpraid</d10p1:string>
+                        <d10p1:string z:Id="287">jumpraid2</d10p1:string>
+                        <d10p1:string z:Id="288">staticradar</d10p1:string>
+                        <d10p1:string z:Id="289">vehassault</d10p1:string>
+                        <d10p1:string z:Id="290">turretaalaser</d10p1:string>
+                        <d10p1:string z:Id="291">tankassault</d10p1:string>
+                        <d10p1:string z:Id="292">turretmissile</d10p1:string>
+                        <d10p1:string z:Id="293">shieldbomb</d10p1:string>
                         <d10p1:string z:Id="294">corroy</d10p1:string>
-                        <d10p1:string z:Id="295">corsent</d10p1:string>
-                        <d10p1:string z:Id="296">corsh</d10p1:string>
-                        <d10p1:string z:Id="297">corshad</d10p1:string>
-                        <d10p1:string z:Id="298">corsilo</d10p1:string>
-                        <d10p1:string z:Id="299">corsktl</d10p1:string>
-                        <d10p1:string z:Id="300">corstorm</d10p1:string>
+                        <d10p1:string z:Id="295">tankaa</d10p1:string>
+                        <d10p1:string z:Id="296">hoverraid</d10p1:string>
+                        <d10p1:string z:Id="297">bomberprec</d10p1:string>
+                        <d10p1:string z:Id="298">staticnuke</d10p1:string>
+                        <d10p1:string z:Id="299">jumpbomb</d10p1:string>
+                        <d10p1:string z:Id="300">shieldskirm</d10p1:string>
                         <d10p1:string z:Id="301">corsub</d10p1:string>
-                        <d10p1:string z:Id="302">corsumo</d10p1:string>
-                        <d10p1:string z:Id="303">corthud</d10p1:string>
+                        <d10p1:string z:Id="302">jumpsumo</d10p1:string>
+                        <d10p1:string z:Id="303">shieldassault</d10p1:string>
                         <d10p1:string z:Id="304">cortl</d10p1:string>
-                        <d10p1:string z:Id="305">corvalk</d10p1:string>
-                        <d10p1:string z:Id="306">corvamp</d10p1:string>
+                        <d10p1:string z:Id="305">gunshiptrans</d10p1:string>
+                        <d10p1:string z:Id="306">planeheavyfighter</d10p1:string>
                         <d10p1:string z:Id="307">corvrad</d10p1:string>
                         <d10p1:string z:Id="308">cremcom1</d10p1:string>
                         <d10p1:string z:Id="309">cremcom2</d10p1:string>
                         <d10p1:string z:Id="310">cremcom3</d10p1:string>
                         <d10p1:string z:Id="311">cremcom4</d10p1:string>
                         <d10p1:string z:Id="312">cremcom5</d10p1:string>
-                        <d10p1:string z:Id="313">dante</d10p1:string>
+                        <d10p1:string z:Id="313">striderdante</d10p1:string>
                         <d10p1:string z:Id="314">dark_gauss</d10p1:string>
                         <d10p1:string z:Id="315">dclship</d10p1:string>
                         <d10p1:string z:Id="316">destroyer</d10p1:string>
@@ -587,30 +587,30 @@
                         <d10p1:string z:Id="329">fakeunit</d10p1:string>
                         <d10p1:string z:Id="330">fakeunit_aatarget</d10p1:string>
                         <d10p1:string z:Id="331">fakeunit_los</d10p1:string>
-                        <d10p1:string z:Id="332">fighter</d10p1:string>
+                        <d10p1:string z:Id="332">planefighter</d10p1:string>
                         <d10p1:string z:Id="333">firebug</d10p1:string>
-                        <d10p1:string z:Id="334">firewalker</d10p1:string>
-                        <d10p1:string z:Id="335">funnelweb</d10p1:string>
-                        <d10p1:string z:Id="336">geo</d10p1:string>
+                        <d10p1:string z:Id="334">jumparty</d10p1:string>
+                        <d10p1:string z:Id="335">striderfunnelweb</d10p1:string>
+                        <d10p1:string z:Id="336">energygeo</d10p1:string>
                         <d10p1:string z:Id="337">gorg</d10p1:string>
                         <d10p1:string z:Id="338">gunshipaa</d10p1:string>
-                        <d10p1:string z:Id="339">heavyturret</d10p1:string>
+                        <d10p1:string z:Id="339">turretsunlance</d10p1:string>
                         <d10p1:string z:Id="340">hoveraa</d10p1:string>
                         <d10p1:string z:Id="341">hoverassault</d10p1:string>
                         <d10p1:string z:Id="342">hoverminer</d10p1:string>
                         <d10p1:string z:Id="343">hoverriot</d10p1:string>
                         <d10p1:string z:Id="344">hovershotgun</d10p1:string>
-                        <d10p1:string z:Id="345">hoverskirm</d10p1:string>
-                        <d10p1:string z:Id="346">logkoda</d10p1:string>
+                        <d10p1:string z:Id="345">hoverskirm2</d10p1:string>
+                        <d10p1:string z:Id="346">tankraid</d10p1:string>
                         <d10p1:string z:Id="347">mahlazer</d10p1:string>
-                        <d10p1:string z:Id="348">missilesilo</d10p1:string>
-                        <d10p1:string z:Id="349">missiletower</d10p1:string>
+                        <d10p1:string z:Id="348">staticmissilesilo</d10p1:string>
+                        <d10p1:string z:Id="349">turretaaclose</d10p1:string>
                         <d10p1:string z:Id="350">napalmmissile</d10p1:string>
                         <d10p1:string z:Id="351">neebcomm</d10p1:string>
                         <d10p1:string z:Id="352">nest</d10p1:string>
-                        <d10p1:string z:Id="353">nsaclash</d10p1:string>
-                        <d10p1:string z:Id="354">panther</d10p1:string>
-                        <d10p1:string z:Id="355">puppy</d10p1:string>
+                        <d10p1:string z:Id="353">hoverskirm</d10p1:string>
+                        <d10p1:string z:Id="354">tankheavyraid</d10p1:string>
+                        <d10p1:string z:Id="355">jumpscout</d10p1:string>
                         <d10p1:string z:Id="356">pw_artefact</d10p1:string>
                         <d10p1:string z:Id="357">pw_bombercontrol</d10p1:string>
                         <d10p1:string z:Id="358">pw_dropdepot</d10p1:string>
@@ -628,22 +628,22 @@
                         <d10p1:string z:Id="370">raveparty</d10p1:string>
                         <d10p1:string z:Id="371">roost</d10p1:string>
                         <d10p1:string z:Id="372">roostfac</d10p1:string>
-                        <d10p1:string z:Id="373">scorpion</d10p1:string>
-                        <d10p1:string z:Id="374">screamer</d10p1:string>
+                        <d10p1:string z:Id="373">striderscorpion</d10p1:string>
+                        <d10p1:string z:Id="374">turretaaheavy</d10p1:string>
                         <d10p1:string z:Id="375">seismic</d10p1:string>
                         <d10p1:string z:Id="376">serpent</d10p1:string>
                         <d10p1:string z:Id="377">shieldarty</d10p1:string>
                         <d10p1:string z:Id="378">shieldfelon</d10p1:string>
                         <d10p1:string z:Id="379">shipcon</d10p1:string>
-                        <d10p1:string z:Id="380">slowmort</d10p1:string>
-                        <d10p1:string z:Id="381">spherecloaker</d10p1:string>
-                        <d10p1:string z:Id="382">spherepole</d10p1:string>
+                        <d10p1:string z:Id="380">jumpskirm</d10p1:string>
+                        <d10p1:string z:Id="381">cloakjammer</d10p1:string>
+                        <d10p1:string z:Id="382">cloakheavyraid</d10p1:string>
                         <d10p1:string z:Id="383">spideraa</d10p1:string>
                         <d10p1:string z:Id="384">spiderassault</d10p1:string>
                         <d10p1:string z:Id="385">striderhub</d10p1:string>
                         <d10p1:string z:Id="386">subscout</d10p1:string>
                         <d10p1:string z:Id="387">tacnuke</d10p1:string>
-                        <d10p1:string z:Id="388">tawf114</d10p1:string>
+                        <d10p1:string z:Id="388">tankriot</d10p1:string>
                         <d10p1:string z:Id="389">tele_beacon</d10p1:string>
                         <d10p1:string z:Id="390">terraunit</d10p1:string>
                         <d10p1:string z:Id="391">test_a1_aa</d10p1:string>
@@ -756,7 +756,7 @@
                         <d10p1:string z:Id="498">test_s4_shotty</d10p1:string>
                         <d10p1:string z:Id="499">thicket</d10p1:string>
                         <d10p1:string z:Id="500">tiptest</d10p1:string>
-                        <d10p1:string z:Id="501">trem</d10p1:string>
+                        <d10p1:string z:Id="501">tankheavyarty</d10p1:string>
                         <d10p1:string z:Id="502">vehaa</d10p1:string>
                         <d10p1:string z:Id="503">wolverine_mine</d10p1:string>
                         <d10p1:string z:Id="504">zenith</d10p1:string>
@@ -886,7 +886,7 @@
                   <Units xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="511" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
                     <d10p1:items z:Id="512" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
                       <d10p1:_items z:Id="513" z:Size="16">
-                        <d10p1:string z:Id="514">fighter</d10p1:string>
+                        <d10p1:string z:Id="514">planefighter</d10p1:string>
                         <d10p1:string i:nil="true" />
                         <d10p1:string i:nil="true" />
                         <d10p1:string i:nil="true" />
@@ -942,7 +942,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="46" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="527">cafus</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="527">energysingu</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="528">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -964,7 +964,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="46" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="532">corllt</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="532">turretlaser</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="533">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1052,7 +1052,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="46" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="549">armdeva</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="549">turretriot</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="550">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1140,7 +1140,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="46" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="566">armanni</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="566">turretantiheavy</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="567">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1162,7 +1162,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="46" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="571">cormex</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="571">staticmex</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="572">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1360,7 +1360,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="60" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="609">geo</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="609">energygeo</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="610">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1382,7 +1382,7 @@
                           <d10p1:Heading>180.77872810049234</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="60" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="614">armfus</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="614">energyfusion</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="615">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1404,7 +1404,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="46" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="619">armestor</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="619">energypylon</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="620">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1426,7 +1426,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="46" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="624">armcir</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="624">turretaafar</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="625">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1580,7 +1580,7 @@
                           <d10p1:Heading>358.49232365085254</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="46" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="653">corrazor</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="653">turretaalaser</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="654">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1717,7 +1717,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="46" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="680">armnanotc</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="680">staticcon</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="681">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1739,7 +1739,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="46" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="685">corjamt</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="685">staticshield</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="686">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1761,7 +1761,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="46" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="690">corhlt</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="690">turretheavylaser</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="691">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1805,7 +1805,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="46" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="699">corrl</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="699">turretmissile</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="700">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -2025,7 +2025,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="46" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="740">corrad</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="740">staticradar</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="741">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -2069,7 +2069,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="60" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="749">armsnipe</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="749">cloaksnipe</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="750">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -2113,7 +2113,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="60" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="758">armwar</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="758">cloakriot</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="759">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -2201,7 +2201,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="60" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="775">armrock</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="775">cloakskirm</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="776">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -2485,7 +2485,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="52" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="832">missiletower</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="832">turretaaclose</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="833">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -2793,7 +2793,7 @@
                           <d10p1:Heading>180.56541709568816</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="52" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="889">cordoom</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="889">turretheavy</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="890">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -3453,7 +3453,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="60" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1010">armpw</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1010">cloakraid</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1011">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -3700,7 +3700,7 @@
                           <d10p1:Heading>180.0126503770671</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="56" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1057">cornecro</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1057">shieldcon</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1058">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -3749,7 +3749,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="52" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1068">corvamp</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1068">planeheavyfighter</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1069">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -3982,7 +3982,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="39" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1120">armasp</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1120">staticrearm</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1121">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -4026,7 +4026,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="39" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1129">armsolar</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1129">energysolar</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1130">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -4136,7 +4136,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="39" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1150">armwin</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1150">energywind</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1151">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -4686,7 +4686,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="46" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1251">armrectr</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1251">cloakcon</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1252">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -4730,7 +4730,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="46" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1260">armarad</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1260">staticheavyradar</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1261">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -4928,7 +4928,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="39" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1299">fighter</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1299">planefighter</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1300">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -5241,7 +5241,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="52" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1358">armkam</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1358">gunshipraid</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1359">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -5349,7 +5349,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="52" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1383">armbrawl</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1383">gunshipheavyskirm</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1384">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -5398,7 +5398,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="39" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1395">corflak</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1395">turretaaflak</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1396">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -5523,7 +5523,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="60" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1422">armcrabe</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1422">spidercrabe</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1423">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -5682,7 +5682,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="60" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1454">armjeth</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1454">cloakaa</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1455">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -5797,7 +5797,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="46" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1478">armpb</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1478">turretgauss</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1479">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -6093,7 +6093,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="46" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1537">armartic</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1537">turretemp</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1538">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -6501,7 +6501,7 @@ Launch available fighters to intercept and destroy all bandits!</Message>
                   <Name z:Id="1636">GUI Message (Persistent)</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                  <ImagePath z:Id="1637" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\unitpics\fighter.png</ImagePath>
+                  <ImagePath z:Id="1637" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\unitpics\planefighter.png</ImagePath>
                   <Message z:Id="1638" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The Swift is your basic multirole fighter. Fast-flying and extremely fragile, it is well suited to taking out any enemy aircraft that can't fight back. It can also harass enemy ground forces, albeit not very effectively.
 
 A key feature of the Swift is its speed boost ability, invaluable for getting quickly to (or away from) a fight.</Message>
@@ -6992,7 +6992,7 @@ Build additional fighters from your Aircraft Plant as needed.</Message>
                                           <d18p1:Heading>177.69863307737603</d18p1:Heading>
                                           <d18p1:IsGhost>false</d18p1:IsGhost>
                                           <d18p1:Player z:Ref="52" i:nil="true" />
-                                          <d18p1:UnitDefName z:Id="1790">corstorm</d18p1:UnitDefName>
+                                          <d18p1:UnitDefName z:Id="1790">shieldskirm</d18p1:UnitDefName>
                                         </d18p1:UnitStartInfo>
                                         <d18p1:UnitStartInfo z:Id="1791">
                                           <d18p1:Point xmlns:d22p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -7316,7 +7316,7 @@ Build additional fighters from your Aircraft Plant as needed.</Message>
                                           <d18p1:Heading>178.47917854286851</d18p1:Heading>
                                           <d18p1:IsGhost>false</d18p1:IsGhost>
                                           <d18p1:Player z:Ref="52" i:nil="true" />
-                                          <d18p1:UnitDefName z:Id="1863">armzeus</d18p1:UnitDefName>
+                                          <d18p1:UnitDefName z:Id="1863">cloakassault</d18p1:UnitDefName>
                                         </d18p1:UnitStartInfo>
                                         <d18p1:UnitStartInfo z:Id="1864">
                                           <d18p1:Point xmlns:d22p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -7411,7 +7411,7 @@ local tz = Game.mapSizeZ * 0.8
 local ty = Spring.GetGroundHeight(tx, tz)
 
 for i=1,4 do
-  local unitID = Spring.CreateUnit("corhurc2", x, y, z, "north", 0)
+  local unitID = Spring.CreateUnit("bomberriot", x, y, z, "north", 0)
   Spring.SetUnitPosition(unitID, x, y, z)  -- because CreateUnit clamps offmap positions
   Spring.GiveOrderToUnit(unitID, CMD.IDLEMODE, {1}, {})
   Spring.GiveOrderToUnit(unitID, CMD.MOVE, {tx, ty, tz}, {})
@@ -7435,7 +7435,7 @@ end</CodeStr>
                                                   <Units z:Id="1890" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
                                                     <d10p1:items z:Id="1891" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
                                                       <d10p1:_items z:Id="1892" z:Size="4">
-                                                        <d10p1:string z:Id="1893">corhurc2</d10p1:string>
+                                                        <d10p1:string z:Id="1893">bomberriot</d10p1:string>
                                                         <d10p1:string i:nil="true" />
                                                         <d10p1:string i:nil="true" />
                                                         <d10p1:string i:nil="true" />
@@ -7481,7 +7481,7 @@ end</CodeStr>
                                                   <Name z:Ref="1636" i:nil="true" />
                                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                                                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                                                  <ImagePath z:Id="1906" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\unitpics\corhurc2.png</ImagePath>
+                                                  <ImagePath z:Id="1906" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\unitpics\bomberriot.png</ImagePath>
                                                   <Message z:Id="1907" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The Phoenix drops several napalm bombs that scorch large groups of units, and even sets them on fire for brief periods of time. Like all bombers, it must return to an Air Repair/Rearm Pad after each run in order to rearm.
 
 HINT: Use the Area Attack command (Alt+A) for bombers to attack random targets within the designated circle. Or drag a circle with the standard attack command to hit all targets in the circle in sequence.</Message>
@@ -7530,7 +7530,7 @@ if Spring.GetGameSeconds() &gt; 7*60 then num = 4 end
 
 local function SpawnUnits()
   for i=1,num do
-    local unitID = Spring.CreateUnit("armkam", x, y, z, "south", 2)
+    local unitID = Spring.CreateUnit("gunshipraid", x, y, z, "south", 2)
     Spring.SetUnitPosition(unitID, x, y, z)  -- because CreateUnit clamps offmap positions
     units[unitID] = true
     x = x + 48
@@ -7719,7 +7719,7 @@ end</CodeStr>
                           <d10p1:Heading>182.8611561590437</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="52" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1952">corawac</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1952">planescout</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="1953">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -7962,7 +7962,7 @@ end</CodeStr>
                                           <d18p1:Heading>181.10710717046115</d18p1:Heading>
                                           <d18p1:IsGhost>false</d18p1:IsGhost>
                                           <d18p1:Player z:Ref="52" i:nil="true" />
-                                          <d18p1:UnitDefName z:Id="2020">gunshipsupport</d18p1:UnitDefName>
+                                          <d18p1:UnitDefName z:Id="2020">gunshipskirm</d18p1:UnitDefName>
                                         </d18p1:UnitStartInfo>
                                         <d18p1:UnitStartInfo z:Id="2021">
                                           <d18p1:Point xmlns:d22p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -8199,7 +8199,7 @@ We need something harder-hitting. You're cleared to deploy Hawk air superiority 
                                   <Units z:Id="2075" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
                                     <d10p1:items z:Id="2076" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
                                       <d10p1:_items z:Id="2077" z:Size="4">
-                                        <d10p1:string z:Id="2078">corvamp</d10p1:string>
+                                        <d10p1:string z:Id="2078">planeheavyfighter</d10p1:string>
                                         <d10p1:string i:nil="true" />
                                         <d10p1:string i:nil="true" />
                                         <d10p1:string i:nil="true" />
@@ -8228,7 +8228,7 @@ local ty2 = Spring.GetGroundHeight(tx1, tz)
 
 
 for i=1,6 do
-  local unitID = Spring.CreateUnit("corvamp", x, y, z, "north", 0)
+  local unitID = Spring.CreateUnit("planeheavyfighter", x, y, z, "north", 0)
   Spring.SetUnitPosition(unitID, x, y, z)  -- because CreateUnit clamps offmap positions
   Spring.GiveOrderToUnit(unitID, CMD.IDLEMODE, {1}, {})
   Spring.GiveOrderToUnit(unitID, CMD.FIGHT, {tx1, ty1, tz}, {"shift"})
@@ -8281,9 +8281,9 @@ local time = Spring.GetGameSeconds()
 
 local function SpawnUnits()
   for i=1,4 do
-    local unitname = "fighter"
+    local unitname = "planefighter"
     if i==4 and time &gt; 60*8 then
-      unitname = "corvamp"
+      unitname = "planeheavyfighter"
     end
     local unitID = Spring.CreateUnit(unitname, x, y, z, "south", 2)
     Spring.SetUnitPosition(unitID, x, y, z)  -- because CreateUnit clamps offmap positions
@@ -8393,7 +8393,7 @@ end</CodeStr>
                                   <Name z:Id="2115">GUI Message (Persistent)</Name>
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                                  <ImagePath z:Id="2116" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\unitpics\corvamp.png</ImagePath>
+                                  <ImagePath z:Id="2116" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\unitpics\planeheavyfighter.png</ImagePath>
                                   <Message z:Id="2117" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The Hawk air superiority fighter is designed for wresting control of the skies from Swifts and Rapiers. Its tough armor lets it survive a considerable amount of anti-air fire.
 
 Hawks have no air-to-ground capability.</Message>
@@ -8425,7 +8425,7 @@ Hawks have no air-to-ground capability.</Message>
                                           <d18p1:Heading>182.6229761635914</d18p1:Heading>
                                           <d18p1:IsGhost>false</d18p1:IsGhost>
                                           <d18p1:Player z:Ref="52" i:nil="true" />
-                                          <d18p1:UnitDefName z:Id="2127">corgarp</d18p1:UnitDefName>
+                                          <d18p1:UnitDefName z:Id="2127">veharty</d18p1:UnitDefName>
                                         </d18p1:UnitStartInfo>
                                         <d18p1:UnitStartInfo z:Id="2128">
                                           <d18p1:Point xmlns:d22p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -8491,7 +8491,7 @@ Hawks have no air-to-ground capability.</Message>
                                           <d18p1:Heading>176.91335931755273</d18p1:Heading>
                                           <d18p1:IsGhost>false</d18p1:IsGhost>
                                           <d18p1:Player z:Ref="52" i:nil="true" />
-                                          <d18p1:UnitDefName z:Id="2140">corraid</d18p1:UnitDefName>
+                                          <d18p1:UnitDefName z:Id="2140">vehassault</d18p1:UnitDefName>
                                         </d18p1:UnitStartInfo>
                                         <d18p1:UnitStartInfo z:Id="2141">
                                           <d18p1:Point xmlns:d22p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -8899,7 +8899,7 @@ Hawks have no air-to-ground capability.</Message>
                                           <d18p1:Heading>179.79626714608079</d18p1:Heading>
                                           <d18p1:IsGhost>false</d18p1:IsGhost>
                                           <d18p1:Player z:Ref="52" i:nil="true" />
-                                          <d18p1:UnitDefName z:Id="2226">cormart</d18p1:UnitDefName>
+                                          <d18p1:UnitDefName z:Id="2226">tankarty</d18p1:UnitDefName>
                                         </d18p1:UnitStartInfo>
                                         <d18p1:UnitStartInfo z:Id="2227">
                                           <d18p1:Point xmlns:d22p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -8953,7 +8953,7 @@ Hawks have no air-to-ground capability.</Message>
                                           <d18p1:Heading>178.80436193011005</d18p1:Heading>
                                           <d18p1:IsGhost>false</d18p1:IsGhost>
                                           <d18p1:Player z:Ref="52" i:nil="true" />
-                                          <d18p1:UnitDefName z:Id="2239">correap</d18p1:UnitDefName>
+                                          <d18p1:UnitDefName z:Id="2239">tankassault</d18p1:UnitDefName>
                                         </d18p1:UnitStartInfo>
                                         <d18p1:UnitStartInfo z:Id="2240">
                                           <d18p1:Point xmlns:d22p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -9255,7 +9255,7 @@ local tz = Game.mapSizeZ * 0.8
 local ty = Spring.GetGroundHeight(tx, tz)
 
 for i=1,5 do
-  local unitID = Spring.CreateUnit("corshad", x, y, z, "west", 0)
+  local unitID = Spring.CreateUnit("bomberprec", x, y, z, "west", 0)
   Spring.SetUnitPosition(unitID, x, y, z)  -- because CreateUnit clamps offmap positions
   Spring.GiveOrderToUnit(unitID, CMD.IDLEMODE, {1}, {})
   Spring.GiveOrderToUnit(unitID, CMD.MOVE, {tx, ty, tz}, {})
@@ -9279,7 +9279,7 @@ end</CodeStr>
                                   <Units z:Id="2311" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
                                     <d10p1:items z:Id="2312" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
                                       <d10p1:_items z:Id="2313" z:Size="4">
-                                        <d10p1:string z:Id="2314">corshad</d10p1:string>
+                                        <d10p1:string z:Id="2314">bomberprec</d10p1:string>
                                         <d10p1:string i:nil="true" />
                                         <d10p1:string i:nil="true" />
                                         <d10p1:string i:nil="true" />
@@ -9303,7 +9303,7 @@ end</CodeStr>
                                   <Name z:Ref="2115" i:nil="true" />
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                                  <ImagePath z:Id="2318" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\unitpics\corshad.png</ImagePath>
+                                  <ImagePath z:Id="2318" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\unitpics\bomberprec.png</ImagePath>
                                   <Message z:Id="2319" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The Raven drops a high damage bomb that inflicts heavy damage to a single target. Somewhat slower and sturdier than the Phoenix, it excels at picking off high value targets such as Fusion Reactors and heavy artillery, and can also take down assault units with enough hits.</Message>
                                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">320</Width>
                                 </TriggerLogic>
@@ -9340,7 +9340,7 @@ end</CodeStr>
                                           <d18p1:Heading>180.04001932682255</d18p1:Heading>
                                           <d18p1:IsGhost>false</d18p1:IsGhost>
                                           <d18p1:Player z:Ref="52" i:nil="true" />
-                                          <d18p1:UnitDefName z:Id="2331">blackdawn</d18p1:UnitDefName>
+                                          <d18p1:UnitDefName z:Id="2331">gunshipassault</d18p1:UnitDefName>
                                         </d18p1:UnitStartInfo>
                                         <d18p1:UnitStartInfo z:Id="2332">
                                           <d18p1:Point xmlns:d22p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -9591,7 +9591,7 @@ local ty = Spring.GetGroundHeight(tx, tz)
 
 local function SpawnUnits()
   for i=1,2 do
-    local unitID = Spring.CreateUnit("armkam", x, y, z, "north", 4)
+    local unitID = Spring.CreateUnit("gunshipraid", x, y, z, "north", 4)
     Spring.SetUnitPosition(unitID, x, y, z)  -- because CreateUnit clamps offmap positions
     Spring.GiveOrderToUnit(unitID, CMD.IDLEMODE, {0}, {})
     Spring.GiveOrderToUnit(unitID, CMD.FIGHT, {tx, ty, tz}, {})
@@ -9666,7 +9666,7 @@ SpawnUnits()</CodeStr>
                           <d10p1:Heading>180.44836534550851</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="52" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="2395">armbanth</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="2395">striderbantha</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="2396">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -9688,7 +9688,7 @@ SpawnUnits()</CodeStr>
                           <d10p1:Heading>180.62251792539749</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="52" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="2400">dante</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="2400">striderdante</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="2401">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -9829,7 +9829,7 @@ We might stand a chance if we can stun the bad guys long enough to keep them fro
                   <Units xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="2431" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
                     <d10p1:items z:Id="2432" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
                       <d10p1:_items z:Id="2433" z:Size="4">
-                        <d10p1:string z:Id="2434">armstiletto_laser</d10p1:string>
+                        <d10p1:string z:Id="2434">bomberdisarm</d10p1:string>
                         <d10p1:string i:nil="true" />
                         <d10p1:string i:nil="true" />
                         <d10p1:string i:nil="true" />
@@ -9854,7 +9854,7 @@ local tz = Game.mapSizeZ * 0.8
 local ty = Spring.GetGroundHeight(tx, tz)
 
 for i=1,3 do
-  local unitID = Spring.CreateUnit("armstiletto_laser", x, y, z, "north", 0)
+  local unitID = Spring.CreateUnit("bomberdisarm", x, y, z, "north", 0)
   Spring.SetUnitPosition(unitID, x, y, z)  -- because CreateUnit clamps offmap positions
   Spring.GiveOrderToUnit(unitID, CMD.IDLEMODE, {1}, {})
   Spring.GiveOrderToUnit(unitID, CMD.MOVE, {tx, ty, tz}, {})
@@ -9888,7 +9888,7 @@ end
                   <Name z:Ref="2115" i:nil="true" />
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">100</Height>
-                  <ImagePath z:Id="2448" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\unitpics\armstiletto_laser.png</ImagePath>
+                  <ImagePath z:Id="2448" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">D:\Games\Spring\ZK-Missions\kingraptor\unitpics\bomberdisarm.png</ImagePath>
                   <Message z:Id="2449" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The Thunderbird "bomber" doesn't drop bombs at all. Instead, it fires a storm of lightning bolts as it overflies the target area, disabling the weapons, construction and combat abilities of any units caught in it for up to fifteen seconds. It is particularly effective against area shields or large groups of shieldbots.
 
 Hard targets will generally require multiple passes in close sequence in order to be completely disabled.</Message>
@@ -9920,7 +9920,7 @@ Hard targets will generally require multiple passes in close sequence in order t
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="60" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="2458">scorpion</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="2458">striderscorpion</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="2459">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -10127,7 +10127,7 @@ local tz = Game.mapSizeZ * 0.5
 local ty = Spring.GetGroundHeight(tx, tz)
 
 local function SpawnUnits()
-  local unitID = Spring.CreateUnit("armbrawl", x, y, z, "north", 4)
+  local unitID = Spring.CreateUnit("gunshipheavyskirm", x, y, z, "north", 4)
   Spring.SetUnitPosition(unitID, x, y, z)  -- because CreateUnit clamps offmap positions
   Spring.GiveOrderToUnit(unitID, CMD.IDLEMODE, {0}, {})
   Spring.GiveOrderToUnit(unitID, CMD.FIGHT, {tx, ty, tz}, {})

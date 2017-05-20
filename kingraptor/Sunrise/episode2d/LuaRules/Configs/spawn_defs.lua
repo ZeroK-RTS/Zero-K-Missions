@@ -28,9 +28,9 @@ gameMode		= true	--Spring.GetModOption("zkmode")
 tooltipMessage	= "Kill chickens and collect their eggs to get metal."
 
 mexes = {
-  "cormex", 
+  "staticmex", 
   "armmex",
-  --"armestor"	--pylon; needed for annis etc.
+  --"energypylon"	--pylon; needed for annis etc.
 }
 noTarget = {
 	terraunit=true,
@@ -49,7 +49,7 @@ modes = {
 	[7] = 'Chicken: Speed'
 }
 defaultDifficulty = modes[2]
-testBuilding 	= UnitDefNames["armestor"].id	--testing to place burrow
+testBuilding 	= UnitDefNames["energypylon"].id	--testing to place burrow
 testBuildingQ 	= UnitDefNames["chicken_dragon"].id	--testing to place queen
 
 --------------------------------------------------------------------------------

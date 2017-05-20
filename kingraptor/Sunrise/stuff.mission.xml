@@ -394,7 +394,7 @@
                           <d10p1:Heading>269.80979380120493</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="41" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="104">corrl</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="104">turretmissile</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="105">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -416,7 +416,7 @@
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="70" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="109">armwin</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="109">energywind</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo i:nil="true" />
                         <d10p1:UnitStartInfo i:nil="true" />

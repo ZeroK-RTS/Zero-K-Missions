@@ -48,11 +48,11 @@ local stages = {
 }
 
 local featureEntries = {
-	{id = "f1", featureName = "corgator_dead", x = 1600, z = 120, rot = 30},
-	{id = "f2", featureName = "armpw_dead", x = 1400, z = 165, rot = 220},
-	{id = "f3", featureName = "cornecro_dead", x = 1200, z = 120, rot = 105},
-	{id = "f4", featureName = "corak_dead", x = 700, z = 220, rot = 72},
-	{id = "f5", featureName = "corstorm_dead", x = 780, z = 260, rot = -48},
+	{id = "f1", featureName = "vehraid_dead", x = 1600, z = 120, rot = 30},
+	{id = "f2", featureName = "cloakraid_dead", x = 1400, z = 165, rot = 220},
+	{id = "f3", featureName = "shieldcon_dead", x = 1200, z = 120, rot = 105},
+	{id = "f4", featureName = "shieldraid_dead", x = 700, z = 220, rot = 72},
+	{id = "f5", featureName = "shieldskirm_dead", x = 780, z = 260, rot = -48},
 }
 
 local features = {}

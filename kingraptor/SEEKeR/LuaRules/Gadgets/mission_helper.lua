@@ -25,10 +25,10 @@ local shiftTable = {"shift"}
 local gameframe = 0
 local powerupInterval = 30
 local invulnerableUnits = {}
-local kodachiDefID = UnitDefNames.logkoda.id
-local nanoDefID = UnitDefNames.armnanotc.id
-local testBuildDefID = UnitDefNames.cafus.id
-local dirtbagDefID = UnitDefNames.corclog.id
+local kodachiDefID = UnitDefNames.tankraid.id
+local nanoDefID = UnitDefNames.staticcon.id
+local testBuildDefID = UnitDefNames.energysingu.id
+local dirtbagDefID = UnitDefNames.shieldscout.id
 local access = {public = true}
 
 -- FIXME: should probably autodetect number of objectives instead of specifying here
@@ -45,9 +45,9 @@ local rounds = {
 }
 
 local killScores = {
-  [UnitDefNames.cormex.id] = 50,
-  [UnitDefNames.corcan.id] = 300,
-  [UnitDefNames.corgol.id] = 1000,
+  [UnitDefNames.staticmex.id] = 50,
+  [UnitDefNames.jumpassault.id] = 300,
+  [UnitDefNames.tankheavyassault.id] = 1000,
 }
 
 local roundScores = {}

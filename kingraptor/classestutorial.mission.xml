@@ -361,7 +361,7 @@ Note that while the following descriptions will be broadly true of most or all u
                                   <Name z:Id="123">GUI Message (Persistent)</Name>
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
-                                  <ImagePath z:Id="124" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\unitpics\armpw.png</ImagePath>
+                                  <ImagePath z:Id="124" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\unitpics\cloakraid.png</ImagePath>
                                   <Message z:Id="125" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">\255\255\255\0\Raiders\255\255\255\255 are fast and and do a lot of damage quickly, but have very low health. They are good against units with inaccurate weapons, such as skirmishers.
 
 Kill the enemy units to continue.
@@ -413,7 +413,7 @@ TIP: Use attack move to have your raiders automatically attempt to evade enemy f
                                                           <d26p1:Heading>174.59644926356992</d26p1:Heading>
                                                           <d26p1:IsGhost>false</d26p1:IsGhost>
                                                           <d26p1:Player z:Ref="37" i:nil="true" />
-                                                          <d26p1:UnitDefName z:Id="146">armpw</d26p1:UnitDefName>
+                                                          <d26p1:UnitDefName z:Id="146">cloakraid</d26p1:UnitDefName>
                                                         </d26p1:UnitStartInfo>
                                                         <d26p1:UnitStartInfo z:Id="147">
                                                           <d26p1:Point xmlns:d30p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -521,7 +521,7 @@ TIP: Use attack move to have your raiders automatically attempt to evade enemy f
                                                           <d26p1:Heading>0</d26p1:Heading>
                                                           <d26p1:IsGhost>false</d26p1:IsGhost>
                                                           <d26p1:Player z:Ref="44" i:nil="true" />
-                                                          <d26p1:UnitDefName z:Id="167">corstorm</d26p1:UnitDefName>
+                                                          <d26p1:UnitDefName z:Id="167">shieldskirm</d26p1:UnitDefName>
                                                         </d26p1:UnitStartInfo>
                                                         <d26p1:UnitStartInfo z:Id="168">
                                                           <d26p1:Point xmlns:d30p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1026,7 +1026,7 @@ TIP: Use attack move to have your raiders automatically attempt to evade enemy f
                           <d10p1:Heading>226.90596750175519</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="44" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="274">corak</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="274">shieldraid</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="275">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1188,7 +1188,7 @@ TIP: Use attack move to have your raiders automatically attempt to evade enemy f
                           <d10p1:Heading>53.795905164351765</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="37" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="305">armwar</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="305">cloakriot</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="306">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1385,7 +1385,7 @@ TIP: Use attack move to have your raiders automatically attempt to evade enemy f
                           <d10p1:Heading>80.816390704011184</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="37" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="351">armrock</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="351">cloakskirm</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="352">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1809,7 +1809,7 @@ TIP: Use attack move to have your raiders automatically attempt to evade enemy f
                           <d10p1:Heading>181.19760804814541</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="44" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="449">corllt</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="449">turretlaser</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="450">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -1863,7 +1863,7 @@ TIP: Use attack move to have your raiders automatically attempt to evade enemy f
                           <d10p1:Heading>179.85788362802384</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="44" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="460">armdeva</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="460">turretriot</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="461">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -2222,7 +2222,7 @@ TIP: Use attack move to have your raiders automatically attempt to evade enemy f
                           <d10p1:Heading>91.556061938285481</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="44" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="538">corrl</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="538">turretmissile</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="539">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -2276,7 +2276,7 @@ TIP: Use attack move to have your raiders automatically attempt to evade enemy f
                           <d10p1:Heading>91.092684659025</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="44" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="549">corhlt</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="549">turretheavylaser</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="550">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -2303,7 +2303,7 @@ TIP: Use attack move to have your raiders automatically attempt to evade enemy f
                           <d10p1:Heading>269.69661992568854</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="37" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="556">correap</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="556">tankassault</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="557">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -2501,7 +2501,7 @@ TIP: Use attack move to have your raiders automatically attempt to evade enemy f
                           <d10p1:Heading>176.74604092974485</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="37" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="604">armmerl</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="604">vehheavyarty</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="605">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -2843,7 +2843,7 @@ Spring.GiveOrderToUnit(merlID, 36214, {0}, 0)  -- unit AI</CodeStr>
                           <d10p1:Heading>0</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="37" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="693">corcrash</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="693">shieldaa</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="694">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -2951,7 +2951,7 @@ Spring.GiveOrderToUnit(merlID, 36214, {0}, 0)  -- unit AI</CodeStr>
                           <d10p1:Heading>95.995872122003945</d10p1:Heading>
                           <d10p1:IsGhost>false</d10p1:IsGhost>
                           <d10p1:Player z:Ref="44" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="716">armkam</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="716">gunshipraid</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="717">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
@@ -3170,7 +3170,7 @@ Spring.GiveOrderToUnit(merlID, 36214, {0}, 0)  -- unit AI</CodeStr>
                   <Name z:Id="766">GUI Message (Persistent)</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
-                  <ImagePath z:Id="767" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\unitpics\armwar.png</ImagePath>
+                  <ImagePath z:Id="767" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\unitpics\cloakriot.png</ImagePath>
                   <Message z:Id="768" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">\255\255\255\0\Riot\255\255\255\255 units excel at wiping out large numbers of small enemy units, such as raiders. They generally do a lot of damage quickly, but are slow, short-ranged and have modest health.</Message>
                   <StringID z:Id="769" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">classesTutorial_persistent_riot</StringID>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
@@ -3232,7 +3232,7 @@ WG.CustomMarker.AddPoint("riotDemo", 5680, 6405, "Riots")</CodeStr>
                   <Name z:Id="788">GUI Message (Persistent)</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
-                  <ImagePath z:Id="789" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\unitpics\armrock.png</ImagePath>
+                  <ImagePath z:Id="789" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\unitpics\cloakskirm.png</ImagePath>
                   <Message z:Id="790" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">\255\255\255\0\Skirmishers\255\255\255\255 have good range and are effective against slow, short-ranged units such as riots. They have relatively low health and damage output. Most have trouble with fast-moving targets. Don't let them get into close combat.
 
 TIP: Use attack move to have your skirms try to keep their distance ("kite" the enemy).</Message>
@@ -3296,7 +3296,7 @@ WG.CustomMarker.AddPoint("skirmDemo", 6760, 3345, "Skirmishers")</CodeStr>
                   <Name z:Id="810">GUI Message (Persistent)</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
-                  <ImagePath z:Id="811" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\unitpics\corstorm.png</ImagePath>
+                  <ImagePath z:Id="811" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\unitpics\shieldskirm.png</ImagePath>
                   <Message z:Id="812" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Some skirmishers can also destroy shorter-ranged enemy static defences from outside their range. Try it now.</Message>
                   <StringID z:Id="813" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">classesTutorial_persistent_skirm2</StringID>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
@@ -3362,8 +3362,8 @@ WG.CustomMarker.AddPoint("skirmDemo2", 5175, 1860, "Skirmishers")</CodeStr>
                   <Name z:Id="832">GUI Message (Persistent)</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
-                  <ImagePath z:Id="833" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\unitpics\correap.png</ImagePath>
-                  <Message z:Id="834" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">\255\255\255\0\Assault\255\255\255\255 units are tough and can brute-force enemy defences. Their own speed is generally middling. Some have difficulty hitting fast-moving units.</Message>
+                  <ImagePath z:Id="833" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\unitpics\tankassault.png</ImagePath>
+                  <Message z:Id="834" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">\255\255\255\0\Assault\255\255\255\255 units are tough and can brute-force enemy defences. Their speed is generally middling. Some have difficulty hitting fast-moving units.</Message>
                   <StringID z:Id="835" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">classesTutorial_persistent_assault</StringID>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                 </TriggerLogic>
@@ -3424,7 +3424,7 @@ WG.CustomMarker.AddPoint("assaultDemo", 2260, 1915, "Assaults")</CodeStr>
                   <Name z:Id="854">GUI Message (Persistent)</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
-                  <ImagePath z:Id="855" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\unitpics\armmerl.png</ImagePath>
+                  <ImagePath z:Id="855" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\unitpics\vehheavyarty.png</ImagePath>
                   <Message z:Id="856" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">\255\255\255\0\Artillery\255\255\255\255 units use their long range to destroy defence structures from afar. Typical artillery units are not able to hit moving targets.</Message>
                   <StringID z:Id="857" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">classesTutorial_persistent_arty</StringID>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
@@ -3454,7 +3454,7 @@ WG.CustomMarker.AddPoint("assaultDemo", 2260, 1915, "Assaults")</CodeStr>
                 <TriggerLogic z:Id="864" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="865">Custom Marker</Name>
                   <CodeStr z:Id="866" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">WG.CustomMarker.ClearPoints()
-WG.CustomMarker.AddPoint("artyDemo", 1170, 4120, "Artillery")</CodeStr>
+WG.CustomMarker.AddPoint("artyDemo", 1170, 4300, "Artillery")</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Synced>
                 </TriggerLogic>
               </_items>
@@ -3486,7 +3486,7 @@ WG.CustomMarker.AddPoint("artyDemo", 1170, 4120, "Artillery")</CodeStr>
                   <Name z:Id="876">GUI Message (Persistent)</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
-                  <ImagePath z:Id="877" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\unitpics\corcrash.png</ImagePath>
+                  <ImagePath z:Id="877" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\unitpics\shieldaa.png</ImagePath>
                   <Message z:Id="878" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">\255\255\255\0\Anti\255\255\255\255-\255\255\255\0\aircraft\255\255\255\255 (AA) units can only hit planes and gunships but are the most cost-effective way of dealing with them. They have long range compared to most anti-ground weapons.</Message>
                   <StringID z:Id="879" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">classesTutorial_persistent_aa</StringID>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>

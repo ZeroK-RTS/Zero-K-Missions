@@ -40,17 +40,17 @@ local enemyPlaneTriggerDamage = 8000
 local enemyPlaneTriggerActive = true
 local flakTrigger = "Hit By Flak"
 local flakTriggerActive = true
-local flakUnits = {[UnitDefNames.corflak.id] = true, [UnitDefNames.corsent.id] = true}
+local flakUnits = {[UnitDefNames.turretaaflak.id] = true, [UnitDefNames.tankaa.id] = true}
 local riotTrigger = "Hit By Riots"
 local riotTriggerActive = true
-local riotUnits = {[UnitDefNames.arm_venom.id] = true, [UnitDefNames.tawf114.id] = true, [UnitDefNames.armdeva.id] = true}
+local riotUnits = {[UnitDefNames.spideremp.id] = true, [UnitDefNames.tankriot.id] = true, [UnitDefNames.turretriot.id] = true}
 
 local helpUnits = {
-  --[UnitDefNames.armsnipe.id] = "Help: Sharpshooter",
+  --[UnitDefNames.cloaksnipe.id] = "Help: Sharpshooter",
 }
 local helpUnitsDamage = {
   --[UnitDefNames.hoverriot.id] = {damage = 0, neededDamage = 2000, triggerName = "Fight Maces"},
-  --[UnitDefNames.nsaclash.id] = {damage = 0, neededDamage = 1250, triggerName = "Fight Scalpels"},
+  --[UnitDefNames.hoverskirm.id] = {damage = 0, neededDamage = 1250, triggerName = "Fight Scalpels"},
 }
 
 local triggerOnDeath = {
