@@ -1487,7 +1487,7 @@ Spring.SetGameRulesParam("tutorial_show_next_button", 1)</CodeStr>
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
                                   <ImagePath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                                  <Message z:Id="779" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">\255\255\255\0\Metal\008 is a basic resource needed to construct units and buildings. The primary source of metal is the \255\0\255\255\Metal Extractor\008 shown here.
+                                  <Message z:Id="779" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">\255\255\255\0\Metal\255\255\255\255 is a basic resource needed to construct units and buildings. The primary source of metal is the \255\0\255\255\Metal Extractor\255\255\255\255 shown here.
 
 Click Next to continue.</Message>
                                   <StringID z:Id="780" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_metal</StringID>
@@ -1560,11 +1560,11 @@ GG.CommandLocker.UnlockCMD(CMD.RECLAIM)</CodeStr>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
                   <ImagePath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <Message z:Id="800" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Metal can also be obtained by \255\255\255\0\reclaiming\008 the \255\255\255\0\wreckages\008 that dead units leave on the battlefield. Select your commander and \255\0\255\0\right click\008 on a wreck to reclaim it.
+                  <Message z:Id="800" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Metal can also be obtained by \255\255\255\0\reclaiming\255\255\255\255 the \255\255\255\0\wreckages\255\255\255\255 that dead units leave on the battlefield. Select your commander and \255\0\255\0\right click\255\255\255\255 on a wreck to reclaim it.
 
-Reclaim the three wreckages to the \255\255\255\0\left\008 to continue.
+Reclaim the three wreckages to the \255\255\255\0\left\255\255\255\255 to continue.
 
-TIP: Hold down \255\0\255\0\Shift\008 when issuing orders to queue them.</Message>
+TIP: Hold down \255\0\255\0\Shift\255\255\255\255 when issuing orders to queue them.</Message>
                   <StringID z:Id="801" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_reclaim</StringID>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                 </TriggerLogic>
@@ -1619,7 +1619,7 @@ GG.CommandLocker.UnlockCMD(CMD.REPAIR)</CodeStr>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
                   <ImagePath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <Message z:Id="820" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Construction units (including the commander) can \255\255\255\0\repair\008 damaged units. Select your commander and \255\0\255\0\right click\008 on the damaged storage building to repair it.</Message>
+                  <Message z:Id="820" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Construction units (including the commander) can \255\255\255\0\repair\255\255\255\255 damaged units. Select your commander and \255\0\255\0\right click\255\255\255\255 on the damaged storage building to repair it.</Message>
                   <StringID z:Id="821" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_repair</StringID>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                 </TriggerLogic>
@@ -1673,7 +1673,7 @@ end</CodeStr>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
                   <ImagePath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <Message z:Id="840" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Reclaim and repair can be given as \255\255\255\0\area commands\008. Press \255\0\255\0\R\008 and \255\0\255\0\left click and drag\008 a circle on the ground to issue an area repair command. Reclaim is the same, except the hotkey is \255\0\255\0\E\008.
+                  <Message z:Id="840" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Reclaim and repair can be given as \255\255\255\0\area commands\255\255\255\255. Press \255\0\255\0\R\255\255\255\255 and \255\0\255\0\left click and drag\255\255\255\255 a circle on the ground to issue an area repair command. Reclaim is the same, except the hotkey is \255\0\255\0\E\255\255\255\255.
 
 Try it now. Repair the solar collectors and reclaim the wreckages to continue.</Message>
                   <StringID z:Id="841" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_areaCommands</StringID>
@@ -1722,9 +1722,9 @@ Spring.SetGameRulesParam("tutorial_show_next_button", 1)</CodeStr>
                   <ImagePath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Message z:Id="856" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Now that we have our stuff up and running, let's take a look at something else.
 
-\255\255\255\0\Energy\008 is the other basic resource. You need an equal amount of metal and energy to build things, and energy is also used to repair units and operate certain abilities like cloaking.
+\255\255\255\0\Energy\255\255\255\255 is the other basic resource. You need an equal amount of metal and energy to build things, and energy is also used to repair units and operate certain abilities like cloaking.
 
-You can see your current metal and energy in the \255\255\255\0\resource panel\008 at the top of the screen (highlighted). It shows how much you're earning, how much you have stored and how much you're spending.
+You can see your current metal and energy in the \255\255\255\0\resource panel\255\255\255\255 at the top of the screen (highlighted). It shows how much you're earning, how much you have stored and how much you're spending.
 
 Click Next to continue.</Message>
                   <StringID z:Id="857" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_energy</StringID>
@@ -1773,13 +1773,13 @@ GG.CommandLocker.UnlockCMD(CMD.MOVE)</CodeStr>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
                   <ImagePath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <Message z:Id="872" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Several buildings produce energy, but the \255\0\255\255\Solar Collector\008 is the most basic. Let's build one.
+                  <Message z:Id="872" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Several buildings produce energy, but the \255\0\255\255\Solar Collector\255\255\255\255 is the most basic. Let's build one.
 + Select your commander
-+ Click the \255\255\255\0\Econ\008 tab in the menu (highlighted)
++ Click the \255\255\255\0\Econ\255\255\255\255 tab in the menu (highlighted)
 + Left click the Solar Collector button
 + Left click on the ground where you want to place the building
 
-TIP: Hold down \255\0\255\0\Shift\008 to click and drag a line of buildings.</Message>
+TIP: Hold down \255\0\255\0\Shift\255\255\255\255 to click and drag a line of buildings.</Message>
                   <StringID z:Id="873" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_solar</StringID>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                 </TriggerLogic>
@@ -1880,15 +1880,15 @@ GG.CommandLocker.UnlockCMD(30100)  -- area mex</CodeStr>
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
                                   <ImagePath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                                  <Message z:Id="910" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Good work. Now let's make a \255\0\255\255\Metal Extractor\008 ("mex" for short) as well.
+                                  <Message z:Id="910" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Good work. Now let's make a \255\0\255\255\Metal Extractor\255\255\255\255 ("mex" for short) as well.
 
-Metal extractors can only be built on \255\255\255\0\metal spots\008. You can make them in the same way as the Solar Collector, but it's easier to use the \255\255\255\0\area mex\008 command:
+Metal extractors can only be built on \255\255\255\0\metal spots\255\255\255\255. You can make them in the same way as the Solar Collector, but it's easier to use the \255\255\255\0\area mex\255\255\255\255 command:
 + Select your commander
-+ Left click the \255\255\255\0\Orders\008 tab in the menu
-+ Press \255\0\255\0\W\008
-+ \255\0\255\0\Left click and drag\008 a circle on the ground
++ Left click the \255\255\255\0\Orders\255\255\255\255 tab in the menu
++ Press \255\0\255\0\W\255\255\255\255
++ \255\0\255\0\Left click and drag\255\255\255\255 a circle on the ground
 
-If you're having trouble finding metal spots, press \255\0\255\0\F4\008 for the economy view.</Message>
+If you're having trouble finding metal spots, press \255\0\255\0\F4\255\255\255\255 for the economy view.</Message>
                                   <StringID z:Id="911" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_mex</StringID>
                                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                                 </TriggerLogic>
@@ -2023,15 +2023,15 @@ GG.GiveFacplop(unitID)</CodeStr>
                                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                                                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
                                                   <ImagePath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                                                  <Message z:Id="957" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Good. Now that we have metal and energy, it's time to spend it with a \255\255\255\0\factory\008.
+                                                  <Message z:Id="957" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Good. Now that we have metal and energy, it's time to spend it with a \255\255\255\0\factory\255\255\255\255.
 
-Build a  \255\0\255\255\Cloaky Bot Factory\008.
+Build a  \255\0\255\255\Cloaky Bot Factory\255\255\255\255.
 + Select your commander
 + Click the Factory tab in the menu (highlighted)
 + Left click the Cloaky Bot Factory button
 + Left click on the ground where you want to place the building
 
-The factory icon over your commanders' head means you have a free factory ready to deploy (a "\255\255\255\0\facplop\008").</Message>
+The factory icon over your commanders' head means you have a free factory ready to deploy (a "\255\255\255\0\facplop\255\255\255\255").</Message>
                                                   <StringID z:Id="958" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_factory</StringID>
                                                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                                                 </TriggerLogic>
@@ -2277,10 +2277,10 @@ end</CodeStr>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
                   <ImagePath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <Message z:Id="1017" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Let's make some units with our factory. Build three \255\0\255\255\Glaive\008 bots.
+                  <Message z:Id="1017" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Let's make some units with our factory. Build three \255\0\255\255\Glaive\255\255\255\255 bots.
 
 + Select your new factory
-+ Left click the \255\255\255\0\Units\008 tab
++ Left click the \255\255\255\0\Units\255\255\255\255 tab
 + Left click Glaive three times</Message>
                   <StringID z:Id="1018" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_buildUnits</StringID>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
@@ -2459,13 +2459,13 @@ GG.CommandLocker.UnlockCMD(CMD.REPEAT)</CodeStr>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
                   <ImagePath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <Message z:Id="1073" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">That was easy. But having to give your factory fresh build orders each time can be troublesome.  Use the \255\255\255\0\Repeat\008 order to make your factory keep pumping out units.
+                  <Message z:Id="1073" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">That was easy. But having to give your factory fresh build orders each time can be troublesome.  Use the \255\255\255\0\Repeat\255\255\255\255 order to make your factory keep pumping out units.
 
 + Select your factory
 + Click the repeat button
 + Left click Glaive
 
-Build three more Glaives. But here's the catch: your factory \255\255\255\0\must have Repeat on\008 or it will not build anything.</Message>
+Build three more Glaives. But here's the catch: your factory \255\255\255\0\must have Repeat on\255\255\255\255 or it will not build anything.</Message>
                   <StringID z:Id="1074" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_repeat</StringID>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                 </TriggerLogic>
@@ -2629,7 +2629,7 @@ GG.CommandLocker.UnlockCMD(13922)  -- area guard</CodeStr>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
                   <ImagePath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <Message z:Id="1123" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">You can give construction units a \255\255\255\0\Guard\008 order on a factory to \255\255\255\0\assist\008 it and help it build faster. Select your commander and \255\0\255\0\right click\008 on the factory.
+                  <Message z:Id="1123" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">You can give construction units a \255\255\255\0\Guard\255\255\255\255 order on a factory to \255\255\255\0\assist\255\255\255\255 it and help it build faster. Select your commander and \255\0\255\0\right click\255\255\255\255 on the factory.
 
 Build five more Glaives. Same deal as before; your commander needs to be assisting the factory or it won't build.</Message>
                   <StringID z:Id="1124" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_assistFac</StringID>
@@ -2826,7 +2826,7 @@ GG.CommandLocker.UnlockCMD(CMD.ATTACK)</CodeStr>
                   <ImagePath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Message z:Id="1178" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Well done.
 
-There's one last thing left to do. Somewhere in the lowlands is an \255\255\255\0\enemy factory\008. Use your newly built units and destroy it.
+There's one last thing left to do. Somewhere in the lowlands is an \255\255\255\0\enemy factory\255\255\255\255. Use your newly built units and destroy it.
 
 TIP: You can give move/attack move/etc. orders to a factory and the units it builds will inherit the order queue.</Message>
                   <StringID z:Id="1179" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_destroyEnemyBase</StringID>

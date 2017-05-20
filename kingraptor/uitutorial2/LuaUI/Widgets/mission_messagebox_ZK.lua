@@ -42,6 +42,8 @@ local CONVO_BOX_WIDTH_MIN = 400
 local PERSISTENT_SUBBAR_HEIGHT = 24
 local PERSISTENT_IMAGE_HEIGHT = 96
 
+local TEST_MODE = false
+
 local convoString 	-- for non-Chili convobox; stores the current string to display
 local convoImg		-- for non-Chili convobox; stores the current image to display
 local convoFontsize = 14
@@ -68,6 +70,7 @@ local function ProcessColorCodes(text)
   end
   
   local coloredStrs = string.gmatch(text, COLOR_CODED_PATTERN)
+  local first = false
   for str in coloredStrs do
     local fields = SplitString(str, "\\")
     -- fields 1-4 are our color codes, the last field is the \008
@@ -84,11 +87,14 @@ local function ProcessColorCodes(text)
           newStr = newStr .. "\\"
         end
       end
-      newStr = newStr .. "\008"
+      newStr = newStr .. "\255\255\255\255"
+      if not first then
+        newStr = "\008" .. newStr
+      end
       text = string.gsub(text, str, newStr)
+      first = false
     end
   end
-
   return text
 end
 
@@ -179,11 +185,12 @@ local function _ShowPersistentMessageBox(text, width, height, fontsize, imagePat
 	
 	-- we have an existing box, modify that one instead of making a new one
 	if msgBoxPersistent then
+		local widthChange = width - msgBoxPersistent.width
 		msgBoxPersistent.width = width
 		msgBoxPersistent.height = height + PERSISTENT_SUBBAR_HEIGHT
 		local onRightSide = msgBoxPersistent.x + (width/2) > (vsx/2)
 		if onRightSide then
-			msgBoxPersistent.x = vsx - width
+			msgBoxPersistent.x = msgBoxPersistent.x - widthChange
 		end
 		
 		local x = ((imagePath and imagePersistent.width + imagePersistent.x) or 0) + 5
@@ -203,8 +210,7 @@ local function _ShowPersistentMessageBox(text, width, height, fontsize, imagePat
 		scrollPersistent.height	= height - 8 - 8
 		--scrollPersistent:Invalidate()
 		
-		stackPersistent.bottom = 6
-		stackPersistent.width = width - 4 - 72
+		stackPersistent.y = height - 6
 		--stackPersistent.Invalidate()
 		
 		-- recreate textbox to make sure it never fails to update text
@@ -288,8 +294,8 @@ local function _ShowPersistentMessageBox(text, width, height, fontsize, imagePat
 		columns = 3,
 		x = 4,
 		right = 72,
-		bottom = 6,
-		height = 24,
+		y = height - 6,
+		height = 20,
 		resizeItems = false,
 		orientation = 'horizontal',
 		centerItems = true,
@@ -337,20 +343,20 @@ local function _ShowPersistentMessageBox(text, width, height, fontsize, imagePat
 	}
 	
 	nextButton = Chili.Button:New {
-    parent = msgBoxPersistent,
-    width = 64,
-    height = 24,
+		parent = msgBoxPersistent,
+		width = 64,
+		height = 24,
 		right = 4,
 		bottom = 8,
-    caption = "Next",
-    font = {size = 14},
-    OnClick = { function(self, x, y, mouse)
-        if mouse == 1 and not nextButtonLocked then
-          Spring.SendLuaRulesMsg("tutorial_next")
-          nextButtonLocked = true -- only allow one click per gameframe, so it doesn't super increment when paused
-        end
-      end
-    },
+		caption = "Next",
+		font = {size = 14},
+		OnClick = { function(self, x, y, mouse)
+			if mouse == 1 and not nextButtonLocked then
+				Spring.SendLuaRulesMsg("tutorial_next")
+				nextButtonLocked = true -- only allow one click per gameframe, so it doesn't super increment when paused
+			end
+		end
+	},
   }
 end
 
@@ -633,19 +639,24 @@ function widget:Initialize()
   Spring.SendLuaRulesMsg("sendMissionPersistentMessages")
   
   -- testing
-  --[[
-  local str = 'In some remote corner of the universe, poured out and glittering in innumerable solar systems, there once was a star on which clever animals invented knowledge. That was the highest and most mendacious minute of "world history" – yet only a minute. After nature had drawn a few breaths the star grew cold, and the clever animals had to die.'
-  local str2 = 'Enemy nuclear silo spotted!'
-  
-  local str3 = '\255\255\255\0\Colored\008 text'
-  local str4 = '\255\255\255\0\Colored text\008 2'
-  
-  --WG.ShowPersistentMessageBox(str3, 320, 100, 12, "LuaUI/Images/advisor2.jpg")
-  --WG.ShowPersistentMessageBox(str4, 320, 100, 12, "LuaUI/Images/advisor2.jpg")
-  --WG.AddConvo(str3, nil, "LuaUI/Images/advisor2.jpg", "sounds/voice.wav", 10*30)
-  --WG.AddConvo(str4, nil, "LuaUI/Images/startup_info_selector/chassis_strike.png", "sounds/reply/advisor/enemy_nuke_spotted.wav", 3*30)
-  --]]
-  
+  if TEST_MODE then
+    local str = [[Good work. Here are some other ways to select units.
+
++ \255\0\255\0\Ctrl\008 + \255\0\255\0\left click\008 a unit to select if if not currently selected, or deselect it if it is.
++ \255\0\255\0\Left click\008 on empty terrain deselects your units, if you are not issuing an order.
++ \255\0\255\0\Double click\008 a unit to select all units of that type on the screen.
++ \255\0\255\0\Ctrl\008 + \255\0\255\0\A\008 selects all units across the map. \255\0\255\0\Ctrl\008 + \255\0\255\0\Z\008 is the same, but only for units of the same type as those currently selected.
+
+Click Next to continue.]]
+    
+    local str3 = '\255\255\255\0\Colored\008 text'
+    local str4 = '\255\255\255\0\Colored text\008 2'
+    
+    WG.ShowPersistentMessageBox(str, 400, 200, 14, nil)
+    --WG.ShowPersistentMessageBox(str4, 320, 100, 12, "LuaUI/Images/advisor2.jpg")
+    --WG.AddConvo(str3, nil, "LuaUI/Images/advisor2.jpg", "sounds/voice.wav", 10*30)
+    --WG.AddConvo(str4, nil, "LuaUI/Images/startup_info_selector/chassis_strike.png", "sounds/reply/advisor/enemy_nuke_spotted.wav", 3*30)
+  end
 end
 
 function widget:Shutdown()

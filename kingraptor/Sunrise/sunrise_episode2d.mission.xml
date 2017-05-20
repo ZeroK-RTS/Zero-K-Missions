@@ -71,7 +71,7 @@
   <ImagePath z:Id="37">G:\Games\Spring\ZK-Missions\kingraptor\images\chicken.png</ImagePath>
   <MapName z:Id="38">Chicken_Farm_v02</MapName>
   <MaxUnits>5000</MaxUnits>
-  <ModName z:Id="39">Zero-K v1.4.7.0</ModName>
+  <ModName z:Id="39">Zero-K v1.4.9.4</ModName>
   <Name z:Id="40">Sunrise Episode 2D - Gallus Ranch</Name>
   <Players z:Id="41">
     <items z:Id="42" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">

@@ -70,7 +70,7 @@
   <ImagePath z:Id="35">G:\Games\Spring\ZK-Missions\kingraptor\images\comm_odin.png</ImagePath>
   <MapName z:Id="36">ArcticPlainsV2.1</MapName>
   <MaxUnits>5000</MaxUnits>
-  <ModName z:Id="37">Zero-K v1.4.7.0</ModName>
+  <ModName z:Id="37">Zero-K v1.4.9.4</ModName>
   <Name z:Id="38">Sunrise Episode 3 - To Reach the Sky</Name>
   <Players z:Id="39">
     <items z:Id="40" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">

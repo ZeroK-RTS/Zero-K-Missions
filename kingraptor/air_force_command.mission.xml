@@ -95,7 +95,7 @@
   <ImagePath z:Id="32">D:\Games\Spring\ZK-Missions\kingraptor\afcommand.png</ImagePath>
   <MapName z:Id="33">Deserted_Gully-v05</MapName>
   <MaxUnits>5000</MaxUnits>
-  <ModName z:Id="34">Zero-K v1.2.8.18</ModName>
+  <ModName z:Id="34">Zero-K v1.3.12.1</ModName>
   <Name z:Id="35">Air Force Command</Name>
   <Players z:Id="36">
     <items z:Id="37" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
@@ -6510,11 +6510,8 @@ A key feature of the Swift is its speed boost ability, invaluable for getting qu
                 <TriggerLogic z:Id="1639" z:Type="CMissionLib.Actions.AddObjectiveAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="1640">Add Objective</Name>
                   <Description z:Id="1641" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Intecept and destroy the enemy gunships attacking our defenses.</Description>
-                  <GroupTarget i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <ID z:Id="1642" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">startGunships</ID>
                   <Title z:Id="1643" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Destroy Gunships</Title>
-                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1644" z:Type="CMissionLib.Actions.GiveOrdersAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="1645">Give Orders Crabe L</Name>
@@ -6821,8 +6818,6 @@ A key feature of the Swift is its speed boost ability, invaluable for getting qu
                   <ID z:Id="1729" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">defendReactor</ID>
                   <Status z:Id="1730" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Failed</Status>
                   <Title z:Ref="76" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1731" z:Type="CMissionLib.Actions.SetCameraPointTargetAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="1626" i:nil="true" />
@@ -6942,8 +6937,6 @@ Build additional fighters from your Aircraft Plant as needed.</Message>
                   <ID z:Id="1765" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">startGunships</ID>
                   <Status z:Id="1766" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Complete</Status>
                   <Title z:Ref="76" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1767" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="1733" i:nil="true" />
@@ -7458,11 +7451,8 @@ end</CodeStr>
                                                 <TriggerLogic z:Id="1895" z:Type="CMissionLib.Actions.AddObjectiveAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Ref="1640" i:nil="true" />
                                                   <Description z:Id="1896" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">The Singularity Reactor in the middle of our base is an extremely valuable asset. Protect it at all costs.</Description>
-                                                  <GroupTarget i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                                   <ID z:Id="1897" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">defendReactor</ID>
                                                   <Title z:Id="1898" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Defend Singularity Reactor</Title>
-                                                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                                                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                                                 </TriggerLogic>
                                                 <TriggerLogic z:Id="1899" z:Type="CMissionLib.Actions.StartCountdownAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Id="1900">Start Countdown</Name>
@@ -9877,11 +9867,8 @@ end
                 <TriggerLogic z:Id="2438" z:Type="CMissionLib.Actions.AddObjectiveAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="2439">Add Objective</Name>
                   <Description z:Id="2440" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Take out the Bantha heavy strider attacking our base. This should bring the enemy's offensive to a halt.</Description>
-                  <GroupTarget i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <ID z:Id="2441" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">defeatBoss</ID>
                   <Title z:Id="2442" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Destroy the Bantha</Title>
-                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2443" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="2047" i:nil="true" />
@@ -10284,8 +10271,6 @@ Do not pursue. Your work here is done, Commander - return to base.</Message>
                   <ID z:Id="2531" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">defeatBoss</ID>
                   <Status z:Id="2532" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Complete</Status>
                   <Title z:Ref="76" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</X>
-                  <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Y>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2533" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="2534">Custom Action (Alternate)</Name>

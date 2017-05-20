@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mission xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="1" z:Type="CMissionLib.Mission" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
   <Author z:Id="2">KingRaptor</Author>
-  <ContentFolderPath z:Id="3">D:\Games\Spring\ZK-Missions\kingraptor\SEEKeR</ContentFolderPath>
+  <ContentFolderPath z:Id="3">G:\Games\Spring\ZK-Missions\kingraptor\SEEKeR</ContentFolderPath>
   <Counters xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="4">
     <d2p1:items z:Id="5" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
       <d2p1:_items z:Id="6" z:Size="0" />
@@ -62,7 +62,7 @@
   <ImagePath z:Id="34">D:\Games\Spring\ZK-Missions\kingraptor\images\kodachi.png</ImagePath>
   <MapName z:Id="35">Comet Catcher Redux v2</MapName>
   <MaxUnits>5000</MaxUnits>
-  <ModName z:Id="36">Zero-K v1.3.8.14</ModName>
+  <ModName z:Id="36">Zero-K $VERSION</ModName>
   <Name z:Id="37">Super Extreme Kodachi Rally</Name>
   <Players z:Id="38">
     <items z:Id="39" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
@@ -605,7 +605,7 @@ end</CodeStr>
                 </TriggerLogic>
                 <TriggerLogic z:Id="197" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="190" i:nil="true" />
-                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">5.9999999999999991</Frames>
+                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">6</Frames>
                   <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.0033333333333333335</Minutes>
                   <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.19999999999999998</Seconds>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT0.2S</Time>
@@ -701,7 +701,7 @@ end</CodeStr>
                 </TriggerLogic>
                 <TriggerLogic z:Id="222" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="190" i:nil="true" />
-                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">52.5</Frames>
+                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">53</Frames>
                   <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.029166666666666667</Minutes>
                   <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">1.75</Seconds>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT1.75S</Time>
@@ -757,7 +757,7 @@ end</CodeStr>
                 </TriggerLogic>
                 <TriggerLogic z:Id="236" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="190" i:nil="true" />
-                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">7.5</Frames>
+                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">8</Frames>
                   <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.0041666666666666666</Minutes>
                   <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.25</Seconds>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT0.25S</Time>
@@ -879,7 +879,7 @@ end</CodeStr>
                 </TriggerLogic>
                 <TriggerLogic z:Id="265" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="190" i:nil="true" />
-                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">2.9999999999999996</Frames>
+                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">3</Frames>
                   <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.0016666666666666668</Minutes>
                   <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.099999999999999992</Seconds>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT0.1S</Time>
@@ -1241,7 +1241,7 @@ end</CodeStr>
                                                 </TriggerLogic>
                                                 <TriggerLogic z:Id="363" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                                   <Name z:Id="364">Wait</Name>
-                                                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">2.9999999999999996</Frames>
+                                                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">3</Frames>
                                                   <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.0016666666666666668</Minutes>
                                                   <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.099999999999999992</Seconds>
                                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT0.1S</Time>
@@ -2375,7 +2375,7 @@ GG.ResetUnits()</CodeStr>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="645" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Ref="364" i:nil="true" />
-                                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">2.9999999999999996</Frames>
+                                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">3</Frames>
                                   <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.0016666666666666668</Minutes>
                                   <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.099999999999999992</Seconds>
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT0.1S</Time>
@@ -3381,7 +3381,7 @@ GG.ResetUnits()</CodeStr>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="869" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Ref="364" i:nil="true" />
-                                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">2.9999999999999996</Frames>
+                                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">3</Frames>
                                   <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.0016666666666666668</Minutes>
                                   <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.099999999999999992</Seconds>
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT0.1S</Time>
@@ -4962,7 +4962,7 @@ GG.ResetUnits()</CodeStr>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="1232" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Ref="364" i:nil="true" />
-                                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">2.9999999999999996</Frames>
+                                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">3</Frames>
                                   <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.0016666666666666668</Minutes>
                                   <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.099999999999999992</Seconds>
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT0.1S</Time>
@@ -6550,7 +6550,7 @@ GG.ResetUnits()</CodeStr>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="1583" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Ref="364" i:nil="true" />
-                                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">2.9999999999999996</Frames>
+                                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">3</Frames>
                                   <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.0016666666666666668</Minutes>
                                   <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.099999999999999992</Seconds>
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT0.1S</Time>
@@ -8284,7 +8284,7 @@ GG.ResetUnits()</CodeStr>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="1973" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Ref="364" i:nil="true" />
-                                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">2.9999999999999996</Frames>
+                                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">3</Frames>
                                   <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.0016666666666666668</Minutes>
                                   <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.099999999999999992</Seconds>
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT0.1S</Time>
@@ -10357,7 +10357,7 @@ Powerup every 30 seconds</Description>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="2418" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Ref="528" i:nil="true" />
-                                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">2.9999999999999996</Frames>
+                                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">3</Frames>
                                   <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.0016666666666666668</Minutes>
                                   <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.099999999999999992</Seconds>
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT0.1S</Time>

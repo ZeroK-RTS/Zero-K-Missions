@@ -91,7 +91,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
   <ImagePath z:Id="39">D:\Games\Spring\ZK-Missions\kingraptor\images\athena_2.png</ImagePath>
   <MapName z:Id="40">DigSite</MapName>
   <MaxUnits>5000</MaxUnits>
-  <ModName z:Id="41">Zero-K v1.2.3.7</ModName>
+  <ModName z:Id="41">Zero-K $VERSION</ModName>
   <Name z:Id="42">Sunrise Pilot Episode (beta v0.35)</Name>
   <Players z:Id="43">
     <items z:Id="44" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">

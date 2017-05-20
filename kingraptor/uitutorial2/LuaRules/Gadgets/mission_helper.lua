@@ -38,6 +38,7 @@ if (gadgetHandler:IsSyncedCode()) then
 --------------------------------------------------------------------------------
 -- SYNCED
 --------------------------------------------------------------------------------
+include("LuaRules/Configs/customcmds.h.lua")
 
 local BUTTON_PARAM = "tutorial_show_next_button"
 
@@ -89,7 +90,7 @@ local function Stage7Check()
 					else
 						-- check if unit is headed there
 						local cmd = (Spring.GetUnitCommands(unitID, 1))[1]
-						if cmd and cmd.id == CMD.MOVE then
+						if cmd and (cmd.id == CMD.MOVE or cmd.id == CMD_RAW_MOVE) then
 							distSq = (cmd.params[1] - circle[1])^2 + (cmd.params[3] - circle[3])^2
 							if distSq < MOVE_CIRCLE_RADIUS_SQ then
 								validCircles[i] = true

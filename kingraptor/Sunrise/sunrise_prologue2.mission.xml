@@ -83,7 +83,7 @@
   <ImagePath z:Id="44">G:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada_tut2.png</ImagePath>
   <MapName z:Id="45">Glacies 1.3</MapName>
   <MaxUnits>5000</MaxUnits>
-  <ModName z:Id="46">Zero-K v1.4.6.11</ModName>
+  <ModName z:Id="46">Zero-K v1.4.9.4</ModName>
   <Name z:Id="47">Sunrise Prologue 2 - Cold Path</Name>
   <Players z:Id="48">
     <items z:Id="49" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">

@@ -75,7 +75,7 @@
   <ImagePath z:Id="36">G:\Games\Spring\ZK-Missions\kingraptor\images\comm_ada2.png</ImagePath>
   <MapName z:Id="37">Full_Moon-v04</MapName>
   <MaxUnits>5000</MaxUnits>
-  <ModName z:Id="38">Zero-K v1.4.6.11</ModName>
+  <ModName z:Id="38">Zero-K v1.4.9.4</ModName>
   <Name z:Id="39">Sunrise Episode 1 - Awakening</Name>
   <Players z:Id="40">
     <items z:Id="41" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">

@@ -6292,19 +6292,19 @@ Repairing is twice as fast as building, but units will be repaired 4x slower if 
                       <d10p1:_items z:Id="1857" z:Size="4">
                         <d10p1:anyType z:Id="1858" z:Type="CMissionLib.MoveOrder" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                           <Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
-                            <d14p1:_x>815.08038884317034</d14p1:_x>
-                            <d14p1:_y>218.10430059308749</d14p1:_y>
+                            <d14p1:_x>827.99217959415057</d14p1:_x>
+                            <d14p1:_y>218.2493768936603</d14p1:_y>
                           </Point>
-                          <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">815.08038884317034</X>
-                          <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">218.10430059308749</Y>
+                          <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">827.99217959415057</X>
+                          <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">218.2493768936603</Y>
                         </d10p1:anyType>
                         <d10p1:anyType z:Id="1859" z:Type="CMissionLib.MoveOrder" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                           <Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
-                            <d14p1:_x>811.52244117578107</d14p1:_x>
-                            <d14p1:_y>327.29342961204952</d14p1:_y>
+                            <d14p1:_x>822.55549383434334</d14p1:_x>
+                            <d14p1:_y>328.27414540392169</d14p1:_y>
                           </Point>
-                          <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">811.52244117578107</X>
-                          <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">327.29342961204952</Y>
+                          <X xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">822.55549383434334</X>
+                          <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">328.27414540392169</Y>
                         </d10p1:anyType>
                         <d10p1:anyType z:Id="1860" z:Type="CMissionLib.MoveOrder" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                           <Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">

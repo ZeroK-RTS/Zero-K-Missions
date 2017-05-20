@@ -27,6 +27,7 @@ if (gadgetHandler:IsSyncedCode()) then
 --------------------------------------------------------------------------------
 
 local BUTTON_PARAM = "tutorial_show_next_button"
+local FAKEUNIT_LOS_DEFID = UnitDefNames["fakeunit_los"] and UnitDefNames["fakeunit_los"].id
 
 local suppressDeathCheck = false
 --------------------------------------------------------------------------------
@@ -114,6 +115,10 @@ local function CheckGroup(destroyedUnitID, stage, advance)
 		local cleanup = function()
 			suppressDeathCheck = true
 			for unitID in pairs(units) do
+				if Spring.GetUnitDefID(unitID) ~= FAKEUNIT_LOS_DEFID then
+					local _,_,_,x,y,z = Spring.GetUnitPosition(unitID, true)
+					Spring.SpawnCEG("teleport_out", x, y, z)
+				end
 				Spring.DestroyUnit(unitID, false, true)
 			end
 			suppressDeathCheck = false

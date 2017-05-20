@@ -35,9 +35,14 @@ Assault units are tough and can brute-force enemy defences. Most have trouble wi
 <Remove units afterwards>
 
 Screen 7:
+Assault units are tough and can brute-force enemy defences. Most have trouble with fast-moving units.
+<Some defences are nearby, use Reapers>
+<Remove units afterwards>
+
+Screen 8:
 Anti-air units are only effective against air targets but have long range.
 <Banshee is nearby, send Jethros after them>
 <Remove units afterwards>
 
-Screen 8:
+Screen 9:
 That concludes the unit classes tutorial. Hit Next to end.

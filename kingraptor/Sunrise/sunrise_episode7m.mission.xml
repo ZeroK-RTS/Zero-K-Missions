@@ -6238,9 +6238,9 @@ end</CodeStr>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1612" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="1599" i:nil="true" />
-                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">5.9999999999999991</Frames>
+                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">6</Frames>
                   <Minutes xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.0033333333333333335</Minutes>
-                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.19999999999999998</Seconds>
+                  <Seconds xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.2</Seconds>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT0.2S</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1613" z:Type="CMissionLib.Actions.SetCameraPosDirAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
