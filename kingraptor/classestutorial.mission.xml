@@ -323,7 +323,7 @@ Spring.SetCameraState(camState, 0)</CodeStr>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">300</Height>
                   <ImagePath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <Message z:Id="105" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Now let's learn about the different \255\255\255\0\unit classes\255\255\255\255 in Zero-K.
+                  <Message z:Id="105" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Now let's learn about the different \255\255\255\0\unit classes\008 in Zero-K.
 
 Note that while the following descriptions will be broadly true of most or all unit types within a class, each unit has its own distinct traits that affect the way it is best used. Try them out in a skirmish or multiplayer game to learn their ins and outs.</Message>
                   <Pause xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Pause>
@@ -362,11 +362,11 @@ Note that while the following descriptions will be broadly true of most or all u
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
                                   <ImagePath z:Id="124" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\unitpics\cloakraid.png</ImagePath>
-                                  <Message z:Id="125" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">\255\255\255\0\Raiders\255\255\255\255 are fast and and do a lot of damage quickly, but have very low health. They are good against units with inaccurate weapons, such as skirmishers.
+                                  <Message z:Id="125" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">\255\255\255\0\Raiders\008 are fast and and do a lot of damage quickly, but have very low health. They are good against units with inaccurate weapons, such as skirmishers.
 
 Kill the enemy units to continue.
 
-TIP: Use attack move to have your raiders automatically attempt to evade enemy fire. Default hotkey is \255\0\255\0\A\255\255\255\255, in case you've forgotten.</Message>
+TIP: Use attack move to have your raiders automatically attempt to evade enemy fire. Default hotkey is \255\0\255\0\A\008, in case you've forgotten.</Message>
                                   <StringID z:Id="126" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">classesTutorial_persistent_raider</StringID>
                                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                                 </TriggerLogic>
@@ -3171,7 +3171,7 @@ Spring.GiveOrderToUnit(merlID, 36214, {0}, 0)  -- unit AI</CodeStr>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
                   <ImagePath z:Id="767" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\unitpics\cloakriot.png</ImagePath>
-                  <Message z:Id="768" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">\255\255\255\0\Riot\255\255\255\255 units excel at wiping out large numbers of small enemy units, such as raiders. They generally do a lot of damage quickly, but are slow, short-ranged and have modest health.</Message>
+                  <Message z:Id="768" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">\255\255\255\0\Riot\008 units excel at wiping out large numbers of small enemy units, such as raiders. They generally do a lot of damage quickly, but are slow, short-ranged and have modest health.</Message>
                   <StringID z:Id="769" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">classesTutorial_persistent_riot</StringID>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                 </TriggerLogic>
@@ -3233,7 +3233,7 @@ WG.CustomMarker.AddPoint("riotDemo", 5680, 6405, "Riots")</CodeStr>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
                   <ImagePath z:Id="789" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\unitpics\cloakskirm.png</ImagePath>
-                  <Message z:Id="790" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">\255\255\255\0\Skirmishers\255\255\255\255 have good range and are effective against slow, short-ranged units such as riots. They have relatively low health and damage output. Most have trouble with fast-moving targets. Don't let them get into close combat.
+                  <Message z:Id="790" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">\255\255\255\0\Skirmishers\008 have good range and are effective against slow, short-ranged units such as riots. They have relatively low health and damage output. Most have trouble with fast-moving targets. Don't let them get into close combat.
 
 TIP: Use attack move to have your skirms try to keep their distance ("kite" the enemy).</Message>
                   <StringID z:Id="791" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">classesTutorial_persistent_skirm</StringID>
@@ -3363,7 +3363,7 @@ WG.CustomMarker.AddPoint("skirmDemo2", 5175, 1860, "Skirmishers")</CodeStr>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
                   <ImagePath z:Id="833" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\unitpics\tankassault.png</ImagePath>
-                  <Message z:Id="834" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">\255\255\255\0\Assault\255\255\255\255 units are tough and can brute-force enemy defences. Their speed is generally middling. Some have difficulty hitting fast-moving units.</Message>
+                  <Message z:Id="834" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">\255\255\255\0\Assault\008 units are tough and can brute-force enemy defences. Their speed is generally middling. Some have difficulty hitting fast-moving units.</Message>
                   <StringID z:Id="835" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">classesTutorial_persistent_assault</StringID>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                 </TriggerLogic>
@@ -3425,7 +3425,7 @@ WG.CustomMarker.AddPoint("assaultDemo", 2260, 1915, "Assaults")</CodeStr>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
                   <ImagePath z:Id="855" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\unitpics\vehheavyarty.png</ImagePath>
-                  <Message z:Id="856" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">\255\255\255\0\Artillery\255\255\255\255 units use their long range to destroy defence structures from afar. Typical artillery units are not able to hit moving targets.</Message>
+                  <Message z:Id="856" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">\255\255\255\0\Artillery\008 units use their long range to destroy defence structures from afar. Typical artillery units are not able to hit moving targets.</Message>
                   <StringID z:Id="857" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">classesTutorial_persistent_arty</StringID>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                 </TriggerLogic>
@@ -3487,7 +3487,7 @@ WG.CustomMarker.AddPoint("artyDemo", 1170, 4300, "Artillery")</CodeStr>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
                   <ImagePath z:Id="877" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\unitpics\shieldaa.png</ImagePath>
-                  <Message z:Id="878" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">\255\255\255\0\Anti\255\255\255\255-\255\255\255\0\aircraft\255\255\255\255 (AA) units can only hit planes and gunships but are the most cost-effective way of dealing with them. They have long range compared to most anti-ground weapons.</Message>
+                  <Message z:Id="878" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">\255\255\255\0\Anti\008-\255\255\255\0\aircraft\008 (AA) units can only hit planes and gunships but are the most cost-effective way of dealing with them. They have long range compared to most anti-ground weapons.</Message>
                   <StringID z:Id="879" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">classesTutorial_persistent_aa</StringID>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                 </TriggerLogic>

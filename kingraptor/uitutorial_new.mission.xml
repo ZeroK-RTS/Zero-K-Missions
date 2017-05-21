@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Mission xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="1" z:Type="CMissionLib.Mission" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
   <Author z:Id="2">KingRaptor</Author>
   <ContentFolderPath z:Id="3">G:\Games\Spring\ZK-Missions\kingraptor\uitutorial2</ContentFolderPath>
@@ -1416,7 +1416,7 @@ There is a building somewhere in the \255\255\255\0\top left\008 direction. Zoom
                                   <ImagePath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                   <Message z:Id="783" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">More units have been activated.
 
-If you lose track of your Commander you can select them with  \255\0\255\0\Ctrl\008 + \255\0\255\0\C\008 or the button in the \255\255\255\0\currently circled\008 area on your screen. Select your Commander now.</Message>
+If you lose track of your Commander you can select them with \255\0\255\0\Ctrl\008 + \255\0\255\0\C\008 or the button in the \255\255\255\0\currently circled\008 area on your screen. Select your Commander now.</Message>
                                   <StringID z:Id="784" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">uitutorial_persistent_selectComm</StringID>
                                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                                 </TriggerLogic>
@@ -1562,6 +1562,8 @@ end</CodeStr>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
                   <ImagePath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Message z:Id="827" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">You can select multiple units by holding \255\0\255\0\left click\008 and \255\0\255\0\dragging a box\008 around them. \255\0\255\0\Shift\008 + \255\0\255\0\click\008 on a unit to add it to your current selection.
+
+Note: When box-selecting a \255\255\255\0\mixed group\008 of combat units and non-combat units or structures, \255\255\255\0\only the combat units\008 will be selected.
 
 Select your \255\255\255\0\Commander\008 and \255\255\255\0\at least three Solar Collectors\008 to continue.</Message>
                   <StringID z:Id="828" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">uitutorial_persistent_selectMultiple</StringID>
