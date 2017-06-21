@@ -55,14 +55,21 @@ local groupsToCheck = {
 	[7] = {"AADemo", "Spawn AA Lesson"},
 }
 
-local features = {}
+local ignoredFeatures = {}
 local delayedActions = {}
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 local function RemoveFeatures()
 	local features = Spring.GetAllFeatures()
 	for i=1,#features do
-		Spring.DestroyFeature(features[i])
+		local featureID = features[i]
+		if not ignoredFeatures[featureID] then
+			local featureDefID = Spring.GetFeatureDefID(featureID)
+			local name = FeatureDefs[featureDefID].name
+			if string.find(name, "_dead") or string.find(name, "_heap") then
+				Spring.DestroyFeature(featureID)
+			end
+		end
 	end
 end
 
@@ -188,7 +195,11 @@ function gadget:Initialize()
 end
 
 function gadget:GamePreload()
-	RemoveFeatures()
+	--RemoveFeatures()
+	local features = Spring.GetAllFeatures()
+	for i=1,#features do
+		ignoredFeatures[features[i]] = true
+	end
 end
 
 function gadget:Shutdown()

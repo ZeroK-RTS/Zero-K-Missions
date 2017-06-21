@@ -39,12 +39,13 @@ local stages = {
 	[5] = {name = "energy intro", trigger = "Build Solar"},
 	[6] = {name = "build solar"},
 	[7] = {name = "build mex"},
-	[8] = {name = "build factory"},
-	[9] = {name = "build units 1"},
-	[10] = {name = "build units 2", trigger = "Build Units 3"},
-	[11] = {name = "build units 3", trigger = "Destroy Enemy Base"},
-	[12] = {name = "destroy enemy base", trigger = "Victory"},
-	[13] = {name = "victory"},
+	[8] = {name = "overdrive", trigger = "Build Factory"},
+	[9] = {name = "build factory"},
+	[10] = {name = "build units 1"},
+	[11] = {name = "build units 2", trigger = "Build Units 3"},
+	[12] = {name = "build units 3", trigger = "Destroy Enemy Base"},
+	[13] = {name = "destroy enemy base", trigger = "Victory"},
+	[14] = {name = "victory"},
 }
 
 local featureEntries = {
@@ -107,13 +108,13 @@ local function CheckFactory(builderID)
 		return true
 	end
 	local stage = Spring.GetGameRulesParam(STAGE_PARAM)
-	if stage == 10 then
+	if stage == 11 then
 		-- check if fac is on repeat
 		local state = Spring.GetUnitStates(builderID)
 		if not state["repeat"] then
 			return false
 		end
-	elseif stage == 11 then
+	elseif stage == 12 then
 		-- check if comm is assisting fac
 		local commID = GG.mission.FindUnitInGroup("Comm")
 		local cmd = (Spring.GetUnitCommands(commID, 1))[1]

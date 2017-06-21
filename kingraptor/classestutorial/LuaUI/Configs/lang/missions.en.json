@@ -4,7 +4,7 @@
   "classesTutorial_objTitle_tut": "Complete Tutorial",
   "classesTutorial_persistent_aa": "\\255\\255\\255\\0\\Anti\\008-\\255\\255\\255\\0\\aircraft\\008 (AA) units can only hit planes and gunships but are the most cost-effective way of dealing with them. They have long range compared to most anti-ground weapons.",
   "classesTutorial_persistent_arty": "\\255\\255\\255\\0\\Artillery\\008 units use their long range to destroy defence structures from afar. Typical artillery units are not able to hit moving targets.",
-  "classesTutorial_persistent_assault": "\\255\\255\\255\\0\\Assault\\008 units are tough and can brute-force enemy defences. Their speed is generally middling. Some have difficulty hitting fast-moving units.",
+  "classesTutorial_persistent_assault": "\\255\\255\\255\\0\\Assault\\008 units are tough and can brute-force enemy defences. Many are slow; a few can be quite fast. Some have difficulty hitting fast-moving units.",
   "classesTutorial_persistent_end": "That concludes the unit classes demonstration. Feel free to continue practicing with the different units.\n\nClick Next to end.",
   "classesTutorial_persistent_raider": "\\255\\255\\255\\0\\Raiders\\008 are fast and and do a lot of damage quickly, but have very low health. They are good against units with inaccurate weapons, such as skirmishers.\n\nKill the enemy units to continue.\n\nTIP: Use attack move to have your raiders automatically attempt to evade enemy fire. Default hotkey is \\255\\0\\255\\0\\A\\008, in case you've forgotten.",
   "classesTutorial_persistent_riot": "\\255\\255\\255\\0\\Riot\\008 units excel at wiping out large numbers of small enemy units, such as raiders. They generally do a lot of damage quickly, but are slow, short-ranged and have modest health.",

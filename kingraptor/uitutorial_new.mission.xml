@@ -379,11 +379,11 @@
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo z:Id="116">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
-                            <d14p1:_x>192</d14p1:_x>
-                            <d14p1:_y>112</d14p1:_y>
+                            <d14p1:_x>205.33333333333334</d14p1:_x>
+                            <d14p1:_y>110.66666666666666</d14p1:_y>
                           </d10p1:Point>
-                          <d10p1:X>192</d10p1:X>
-                          <d10p1:Y>112</d10p1:Y>
+                          <d10p1:X>205.33333333333334</d10p1:X>
+                          <d10p1:Y>110.66666666666666</d10p1:Y>
                           <d10p1:Groups xmlns:d14p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="117">
                             <d14p1:items z:Id="118" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
                               <d14p1:_items z:Id="119" z:Size="4">
@@ -1193,7 +1193,9 @@ end
 units = GG.mission.FindUnitsInGroup("Warriors")
 for unitID in pairs(units) do
   Spring.TransferUnit(unitID, Spring.GetGaiaTeamID(), false)
-end</CodeStr>
+end
+
+Spring.SetGameRulesParam("tutorial_has_next_button", 1)</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
                 <TriggerLogic z:Id="704" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -1308,12 +1310,11 @@ NOTE: This tutorial assumes default keybinds. If you have changed key bindings f
                                   <Message z:Id="750" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">First, let's go over the ways to move the camera:
 
 + The \255\0\255\0\arrow keys\008.
-+ Moving the \255\0\255\0\cursor\008 to the \255\0\255\0\screen edge\008.
++ Moving the \255\0\255\0\cursor\008 to the \255\0\255\0\screen edge\008 (requires fullscreen mode).
 + \255\0\255\0\Middle click\008 and \255\0\255\0\drag\008 the terrain.
 + \255\0\255\0\Middle click\008 or \255\0\255\0\left click\008 click on the minimap.
 + \255\0\255\0\Scroll wheel\008 to zoom in/out.
 + \255\0\255\0\Page Up/Down\008 to zoom in/out.
-+ \255\0\255\0\TAB\008 to switch into map overview mode.
 
 There is a building somewhere in the \255\255\255\0\top left\008 direction. Zoom in close on it to continue.</Message>
                                   <StringID z:Id="751" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">uitutorial_persistent_camera</StringID>
@@ -1563,7 +1564,7 @@ end</CodeStr>
                   <ImagePath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Message z:Id="827" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">You can select multiple units by holding \255\0\255\0\left click\008 and \255\0\255\0\dragging a box\008 around them. \255\0\255\0\Shift\008 + \255\0\255\0\click\008 on a unit to add it to your current selection.
 
-Note: When box-selecting a \255\255\255\0\mixed group\008 of combat units and non-combat units or structures, \255\255\255\0\only the combat units\008 will be selected.
+Note: When box-selecting a \255\255\255\0\mixed group\008 of combat units and structures or non-combat units, \255\255\255\0\only the combat units\008 will be selected. Hold down \255\0\255\0\Shift\008 to not do this.
 
 Select your \255\255\255\0\Commander\008 and \255\255\255\0\at least three Solar Collectors\008 to continue.</Message>
                   <StringID z:Id="828" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">uitutorial_persistent_selectMultiple</StringID>
@@ -1759,9 +1760,11 @@ Give your commander and Warriors a line move order as depicted. At least one uni
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                 </TriggerLogic>
                 <TriggerLogic z:Id="888" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="889">Remove Custom Marker</Name>
+                  <Name z:Id="889">Custom Marker</Name>
                   <CodeStr z:Id="890" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.CustomMarker then
   WG.CustomMarker.RemovePoint("destination1")
+  WG.CustomMarker.AddPoint("lineMove1", 2070, 905, "Click and drag from here...")
+  WG.CustomMarker.AddPoint("lineMove2", 1820, 1340, "...to here and let go")
 end</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Synced>
                 </TriggerLogic>
@@ -1857,6 +1860,7 @@ Now, an enemy building has appeared. Select your units and \255\0\255\0\right cl
                 <TriggerLogic z:Id="918" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="919">Custom Marker</Name>
                   <CodeStr z:Id="920" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.CustomMarker then
+  WG.CustomMarker.ClearPoints()
   WG.CustomMarker.AddPoint("target1", 2160, 1480, "Target", {1, 0.5, 0.5})
 end</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Synced>
@@ -2176,7 +2180,7 @@ Click Next to end the tutorial.</Message>
         <Trigger i:nil="true" />
       </_items>
       <_size>15</_size>
-      <_version>35</_version>
+      <_version>39</_version>
     </items>
     <_monitor xmlns:d3p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1020">
       <d3p1:_busyCount>0</d3p1:_busyCount>

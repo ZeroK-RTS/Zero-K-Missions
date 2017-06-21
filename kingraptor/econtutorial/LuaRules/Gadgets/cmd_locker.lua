@@ -44,7 +44,10 @@ local unlockedCMDs = {
 	[CMD.IDLEMODE] = true,
 	[CMD.SET_WANTED_MAX_SPEED] = true,
 	[CMD.SETBASE] = true,
+	
 	[CMD.INTERNAL] = true,
+	[CMD.INSERT] = true,
+	[CMD.REMOVE] = true,
 	
 	[CMD_ORBIT] = true,
 	[CMD_ORBIT_DRAW] = true,
