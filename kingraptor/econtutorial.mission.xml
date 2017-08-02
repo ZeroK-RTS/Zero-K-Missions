@@ -1448,74 +1448,58 @@ Spring.SetGameRulesParam("tutorial_has_next_button", 1)</CodeStr>
                 </TriggerLogic>
                 <TriggerLogic z:Id="760" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="755" i:nil="true" />
-                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">30</Frames>
+                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">45</Frames>
                 </TriggerLogic>
-                <TriggerLogic z:Id="761" z:Type="CMissionLib.Actions.GuiMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="762">GUI Message</Name>
-                  <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
-                  <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">300</Height>
-                  <ImagePath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <Message z:Id="763" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">So you're back. Let's get started on the economy training.
-
-Close this message when you're ready to begin.</Message>
-                  <Pause xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Pause>
-                  <StringID z:Id="764" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_msg_intro</StringID>
-                  <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
-                </TriggerLogic>
-                <TriggerLogic z:Id="765" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="755" i:nil="true" />
-                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">30</Frames>
-                </TriggerLogic>
-                <TriggerLogic z:Id="766" z:Type="CMissionLib.Actions.ExecuteTriggersAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="767">Execute Triggers</Name>
-                  <Triggers xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="768" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
-                    <d10p1:items z:Id="769" z:Type="System.Collections.Generic.List`1[[CMissionLib.INamed, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-                      <d10p1:_items z:Id="770" z:Size="4">
-                        <d10p1:anyType z:Id="771" z:Type="CMissionLib.Trigger" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                <TriggerLogic z:Id="761" z:Type="CMissionLib.Actions.ExecuteTriggersAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="762">Execute Triggers</Name>
+                  <Triggers xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="763" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
+                    <d10p1:items z:Id="764" z:Type="System.Collections.Generic.List`1[[CMissionLib.INamed, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+                      <d10p1:_items z:Id="765" z:Size="4">
+                        <d10p1:anyType z:Id="766" z:Type="CMissionLib.Trigger" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                           <Enabled xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">true</Enabled>
                           <Folder i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib" />
                           <IsExpanded xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">true</IsExpanded>
-                          <Logic z:Id="772" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
-                            <items z:Id="773" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-                              <_items z:Id="774" z:Size="4">
-                                <TriggerLogic z:Id="775" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                          <Logic z:Id="767" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
+                            <items z:Id="768" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+                              <_items z:Id="769" z:Size="4">
+                                <TriggerLogic z:Id="770" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Ref="732" i:nil="true" />
-                                  <CodeStr z:Id="776" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 1)
+                                  <CodeStr z:Id="771" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 1)
 Spring.SetGameRulesParam("tutorial_show_next_button", 1)</CodeStr>
                                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                                 </TriggerLogic>
-                                <TriggerLogic z:Id="777" z:Type="CMissionLib.Actions.GuiMessagePersistentAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="778">GUI Message (Persistent)</Name>
+                                <TriggerLogic z:Id="772" z:Type="CMissionLib.Actions.GuiMessagePersistentAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                  <Name z:Id="773">GUI Message (Persistent)</Name>
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
                                   <ImagePath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                                  <Message z:Id="779" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">\255\255\255\0\Metal\008 is a basic resource needed to construct units and buildings. The primary source of metal is the \255\0\255\255\Metal Extractor\008 shown here.
+                                  <Message z:Id="774" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">\255\255\255\0\Metal\008 is a basic resource needed to construct units and buildings. The primary source of metal is the \255\0\255\255\Metal Extractor\008 shown here.
 
 Click Next to continue.</Message>
-                                  <StringID z:Id="780" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_metal</StringID>
+                                  <StringID z:Id="775" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_metal</StringID>
                                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                                 </TriggerLogic>
-                                <TriggerLogic z:Id="781" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="782">Custom Marker</Name>
-                                  <CodeStr z:Id="783" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.CustomMarker then
+                                <TriggerLogic z:Id="776" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                  <Name z:Id="777">Custom Marker</Name>
+                                  <CodeStr z:Id="778" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.CustomMarker then
   WG.CustomMarker.AddPoint("mex", 1915, 85, "Metal Extractor")
 end</CodeStr>
                                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Synced>
                                 </TriggerLogic>
-                                <TriggerLogic z:Id="784" z:Type="CMissionLib.Actions.SetCameraUnitTargetAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="785">Unit Camera</Name>
+                                <TriggerLogic z:Id="779" z:Type="CMissionLib.Actions.SetCameraUnitTargetAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                  <Name z:Id="780">Unit Camera</Name>
                                   <Group z:Ref="206" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                 </TriggerLogic>
                               </_items>
                               <_size>4</_size>
                               <_version>4</_version>
                             </items>
-                            <_monitor xmlns:d15p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="786">
+                            <_monitor xmlns:d15p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="781">
                               <d15p1:_busyCount>0</d15p1:_busyCount>
                             </_monitor>
                           </Logic>
                           <MaxOccurrences xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">1</MaxOccurrences>
-                          <Name z:Id="787" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">Metal Intro</Name>
+                          <Name z:Id="782" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">Metal Intro</Name>
                           <Probability xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">1</Probability>
                         </d10p1:anyType>
                         <d10p1:anyType i:nil="true" />
@@ -1525,54 +1509,56 @@ end</CodeStr>
                       <d10p1:_size>1</d10p1:_size>
                       <d10p1:_version>1</d10p1:_version>
                     </d10p1:items>
-                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="788">
+                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="783">
                       <d11p1:_busyCount>0</d11p1:_busyCount>
                     </d10p1:_monitor>
                   </Triggers>
                 </TriggerLogic>
+                <TriggerLogic i:nil="true" />
+                <TriggerLogic i:nil="true" />
               </_items>
-              <_size>8</_size>
-              <_version>10</_version>
+              <_size>6</_size>
+              <_version>12</_version>
             </items>
-            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="789">
+            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="784">
               <d7p1:_busyCount>0</d7p1:_busyCount>
             </_monitor>
           </Logic>
           <MaxOccurrences>1</MaxOccurrences>
-          <Name z:Id="790">Game Start</Name>
+          <Name z:Id="785">Game Start</Name>
           <Probability>1</Probability>
         </Trigger>
-        <Trigger z:Ref="771" i:nil="true" />
-        <Trigger z:Id="791">
+        <Trigger z:Ref="766" i:nil="true" />
+        <Trigger z:Id="786">
           <Enabled>true</Enabled>
           <Folder i:nil="true" />
           <IsExpanded>true</IsExpanded>
-          <Logic z:Id="792">
-            <items z:Id="793" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-              <_items z:Id="794" z:Size="4">
-                <TriggerLogic z:Id="795" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="796">Custom Action (Alternate)</Name>
-                  <CodeStr z:Id="797" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 2)
+          <Logic z:Id="787">
+            <items z:Id="788" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+              <_items z:Id="789" z:Size="4">
+                <TriggerLogic z:Id="790" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="791">Custom Action (Alternate)</Name>
+                  <CodeStr z:Id="792" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 2)
 Spring.SetGameRulesParam("tutorial_show_next_button", 0)
 GG.CommandLocker.UnlockCMD(CMD.RECLAIM)</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
-                <TriggerLogic z:Id="798" z:Type="CMissionLib.Actions.GuiMessagePersistentAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="799">GUI Message (Persistent)</Name>
+                <TriggerLogic z:Id="793" z:Type="CMissionLib.Actions.GuiMessagePersistentAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="794">GUI Message (Persistent)</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
                   <ImagePath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <Message z:Id="800" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Metal can also be obtained by \255\255\255\0\reclaiming\008 the \255\255\255\0\wreckages\008 that dead units leave on the battlefield. Select your commander and \255\0\255\0\right click\008 on a wreck to reclaim it.
+                  <Message z:Id="795" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Metal can also be obtained by \255\255\255\0\reclaiming\008 the \255\255\255\0\wreckages\008 that dead units leave on the battlefield. Select your commander and \255\0\255\0\right click\008 on a wreck to reclaim it.
 
 Reclaim the three wreckages to the \255\255\255\0\left\008 to continue.
 
 TIP: Hold down \255\0\255\0\Shift\008 when issuing orders to queue them.</Message>
-                  <StringID z:Id="801" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_reclaim</StringID>
+                  <StringID z:Id="796" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_reclaim</StringID>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                 </TriggerLogic>
-                <TriggerLogic z:Id="802" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="803">Custom Marker</Name>
-                  <CodeStr z:Id="804" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.CustomMarker then
+                <TriggerLogic z:Id="797" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="798">Custom Marker</Name>
+                  <CodeStr z:Id="799" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.CustomMarker then
   WG.CustomMarker.RemovePoint("mex")
   WG.CustomMarker.AddPoint("feature1", 1600, 120)
   WG.CustomMarker.AddPoint("feature2", 1400, 165)
@@ -1585,49 +1571,49 @@ end</CodeStr>
               <_size>3</_size>
               <_version>3</_version>
             </items>
-            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="805">
+            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="800">
               <d7p1:_busyCount>0</d7p1:_busyCount>
             </_monitor>
           </Logic>
           <MaxOccurrences>1</MaxOccurrences>
-          <Name z:Id="806">Reclaim</Name>
+          <Name z:Id="801">Reclaim</Name>
           <Probability>1</Probability>
         </Trigger>
-        <Trigger z:Id="807">
+        <Trigger z:Id="802">
           <Enabled>true</Enabled>
           <Folder i:nil="true" />
           <IsExpanded>true</IsExpanded>
-          <Logic z:Id="808">
-            <items z:Id="809" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-              <_items z:Id="810" z:Size="8">
-                <TriggerLogic z:Id="811" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <Logic z:Id="803">
+            <items z:Id="804" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+              <_items z:Id="805" z:Size="8">
+                <TriggerLogic z:Id="806" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="732" i:nil="true" />
-                  <CodeStr z:Id="812" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 3)
+                  <CodeStr z:Id="807" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 3)
 GG.CommandLocker.UnlockCMD(CMD.REPAIR)</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
-                <TriggerLogic z:Id="813" z:Type="CMissionLib.Actions.ModifyUnitHealthAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="814">Modify Unit Health</Name>
+                <TriggerLogic z:Id="808" z:Type="CMissionLib.Actions.ModifyUnitHealthAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="809">Modify Unit Health</Name>
                   <Damage xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">600</Damage>
-                  <Group z:Id="815" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Storage</Group>
+                  <Group z:Id="810" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Storage</Group>
                 </TriggerLogic>
-                <TriggerLogic z:Id="816" z:Type="CMissionLib.Actions.TransferUnitsAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="817">Transfer Units</Name>
-                  <Group z:Ref="815" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
+                <TriggerLogic z:Id="811" z:Type="CMissionLib.Actions.TransferUnitsAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="812">Transfer Units</Name>
+                  <Group z:Ref="810" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Player xmlns:d10p1="http://schemas.datacontract.org/2004/07/CMissionLib" z:Ref="43" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                 </TriggerLogic>
-                <TriggerLogic z:Id="818" z:Type="CMissionLib.Actions.GuiMessagePersistentAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="819">GUI Message (Persistent)</Name>
+                <TriggerLogic z:Id="813" z:Type="CMissionLib.Actions.GuiMessagePersistentAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="814">GUI Message (Persistent)</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
                   <ImagePath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <Message z:Id="820" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Construction units (including the commander) can \255\255\255\0\repair\008 damaged units. Select your commander and \255\0\255\0\right click\008 on the damaged storage building to repair it.</Message>
-                  <StringID z:Id="821" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_repair</StringID>
+                  <Message z:Id="815" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Construction units (including the commander) can \255\255\255\0\repair\008 damaged units. Select your commander and \255\0\255\0\right click\008 on the damaged storage building to repair it.</Message>
+                  <StringID z:Id="816" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_repair</StringID>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                 </TriggerLogic>
-                <TriggerLogic z:Id="822" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="823">Custom Marker</Name>
-                  <CodeStr z:Id="824" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.CustomMarker then
+                <TriggerLogic z:Id="817" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="818">Custom Marker</Name>
+                  <CodeStr z:Id="819" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.CustomMarker then
   WG.CustomMarker.ClearPoints()
   WG.CustomMarker.AddPoint("storage", 920, 65, "Repair me")
 end</CodeStr>
@@ -1640,50 +1626,50 @@ end</CodeStr>
               <_size>5</_size>
               <_version>17</_version>
             </items>
-            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="825">
+            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="820">
               <d7p1:_busyCount>0</d7p1:_busyCount>
             </_monitor>
           </Logic>
           <MaxOccurrences>1</MaxOccurrences>
-          <Name z:Id="826">Repair</Name>
+          <Name z:Id="821">Repair</Name>
           <Probability>1</Probability>
         </Trigger>
-        <Trigger z:Id="827">
+        <Trigger z:Id="822">
           <Enabled>true</Enabled>
           <Folder i:nil="true" />
           <IsExpanded>true</IsExpanded>
-          <Logic z:Id="828">
-            <items z:Id="829" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-              <_items z:Id="830" z:Size="8">
-                <TriggerLogic z:Id="831" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <Logic z:Id="823">
+            <items z:Id="824" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+              <_items z:Id="825" z:Size="8">
+                <TriggerLogic z:Id="826" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Ref="732" i:nil="true" />
-                  <CodeStr z:Id="832" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 4)</CodeStr>
+                  <CodeStr z:Id="827" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 4)</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
-                <TriggerLogic z:Id="833" z:Type="CMissionLib.Actions.TransferUnitsAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="834">Transfer Units</Name>
-                  <Group z:Id="835" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Solars</Group>
+                <TriggerLogic z:Id="828" z:Type="CMissionLib.Actions.TransferUnitsAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="829">Transfer Units</Name>
+                  <Group z:Id="830" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Solars</Group>
                   <Player xmlns:d10p1="http://schemas.datacontract.org/2004/07/CMissionLib" z:Ref="43" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                 </TriggerLogic>
-                <TriggerLogic z:Id="836" z:Type="CMissionLib.Actions.ModifyUnitHealthAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="837">Modify Unit Health</Name>
-                  <Damage xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">1000</Damage>
-                  <Group z:Ref="835" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
+                <TriggerLogic z:Id="831" z:Type="CMissionLib.Actions.ModifyUnitHealthAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="832">Modify Unit Health</Name>
+                  <Damage xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Damage>
+                  <Group z:Ref="830" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                 </TriggerLogic>
-                <TriggerLogic z:Id="838" z:Type="CMissionLib.Actions.GuiMessagePersistentAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="839">GUI Message (Persistent)</Name>
+                <TriggerLogic z:Id="833" z:Type="CMissionLib.Actions.GuiMessagePersistentAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="834">GUI Message (Persistent)</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
                   <ImagePath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <Message z:Id="840" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Reclaim and repair can be given as \255\255\255\0\area commands\008. Press \255\0\255\0\R\008 and \255\0\255\0\left click and drag\008 a circle on the ground to issue an area repair command. Reclaim is the same, except the hotkey is \255\0\255\0\E\008.
+                  <Message z:Id="835" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Reclaim and repair can be given as \255\255\255\0\area commands\008. Press \255\0\255\0\R\008 and \255\0\255\0\left click and drag\008 a circle on the ground to issue an area repair command. Reclaim is the same, except the hotkey is \255\0\255\0\E\008.
 
-Try it now. Repair the solar collectors and reclaim the wreckages to continue.</Message>
-                  <StringID z:Id="841" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_areaCommands</StringID>
+Repair the solar collectors and reclaim the wreckages using area commands to continue.</Message>
+                  <StringID z:Id="836" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_areaCommands</StringID>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                 </TriggerLogic>
-                <TriggerLogic z:Id="842" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="843">Custom Marker</Name>
-                  <CodeStr z:Id="844" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.CustomMarker then
+                <TriggerLogic z:Id="837" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="838">Custom Marker</Name>
+                  <CodeStr z:Id="839" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.CustomMarker then
   WG.CustomMarker.ClearPoints()
   WG.CustomMarker.AddPoint("cleanup", 690, 190, "Reclaim and repair")
 end</CodeStr>
@@ -1696,45 +1682,45 @@ end</CodeStr>
               <_size>5</_size>
               <_version>13</_version>
             </items>
-            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="845">
+            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="840">
               <d7p1:_busyCount>0</d7p1:_busyCount>
             </_monitor>
           </Logic>
           <MaxOccurrences>1</MaxOccurrences>
-          <Name z:Id="846">Area Commands</Name>
+          <Name z:Id="841">Area Commands</Name>
           <Probability>1</Probability>
         </Trigger>
-        <Trigger z:Id="847">
+        <Trigger z:Id="842">
           <Enabled>true</Enabled>
           <Folder i:nil="true" />
           <IsExpanded>true</IsExpanded>
-          <Logic z:Id="848">
-            <items z:Id="849" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-              <_items z:Id="850" z:Size="4">
-                <TriggerLogic z:Id="851" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="852">Custom Action (Alternate)</Name>
-                  <CodeStr z:Id="853" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 5)
+          <Logic z:Id="843">
+            <items z:Id="844" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+              <_items z:Id="845" z:Size="4">
+                <TriggerLogic z:Id="846" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="847">Custom Action (Alternate)</Name>
+                  <CodeStr z:Id="848" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 5)
 Spring.SetGameRulesParam("tutorial_show_next_button", 1)</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
-                <TriggerLogic z:Id="854" z:Type="CMissionLib.Actions.GuiMessagePersistentAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="855">GUI Message (Persistent)</Name>
+                <TriggerLogic z:Id="849" z:Type="CMissionLib.Actions.GuiMessagePersistentAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="850">GUI Message (Persistent)</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
                   <ImagePath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <Message z:Id="856" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Now that we have our stuff up and running, let's take a look at something else.
+                  <Message z:Id="851" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Now that we have our stuff up and running, let's take a look at something else.
 
 \255\255\255\0\Energy\008 is the other basic resource. You need an equal amount of metal and energy to build things, and energy is also used to repair units and operate certain abilities like cloaking.
 
 You can see your current metal and energy in the \255\255\255\0\resource panel\008 at the top of the screen (highlighted). It shows how much you're earning, how much you have stored and how much you're spending.
 
 Click Next to continue.</Message>
-                  <StringID z:Id="857" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_energy</StringID>
+                  <StringID z:Id="852" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_energy</StringID>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                 </TriggerLogic>
-                <TriggerLogic z:Id="858" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="859">Custom Action (Alternate)</Name>
-                  <CodeStr z:Id="860" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.ChiliHighlight then
+                <TriggerLogic z:Id="853" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="854">Custom Action (Alternate)</Name>
+                  <CodeStr z:Id="855" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.ChiliHighlight then
   WG.ChiliHighlight.AddControl("Metal", nil, true, 4)
   WG.ChiliHighlight.AddControl("Energy", nil, true, 4)
 end
@@ -1748,63 +1734,63 @@ end</CodeStr>
               <_size>3</_size>
               <_version>3</_version>
             </items>
-            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="861">
+            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="856">
               <d7p1:_busyCount>0</d7p1:_busyCount>
             </_monitor>
           </Logic>
           <MaxOccurrences>1</MaxOccurrences>
-          <Name z:Id="862">Energy Intro</Name>
+          <Name z:Id="857">Energy Intro</Name>
           <Probability>1</Probability>
         </Trigger>
-        <Trigger z:Id="863">
+        <Trigger z:Id="858">
           <Enabled>true</Enabled>
           <Folder i:nil="true" />
           <IsExpanded>true</IsExpanded>
-          <Logic z:Id="864">
-            <items z:Id="865" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-              <_items z:Id="866" z:Size="8">
-                <TriggerLogic z:Id="867" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="868">Custom Action (Alternate)</Name>
-                  <CodeStr z:Id="869" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 6)
+          <Logic z:Id="859">
+            <items z:Id="860" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+              <_items z:Id="861" z:Size="8">
+                <TriggerLogic z:Id="862" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="863">Custom Action (Alternate)</Name>
+                  <CodeStr z:Id="864" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 6)
 Spring.SetGameRulesParam("tutorial_show_next_button", 0)
 GG.CommandLocker.UnlockCMD(CMD.MOVE)</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
-                <TriggerLogic z:Id="870" z:Type="CMissionLib.Actions.GuiMessagePersistentAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="871">GUI Message (Persistent)</Name>
+                <TriggerLogic z:Id="865" z:Type="CMissionLib.Actions.GuiMessagePersistentAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="866">GUI Message (Persistent)</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
                   <ImagePath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <Message z:Id="872" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Several buildings produce energy, but the \255\0\255\255\Solar Collector\008 is the most basic. Let's build one.
+                  <Message z:Id="867" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Several buildings produce energy, but the \255\0\255\255\Solar Collector\008 is the most basic. Let's build one.
 + Select your commander
 + Click the \255\255\255\0\Econ\008 tab in the menu (highlighted)
 + Left click the Solar Collector button
 + Left click on the ground where you want to place the building
 
-TIP: Hold down \255\0\255\0\Shift\008 to click and drag a line of buildings.</Message>
-                  <StringID z:Id="873" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_solar</StringID>
+TIP: Hold down \255\0\255\0\Shift\008 to click and drag a line of buildings. If you accidentally stop construction, \255\0\255\0\right click\008 the unfinished building to resume.</Message>
+                  <StringID z:Id="868" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_solar</StringID>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                 </TriggerLogic>
-                <TriggerLogic z:Id="874" z:Type="CMissionLib.Actions.CreateUnitsAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="875">Create Units</Name>
+                <TriggerLogic z:Id="869" z:Type="CMissionLib.Actions.CreateUnitsAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="870">Create Units</Name>
                   <CEG z:Ref="13" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <Units xmlns:d10p1="http://schemas.datacontract.org/2004/07/CMissionLib" z:Id="876" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
-                    <d10p1:items z:Id="877" z:Type="System.Collections.Generic.List`1[[CMissionLib.UnitStartInfo, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-                      <d10p1:_items z:Id="878" z:Size="4">
-                        <d10p1:UnitStartInfo z:Id="879">
+                  <Units xmlns:d10p1="http://schemas.datacontract.org/2004/07/CMissionLib" z:Id="871" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
+                    <d10p1:items z:Id="872" z:Type="System.Collections.Generic.List`1[[CMissionLib.UnitStartInfo, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+                      <d10p1:_items z:Id="873" z:Size="4">
+                        <d10p1:UnitStartInfo z:Id="874">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
                             <d14p1:_x>118</d14p1:_x>
                             <d14p1:_y>74</d14p1:_y>
                           </d10p1:Point>
                           <d10p1:X>118</d10p1:X>
                           <d10p1:Y>74</d10p1:Y>
-                          <d10p1:Groups xmlns:d14p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="880">
-                            <d14p1:items z:Id="881" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
-                              <d14p1:_items z:Id="882" z:Size="0" />
+                          <d10p1:Groups xmlns:d14p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="875">
+                            <d14p1:items z:Id="876" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
+                              <d14p1:_items z:Id="877" z:Size="0" />
                               <d14p1:_size>0</d14p1:_size>
                               <d14p1:_version>0</d14p1:_version>
                             </d14p1:items>
-                            <d14p1:_monitor xmlns:d15p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="883">
+                            <d14p1:_monitor xmlns:d15p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="878">
                               <d15p1:_busyCount>0</d15p1:_busyCount>
                             </d14p1:_monitor>
                           </d10p1:Groups>
@@ -1820,17 +1806,17 @@ TIP: Hold down \255\0\255\0\Shift\008 to click and drag a line of buildings.</Me
                       <d10p1:_size>1</d10p1:_size>
                       <d10p1:_version>1</d10p1:_version>
                     </d10p1:items>
-                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="884">
+                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="879">
                       <d11p1:_busyCount>0</d11p1:_busyCount>
                     </d10p1:_monitor>
                   </Units>
                   <UseOrbitalDrop xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</UseOrbitalDrop>
                 </TriggerLogic>
-                <TriggerLogic z:Id="885" z:Type="CMissionLib.Actions.UnlockUnitsAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="886">Unlock Units</Name>
-                  <Players xmlns:d10p1="http://schemas.datacontract.org/2004/07/CMissionLib" z:Id="887" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
-                    <d10p1:items z:Id="888" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-                      <d10p1:_items z:Id="889" z:Size="4">
+                <TriggerLogic z:Id="880" z:Type="CMissionLib.Actions.UnlockUnitsAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="881">Unlock Units</Name>
+                  <Players xmlns:d10p1="http://schemas.datacontract.org/2004/07/CMissionLib" z:Id="882" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
+                    <d10p1:items z:Id="883" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+                      <d10p1:_items z:Id="884" z:Size="4">
                         <d10p1:Player z:Ref="43" i:nil="true" />
                         <d10p1:Player i:nil="true" />
                         <d10p1:Player i:nil="true" />
@@ -1839,14 +1825,14 @@ TIP: Hold down \255\0\255\0\Shift\008 to click and drag a line of buildings.</Me
                       <d10p1:_size>1</d10p1:_size>
                       <d10p1:_version>1</d10p1:_version>
                     </d10p1:items>
-                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="890">
+                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="885">
                       <d11p1:_busyCount>0</d11p1:_busyCount>
                     </d10p1:_monitor>
                   </Players>
-                  <Units xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="891" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
-                    <d10p1:items z:Id="892" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
-                      <d10p1:_items z:Id="893" z:Size="4">
-                        <d10p1:string z:Id="894">energysolar</d10p1:string>
+                  <Units xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="886" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
+                    <d10p1:items z:Id="887" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
+                      <d10p1:_items z:Id="888" z:Size="4">
+                        <d10p1:string z:Id="889">energysolar</d10p1:string>
                         <d10p1:string i:nil="true" />
                         <d10p1:string i:nil="true" />
                         <d10p1:string i:nil="true" />
@@ -1854,35 +1840,35 @@ TIP: Hold down \255\0\255\0\Shift\008 to click and drag a line of buildings.</Me
                       <d10p1:_size>1</d10p1:_size>
                       <d10p1:_version>1</d10p1:_version>
                     </d10p1:items>
-                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="895">
+                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="890">
                       <d11p1:_busyCount>0</d11p1:_busyCount>
                     </d10p1:_monitor>
                   </Units>
                 </TriggerLogic>
-                <TriggerLogic z:Id="896" z:Type="CMissionLib.Actions.EnableTriggersAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="897">Enable Triggers</Name>
-                  <Triggers xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="898" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
-                    <d10p1:items z:Id="899" z:Type="System.Collections.Generic.List`1[[CMissionLib.INamed, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-                      <d10p1:_items z:Id="900" z:Size="4">
-                        <d10p1:anyType z:Id="901" z:Type="CMissionLib.Trigger" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                <TriggerLogic z:Id="891" z:Type="CMissionLib.Actions.EnableTriggersAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="892">Enable Triggers</Name>
+                  <Triggers xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="893" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
+                    <d10p1:items z:Id="894" z:Type="System.Collections.Generic.List`1[[CMissionLib.INamed, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+                      <d10p1:_items z:Id="895" z:Size="4">
+                        <d10p1:anyType z:Id="896" z:Type="CMissionLib.Trigger" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                           <Enabled xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">false</Enabled>
                           <Folder i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib" />
                           <IsExpanded xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">true</IsExpanded>
-                          <Logic z:Id="902" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
-                            <items z:Id="903" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-                              <_items z:Id="904" z:Size="8">
-                                <TriggerLogic z:Id="905" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="906">Custom Action (Alternate)</Name>
-                                  <CodeStr z:Id="907" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 7)
+                          <Logic z:Id="897" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
+                            <items z:Id="898" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+                              <_items z:Id="899" z:Size="8">
+                                <TriggerLogic z:Id="900" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                  <Name z:Id="901">Custom Action (Alternate)</Name>
+                                  <CodeStr z:Id="902" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 7)
 GG.CommandLocker.UnlockCMD(30100)  -- area mex</CodeStr>
                                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                                 </TriggerLogic>
-                                <TriggerLogic z:Id="908" z:Type="CMissionLib.Actions.GuiMessagePersistentAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="909">GUI Message (Persistent)</Name>
+                                <TriggerLogic z:Id="903" z:Type="CMissionLib.Actions.GuiMessagePersistentAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                  <Name z:Id="904">GUI Message (Persistent)</Name>
                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
                                   <ImagePath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                                  <Message z:Id="910" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Good work. Now let's make a \255\0\255\255\Metal Extractor\008 ("mex" for short) as well.
+                                  <Message z:Id="905" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Good work. Now let's make a \255\0\255\255\Metal Extractor\008 ("mex" for short) as well.
 
 Metal extractors can only be built on \255\255\255\0\metal spots\008. You can make them in the same way as the Solar Collector, but it's easier to use the \255\255\255\0\area mex\008 command:
 + Select your commander
@@ -1891,29 +1877,29 @@ Metal extractors can only be built on \255\255\255\0\metal spots\008. You can ma
 + \255\0\255\0\Left click and drag\008 a circle on the ground
 
 If you're having trouble finding metal spots, press \255\0\255\0\F4\008 for the economy view.</Message>
-                                  <StringID z:Id="911" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_mex</StringID>
+                                  <StringID z:Id="906" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_mex</StringID>
                                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                                 </TriggerLogic>
-                                <TriggerLogic z:Id="912" z:Type="CMissionLib.Actions.CreateUnitsAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="913">Create Units</Name>
+                                <TriggerLogic z:Id="907" z:Type="CMissionLib.Actions.CreateUnitsAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                  <Name z:Id="908">Create Units</Name>
                                   <CEG z:Ref="13" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                                  <Units xmlns:d18p1="http://schemas.datacontract.org/2004/07/CMissionLib" z:Id="914" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
-                                    <d18p1:items z:Id="915" z:Type="System.Collections.Generic.List`1[[CMissionLib.UnitStartInfo, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-                                      <d18p1:_items z:Id="916" z:Size="4">
-                                        <d18p1:UnitStartInfo z:Id="917">
+                                  <Units xmlns:d18p1="http://schemas.datacontract.org/2004/07/CMissionLib" z:Id="909" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
+                                    <d18p1:items z:Id="910" z:Type="System.Collections.Generic.List`1[[CMissionLib.UnitStartInfo, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+                                      <d18p1:_items z:Id="911" z:Size="4">
+                                        <d18p1:UnitStartInfo z:Id="912">
                                           <d18p1:Point xmlns:d22p1="http://schemas.datacontract.org/2004/07/System.Windows">
                                             <d22p1:_x>154</d22p1:_x>
                                             <d22p1:_y>34</d22p1:_y>
                                           </d18p1:Point>
                                           <d18p1:X>154</d18p1:X>
                                           <d18p1:Y>34</d18p1:Y>
-                                          <d18p1:Groups z:Id="918">
-                                            <d10p1:items z:Id="919" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
-                                              <d10p1:_items z:Ref="882" i:nil="true" />
+                                          <d18p1:Groups z:Id="913">
+                                            <d10p1:items z:Id="914" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
+                                              <d10p1:_items z:Ref="877" i:nil="true" />
                                               <d10p1:_size>0</d10p1:_size>
                                               <d10p1:_version>0</d10p1:_version>
                                             </d10p1:items>
-                                            <d10p1:_monitor xmlns:d23p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="920">
+                                            <d10p1:_monitor xmlns:d23p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="915">
                                               <d23p1:_busyCount>0</d23p1:_busyCount>
                                             </d10p1:_monitor>
                                           </d18p1:Groups>
@@ -1929,17 +1915,17 @@ If you're having trouble finding metal spots, press \255\0\255\0\F4\008 for the 
                                       <d18p1:_size>1</d18p1:_size>
                                       <d18p1:_version>5</d18p1:_version>
                                     </d18p1:items>
-                                    <d18p1:_monitor xmlns:d19p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="921">
+                                    <d18p1:_monitor xmlns:d19p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="916">
                                       <d19p1:_busyCount>0</d19p1:_busyCount>
                                     </d18p1:_monitor>
                                   </Units>
                                   <UseOrbitalDrop xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</UseOrbitalDrop>
                                 </TriggerLogic>
-                                <TriggerLogic z:Id="922" z:Type="CMissionLib.Conditions.UnitFinishedCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="923">Unit Finished</Name>
-                                  <Players xmlns:d18p1="http://schemas.datacontract.org/2004/07/CMissionLib" z:Id="924" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">
-                                    <d18p1:items z:Id="925" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-                                      <d18p1:_items z:Id="926" z:Size="4">
+                                <TriggerLogic z:Id="917" z:Type="CMissionLib.Conditions.UnitFinishedCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                  <Name z:Id="918">Unit Finished</Name>
+                                  <Players xmlns:d18p1="http://schemas.datacontract.org/2004/07/CMissionLib" z:Id="919" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">
+                                    <d18p1:items z:Id="920" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+                                      <d18p1:_items z:Id="921" z:Size="4">
                                         <d18p1:Player z:Ref="43" i:nil="true" />
                                         <d18p1:Player i:nil="true" />
                                         <d18p1:Player i:nil="true" />
@@ -1948,14 +1934,14 @@ If you're having trouble finding metal spots, press \255\0\255\0\F4\008 for the 
                                       <d18p1:_size>1</d18p1:_size>
                                       <d18p1:_version>1</d18p1:_version>
                                     </d18p1:items>
-                                    <d18p1:_monitor xmlns:d19p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="927">
+                                    <d18p1:_monitor xmlns:d19p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="922">
                                       <d19p1:_busyCount>0</d19p1:_busyCount>
                                     </d18p1:_monitor>
                                   </Players>
-                                  <Units z:Id="928" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">
-                                    <d10p1:items z:Id="929" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
-                                      <d10p1:_items z:Id="930" z:Size="4">
-                                        <d10p1:string z:Id="931">energysolar</d10p1:string>
+                                  <Units z:Id="923" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">
+                                    <d10p1:items z:Id="924" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
+                                      <d10p1:_items z:Id="925" z:Size="4">
+                                        <d10p1:string z:Id="926">energysolar</d10p1:string>
                                         <d10p1:string i:nil="true" />
                                         <d10p1:string i:nil="true" />
                                         <d10p1:string i:nil="true" />
@@ -1963,16 +1949,16 @@ If you're having trouble finding metal spots, press \255\0\255\0\F4\008 for the 
                                       <d10p1:_size>1</d10p1:_size>
                                       <d10p1:_version>9</d10p1:_version>
                                     </d10p1:items>
-                                    <d10p1:_monitor xmlns:d19p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="932">
+                                    <d10p1:_monitor xmlns:d19p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="927">
                                       <d19p1:_busyCount>0</d19p1:_busyCount>
                                     </d10p1:_monitor>
                                   </Units>
                                 </TriggerLogic>
-                                <TriggerLogic z:Id="933" z:Type="CMissionLib.Actions.UnlockUnitsAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Ref="886" i:nil="true" />
-                                  <Players xmlns:d18p1="http://schemas.datacontract.org/2004/07/CMissionLib" z:Id="934" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
-                                    <d18p1:items z:Id="935" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-                                      <d18p1:_items z:Id="936" z:Size="4">
+                                <TriggerLogic z:Id="928" z:Type="CMissionLib.Actions.UnlockUnitsAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                  <Name z:Ref="881" i:nil="true" />
+                                  <Players xmlns:d18p1="http://schemas.datacontract.org/2004/07/CMissionLib" z:Id="929" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
+                                    <d18p1:items z:Id="930" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+                                      <d18p1:_items z:Id="931" z:Size="4">
                                         <d18p1:Player z:Ref="43" i:nil="true" />
                                         <d18p1:Player i:nil="true" />
                                         <d18p1:Player i:nil="true" />
@@ -1981,14 +1967,14 @@ If you're having trouble finding metal spots, press \255\0\255\0\F4\008 for the 
                                       <d18p1:_size>1</d18p1:_size>
                                       <d18p1:_version>1</d18p1:_version>
                                     </d18p1:items>
-                                    <d18p1:_monitor xmlns:d19p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="937">
+                                    <d18p1:_monitor xmlns:d19p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="932">
                                       <d19p1:_busyCount>0</d19p1:_busyCount>
                                     </d18p1:_monitor>
                                   </Players>
-                                  <Units z:Id="938" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
-                                    <d10p1:items z:Id="939" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
-                                      <d10p1:_items z:Id="940" z:Size="4">
-                                        <d10p1:string z:Id="941">staticmex</d10p1:string>
+                                  <Units z:Id="933" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
+                                    <d10p1:items z:Id="934" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
+                                      <d10p1:_items z:Id="935" z:Size="4">
+                                        <d10p1:string z:Id="936">staticmex</d10p1:string>
                                         <d10p1:string i:nil="true" />
                                         <d10p1:string i:nil="true" />
                                         <d10p1:string i:nil="true" />
@@ -1996,64 +1982,64 @@ If you're having trouble finding metal spots, press \255\0\255\0\F4\008 for the 
                                       <d10p1:_size>1</d10p1:_size>
                                       <d10p1:_version>1</d10p1:_version>
                                     </d10p1:items>
-                                    <d10p1:_monitor xmlns:d19p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="942">
+                                    <d10p1:_monitor xmlns:d19p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="937">
                                       <d19p1:_busyCount>0</d19p1:_busyCount>
                                     </d10p1:_monitor>
                                   </Units>
                                 </TriggerLogic>
-                                <TriggerLogic z:Id="943" z:Type="CMissionLib.Actions.EnableTriggersAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="944">Enable Triggers</Name>
-                                  <Triggers z:Id="945" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
-                                    <d10p1:items z:Id="946" z:Type="System.Collections.Generic.List`1[[CMissionLib.INamed, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-                                      <d10p1:_items z:Id="947" z:Size="4">
-                                        <d10p1:anyType z:Id="948" z:Type="CMissionLib.Trigger" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                <TriggerLogic z:Id="938" z:Type="CMissionLib.Actions.EnableTriggersAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                  <Name z:Id="939">Enable Triggers</Name>
+                                  <Triggers z:Id="940" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
+                                    <d10p1:items z:Id="941" z:Type="System.Collections.Generic.List`1[[CMissionLib.INamed, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+                                      <d10p1:_items z:Id="942" z:Size="4">
+                                        <d10p1:anyType z:Id="943" z:Type="CMissionLib.Trigger" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                           <Enabled xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">false</Enabled>
                                           <Folder i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib" />
                                           <IsExpanded xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">true</IsExpanded>
-                                          <Logic z:Id="949" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
-                                            <items z:Id="950" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-                                              <_items z:Id="951" z:Size="8">
-                                                <TriggerLogic z:Id="952" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                                  <Name z:Id="953">Custom Action (Alternate)</Name>
-                                                  <CodeStr z:Id="954" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 8)
+                                          <Logic z:Id="944" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
+                                            <items z:Id="945" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+                                              <_items z:Id="946" z:Size="8">
+                                                <TriggerLogic z:Id="947" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                                  <Name z:Id="948">Custom Action (Alternate)</Name>
+                                                  <CodeStr z:Id="949" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 8)
 Spring.SetGameRulesParam("tutorial_show_next_button", 1)</CodeStr>
                                                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                                                 </TriggerLogic>
-                                                <TriggerLogic z:Id="955" z:Type="CMissionLib.Actions.GuiMessagePersistentAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                                  <Name z:Id="956">GUI Message (Persistent)</Name>
+                                                <TriggerLogic z:Id="950" z:Type="CMissionLib.Actions.GuiMessagePersistentAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                                  <Name z:Id="951">GUI Message (Persistent)</Name>
                                                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                                                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
                                                   <ImagePath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                                                  <Message z:Id="957" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Notice the colored circles on the ground when a mex or solar collector is selected. They represent the \255\255\255\0\overdrive\008 grid.
+                                                  <Message z:Id="952" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Notice the colored circles on the ground when a mex or solar collector is selected. They represent the \255\255\255\0\overdrive\008 grid.
 
 Overdrive lets mexes produce more metal from surplus energy. This requires a \255\255\255\0\grid connection\008 created by making the circles touch. Overdrive \255\255\255\0\becomes less efficient\008 the more energy is used.
 
 \255\0\255\0\Mouse over\008 the mex and solar collector to see how much energy is being converted to metal.
 
 Build a Solar Collector in the designated location to connect the mex and see how overdrive increases its output. Click Next to continue.</Message>
-                                                  <StringID z:Id="958" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_overdrive</StringID>
+                                                  <StringID z:Id="953" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_overdrive</StringID>
                                                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                                                 </TriggerLogic>
-                                                <TriggerLogic z:Id="959" z:Type="CMissionLib.Actions.CreateUnitsAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                                  <Name z:Id="960">Create Units</Name>
+                                                <TriggerLogic z:Id="954" z:Type="CMissionLib.Actions.CreateUnitsAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                                  <Name z:Id="955">Create Units</Name>
                                                   <CEG z:Ref="13" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                                                  <Units xmlns:d26p1="http://schemas.datacontract.org/2004/07/CMissionLib" z:Id="961" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
-                                                    <d26p1:items z:Id="962" z:Type="System.Collections.Generic.List`1[[CMissionLib.UnitStartInfo, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-                                                      <d26p1:_items z:Id="963" z:Size="4">
-                                                        <d26p1:UnitStartInfo z:Id="964">
+                                                  <Units xmlns:d26p1="http://schemas.datacontract.org/2004/07/CMissionLib" z:Id="956" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
+                                                    <d26p1:items z:Id="957" z:Type="System.Collections.Generic.List`1[[CMissionLib.UnitStartInfo, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+                                                      <d26p1:_items z:Id="958" z:Size="4">
+                                                        <d26p1:UnitStartInfo z:Id="959">
                                                           <d26p1:Point xmlns:d30p1="http://schemas.datacontract.org/2004/07/System.Windows">
                                                             <d30p1:_x>142</d30p1:_x>
                                                             <d30p1:_y>54</d30p1:_y>
                                                           </d26p1:Point>
                                                           <d26p1:X>142</d26p1:X>
                                                           <d26p1:Y>54</d26p1:Y>
-                                                          <d26p1:Groups z:Id="965">
-                                                            <d10p1:items z:Id="966" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
-                                                              <d10p1:_items z:Id="967" z:Size="0" />
+                                                          <d26p1:Groups z:Id="960">
+                                                            <d10p1:items z:Id="961" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
+                                                              <d10p1:_items z:Id="962" z:Size="0" />
                                                               <d10p1:_size>0</d10p1:_size>
                                                               <d10p1:_version>0</d10p1:_version>
                                                             </d10p1:items>
-                                                            <d10p1:_monitor xmlns:d31p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="968">
+                                                            <d10p1:_monitor xmlns:d31p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="963">
                                                               <d31p1:_busyCount>0</d31p1:_busyCount>
                                                             </d10p1:_monitor>
                                                           </d26p1:Groups>
@@ -2069,17 +2055,17 @@ Build a Solar Collector in the designated location to connect the mex and see ho
                                                       <d26p1:_size>1</d26p1:_size>
                                                       <d26p1:_version>1</d26p1:_version>
                                                     </d26p1:items>
-                                                    <d26p1:_monitor xmlns:d27p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="969">
+                                                    <d26p1:_monitor xmlns:d27p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="964">
                                                       <d27p1:_busyCount>0</d27p1:_busyCount>
                                                     </d26p1:_monitor>
                                                   </Units>
                                                   <UseOrbitalDrop xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</UseOrbitalDrop>
                                                 </TriggerLogic>
-                                                <TriggerLogic z:Id="970" z:Type="CMissionLib.Conditions.UnitFinishedCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                                  <Name z:Id="971">Unit Finished</Name>
-                                                  <Players xmlns:d26p1="http://schemas.datacontract.org/2004/07/CMissionLib" z:Id="972" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">
-                                                    <d26p1:items z:Id="973" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-                                                      <d26p1:_items z:Id="974" z:Size="4">
+                                                <TriggerLogic z:Id="965" z:Type="CMissionLib.Conditions.UnitFinishedCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                                  <Name z:Id="966">Unit Finished</Name>
+                                                  <Players xmlns:d26p1="http://schemas.datacontract.org/2004/07/CMissionLib" z:Id="967" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">
+                                                    <d26p1:items z:Id="968" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+                                                      <d26p1:_items z:Id="969" z:Size="4">
                                                         <d26p1:Player z:Ref="43" i:nil="true" />
                                                         <d26p1:Player i:nil="true" />
                                                         <d26p1:Player i:nil="true" />
@@ -2088,14 +2074,14 @@ Build a Solar Collector in the designated location to connect the mex and see ho
                                                       <d26p1:_size>1</d26p1:_size>
                                                       <d26p1:_version>1</d26p1:_version>
                                                     </d26p1:items>
-                                                    <d26p1:_monitor xmlns:d27p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="975">
+                                                    <d26p1:_monitor xmlns:d27p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="970">
                                                       <d27p1:_busyCount>0</d27p1:_busyCount>
                                                     </d26p1:_monitor>
                                                   </Players>
-                                                  <Units z:Id="976" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">
-                                                    <d10p1:items z:Id="977" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
-                                                      <d10p1:_items z:Id="978" z:Size="4">
-                                                        <d10p1:string z:Ref="941" i:nil="true" />
+                                                  <Units z:Id="971" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">
+                                                    <d10p1:items z:Id="972" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
+                                                      <d10p1:_items z:Id="973" z:Size="4">
+                                                        <d10p1:string z:Ref="936" i:nil="true" />
                                                         <d10p1:string i:nil="true" />
                                                         <d10p1:string i:nil="true" />
                                                         <d10p1:string i:nil="true" />
@@ -2103,14 +2089,14 @@ Build a Solar Collector in the designated location to connect the mex and see ho
                                                       <d10p1:_size>1</d10p1:_size>
                                                       <d10p1:_version>3</d10p1:_version>
                                                     </d10p1:items>
-                                                    <d10p1:_monitor xmlns:d27p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="979">
+                                                    <d10p1:_monitor xmlns:d27p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="974">
                                                       <d27p1:_busyCount>0</d27p1:_busyCount>
                                                     </d10p1:_monitor>
                                                   </Units>
                                                 </TriggerLogic>
-                                                <TriggerLogic z:Id="980" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                                  <Name z:Id="981">Custom Action (Alternate)</Name>
-                                                  <CodeStr z:Id="982" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.ChiliHighlight then
+                                                <TriggerLogic z:Id="975" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                                  <Name z:Id="976">Custom Action (Alternate)</Name>
+                                                  <CodeStr z:Id="977" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.ChiliHighlight then
   WG.ChiliHighlight.ClearControls()
 end</CodeStr>
                                                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Synced>
@@ -2122,12 +2108,12 @@ end</CodeStr>
                                               <_size>5</_size>
                                               <_version>5</_version>
                                             </items>
-                                            <_monitor xmlns:d23p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="983">
+                                            <_monitor xmlns:d23p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="978">
                                               <d23p1:_busyCount>0</d23p1:_busyCount>
                                             </_monitor>
                                           </Logic>
                                           <MaxOccurrences xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">1</MaxOccurrences>
-                                          <Name z:Id="984" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">Overdrive</Name>
+                                          <Name z:Id="979" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">Overdrive</Name>
                                           <Probability xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">1</Probability>
                                         </d10p1:anyType>
                                         <d10p1:anyType i:nil="true" />
@@ -2137,14 +2123,14 @@ end</CodeStr>
                                       <d10p1:_size>1</d10p1:_size>
                                       <d10p1:_version>3</d10p1:_version>
                                     </d10p1:items>
-                                    <d10p1:_monitor xmlns:d19p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="985">
+                                    <d10p1:_monitor xmlns:d19p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="980">
                                       <d19p1:_busyCount>0</d19p1:_busyCount>
                                     </d10p1:_monitor>
                                   </Triggers>
                                 </TriggerLogic>
-                                <TriggerLogic z:Id="986" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="987">Custom Action (Alternate)</Name>
-                                  <CodeStr z:Id="988" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.ChiliHighlight then
+                                <TriggerLogic z:Id="981" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                  <Name z:Id="982">Custom Action (Alternate)</Name>
+                                  <CodeStr z:Id="983" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.ChiliHighlight then
   WG.ChiliHighlight.ClearControls()
   
   -- highlight area mex
@@ -2162,12 +2148,12 @@ end</CodeStr>
                               <_size>7</_size>
                               <_version>9</_version>
                             </items>
-                            <_monitor xmlns:d15p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="989">
+                            <_monitor xmlns:d15p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="984">
                               <d15p1:_busyCount>0</d15p1:_busyCount>
                             </_monitor>
                           </Logic>
                           <MaxOccurrences xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">1</MaxOccurrences>
-                          <Name z:Id="990" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">Build Mex</Name>
+                          <Name z:Id="985" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">Build Mex</Name>
                           <Probability xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">1</Probability>
                         </d10p1:anyType>
                         <d10p1:anyType i:nil="true" />
@@ -2177,14 +2163,14 @@ end</CodeStr>
                       <d10p1:_size>1</d10p1:_size>
                       <d10p1:_version>3</d10p1:_version>
                     </d10p1:items>
-                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="991">
+                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="986">
                       <d11p1:_busyCount>0</d11p1:_busyCount>
                     </d10p1:_monitor>
                   </Triggers>
                 </TriggerLogic>
-                <TriggerLogic z:Id="992" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="993">Custom Action (Alternate)</Name>
-                  <CodeStr z:Id="994" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.ChiliHighlight then
+                <TriggerLogic z:Id="987" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="988">Custom Action (Alternate)</Name>
+                  <CodeStr z:Id="989" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.ChiliHighlight then
   WG.ChiliHighlight.RemoveControl("Metal", {0.5,1,0.25}, 4)
   WG.ChiliHighlight.RemoveControl("Energy", {0.25,1,0.5}, 4)
   
@@ -2204,37 +2190,37 @@ end</CodeStr>
               <_size>6</_size>
               <_version>10</_version>
             </items>
-            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="995">
+            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="990">
               <d7p1:_busyCount>0</d7p1:_busyCount>
             </_monitor>
           </Logic>
           <MaxOccurrences>1</MaxOccurrences>
-          <Name z:Id="996">Build Solar</Name>
+          <Name z:Id="991">Build Solar</Name>
           <Probability>1</Probability>
         </Trigger>
-        <Trigger z:Ref="901" i:nil="true" />
-        <Trigger z:Ref="948" i:nil="true" />
-        <Trigger z:Id="997">
+        <Trigger z:Ref="896" i:nil="true" />
+        <Trigger z:Ref="943" i:nil="true" />
+        <Trigger z:Id="992">
           <Enabled>true</Enabled>
           <Folder i:nil="true" />
           <IsExpanded>true</IsExpanded>
-          <Logic z:Id="998">
-            <items z:Id="999" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-              <_items z:Id="1000" z:Size="8">
-                <TriggerLogic z:Id="1001" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1002">Custom Action (Alternate)</Name>
-                  <CodeStr z:Id="1003" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 9)
+          <Logic z:Id="993">
+            <items z:Id="994" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+              <_items z:Id="995" z:Size="8">
+                <TriggerLogic z:Id="996" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="997">Custom Action (Alternate)</Name>
+                  <CodeStr z:Id="998" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 9)
 Spring.SetGameRulesParam("tutorial_show_next_button", 0)
 local unitID = GG.mission.FindUnitInGroup("Comm")
 GG.GiveFacplop(unitID)</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
-                <TriggerLogic z:Id="1004" z:Type="CMissionLib.Actions.GuiMessagePersistentAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1005">GUI Message (Persistent)</Name>
+                <TriggerLogic z:Id="999" z:Type="CMissionLib.Actions.GuiMessagePersistentAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="1000">GUI Message (Persistent)</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
                   <ImagePath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <Message z:Id="1006" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Good. Now that we have metal and energy, it's time to spend it with a \255\255\255\0\factory\008.
+                  <Message z:Id="1001" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Good. Now that we have metal and energy, it's time to spend it with a \255\255\255\0\factory\008.
 
 Build a  \255\0\255\255\Cloaky Bot Factory\008.
 + Select your commander
@@ -2243,25 +2229,25 @@ Build a  \255\0\255\255\Cloaky Bot Factory\008.
 + Left click on the ground where you want to place the building
 
 The factory icon over your commanders' head means you have a free factory ready to deploy (a "\255\255\255\0\facplop\008").</Message>
-                  <StringID z:Id="1007" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_factory</StringID>
+                  <StringID z:Id="1002" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_factory</StringID>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                 </TriggerLogic>
-                <TriggerLogic z:Id="1008" z:Type="CMissionLib.Actions.CreateUnitsAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1009">Create Units</Name>
+                <TriggerLogic z:Id="1003" z:Type="CMissionLib.Actions.CreateUnitsAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="1004">Create Units</Name>
                   <CEG z:Ref="13" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <Units xmlns:d10p1="http://schemas.datacontract.org/2004/07/CMissionLib" z:Id="1010" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
-                    <d10p1:items z:Id="1011" z:Type="System.Collections.Generic.List`1[[CMissionLib.UnitStartInfo, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-                      <d10p1:_items z:Id="1012" z:Size="4">
-                        <d10p1:UnitStartInfo z:Id="1013">
+                  <Units xmlns:d10p1="http://schemas.datacontract.org/2004/07/CMissionLib" z:Id="1005" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
+                    <d10p1:items z:Id="1006" z:Type="System.Collections.Generic.List`1[[CMissionLib.UnitStartInfo, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+                      <d10p1:_items z:Id="1007" z:Size="4">
+                        <d10p1:UnitStartInfo z:Id="1008">
                           <d10p1:Point xmlns:d14p1="http://schemas.datacontract.org/2004/07/System.Windows">
                             <d14p1:_x>154</d14p1:_x>
                             <d14p1:_y>102</d14p1:_y>
                           </d10p1:Point>
                           <d10p1:X>154</d10p1:X>
                           <d10p1:Y>102</d10p1:Y>
-                          <d10p1:Groups xmlns:d14p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="1014">
-                            <d14p1:items z:Id="1015" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
-                              <d14p1:_items z:Id="1016" z:Size="4">
+                          <d10p1:Groups xmlns:d14p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="1009">
+                            <d14p1:items z:Id="1010" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
+                              <d14p1:_items z:Id="1011" z:Size="4">
                                 <d14p1:string z:Ref="13" i:nil="true" />
                                 <d14p1:string i:nil="true" />
                                 <d14p1:string i:nil="true" />
@@ -2270,14 +2256,14 @@ The factory icon over your commanders' head means you have a free factory ready 
                               <d14p1:_size>1</d14p1:_size>
                               <d14p1:_version>1</d14p1:_version>
                             </d14p1:items>
-                            <d14p1:_monitor xmlns:d15p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1017">
+                            <d14p1:_monitor xmlns:d15p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1012">
                               <d15p1:_busyCount>0</d15p1:_busyCount>
                             </d14p1:_monitor>
                           </d10p1:Groups>
                           <d10p1:Heading>179.84742894178584</d10p1:Heading>
                           <d10p1:IsGhost>true</d10p1:IsGhost>
                           <d10p1:Player z:Ref="43" i:nil="true" />
-                          <d10p1:UnitDefName z:Id="1018">factorycloak</d10p1:UnitDefName>
+                          <d10p1:UnitDefName z:Id="1013">factorycloak</d10p1:UnitDefName>
                         </d10p1:UnitStartInfo>
                         <d10p1:UnitStartInfo i:nil="true" />
                         <d10p1:UnitStartInfo i:nil="true" />
@@ -2286,17 +2272,17 @@ The factory icon over your commanders' head means you have a free factory ready 
                       <d10p1:_size>1</d10p1:_size>
                       <d10p1:_version>5</d10p1:_version>
                     </d10p1:items>
-                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1019">
+                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1014">
                       <d11p1:_busyCount>0</d11p1:_busyCount>
                     </d10p1:_monitor>
                   </Units>
                   <UseOrbitalDrop xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</UseOrbitalDrop>
                 </TriggerLogic>
-                <TriggerLogic z:Id="1020" z:Type="CMissionLib.Actions.UnlockUnitsAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1021">Unlock Units</Name>
-                  <Players xmlns:d10p1="http://schemas.datacontract.org/2004/07/CMissionLib" z:Id="1022" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
-                    <d10p1:items z:Id="1023" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-                      <d10p1:_items z:Id="1024" z:Size="4">
+                <TriggerLogic z:Id="1015" z:Type="CMissionLib.Actions.UnlockUnitsAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="1016">Unlock Units</Name>
+                  <Players xmlns:d10p1="http://schemas.datacontract.org/2004/07/CMissionLib" z:Id="1017" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
+                    <d10p1:items z:Id="1018" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+                      <d10p1:_items z:Id="1019" z:Size="4">
                         <d10p1:Player z:Ref="43" i:nil="true" />
                         <d10p1:Player i:nil="true" />
                         <d10p1:Player i:nil="true" />
@@ -2305,14 +2291,14 @@ The factory icon over your commanders' head means you have a free factory ready 
                       <d10p1:_size>1</d10p1:_size>
                       <d10p1:_version>1</d10p1:_version>
                     </d10p1:items>
-                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1025">
+                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1020">
                       <d11p1:_busyCount>0</d11p1:_busyCount>
                     </d10p1:_monitor>
                   </Players>
-                  <Units xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="1026" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
-                    <d10p1:items z:Id="1027" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
-                      <d10p1:_items z:Id="1028" z:Size="4">
-                        <d10p1:string z:Id="1029">factorycloak</d10p1:string>
+                  <Units xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="1021" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
+                    <d10p1:items z:Id="1022" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
+                      <d10p1:_items z:Id="1023" z:Size="4">
+                        <d10p1:string z:Id="1024">factorycloak</d10p1:string>
                         <d10p1:string i:nil="true" />
                         <d10p1:string i:nil="true" />
                         <d10p1:string i:nil="true" />
@@ -2320,14 +2306,14 @@ The factory icon over your commanders' head means you have a free factory ready 
                       <d10p1:_size>1</d10p1:_size>
                       <d10p1:_version>5</d10p1:_version>
                     </d10p1:items>
-                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1030">
+                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1025">
                       <d11p1:_busyCount>0</d11p1:_busyCount>
                     </d10p1:_monitor>
                   </Units>
                 </TriggerLogic>
-                <TriggerLogic z:Id="1031" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="987" i:nil="true" />
-                  <CodeStr z:Id="1032" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.ChiliHighlight then
+                <TriggerLogic z:Id="1026" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Ref="982" i:nil="true" />
+                  <CodeStr z:Id="1027" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.ChiliHighlight then
   WG.ChiliHighlight.ClearControls()
 
   -- highlight factory buttons
@@ -2347,44 +2333,44 @@ end</CodeStr>
               <_size>5</_size>
               <_version>9</_version>
             </items>
-            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1033">
+            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1028">
               <d7p1:_busyCount>0</d7p1:_busyCount>
             </_monitor>
           </Logic>
           <MaxOccurrences>1</MaxOccurrences>
-          <Name z:Id="1034">Build Factory</Name>
+          <Name z:Id="1029">Build Factory</Name>
           <Probability>1</Probability>
         </Trigger>
-        <Trigger z:Id="1035">
+        <Trigger z:Id="1030">
           <Enabled>true</Enabled>
           <Folder i:nil="true" />
           <IsExpanded>true</IsExpanded>
-          <Logic z:Id="1036">
-            <items z:Id="1037" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-              <_items z:Id="1038" z:Size="8">
-                <TriggerLogic z:Id="1039" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1040">Custom Action (Alternate)</Name>
-                  <CodeStr z:Id="1041" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 10)</CodeStr>
+          <Logic z:Id="1031">
+            <items z:Id="1032" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+              <_items z:Id="1033" z:Size="8">
+                <TriggerLogic z:Id="1034" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="1035">Custom Action (Alternate)</Name>
+                  <CodeStr z:Id="1036" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 10)</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
-                <TriggerLogic z:Id="1042" z:Type="CMissionLib.Actions.GuiMessagePersistentAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1043">GUI Message (Persistent)</Name>
+                <TriggerLogic z:Id="1037" z:Type="CMissionLib.Actions.GuiMessagePersistentAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="1038">GUI Message (Persistent)</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
                   <ImagePath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <Message z:Id="1044" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Let's make some units with our factory. Build three \255\0\255\255\Glaive\008 bots.
+                  <Message z:Id="1039" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Let's make some units with our factory. Build three \255\0\255\255\Glaive\008 bots.
 
 + Select your new factory
 + Left click the \255\255\255\0\Units\008 tab
 + Left click Glaive three times</Message>
-                  <StringID z:Id="1045" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_buildUnits</StringID>
+                  <StringID z:Id="1040" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_buildUnits</StringID>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                 </TriggerLogic>
-                <TriggerLogic z:Id="1046" z:Type="CMissionLib.Conditions.UnitFinishedCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1047">Unit Finished</Name>
-                  <Players xmlns:d10p1="http://schemas.datacontract.org/2004/07/CMissionLib" z:Id="1048" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">
-                    <d10p1:items z:Id="1049" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-                      <d10p1:_items z:Id="1050" z:Size="4">
+                <TriggerLogic z:Id="1041" z:Type="CMissionLib.Conditions.UnitFinishedCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="1042">Unit Finished</Name>
+                  <Players xmlns:d10p1="http://schemas.datacontract.org/2004/07/CMissionLib" z:Id="1043" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">
+                    <d10p1:items z:Id="1044" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+                      <d10p1:_items z:Id="1045" z:Size="4">
                         <d10p1:Player z:Ref="43" i:nil="true" />
                         <d10p1:Player i:nil="true" />
                         <d10p1:Player i:nil="true" />
@@ -2393,14 +2379,14 @@ end</CodeStr>
                       <d10p1:_size>1</d10p1:_size>
                       <d10p1:_version>1</d10p1:_version>
                     </d10p1:items>
-                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1051">
+                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1046">
                       <d11p1:_busyCount>0</d11p1:_busyCount>
                     </d10p1:_monitor>
                   </Players>
-                  <Units xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="1052" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">
-                    <d10p1:items z:Id="1053" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
-                      <d10p1:_items z:Id="1054" z:Size="4">
-                        <d10p1:string z:Ref="1029" i:nil="true" />
+                  <Units xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="1047" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">
+                    <d10p1:items z:Id="1048" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
+                      <d10p1:_items z:Id="1049" z:Size="4">
+                        <d10p1:string z:Ref="1024" i:nil="true" />
                         <d10p1:string i:nil="true" />
                         <d10p1:string i:nil="true" />
                         <d10p1:string i:nil="true" />
@@ -2408,16 +2394,16 @@ end</CodeStr>
                       <d10p1:_size>1</d10p1:_size>
                       <d10p1:_version>9</d10p1:_version>
                     </d10p1:items>
-                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1055">
+                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1050">
                       <d11p1:_busyCount>0</d11p1:_busyCount>
                     </d10p1:_monitor>
                   </Units>
                 </TriggerLogic>
-                <TriggerLogic z:Id="1056" z:Type="CMissionLib.Actions.UnlockUnitsAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1057">Unlock Units</Name>
-                  <Players xmlns:d10p1="http://schemas.datacontract.org/2004/07/CMissionLib" z:Id="1058" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
-                    <d10p1:items z:Id="1059" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-                      <d10p1:_items z:Id="1060" z:Size="4">
+                <TriggerLogic z:Id="1051" z:Type="CMissionLib.Actions.UnlockUnitsAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="1052">Unlock Units</Name>
+                  <Players xmlns:d10p1="http://schemas.datacontract.org/2004/07/CMissionLib" z:Id="1053" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
+                    <d10p1:items z:Id="1054" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+                      <d10p1:_items z:Id="1055" z:Size="4">
                         <d10p1:Player z:Ref="43" i:nil="true" />
                         <d10p1:Player i:nil="true" />
                         <d10p1:Player i:nil="true" />
@@ -2426,14 +2412,14 @@ end</CodeStr>
                       <d10p1:_size>1</d10p1:_size>
                       <d10p1:_version>1</d10p1:_version>
                     </d10p1:items>
-                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1061">
+                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1056">
                       <d11p1:_busyCount>0</d11p1:_busyCount>
                     </d10p1:_monitor>
                   </Players>
-                  <Units xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="1062" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
-                    <d10p1:items z:Id="1063" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
-                      <d10p1:_items z:Id="1064" z:Size="4">
-                        <d10p1:string z:Id="1065">cloakraid</d10p1:string>
+                  <Units xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="1057" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
+                    <d10p1:items z:Id="1058" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
+                      <d10p1:_items z:Id="1059" z:Size="4">
+                        <d10p1:string z:Id="1060">cloakraid</d10p1:string>
                         <d10p1:string i:nil="true" />
                         <d10p1:string i:nil="true" />
                         <d10p1:string i:nil="true" />
@@ -2441,14 +2427,14 @@ end</CodeStr>
                       <d10p1:_size>1</d10p1:_size>
                       <d10p1:_version>3</d10p1:_version>
                     </d10p1:items>
-                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1066">
+                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1061">
                       <d11p1:_busyCount>0</d11p1:_busyCount>
                     </d10p1:_monitor>
                   </Units>
                 </TriggerLogic>
-                <TriggerLogic z:Id="1067" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="987" i:nil="true" />
-                  <CodeStr z:Id="1068" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.ChiliHighlight then
+                <TriggerLogic z:Id="1062" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Ref="982" i:nil="true" />
+                  <CodeStr z:Id="1063" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.ChiliHighlight then
   WG.ChiliHighlight.ClearControls()
 
   -- highlight Glaive buttons
@@ -2468,32 +2454,32 @@ end</CodeStr>
               <_size>5</_size>
               <_version>9</_version>
             </items>
-            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1069">
+            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1064">
               <d7p1:_busyCount>0</d7p1:_busyCount>
             </_monitor>
           </Logic>
           <MaxOccurrences>1</MaxOccurrences>
-          <Name z:Id="1070">Build Units 1</Name>
+          <Name z:Id="1065">Build Units 1</Name>
           <Probability>1</Probability>
         </Trigger>
-        <Trigger z:Id="1071">
+        <Trigger z:Id="1066">
           <Enabled>true</Enabled>
           <Folder i:nil="true" />
           <IsExpanded>true</IsExpanded>
-          <Logic z:Id="1072">
-            <items z:Id="1073" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-              <_items z:Id="1074" z:Size="4">
-                <TriggerLogic z:Id="1075" z:Type="CMissionLib.Actions.ModifyCounterAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1076">Modify Counter</Name>
-                  <Action z:Id="1077" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Increase</Action>
+          <Logic z:Id="1067">
+            <items z:Id="1068" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+              <_items z:Id="1069" z:Size="4">
+                <TriggerLogic z:Id="1070" z:Type="CMissionLib.Actions.ModifyCounterAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="1071">Modify Counter</Name>
+                  <Action z:Id="1072" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Increase</Action>
                   <Counter z:Ref="7" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Value xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">1</Value>
                 </TriggerLogic>
-                <TriggerLogic z:Id="1078" z:Type="CMissionLib.Conditions.UnitFinishedInFactoryCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1079">Unit Finished In Factory</Name>
-                  <Players xmlns:d10p1="http://schemas.datacontract.org/2004/07/CMissionLib" z:Id="1080" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">
-                    <d10p1:items z:Id="1081" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-                      <d10p1:_items z:Id="1082" z:Size="4">
+                <TriggerLogic z:Id="1073" z:Type="CMissionLib.Conditions.UnitFinishedInFactoryCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="1074">Unit Finished In Factory</Name>
+                  <Players xmlns:d10p1="http://schemas.datacontract.org/2004/07/CMissionLib" z:Id="1075" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">
+                    <d10p1:items z:Id="1076" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+                      <d10p1:_items z:Id="1077" z:Size="4">
                         <d10p1:Player z:Ref="43" i:nil="true" />
                         <d10p1:Player i:nil="true" />
                         <d10p1:Player i:nil="true" />
@@ -2502,14 +2488,14 @@ end</CodeStr>
                       <d10p1:_size>1</d10p1:_size>
                       <d10p1:_version>1</d10p1:_version>
                     </d10p1:items>
-                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1083">
+                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1078">
                       <d11p1:_busyCount>0</d11p1:_busyCount>
                     </d10p1:_monitor>
                   </Players>
-                  <Units xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="1084" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">
-                    <d10p1:items z:Id="1085" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
-                      <d10p1:_items z:Id="1086" z:Size="4">
-                        <d10p1:string z:Id="1087">cloakraid</d10p1:string>
+                  <Units xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="1079" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">
+                    <d10p1:items z:Id="1080" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
+                      <d10p1:_items z:Id="1081" z:Size="4">
+                        <d10p1:string z:Id="1082">cloakraid</d10p1:string>
                         <d10p1:string i:nil="true" />
                         <d10p1:string i:nil="true" />
                         <d10p1:string i:nil="true" />
@@ -2517,7 +2503,7 @@ end</CodeStr>
                       <d10p1:_size>1</d10p1:_size>
                       <d10p1:_version>1</d10p1:_version>
                     </d10p1:items>
-                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1088">
+                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1083">
                       <d11p1:_busyCount>0</d11p1:_busyCount>
                     </d10p1:_monitor>
                   </Units>
@@ -2528,75 +2514,75 @@ end</CodeStr>
               <_size>2</_size>
               <_version>4</_version>
             </items>
-            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1089">
+            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1084">
               <d7p1:_busyCount>0</d7p1:_busyCount>
             </_monitor>
           </Logic>
           <MaxOccurrences>3</MaxOccurrences>
-          <Name z:Id="1090">Glaive Built</Name>
+          <Name z:Id="1085">Glaive Built</Name>
           <Probability>1</Probability>
         </Trigger>
-        <Trigger z:Id="1091">
+        <Trigger z:Id="1086">
           <Enabled>true</Enabled>
           <Folder i:nil="true" />
           <IsExpanded>true</IsExpanded>
-          <Logic z:Id="1092">
-            <items z:Id="1093" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-              <_items z:Id="1094" z:Size="8">
-                <TriggerLogic z:Id="1095" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1096">Custom Action (Alternate)</Name>
-                  <CodeStr z:Id="1097" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 11)
+          <Logic z:Id="1087">
+            <items z:Id="1088" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+              <_items z:Id="1089" z:Size="8">
+                <TriggerLogic z:Id="1090" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="1091">Custom Action (Alternate)</Name>
+                  <CodeStr z:Id="1092" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 11)
 GG.CommandLocker.UnlockCMD(CMD.REPEAT)</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
-                <TriggerLogic z:Id="1098" z:Type="CMissionLib.Actions.GuiMessagePersistentAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1099">GUI Message (Persistent)</Name>
+                <TriggerLogic z:Id="1093" z:Type="CMissionLib.Actions.GuiMessagePersistentAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="1094">GUI Message (Persistent)</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
                   <ImagePath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <Message z:Id="1100" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">That was easy. But having to give your factory fresh build orders each time can be troublesome.  Use the \255\255\255\0\Repeat\008 order to make your factory keep pumping out units.
+                  <Message z:Id="1095" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">That was easy. But having to give your factory fresh build orders each time can be troublesome.  Use the \255\255\255\0\Repeat\008 order to make your factory keep pumping out units.
 
 + Select your factory
 + Click the repeat button
 + Left click Glaive
 
 Build three more Glaives. But here's the catch: your factory \255\255\255\0\must have Repeat on\008 or it will not build anything.</Message>
-                  <StringID z:Id="1101" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_repeat</StringID>
+                  <StringID z:Id="1096" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_repeat</StringID>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                 </TriggerLogic>
-                <TriggerLogic z:Id="1102" z:Type="CMissionLib.Conditions.CounterModifiedCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1103">Counter Modified</Name>
-                  <Condition z:Id="1104" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">&gt;=</Condition>
+                <TriggerLogic z:Id="1097" z:Type="CMissionLib.Conditions.CounterModifiedCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="1098">Counter Modified</Name>
+                  <Condition z:Id="1099" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">&gt;=</Condition>
                   <Counter z:Ref="7" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions" />
                   <Value xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">3</Value>
                 </TriggerLogic>
-                <TriggerLogic z:Id="1105" z:Type="CMissionLib.Actions.EnableTriggersAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1106">Enable Triggers</Name>
-                  <Triggers xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="1107" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
-                    <d10p1:items z:Id="1108" z:Type="System.Collections.Generic.List`1[[CMissionLib.INamed, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-                      <d10p1:_items z:Id="1109" z:Size="4">
-                        <d10p1:anyType z:Id="1110" z:Type="CMissionLib.Trigger" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                <TriggerLogic z:Id="1100" z:Type="CMissionLib.Actions.EnableTriggersAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="1101">Enable Triggers</Name>
+                  <Triggers xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="1102" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
+                    <d10p1:items z:Id="1103" z:Type="System.Collections.Generic.List`1[[CMissionLib.INamed, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+                      <d10p1:_items z:Id="1104" z:Size="4">
+                        <d10p1:anyType z:Id="1105" z:Type="CMissionLib.Trigger" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                           <Enabled xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">false</Enabled>
                           <Folder i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib" />
                           <IsExpanded xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">true</IsExpanded>
-                          <Logic z:Id="1111" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
-                            <items z:Id="1112" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-                              <_items z:Id="1113" z:Size="4">
-                                <TriggerLogic z:Id="1114" z:Type="CMissionLib.Actions.ModifyCounterAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="1115">Modify Counter</Name>
-                                  <Action z:Id="1116" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Increase</Action>
+                          <Logic z:Id="1106" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
+                            <items z:Id="1107" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+                              <_items z:Id="1108" z:Size="4">
+                                <TriggerLogic z:Id="1109" z:Type="CMissionLib.Actions.ModifyCounterAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                  <Name z:Id="1110">Modify Counter</Name>
+                                  <Action z:Id="1111" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Increase</Action>
                                   <Counter z:Ref="8" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                   <Value xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">1</Value>
                                 </TriggerLogic>
-                                <TriggerLogic z:Id="1117" z:Type="CMissionLib.Conditions.UnitFinishedInFactoryCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="1118">Unit Finished In Factory</Name>
-                                  <Players xmlns:d18p1="http://schemas.datacontract.org/2004/07/CMissionLib" z:Id="1119" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">
-                                    <d18p1:items z:Id="1120" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-                                      <d18p1:_items z:Id="1121" z:Size="4">
-                                        <d18p1:Player z:Id="1122">
-                                          <d18p1:AIDll z:Id="1123">NullAI</d18p1:AIDll>
-                                          <d18p1:AIVersion z:Id="1124">0.1</d18p1:AIVersion>
-                                          <d18p1:Alliance z:Id="1125">Alliance 1</d18p1:Alliance>
+                                <TriggerLogic z:Id="1112" z:Type="CMissionLib.Conditions.UnitFinishedInFactoryCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                  <Name z:Id="1113">Unit Finished In Factory</Name>
+                                  <Players xmlns:d18p1="http://schemas.datacontract.org/2004/07/CMissionLib" z:Id="1114" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">
+                                    <d18p1:items z:Id="1115" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+                                      <d18p1:_items z:Id="1116" z:Size="4">
+                                        <d18p1:Player z:Id="1117">
+                                          <d18p1:AIDll z:Id="1118">NullAI</d18p1:AIDll>
+                                          <d18p1:AIVersion z:Id="1119">0.1</d18p1:AIVersion>
+                                          <d18p1:Alliance z:Id="1120">Alliance 1</d18p1:Alliance>
                                           <d18p1:Color xmlns:d22p1="http://schemas.datacontract.org/2004/07/System.Windows.Media">
                                             <d22p1:A>255</d22p1:A>
                                             <d22p1:B>255</d22p1:B>
@@ -2607,7 +2593,7 @@ Build three more Glaives. But here's the catch: your factory \255\255\255\0\must
                                             <d22p1:ScG>0</d22p1:ScG>
                                             <d22p1:ScR>0</d22p1:ScR>
                                           </d18p1:Color>
-                                          <d18p1:ColorBrush xmlns:d22p1="http://schemas.datacontract.org/2004/07/System.Windows.Media" z:Id="1126">
+                                          <d18p1:ColorBrush xmlns:d22p1="http://schemas.datacontract.org/2004/07/System.Windows.Media" z:Id="1121">
                                             <d22p1:Opacity>1</d22p1:Opacity>
                                             <d22p1:RelativeTransform z:Ref="48" i:nil="true" />
                                             <d22p1:Transform z:Ref="48" i:nil="true" />
@@ -2624,7 +2610,7 @@ Build three more Glaives. But here's the catch: your factory \255\255\255\0\must
                                           </d18p1:ColorBrush>
                                           <d18p1:IsHuman>true</d18p1:IsHuman>
                                           <d18p1:IsRequired>true</d18p1:IsRequired>
-                                          <d18p1:Name z:Id="1127">Player</d18p1:Name>
+                                          <d18p1:Name z:Id="1122">Player</d18p1:Name>
                                         </d18p1:Player>
                                         <d18p1:Player z:Ref="43" i:nil="true" />
                                         <d18p1:Player i:nil="true" />
@@ -2633,14 +2619,14 @@ Build three more Glaives. But here's the catch: your factory \255\255\255\0\must
                                       <d18p1:_size>2</d18p1:_size>
                                       <d18p1:_version>2</d18p1:_version>
                                     </d18p1:items>
-                                    <d18p1:_monitor xmlns:d19p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1128">
+                                    <d18p1:_monitor xmlns:d19p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1123">
                                       <d19p1:_busyCount>0</d19p1:_busyCount>
                                     </d18p1:_monitor>
                                   </Players>
-                                  <Units z:Id="1129" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">
-                                    <d10p1:items z:Id="1130" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
-                                      <d10p1:_items z:Id="1131" z:Size="4">
-                                        <d10p1:string z:Id="1132">cloakraid</d10p1:string>
+                                  <Units z:Id="1124" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">
+                                    <d10p1:items z:Id="1125" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
+                                      <d10p1:_items z:Id="1126" z:Size="4">
+                                        <d10p1:string z:Id="1127">cloakraid</d10p1:string>
                                         <d10p1:string i:nil="true" />
                                         <d10p1:string i:nil="true" />
                                         <d10p1:string i:nil="true" />
@@ -2648,7 +2634,7 @@ Build three more Glaives. But here's the catch: your factory \255\255\255\0\must
                                       <d10p1:_size>1</d10p1:_size>
                                       <d10p1:_version>1</d10p1:_version>
                                     </d10p1:items>
-                                    <d10p1:_monitor xmlns:d19p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1133">
+                                    <d10p1:_monitor xmlns:d19p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1128">
                                       <d19p1:_busyCount>0</d19p1:_busyCount>
                                     </d10p1:_monitor>
                                   </Units>
@@ -2659,12 +2645,12 @@ Build three more Glaives. But here's the catch: your factory \255\255\255\0\must
                               <_size>2</_size>
                               <_version>4</_version>
                             </items>
-                            <_monitor xmlns:d15p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1134">
+                            <_monitor xmlns:d15p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1129">
                               <d15p1:_busyCount>0</d15p1:_busyCount>
                             </_monitor>
                           </Logic>
                           <MaxOccurrences xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">3</MaxOccurrences>
-                          <Name z:Id="1135" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">Glaive Built 2</Name>
+                          <Name z:Id="1130" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">Glaive Built 2</Name>
                           <Probability xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">1</Probability>
                         </d10p1:anyType>
                         <d10p1:anyType i:nil="true" />
@@ -2674,14 +2660,14 @@ Build three more Glaives. But here's the catch: your factory \255\255\255\0\must
                       <d10p1:_size>1</d10p1:_size>
                       <d10p1:_version>1</d10p1:_version>
                     </d10p1:items>
-                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1136">
+                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1131">
                       <d11p1:_busyCount>0</d11p1:_busyCount>
                     </d10p1:_monitor>
                   </Triggers>
                 </TriggerLogic>
-                <TriggerLogic z:Id="1137" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="987" i:nil="true" />
-                  <CodeStr z:Id="1138" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.ChiliHighlight then
+                <TriggerLogic z:Id="1132" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Ref="982" i:nil="true" />
+                  <CodeStr z:Id="1133" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.ChiliHighlight then
   WG.ChiliHighlight.ClearControls()
   -- highlight repeat button
   WG.ChiliHighlight.AddControlFunc("repeat", function() return {WG.IntegralMenu.GetCommandButtonPosition(CMD.REPEAT)} end, nil, true)
@@ -2695,74 +2681,74 @@ end</CodeStr>
               <_size>5</_size>
               <_version>15</_version>
             </items>
-            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1139">
+            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1134">
               <d7p1:_busyCount>0</d7p1:_busyCount>
             </_monitor>
           </Logic>
           <MaxOccurrences>1</MaxOccurrences>
-          <Name z:Id="1140">Build Units 2</Name>
+          <Name z:Id="1135">Build Units 2</Name>
           <Probability>1</Probability>
         </Trigger>
-        <Trigger z:Ref="1110" i:nil="true" />
-        <Trigger z:Id="1141">
+        <Trigger z:Ref="1105" i:nil="true" />
+        <Trigger z:Id="1136">
           <Enabled>true</Enabled>
           <Folder i:nil="true" />
           <IsExpanded>true</IsExpanded>
-          <Logic z:Id="1142">
-            <items z:Id="1143" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-              <_items z:Id="1144" z:Size="8">
-                <TriggerLogic z:Id="1145" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1146">Custom Action (Alternate)</Name>
-                  <CodeStr z:Id="1147" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 12)
+          <Logic z:Id="1137">
+            <items z:Id="1138" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+              <_items z:Id="1139" z:Size="8">
+                <TriggerLogic z:Id="1140" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="1141">Custom Action (Alternate)</Name>
+                  <CodeStr z:Id="1142" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 12)
 GG.CommandLocker.UnlockCMD(CMD.GUARD)
 GG.CommandLocker.UnlockCMD(13921)  -- factory guard
 GG.CommandLocker.UnlockCMD(13922)  -- area guard</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
-                <TriggerLogic z:Id="1148" z:Type="CMissionLib.Actions.GuiMessagePersistentAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1149">GUI Message (Persistent)</Name>
+                <TriggerLogic z:Id="1143" z:Type="CMissionLib.Actions.GuiMessagePersistentAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="1144">GUI Message (Persistent)</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
                   <ImagePath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <Message z:Id="1150" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">You can give construction units a \255\255\255\0\Guard\008 order on a factory to \255\255\255\0\assist\008 it and help it build faster. Select your commander and \255\0\255\0\right click\008 on the factory.
+                  <Message z:Id="1145" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">You can give construction units a \255\255\255\0\Guard\008 order on a factory to \255\255\255\0\assist\008 it and help it build faster. Select your commander and \255\0\255\0\right click\008 on the factory.
 
 Build five more Glaives. Same deal as before; your commander needs to be assisting the factory or it won't build.</Message>
-                  <StringID z:Id="1151" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_assistFac</StringID>
+                  <StringID z:Id="1146" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_assistFac</StringID>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                 </TriggerLogic>
-                <TriggerLogic z:Id="1152" z:Type="CMissionLib.Conditions.CounterModifiedCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1153">Counter Modified</Name>
-                  <Condition z:Id="1154" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">&gt;=</Condition>
+                <TriggerLogic z:Id="1147" z:Type="CMissionLib.Conditions.CounterModifiedCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="1148">Counter Modified</Name>
+                  <Condition z:Id="1149" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">&gt;=</Condition>
                   <Counter z:Ref="8" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions" />
                   <Value xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">3</Value>
                 </TriggerLogic>
-                <TriggerLogic z:Id="1155" z:Type="CMissionLib.Actions.EnableTriggersAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="1106" i:nil="true" />
-                  <Triggers xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="1156" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
-                    <d10p1:items z:Id="1157" z:Type="System.Collections.Generic.List`1[[CMissionLib.INamed, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-                      <d10p1:_items z:Id="1158" z:Size="4">
-                        <d10p1:anyType z:Id="1159" z:Type="CMissionLib.Trigger" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                <TriggerLogic z:Id="1150" z:Type="CMissionLib.Actions.EnableTriggersAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Ref="1101" i:nil="true" />
+                  <Triggers xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="1151" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">
+                    <d10p1:items z:Id="1152" z:Type="System.Collections.Generic.List`1[[CMissionLib.INamed, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+                      <d10p1:_items z:Id="1153" z:Size="4">
+                        <d10p1:anyType z:Id="1154" z:Type="CMissionLib.Trigger" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                           <Enabled xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">false</Enabled>
                           <Folder i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib" />
                           <IsExpanded xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">true</IsExpanded>
-                          <Logic z:Id="1160" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
-                            <items z:Id="1161" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-                              <_items z:Id="1162" z:Size="4">
-                                <TriggerLogic z:Id="1163" z:Type="CMissionLib.Actions.ModifyCounterAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="1164">Modify Counter</Name>
-                                  <Action z:Id="1165" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Increase</Action>
+                          <Logic z:Id="1155" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">
+                            <items z:Id="1156" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+                              <_items z:Id="1157" z:Size="4">
+                                <TriggerLogic z:Id="1158" z:Type="CMissionLib.Actions.ModifyCounterAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                  <Name z:Id="1159">Modify Counter</Name>
+                                  <Action z:Id="1160" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Increase</Action>
                                   <Counter z:Ref="9" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                                   <Value xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">1</Value>
                                 </TriggerLogic>
-                                <TriggerLogic z:Id="1166" z:Type="CMissionLib.Conditions.UnitFinishedInFactoryCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="1167">Unit Finished In Factory</Name>
-                                  <Players xmlns:d18p1="http://schemas.datacontract.org/2004/07/CMissionLib" z:Id="1168" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">
-                                    <d18p1:items z:Id="1169" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-                                      <d18p1:_items z:Id="1170" z:Size="4">
-                                        <d18p1:Player z:Id="1171">
-                                          <d18p1:AIDll z:Id="1172">NullAI</d18p1:AIDll>
-                                          <d18p1:AIVersion z:Id="1173">0.1</d18p1:AIVersion>
-                                          <d18p1:Alliance z:Id="1174">Alliance 1</d18p1:Alliance>
+                                <TriggerLogic z:Id="1161" z:Type="CMissionLib.Conditions.UnitFinishedInFactoryCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                  <Name z:Id="1162">Unit Finished In Factory</Name>
+                                  <Players xmlns:d18p1="http://schemas.datacontract.org/2004/07/CMissionLib" z:Id="1163" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">
+                                    <d18p1:items z:Id="1164" z:Type="System.Collections.Generic.List`1[[CMissionLib.Player, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+                                      <d18p1:_items z:Id="1165" z:Size="4">
+                                        <d18p1:Player z:Id="1166">
+                                          <d18p1:AIDll z:Id="1167">NullAI</d18p1:AIDll>
+                                          <d18p1:AIVersion z:Id="1168">0.1</d18p1:AIVersion>
+                                          <d18p1:Alliance z:Id="1169">Alliance 1</d18p1:Alliance>
                                           <d18p1:Color xmlns:d22p1="http://schemas.datacontract.org/2004/07/System.Windows.Media">
                                             <d22p1:A>255</d22p1:A>
                                             <d22p1:B>255</d22p1:B>
@@ -2773,7 +2759,7 @@ Build five more Glaives. Same deal as before; your commander needs to be assisti
                                             <d22p1:ScG>0</d22p1:ScG>
                                             <d22p1:ScR>0</d22p1:ScR>
                                           </d18p1:Color>
-                                          <d18p1:ColorBrush xmlns:d22p1="http://schemas.datacontract.org/2004/07/System.Windows.Media" z:Id="1175">
+                                          <d18p1:ColorBrush xmlns:d22p1="http://schemas.datacontract.org/2004/07/System.Windows.Media" z:Id="1170">
                                             <d22p1:Opacity>1</d22p1:Opacity>
                                             <d22p1:RelativeTransform z:Ref="48" i:nil="true" />
                                             <d22p1:Transform z:Ref="48" i:nil="true" />
@@ -2790,12 +2776,12 @@ Build five more Glaives. Same deal as before; your commander needs to be assisti
                                           </d18p1:ColorBrush>
                                           <d18p1:IsHuman>true</d18p1:IsHuman>
                                           <d18p1:IsRequired>true</d18p1:IsRequired>
-                                          <d18p1:Name z:Id="1176">Player</d18p1:Name>
+                                          <d18p1:Name z:Id="1171">Player</d18p1:Name>
                                         </d18p1:Player>
-                                        <d18p1:Player z:Id="1177">
-                                          <d18p1:AIDll z:Id="1178">NullAI</d18p1:AIDll>
-                                          <d18p1:AIVersion z:Id="1179">0.1</d18p1:AIVersion>
-                                          <d18p1:Alliance z:Id="1180">Alliance 1</d18p1:Alliance>
+                                        <d18p1:Player z:Id="1172">
+                                          <d18p1:AIDll z:Id="1173">NullAI</d18p1:AIDll>
+                                          <d18p1:AIVersion z:Id="1174">0.1</d18p1:AIVersion>
+                                          <d18p1:Alliance z:Id="1175">Alliance 1</d18p1:Alliance>
                                           <d18p1:Color xmlns:d22p1="http://schemas.datacontract.org/2004/07/System.Windows.Media">
                                             <d22p1:A>255</d22p1:A>
                                             <d22p1:B>255</d22p1:B>
@@ -2806,7 +2792,7 @@ Build five more Glaives. Same deal as before; your commander needs to be assisti
                                             <d22p1:ScG>0</d22p1:ScG>
                                             <d22p1:ScR>0</d22p1:ScR>
                                           </d18p1:Color>
-                                          <d18p1:ColorBrush xmlns:d22p1="http://schemas.datacontract.org/2004/07/System.Windows.Media" z:Id="1181">
+                                          <d18p1:ColorBrush xmlns:d22p1="http://schemas.datacontract.org/2004/07/System.Windows.Media" z:Id="1176">
                                             <d22p1:Opacity>1</d22p1:Opacity>
                                             <d22p1:RelativeTransform z:Ref="48" i:nil="true" />
                                             <d22p1:Transform z:Ref="48" i:nil="true" />
@@ -2823,7 +2809,7 @@ Build five more Glaives. Same deal as before; your commander needs to be assisti
                                           </d18p1:ColorBrush>
                                           <d18p1:IsHuman>true</d18p1:IsHuman>
                                           <d18p1:IsRequired>true</d18p1:IsRequired>
-                                          <d18p1:Name z:Id="1182">Player</d18p1:Name>
+                                          <d18p1:Name z:Id="1177">Player</d18p1:Name>
                                         </d18p1:Player>
                                         <d18p1:Player z:Ref="43" i:nil="true" />
                                         <d18p1:Player i:nil="true" />
@@ -2831,14 +2817,14 @@ Build five more Glaives. Same deal as before; your commander needs to be assisti
                                       <d18p1:_size>3</d18p1:_size>
                                       <d18p1:_version>3</d18p1:_version>
                                     </d18p1:items>
-                                    <d18p1:_monitor xmlns:d19p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1183">
+                                    <d18p1:_monitor xmlns:d19p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1178">
                                       <d19p1:_busyCount>0</d19p1:_busyCount>
                                     </d18p1:_monitor>
                                   </Players>
-                                  <Units z:Id="1184" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">
-                                    <d10p1:items z:Id="1185" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
-                                      <d10p1:_items z:Id="1186" z:Size="4">
-                                        <d10p1:string z:Id="1187">cloakraid</d10p1:string>
+                                  <Units z:Id="1179" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">
+                                    <d10p1:items z:Id="1180" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
+                                      <d10p1:_items z:Id="1181" z:Size="4">
+                                        <d10p1:string z:Id="1182">cloakraid</d10p1:string>
                                         <d10p1:string i:nil="true" />
                                         <d10p1:string i:nil="true" />
                                         <d10p1:string i:nil="true" />
@@ -2846,7 +2832,7 @@ Build five more Glaives. Same deal as before; your commander needs to be assisti
                                       <d10p1:_size>1</d10p1:_size>
                                       <d10p1:_version>1</d10p1:_version>
                                     </d10p1:items>
-                                    <d10p1:_monitor xmlns:d19p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1188">
+                                    <d10p1:_monitor xmlns:d19p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1183">
                                       <d19p1:_busyCount>0</d19p1:_busyCount>
                                     </d10p1:_monitor>
                                   </Units>
@@ -2857,12 +2843,12 @@ Build five more Glaives. Same deal as before; your commander needs to be assisti
                               <_size>2</_size>
                               <_version>4</_version>
                             </items>
-                            <_monitor xmlns:d15p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1189">
+                            <_monitor xmlns:d15p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1184">
                               <d15p1:_busyCount>0</d15p1:_busyCount>
                             </_monitor>
                           </Logic>
                           <MaxOccurrences xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">5</MaxOccurrences>
-                          <Name z:Id="1190" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">Glaive Built 3</Name>
+                          <Name z:Id="1185" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">Glaive Built 3</Name>
                           <Probability xmlns="http://schemas.datacontract.org/2004/07/CMissionLib">1</Probability>
                         </d10p1:anyType>
                         <d10p1:anyType i:nil="true" />
@@ -2872,14 +2858,14 @@ Build five more Glaives. Same deal as before; your commander needs to be assisti
                       <d10p1:_size>1</d10p1:_size>
                       <d10p1:_version>1</d10p1:_version>
                     </d10p1:items>
-                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1191">
+                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1186">
                       <d11p1:_busyCount>0</d11p1:_busyCount>
                     </d10p1:_monitor>
                   </Triggers>
                 </TriggerLogic>
-                <TriggerLogic z:Id="1192" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="987" i:nil="true" />
-                  <CodeStr z:Id="1193" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.ChiliHighlight then
+                <TriggerLogic z:Id="1187" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Ref="982" i:nil="true" />
+                  <CodeStr z:Id="1188" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.ChiliHighlight then
   WG.ChiliHighlight.ClearControls()
 end</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Synced>
@@ -2891,51 +2877,51 @@ end</CodeStr>
               <_size>5</_size>
               <_version>17</_version>
             </items>
-            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1194">
+            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1189">
               <d7p1:_busyCount>0</d7p1:_busyCount>
             </_monitor>
           </Logic>
           <MaxOccurrences>1</MaxOccurrences>
-          <Name z:Id="1195">Build Units 3</Name>
+          <Name z:Id="1190">Build Units 3</Name>
           <Probability>1</Probability>
         </Trigger>
-        <Trigger z:Ref="1159" i:nil="true" />
-        <Trigger z:Id="1196">
+        <Trigger z:Ref="1154" i:nil="true" />
+        <Trigger z:Id="1191">
           <Enabled>true</Enabled>
           <Folder i:nil="true" />
           <IsExpanded>true</IsExpanded>
-          <Logic z:Id="1197">
-            <items z:Id="1198" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-              <_items z:Id="1199" z:Size="8">
-                <TriggerLogic z:Id="1200" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1201">Custom Action (Alternate)</Name>
-                  <CodeStr z:Id="1202" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 13)
+          <Logic z:Id="1192">
+            <items z:Id="1193" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+              <_items z:Id="1194" z:Size="8">
+                <TriggerLogic z:Id="1195" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="1196">Custom Action (Alternate)</Name>
+                  <CodeStr z:Id="1197" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 13)
 GG.CommandLocker.UnlockCMD(CMD.FIGHT)
 GG.CommandLocker.UnlockCMD(CMD.ATTACK)</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
-                <TriggerLogic z:Id="1203" z:Type="CMissionLib.Actions.GuiMessagePersistentAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1204">GUI Message (Persistent)</Name>
+                <TriggerLogic z:Id="1198" z:Type="CMissionLib.Actions.GuiMessagePersistentAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="1199">GUI Message (Persistent)</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
                   <ImagePath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <Message z:Id="1205" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Well done.
+                  <Message z:Id="1200" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Well done.
 
 There's one last thing left to do. Somewhere in the lowlands is an \255\255\255\0\enemy factory\008. Use your newly built units and destroy it.
 
 TIP: You can give move/attack move/etc. orders to a factory and the units it builds will inherit the order queue.</Message>
-                  <StringID z:Id="1206" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_destroyEnemyBase</StringID>
+                  <StringID z:Id="1201" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_destroyEnemyBase</StringID>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                 </TriggerLogic>
-                <TriggerLogic z:Id="1207" z:Type="CMissionLib.Conditions.CounterModifiedCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="1153" i:nil="true" />
-                  <Condition z:Ref="1154" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions" />
+                <TriggerLogic z:Id="1202" z:Type="CMissionLib.Conditions.CounterModifiedCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Ref="1148" i:nil="true" />
+                  <Condition z:Ref="1149" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions" />
                   <Counter z:Ref="9" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions" />
                   <Value xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">5</Value>
                 </TriggerLogic>
-                <TriggerLogic z:Id="1208" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1209">Custom Marker</Name>
-                  <CodeStr z:Id="1210" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.CustomMarker then
+                <TriggerLogic z:Id="1203" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="1204">Custom Marker</Name>
+                  <CodeStr z:Id="1205" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.CustomMarker then
   WG.CustomMarker.AddPoint("enemyBase", 2330, 2670, "Enemy factory", {1, 0.5, 0.5})
 end</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Synced>
@@ -2948,42 +2934,42 @@ end</CodeStr>
               <_size>4</_size>
               <_version>20</_version>
             </items>
-            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1211">
+            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1206">
               <d7p1:_busyCount>0</d7p1:_busyCount>
             </_monitor>
           </Logic>
           <MaxOccurrences>1</MaxOccurrences>
-          <Name z:Id="1212">Destroy Enemy Base</Name>
+          <Name z:Id="1207">Destroy Enemy Base</Name>
           <Probability>1</Probability>
         </Trigger>
-        <Trigger z:Id="1213">
+        <Trigger z:Id="1208">
           <Enabled>true</Enabled>
           <Folder i:nil="true" />
           <IsExpanded>true</IsExpanded>
-          <Logic z:Id="1214">
-            <items z:Id="1215" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-              <_items z:Id="1216" z:Size="8">
-                <TriggerLogic z:Id="1217" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1218">Custom Action (Alternate)</Name>
-                  <CodeStr z:Id="1219" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_show_next_button", 1)</CodeStr>
+          <Logic z:Id="1209">
+            <items z:Id="1210" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+              <_items z:Id="1211" z:Size="8">
+                <TriggerLogic z:Id="1212" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="1213">Custom Action (Alternate)</Name>
+                  <CodeStr z:Id="1214" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_show_next_button", 1)</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
-                <TriggerLogic z:Id="1220" z:Type="CMissionLib.Actions.GuiMessagePersistentAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1221">GUI Message (Persistent)</Name>
+                <TriggerLogic z:Id="1215" z:Type="CMissionLib.Actions.GuiMessagePersistentAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="1216">GUI Message (Persistent)</Name>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
                   <ImagePath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <Message z:Id="1222" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">And there she goes.
+                  <Message z:Id="1217" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">And there she goes.
 
 That concludes the tutorial. Click Next to finish.</Message>
-                  <StringID z:Id="1223" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_victory</StringID>
+                  <StringID z:Id="1218" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_persistent_victory</StringID>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                 </TriggerLogic>
-                <TriggerLogic z:Id="1224" z:Type="CMissionLib.Conditions.UnitDestroyedCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1225">Unit Destroyed</Name>
-                  <Groups xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="1226" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">
-                    <d10p1:items z:Id="1227" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
-                      <d10p1:_items z:Id="1228" z:Size="4">
+                <TriggerLogic z:Id="1219" z:Type="CMissionLib.Conditions.UnitDestroyedCondition" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="1220">Unit Destroyed</Name>
+                  <Groups xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="1221" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">
+                    <d10p1:items z:Id="1222" z:Type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" z:Assembly="0">
+                      <d10p1:_items z:Id="1223" z:Size="4">
                         <d10p1:string z:Ref="124" i:nil="true" />
                         <d10p1:string i:nil="true" />
                         <d10p1:string i:nil="true" />
@@ -2992,24 +2978,24 @@ That concludes the tutorial. Click Next to finish.</Message>
                       <d10p1:_size>1</d10p1:_size>
                       <d10p1:_version>3</d10p1:_version>
                     </d10p1:items>
-                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1229">
+                    <d10p1:_monitor xmlns:d11p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1224">
                       <d11p1:_busyCount>0</d11p1:_busyCount>
                     </d10p1:_monitor>
                   </Groups>
                 </TriggerLogic>
-                <TriggerLogic z:Id="1230" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1231">Custom Marker</Name>
-                  <CodeStr z:Id="1232" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.CustomMarker then
+                <TriggerLogic z:Id="1225" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="1226">Custom Marker</Name>
+                  <CodeStr z:Id="1227" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.CustomMarker then
   WG.CustomMarker.RemovePoint("enemyBase")
 end</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Synced>
                 </TriggerLogic>
-                <TriggerLogic z:Id="1233" z:Type="CMissionLib.Actions.ModifyObjectiveAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1234">Modify Objective</Name>
+                <TriggerLogic z:Id="1228" z:Type="CMissionLib.Actions.ModifyObjectiveAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="1229">Modify Objective</Name>
                   <Description z:Ref="13" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <GroupTarget i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <ID z:Ref="742" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <Status z:Id="1235" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Complete</Status>
+                  <Status z:Id="1230" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Complete</Status>
                   <StringID i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Title z:Ref="13" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <TitleStringID i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
@@ -3021,29 +3007,29 @@ end</CodeStr>
               <_size>5</_size>
               <_version>17</_version>
             </items>
-            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1236">
+            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1231">
               <d7p1:_busyCount>0</d7p1:_busyCount>
             </_monitor>
           </Logic>
           <MaxOccurrences>1</MaxOccurrences>
-          <Name z:Id="1237">Destroy Enemy Base Complete</Name>
+          <Name z:Id="1232">Destroy Enemy Base Complete</Name>
           <Probability>1</Probability>
         </Trigger>
-        <Trigger z:Id="1238">
+        <Trigger z:Id="1233">
           <Enabled>true</Enabled>
           <Folder i:nil="true" />
           <IsExpanded>true</IsExpanded>
-          <Logic z:Id="1239">
-            <items z:Id="1240" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
-              <_items z:Id="1241" z:Size="8">
-                <TriggerLogic z:Id="1242" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1243">Custom Action (Alternate)</Name>
-                  <CodeStr z:Id="1244" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_show_next_button", 0)
+          <Logic z:Id="1234">
+            <items z:Id="1235" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+              <_items z:Id="1236" z:Size="8">
+                <TriggerLogic z:Id="1237" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="1238">Custom Action (Alternate)</Name>
+                  <CodeStr z:Id="1239" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_show_next_button", 0)
 Spring.SetGameRulesParam("tutorial_stage", 13)</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
-                <TriggerLogic z:Id="1245" z:Type="CMissionLib.VictoryAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1246">Victory</Name>
+                <TriggerLogic z:Id="1240" z:Type="CMissionLib.VictoryAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="1241">Victory</Name>
                 </TriggerLogic>
                 <TriggerLogic i:nil="true" />
                 <TriggerLogic i:nil="true" />
@@ -3055,15 +3041,51 @@ Spring.SetGameRulesParam("tutorial_stage", 13)</CodeStr>
               <_size>2</_size>
               <_version>18</_version>
             </items>
-            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1247">
+            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1242">
               <d7p1:_busyCount>0</d7p1:_busyCount>
             </_monitor>
           </Logic>
           <MaxOccurrences>1</MaxOccurrences>
-          <Name z:Id="1248">Victory</Name>
+          <Name z:Id="1243">Victory</Name>
           <Probability>1</Probability>
         </Trigger>
-        <Trigger i:nil="true" />
+        <Trigger z:Id="1244">
+          <Enabled>true</Enabled>
+          <Folder i:nil="true" />
+          <IsExpanded>true</IsExpanded>
+          <Logic z:Id="1245">
+            <items z:Id="1246" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
+              <_items z:Id="1247" z:Size="4">
+                <TriggerLogic z:Id="1248" z:Type="CMissionLib.Actions.GuiMessageAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Id="1249">GUI Message</Name>
+                  <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
+                  <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">300</Height>
+                  <ImagePath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
+                  <Message z:Id="1250" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">So you're back. Let's get started on the economy training.
+
+Close this message when you're ready to begin.</Message>
+                  <Pause xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Pause>
+                  <StringID z:Id="1251" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">econTutorial_msg_intro</StringID>
+                  <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
+                </TriggerLogic>
+                <TriggerLogic z:Id="1252" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                  <Name z:Ref="755" i:nil="true" />
+                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">30</Frames>
+                </TriggerLogic>
+                <TriggerLogic i:nil="true" />
+                <TriggerLogic i:nil="true" />
+              </_items>
+              <_size>2</_size>
+              <_version>2</_version>
+            </items>
+            <_monitor xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1253">
+              <d7p1:_busyCount>0</d7p1:_busyCount>
+            </_monitor>
+          </Logic>
+          <MaxOccurrences>1</MaxOccurrences>
+          <Name z:Id="1254">Backup Holder</Name>
+          <Probability>1</Probability>
+        </Trigger>
         <Trigger i:nil="true" />
         <Trigger i:nil="true" />
         <Trigger i:nil="true" />
@@ -3076,10 +3098,10 @@ Spring.SetGameRulesParam("tutorial_stage", 13)</CodeStr>
         <Trigger i:nil="true" />
         <Trigger i:nil="true" />
       </_items>
-      <_size>20</_size>
-      <_version>46</_version>
+      <_size>21</_size>
+      <_version>51</_version>
     </items>
-    <_monitor xmlns:d3p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1249">
+    <_monitor xmlns:d3p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="1255">
       <d3p1:_busyCount>0</d3p1:_busyCount>
     </_monitor>
   </Triggers>

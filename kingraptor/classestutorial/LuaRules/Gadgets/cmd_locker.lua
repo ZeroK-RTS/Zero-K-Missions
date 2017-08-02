@@ -8,7 +8,7 @@ function gadget:GetInfo()
 		date = "2008-03-04",
 		license = "Public Domain",
 		layer = 999,
-		enabled = false,
+		enabled = true,
 	}
 end
 
@@ -44,7 +44,10 @@ local unlockedCMDs = {
 	[CMD.IDLEMODE] = true,
 	[CMD.SET_WANTED_MAX_SPEED] = true,
 	[CMD.SETBASE] = true,
+	
 	[CMD.INTERNAL] = true,
+	[CMD.INSERT] = true,
+	[CMD.REMOVE] = true,
 	
 	[CMD_ORBIT] = true,
 	[CMD_ORBIT_DRAW] = true,
@@ -55,11 +58,11 @@ _G.unlockedCMDs = unlockedCMDs
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 local function SetCMDEnabled(unitID, cmdID, enabled)
-    local cmdDescID = Spring.FindUnitCmdDesc(unitID, cmdID)
-    if (cmdDescID) then
-        local cmdArray = {disabled = not enabled}
-        Spring.EditUnitCmdDesc(unitID, cmdDescID, cmdArray)
-    end
+	local cmdDescID = Spring.FindUnitCmdDesc(unitID, cmdID)
+	if (cmdDescID) then
+		local cmdArray = {disabled = not enabled}
+		Spring.EditUnitCmdDesc(unitID, cmdDescID, cmdArray)
+	end
 end
 
 local function UnlockCMD(cmdID)
@@ -90,6 +93,13 @@ local function ResetUnits(cmdID)
 	end
 end
 
+local function ProcessAllUnits()
+	local units = Spring.GetAllUnits()
+	for i=1,#units do
+		local unitTeam = Spring.GetUnitTeam(units[i])
+		gadget:UnitCreated(units[i], nil, unitTeam)
+	end
+end
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 
@@ -104,7 +114,7 @@ end
 
 -- blocks command - prevent widget hax
 function gadget:AllowCommand_GetWantedCommand()	
-	return unlockUnitsMap
+	return true
 end
 
 function gadget:AllowCommand_GetWantedUnitDefID()	
@@ -123,11 +133,7 @@ function gadget:Initialize()
 	GG.CommandLocker = {
 		UnlockCMD = UnlockCMD
 	}
-	local units = Spring.GetAllUnits()
-	for i=1,#units do
-		local unitTeam = Spring.GetUnitTeam(units[i])
-		gadget:UnitCreated(units[i], nil, unitTeam)
-	end
+	ProcessAllUnits()
 end
 
 function gadget:Load(zip)

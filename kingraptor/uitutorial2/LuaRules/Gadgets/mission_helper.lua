@@ -22,14 +22,19 @@ local MOVE_CIRCLE_RADIUS = 60
 local MOVE_CIRCLE_RADIUS_SQ = MOVE_CIRCLE_RADIUS^2
 
 local circles = {
-	{2070, 0, 955},
-	{2040, 0, 1185},
-	{1870, 0, 1035},
-	{1820, 0, 1290},
+	{1440, 0, 4110},
+	{1560, 0, 4270},
+	{1680, 0, 4110},
+	{1800, 0, 4270},
 }
+
 for i=1,#circles do
 	local circle = circles[i]
-	circle[2] = Spring.GetGroundHeight(circle[1], circle[3])
+	local y = Spring.GetGroundHeight(circle[1], circle[3])
+	if y < 5 then
+		y = 5
+	end
+	circle[2] = y
 end
 
 --------------------------------------------------------------------------------
@@ -216,9 +221,9 @@ end
 
 local function DrawFormationLines()
 	gl.LineStipple(1, 4095)
-	gl.LineWidth(2)
+	gl.LineWidth(4)
 	
-	gl.Color(0.5, 1.0, 0.5, 0.5)
+	gl.Color(0.5, 1.0, 0.5, 0.8)
 	gl.BeginEnd(GL.LINE_STRIP, tVerts, circles)
 	gl.Color(1,1,1,1)
 	
@@ -260,7 +265,7 @@ local function DrawPointCircle(point)
 	
 	gl.PushMatrix()
 	gl.Translate(point[1], point[2] + 10, point[3])
-	gl.BeginEnd(GL.TRIANGLES, DrawCircleInside, circleDivs, r1, g1, b1, fadealpha, MOVE_CIRCLE_RADIUS)
+	gl.BeginEnd(GL.TRIANGLES, DrawCircleInside, circleDivs, r1, g1, b1, 0.8, MOVE_CIRCLE_RADIUS)
 	gl.PopMatrix()
 end
 

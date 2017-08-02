@@ -171,6 +171,24 @@ function gadget:GameFrame(n)
 	end
 end
 
+function gadget:AllowCommand_GetWantedCommand()	
+	return {[CMD.REPAIR] = true, [CMD.RECLAIM] = true}
+end
+
+function gadget:AllowCommand_GetWantedUnitDefID()	
+	return true
+end
+
+function gadget:AllowCommand(unitID, unitDefID, teamID,cmdID, cmdParams, cmdOptions)
+	local stage = Spring.GetGameRulesParam(STAGE_PARAM)
+	if stage == 4 then
+		if #cmdParams == 1 then	-- unit target command
+			return false
+		end
+	end
+	return true
+end
+
 function gadget:GamePreload()
 	for i=1,#featureEntries do
 		local entry = featureEntries[i]

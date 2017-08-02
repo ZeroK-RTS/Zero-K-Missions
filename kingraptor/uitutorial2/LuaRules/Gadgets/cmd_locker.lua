@@ -58,11 +58,11 @@ _G.unlockedCMDs = unlockedCMDs
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 local function SetCMDEnabled(unitID, cmdID, enabled)
-    local cmdDescID = Spring.FindUnitCmdDesc(unitID, cmdID)
-    if (cmdDescID) then
-        local cmdArray = {disabled = not enabled}
-        Spring.EditUnitCmdDesc(unitID, cmdDescID, cmdArray)
-    end
+	local cmdDescID = Spring.FindUnitCmdDesc(unitID, cmdID)
+	if (cmdDescID) then
+		local cmdArray = {disabled = not enabled}
+		Spring.EditUnitCmdDesc(unitID, cmdDescID, cmdArray)
+	end
 end
 
 local function UnlockCMD(cmdID)
@@ -93,6 +93,13 @@ local function ResetUnits(cmdID)
 	end
 end
 
+local function ProcessAllUnits()
+	local units = Spring.GetAllUnits()
+	for i=1,#units do
+		local unitTeam = Spring.GetUnitTeam(units[i])
+		gadget:UnitCreated(units[i], nil, unitTeam)
+	end
+end
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 
@@ -107,7 +114,7 @@ end
 
 -- blocks command - prevent widget hax
 function gadget:AllowCommand_GetWantedCommand()	
-	return unlockUnitsMap
+	return true
 end
 
 function gadget:AllowCommand_GetWantedUnitDefID()	
@@ -126,11 +133,7 @@ function gadget:Initialize()
 	GG.CommandLocker = {
 		UnlockCMD = UnlockCMD
 	}
-	local units = Spring.GetAllUnits()
-	for i=1,#units do
-		local unitTeam = Spring.GetUnitTeam(units[i])
-		gadget:UnitCreated(units[i], nil, unitTeam)
-	end
+	ProcessAllUnits()
 end
 
 function gadget:Load(zip)
