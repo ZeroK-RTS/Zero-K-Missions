@@ -270,7 +270,13 @@
                 </TriggerLogic>
                 <TriggerLogic z:Id="86" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                   <Name z:Id="87">Custom Action (Alternate)</Name>
-                  <CodeStr z:Id="88" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_has_next_button", 1)</CodeStr>
+                  <CodeStr z:Id="88" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_has_next_button", 1)
+GG.CommandLocker.UnlockCMD(CMD.FIGHT)
+GG.CommandLocker.UnlockCMD(CMD.ATTACK)
+GG.CommandLocker.UnlockCMD(CMD.PATROL)
+GG.CommandLocker.UnlockCMD(CMD.GUARD)
+GG.CommandLocker.UnlockCMD(13921)  -- factory guard
+GG.CommandLocker.UnlockCMD(13922)  -- area guard</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
                 <TriggerLogic i:nil="true" />
