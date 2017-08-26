@@ -22,11 +22,15 @@ local MOVE_CIRCLE_RADIUS = 40
 local MOVE_CIRCLE_RADIUS_SQ = MOVE_CIRCLE_RADIUS^2
 
 local circles = {
-	{1440, 0, 4110},
-	{1560, 0, 4270},
-	{1680, 0, 4110},
-	{1800, 0, 4270},
+	{4185, 0, 3445},
+	{4080, 0, 3545},
+	{4185, 0, 3645},
+	{4080, 0, 3745},
 }
+
+local MOVE_DEST_1 = {3410, 3580}
+local SOLAR_POS = {5128, 3512}
+local FAC_POS = {5294, 3572}
 
 for i=1,#circles do
 	local circle = circles[i]
@@ -51,16 +55,18 @@ local BUTTON_PARAM = "tutorial_show_next_button"
 --------------------------------------------------------------------------------
 
 local stages = {
-	[1] = {name = "camera", trigger = "Solar Found"},
-	[2] = {name = "selection 1"},
-	[3] = {name = "selection 2"},
-	[4] = {name = "selection 3", trigger = "Units Selected"},
-	[5] = {name = "selection after", trigger = "Move Commander"},
-	[6] = {name = "move"},
-	[7] = {name = "line move", trigger = "Attack Target"},
-	[8] = {name = "attack", trigger = "Attack Move"},
-	[9] = {name = "attack move", trigger = "Victory"},
-	[10] = {name = "done"},
+	[1] = {name = "camera", trigger = "Comm Found"},
+	[2] = {name = "select comm"},
+	[3] = {name = "move comm"},
+	[4] = {name = "select multiple", trigger = "Line Move"},
+	[5] = {name = "line move", trigger = "Attack Target"},
+	[6] = {name = "attack"},
+	[7] = {name = "build mex"},
+	[8] = {name = "build solar"},
+	[9] = {name = "build factory"},
+	[10] = {name = "build glaives"},
+	[11] = {name = "attack move", trigger = "Victory"},
+	[12] = {name = "end"},
 }
 
 --------------------------------------------------------------------------------
@@ -73,7 +79,7 @@ local function AdvanceStage()
 	end
 end
 
-local function Stage7Check()
+local function LineMoveCheck()
 	-- check if all the circles have units already there or heading to it
 	local validCircles = {}
 	local occupiedCircles = {}
@@ -117,11 +123,32 @@ local function Stage7Check()
 end
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
+function gadget:AllowCommand_GetWantedCommand()	
+	return {[CMD.MOVE] = true, [CMD_RAW_MOVE] = true, [-UnitDefNames.energysolar.id] = true, [-UnitDefNames.factorycloak.id] = true}
+end
 
-function gadget:UnitCreated(unitID, unitDefID, unitTeam)
-	if unitTeam ~= 0 then
-		return
+local commDefID = UnitDefNames.comm_mission_tutorial1 and UnitDefNames.comm_mission_tutorial1.id or nil
+function gadget:AllowCommand_GetWantedUnitDefID()	
+	return commDefID and {[commDefID] = true}
+end
+
+function gadget:AllowCommand(unitID, unitDefID, teamID, cmdID, cmdParams, cmdOpts, cmdTag, synced)
+	if teamID ~= 0 then
+		return true
 	end
+	
+	if (cmdID == CMD_RAW_MOVE or cmdID == CMD.MOVE) and Spring.GetGameRulesParam(STAGE_PARAM) == 3 then
+		local x, z = cmdParams[1], cmdParams[3]
+		return math.abs(MOVE_DEST_1[1] - x) < 80 and math.abs(MOVE_DEST_1[2] - z) < 80
+	elseif (cmdID == -UnitDefNames.energysolar.id) and Spring.GetGameRulesParam(STAGE_PARAM) == 8 then
+		local x, z = cmdParams[1], cmdParams[3]
+		return math.abs(SOLAR_POS[1] - x) < 80 and math.abs(SOLAR_POS[2] - z) < 80
+	elseif (cmdID == -UnitDefNames.factorycloak.id) and Spring.GetGameRulesParam(STAGE_PARAM) == 9 then
+		local x, z = cmdParams[1], cmdParams[3]
+		return math.abs(FAC_POS[1] - x) < 80 and math.abs(FAC_POS[2] - z) < 80
+	end
+	
+	return true
 end
 
 function gadget:RecvLuaMsg(msg)
@@ -139,8 +166,8 @@ function gadget:Shutdown()
 end
 
 function gadget:GameFrame(n)
-	if Spring.GetGameRulesParam(STAGE_PARAM) == 7 then
-		Stage7Check()
+	if Spring.GetGameRulesParam(STAGE_PARAM) == 5 then
+		LineMoveCheck()
 	end
 end
 
@@ -270,7 +297,7 @@ local function DrawPointCircle(point)
 end
 
 function gadget:DrawWorldPreUnit()
-	if not Spring.IsGUIHidden() and Spring.GetGameRulesParam(STAGE_PARAM) == 7 then
+	if not Spring.IsGUIHidden() and Spring.GetGameRulesParam(STAGE_PARAM) == 5 then
 		--gl.DepthTest(true)
 		for _,v in pairs(circles) do
 			DrawPointCircle(v)

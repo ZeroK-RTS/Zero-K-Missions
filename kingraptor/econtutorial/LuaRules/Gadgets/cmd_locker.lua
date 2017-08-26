@@ -73,6 +73,14 @@ local function UnlockCMD(cmdID)
 	end
 end
 
+local function LockCMD(cmdID)
+	unlockedCMDs[cmdID] = nil
+	local units = Spring.GetTeamUnits(0)
+	for i=1,#units do
+		SetCMDEnabled(units[i], cmdID, false)	
+	end
+end
+
 -- right now we don't check if something else disabled/enabled the command before modifying it
 -- this isn't a problem right now, but we may want it to be more robust
 local function SetCMDs(unitID)
@@ -131,6 +139,7 @@ end
 
 function gadget:Initialize()
 	GG.CommandLocker = {
+		LockCMD = LockCMD,
 		UnlockCMD = UnlockCMD
 	}
 	ProcessAllUnits()

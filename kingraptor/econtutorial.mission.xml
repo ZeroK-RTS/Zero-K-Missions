@@ -2222,7 +2222,7 @@ GG.GiveFacplop(unitID)</CodeStr>
                   <ImagePath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Message z:Id="1001" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Good. Now that we have metal and energy, it's time to spend it with a \255\255\255\0\factory\008.
 
-Build a  \255\0\255\255\Cloaky Bot Factory\008.
+Build a \255\0\255\255\Cloaky Bot Factory\008.
 + Select your commander
 + Click the Factory tab in the menu (highlighted)
 + Left click the Cloaky Bot Factory button

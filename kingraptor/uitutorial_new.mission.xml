@@ -1091,7 +1091,10 @@ for unitID in pairs(units) do
   Spring.TransferUnit(unitID, Spring.GetGaiaTeamID(), false)
 end
 
-Spring.SetGameRulesParam("tutorial_has_next_button", 1)</CodeStr>
+Spring.SetGameRulesParam("tutorial_has_next_button", 1)
+
+GG.CommandLocker.LockCMD(CMD.MOVE)
+GG.CommandLocker.LockCMD(31109)  -- raw move</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
                 <TriggerLogic z:Id="681" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -1191,8 +1194,7 @@ end</CodeStr>
 + Moving the \255\0\255\0\cursor\008 to the \255\0\255\0\screen edge\008 (requires fullscreen mode).
 + \255\0\255\0\Middle click\008 and \255\0\255\0\drag\008 the terrain.
 + \255\0\255\0\Middle click\008 or \255\0\255\0\left click\008 click on the minimap.
-+ \255\0\255\0\Scroll wheel\008 to zoom in/out.
-+ \255\0\255\0\Page Up/Down\008 to zoom in/out.
++ \255\0\255\0\Scroll wheel\008 or \255\0\255\0\Page Up/Down\008 to zoom in/out.
 
 There is a building somewhere in the \255\255\255\0\bottom left\008 direction. Zoom in close on it to continue.</Message>
                                   <StringID z:Id="723" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">uitutorial_persistent_camera</StringID>
@@ -1529,7 +1531,7 @@ Spring.SetGameRulesParam("tutorial_stage", 5)</CodeStr>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
                   <ImagePath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <Message z:Id="825" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Select your commander and \255\255\255\0\move\008 it to the indicated destination to the right. \255\0\255\0\Right click\008 on the ground to move there.</Message>
+                  <Message z:Id="825" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Select your commander and \255\255\255\0\move\008 it to the indicated destination to the upper right. \255\0\255\0\Right click\008 on the ground to move there.</Message>
                   <StringID z:Id="826" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">uitutorial_persistent_move</StringID>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                 </TriggerLogic>
@@ -1537,7 +1539,8 @@ Spring.SetGameRulesParam("tutorial_stage", 5)</CodeStr>
                   <Name z:Id="828">Custom Action (Alternate)</Name>
                   <CodeStr z:Id="829" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_show_next_button", 0)
 Spring.SetGameRulesParam("tutorial_stage", 6)
-GG.CommandLocker.UnlockCMD(CMD.MOVE)</CodeStr>
+GG.CommandLocker.UnlockCMD(CMD.MOVE)
+GG.CommandLocker.UnlockCMD(31109)  -- raw move</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
                 <TriggerLogic z:Id="830" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -1635,7 +1638,7 @@ end</CodeStr>
 + \255\0\255\0\Right click\008 and drag to draw a line.
 + Release right click.
 
-Give your commander and Warriors a line move order as depicted. At least one unit must be ordered to move into each circle simultaneously.</Message>
+Give your commander and Zeuses a line move order as depicted. At least one unit must be ordered to move into each circle simultaneously.</Message>
                   <StringID z:Id="859" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">uitutorial_persistent_lineMove</StringID>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                 </TriggerLogic>
