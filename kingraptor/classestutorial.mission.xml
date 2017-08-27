@@ -269,7 +269,7 @@
                   <TitleStringID z:Id="85" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">classesTutorial_objTitle_tut</TitleStringID>
                 </TriggerLogic>
                 <TriggerLogic z:Id="86" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="87">Custom Action (Alternate)</Name>
+                  <Name z:Id="87">Custom Action</Name>
                   <CodeStr z:Id="88" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_has_next_button", 1)
 GG.CommandLocker.UnlockCMD(CMD.FIGHT)
 GG.CommandLocker.UnlockCMD(CMD.ATTACK)
@@ -304,7 +304,7 @@ GG.CommandLocker.UnlockCMD(13922)  -- area guard</CodeStr>
                   <Name z:Id="96">Game Starts</Name>
                 </TriggerLogic>
                 <TriggerLogic z:Id="97" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="98">Custom Action (Alternate)</Name>
+                  <Name z:Id="98">Custom Action</Name>
                   <CodeStr z:Id="99" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.EconomyPanel then
   WG.EconomyPanel.SetEconomyPanelVisibility(false)
 end
@@ -329,7 +329,7 @@ Spring.SetCameraState(camState, 0)</CodeStr>
                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">45</Frames>
                 </TriggerLogic>
                 <TriggerLogic z:Id="106" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="107">Custom Action (Alternate)</Name>
+                  <Name z:Id="107">Custom Action</Name>
                   <CodeStr z:Id="108" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 1)</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
@@ -2808,7 +2808,7 @@ TIP: Use attack move to have your raiders automatically attempt to evade enemy f
                   <Queue xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Queue>
                 </TriggerLogic>
                 <TriggerLogic z:Id="677" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="678">Custom Action (Alternate)</Name>
+                  <Name z:Id="678">Custom Action</Name>
                   <CodeStr z:Id="679" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local merlID = GG.mission.FindUnitInGroup("Merl")
 Spring.GiveOrderToUnit(merlID, 36214, {0}, 0)  -- unit AI</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
@@ -3598,7 +3598,7 @@ Click Next to end.</Message>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                 </TriggerLogic>
                 <TriggerLogic z:Id="911" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="912">Custom Action (Alternate)</Name>
+                  <Name z:Id="912">Custom Action</Name>
                   <CodeStr z:Id="913" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_show_next_button", 1)</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
@@ -3679,7 +3679,7 @@ Click Next to end.</Message>
                   <Name z:Id="939">Victory</Name>
                 </TriggerLogic>
                 <TriggerLogic z:Id="940" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="941">Custom Action (Alternate)</Name>
+                  <Name z:Id="941">Custom Action</Name>
                   <CodeStr z:Id="942" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_show_next_button", 0)</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>

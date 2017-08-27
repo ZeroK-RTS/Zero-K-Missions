@@ -3470,7 +3470,7 @@ disablemapdamage = 1;</CustomModOptions>
                                   <UseOrbitalDrop xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</UseOrbitalDrop>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="1068" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="1069">Custom Action (Alternate)</Name>
+                                  <Name z:Id="1069">Custom Action</Name>
                                   <CodeStr z:Id="1070" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local unitID = GG.mission.FindUnitInGroup("Ada")
 --Spring.SetUnitPosition()
 
@@ -4719,7 +4719,7 @@ GG.CAI.SetFactoryDefImportance(1, UnitDefNames.factoryplane.id, 0)</CodeStr>
                                                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">270</Time>
                                                                 </TriggerLogic>
                                                                 <TriggerLogic z:Id="1412" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                                                  <Name z:Id="1413">Custom Action (Alternate)</Name>
+                                                                  <Name z:Id="1413">Custom Action</Name>
                                                                   <CodeStr z:Id="1414" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">GG.CAI.SuspendAI(1, false)</CodeStr>
                                                                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                                                                 </TriggerLogic>
@@ -5088,7 +5088,7 @@ Like all artillery units, it is vulnerable in close combat.</Message>
                   <Name z:Id="1501">Clear Convo Message Queue</Name>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1502" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1503">Custom Action (Alternate)</Name>
+                  <Name z:Id="1503">Custom Action</Name>
                   <CodeStr z:Id="1504" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local unitID = GG.mission.FindUnitInGroup("Ada")
 local _,_,_,x, y, z = Spring.GetUnitPosition(unitID, true)
 Spring.SpawnCEG("gate", x, y, z)
@@ -5147,7 +5147,7 @@ Spring.DestroyUnit(unitID, false, true)</CodeStr>
                   <Name z:Id="1521">Clear Convo Message Queue</Name>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1522" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1523">Custom Action (Alternate)</Name>
+                  <Name z:Id="1523">Custom Action</Name>
                   <CodeStr z:Id="1524" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local unitID = GG.mission.FindUnitInGroup("FreeMachine")
 local _,_,_,x, y, z = Spring.GetUnitPosition(unitID, true)
 Spring.SpawnCEG("gate", x, y, z)

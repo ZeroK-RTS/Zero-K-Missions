@@ -9230,7 +9230,7 @@ metalmult=0.75;</CustomModOptions>
                   <Name z:Id="2106">Allow Unit Transfers</Name>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2107" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2108">Custom Action (Alternate)</Name>
+                  <Name z:Id="2108">Custom Action</Name>
                   <CodeStr z:Id="2109" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">for i=1,6 do
   GG.CAI.SuspendAI(i, true)
   if i ~= 1 then
@@ -9492,7 +9492,7 @@ Spring.GiveOrderToUnit(unitID, CMD.STOCKPILE, {}, { "ctrl", "shift" })</CodeStr>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2176" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2177">Custom Action (Alternate)</Name>
+                  <Name z:Id="2177">Custom Action</Name>
                   <CodeStr z:Id="2178" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local unitID = GG.mission.FindUnitInGroup("Ada")
 Spring.SetUnitRulesParam(unitID, "facplop", 1, {inlos = true})
 local x, z = 11000, 10400
@@ -9525,7 +9525,7 @@ Spring.GiveOrderToUnit(unitID, -UnitDefNames.factoryveh.id, {x, y, z, 3}, 0)</Co
                                   <Name z:Id="2192">Restore Camera State</Name>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="2193" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="2194">Custom Action (Alternate)</Name>
+                                  <Name z:Id="2194">Custom Action</Name>
                                   <CodeStr z:Id="2195" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">for i=1,7 do
   GG.CAI.SuspendAI(i, false)
 end
@@ -10553,7 +10553,7 @@ Spring.DestroyUnit(unitID, false, true)</CodeStr>
             <items z:Id="2479" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
               <_items z:Id="2480" z:Size="16">
                 <TriggerLogic z:Id="2481" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2482">Custom Action (Alternate)</Name>
+                  <Name z:Id="2482">Custom Action</Name>
                   <CodeStr z:Id="2483" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">GG.CAI.SuspendAI(7, true)
 local unitID = GG.mission.FindUnitInGroup("Ada")
 GG.SetUnitInvulnerable(unitID, true)</CodeStr>
@@ -11786,7 +11786,7 @@ GG.SetUnitInvulnerable(unitID, true)</CodeStr>
             <items z:Id="2905" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
               <_items z:Id="2906" z:Size="8">
                 <TriggerLogic z:Id="2907" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2908">Custom Action (Alternate)</Name>
+                  <Name z:Id="2908">Custom Action</Name>
                   <CodeStr z:Id="2909" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">-- spawn Brawlers and Rapiers
 
 local shiftTable = {"shift"}
@@ -12046,7 +12046,7 @@ end</CodeStr>
                   <Name z:Ref="2885" i:nil="true" />
                 </TriggerLogic>
                 <TriggerLogic z:Id="2969" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2970">Custom Action (Alternate)</Name>
+                  <Name z:Id="2970">Custom Action</Name>
                   <CodeStr z:Id="2971" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local unitID = GG.mission.FindUnitInGroup("Ada")
 Spring.SetUnitRulesParam(unitID, "facplop", 1, {inlos = true})
 local x, z = 11000, 10400

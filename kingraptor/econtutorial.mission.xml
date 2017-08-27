@@ -1378,7 +1378,7 @@
                   <Instant xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Instant>
                 </TriggerLogic>
                 <TriggerLogic z:Id="731" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="732">Custom Action (Alternate)</Name>
+                  <Name z:Id="732">Custom Action</Name>
                   <CodeStr z:Id="733" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local units = GG.mission.FindUnitsInGroup("Gaia")
 for unitID in pairs(units) do
   Spring.TransferUnit(unitID, Spring.GetGaiaTeamID(), false)
@@ -1537,7 +1537,7 @@ end</CodeStr>
             <items z:Id="788" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
               <_items z:Id="789" z:Size="4">
                 <TriggerLogic z:Id="790" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="791">Custom Action (Alternate)</Name>
+                  <Name z:Id="791">Custom Action</Name>
                   <CodeStr z:Id="792" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 2)
 Spring.SetGameRulesParam("tutorial_show_next_button", 0)
 GG.CommandLocker.UnlockCMD(CMD.RECLAIM)</CodeStr>
@@ -1698,7 +1698,7 @@ end</CodeStr>
             <items z:Id="844" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
               <_items z:Id="845" z:Size="4">
                 <TriggerLogic z:Id="846" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="847">Custom Action (Alternate)</Name>
+                  <Name z:Id="847">Custom Action</Name>
                   <CodeStr z:Id="848" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 5)
 Spring.SetGameRulesParam("tutorial_show_next_button", 1)</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
@@ -1719,7 +1719,7 @@ Click Next to continue.</Message>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                 </TriggerLogic>
                 <TriggerLogic z:Id="853" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="854">Custom Action (Alternate)</Name>
+                  <Name z:Id="854">Custom Action</Name>
                   <CodeStr z:Id="855" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.ChiliHighlight then
   WG.ChiliHighlight.AddControl("Metal", nil, true, 4)
   WG.ChiliHighlight.AddControl("Energy", nil, true, 4)
@@ -1750,7 +1750,7 @@ end</CodeStr>
             <items z:Id="860" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
               <_items z:Id="861" z:Size="8">
                 <TriggerLogic z:Id="862" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="863">Custom Action (Alternate)</Name>
+                  <Name z:Id="863">Custom Action</Name>
                   <CodeStr z:Id="864" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 6)
 Spring.SetGameRulesParam("tutorial_show_next_button", 0)
 GG.CommandLocker.UnlockCMD(CMD.MOVE)</CodeStr>
@@ -1858,7 +1858,7 @@ TIP: Hold down \255\0\255\0\Shift\008 to click and drag a line of buildings. If 
                             <items z:Id="898" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
                               <_items z:Id="899" z:Size="8">
                                 <TriggerLogic z:Id="900" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="901">Custom Action (Alternate)</Name>
+                                  <Name z:Id="901">Custom Action</Name>
                                   <CodeStr z:Id="902" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 7)
 GG.CommandLocker.UnlockCMD(30100)  -- area mex</CodeStr>
                                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
@@ -2000,7 +2000,7 @@ If you're having trouble finding metal spots, press \255\0\255\0\F4\008 for the 
                                             <items z:Id="945" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
                                               <_items z:Id="946" z:Size="8">
                                                 <TriggerLogic z:Id="947" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                                  <Name z:Id="948">Custom Action (Alternate)</Name>
+                                                  <Name z:Id="948">Custom Action</Name>
                                                   <CodeStr z:Id="949" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 8)
 Spring.SetGameRulesParam("tutorial_show_next_button", 1)</CodeStr>
                                                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
@@ -2095,7 +2095,7 @@ Build a Solar Collector in the designated location to connect the mex and see ho
                                                   </Units>
                                                 </TriggerLogic>
                                                 <TriggerLogic z:Id="975" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                                  <Name z:Id="976">Custom Action (Alternate)</Name>
+                                                  <Name z:Id="976">Custom Action</Name>
                                                   <CodeStr z:Id="977" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.ChiliHighlight then
   WG.ChiliHighlight.ClearControls()
 end</CodeStr>
@@ -2129,7 +2129,7 @@ end</CodeStr>
                                   </Triggers>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="981" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="982">Custom Action (Alternate)</Name>
+                                  <Name z:Id="982">Custom Action</Name>
                                   <CodeStr z:Id="983" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.ChiliHighlight then
   WG.ChiliHighlight.ClearControls()
   
@@ -2169,7 +2169,7 @@ end</CodeStr>
                   </Triggers>
                 </TriggerLogic>
                 <TriggerLogic z:Id="987" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="988">Custom Action (Alternate)</Name>
+                  <Name z:Id="988">Custom Action</Name>
                   <CodeStr z:Id="989" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.ChiliHighlight then
   WG.ChiliHighlight.RemoveControl("Metal", {0.5,1,0.25}, 4)
   WG.ChiliHighlight.RemoveControl("Energy", {0.25,1,0.5}, 4)
@@ -2208,7 +2208,7 @@ end</CodeStr>
             <items z:Id="994" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
               <_items z:Id="995" z:Size="8">
                 <TriggerLogic z:Id="996" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="997">Custom Action (Alternate)</Name>
+                  <Name z:Id="997">Custom Action</Name>
                   <CodeStr z:Id="998" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 9)
 Spring.SetGameRulesParam("tutorial_show_next_button", 0)
 local unitID = GG.mission.FindUnitInGroup("Comm")
@@ -2349,7 +2349,7 @@ end</CodeStr>
             <items z:Id="1032" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
               <_items z:Id="1033" z:Size="8">
                 <TriggerLogic z:Id="1034" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1035">Custom Action (Alternate)</Name>
+                  <Name z:Id="1035">Custom Action</Name>
                   <CodeStr z:Id="1036" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 10)</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
@@ -2530,7 +2530,7 @@ end</CodeStr>
             <items z:Id="1088" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
               <_items z:Id="1089" z:Size="8">
                 <TriggerLogic z:Id="1090" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1091">Custom Action (Alternate)</Name>
+                  <Name z:Id="1091">Custom Action</Name>
                   <CodeStr z:Id="1092" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 11)
 GG.CommandLocker.UnlockCMD(CMD.REPEAT)</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
@@ -2698,7 +2698,7 @@ end</CodeStr>
             <items z:Id="1138" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
               <_items z:Id="1139" z:Size="8">
                 <TriggerLogic z:Id="1140" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1141">Custom Action (Alternate)</Name>
+                  <Name z:Id="1141">Custom Action</Name>
                   <CodeStr z:Id="1142" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 12)
 GG.CommandLocker.UnlockCMD(CMD.GUARD)
 GG.CommandLocker.UnlockCMD(13921)  -- factory guard
@@ -2894,7 +2894,7 @@ end</CodeStr>
             <items z:Id="1193" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
               <_items z:Id="1194" z:Size="8">
                 <TriggerLogic z:Id="1195" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1196">Custom Action (Alternate)</Name>
+                  <Name z:Id="1196">Custom Action</Name>
                   <CodeStr z:Id="1197" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_stage", 13)
 GG.CommandLocker.UnlockCMD(CMD.FIGHT)
 GG.CommandLocker.UnlockCMD(CMD.ATTACK)</CodeStr>
@@ -2950,7 +2950,7 @@ end</CodeStr>
             <items z:Id="1210" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
               <_items z:Id="1211" z:Size="8">
                 <TriggerLogic z:Id="1212" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1213">Custom Action (Alternate)</Name>
+                  <Name z:Id="1213">Custom Action</Name>
                   <CodeStr z:Id="1214" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_show_next_button", 1)</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
@@ -3023,7 +3023,7 @@ end</CodeStr>
             <items z:Id="1235" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
               <_items z:Id="1236" z:Size="8">
                 <TriggerLogic z:Id="1237" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1238">Custom Action (Alternate)</Name>
+                  <Name z:Id="1238">Custom Action</Name>
                   <CodeStr z:Id="1239" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_show_next_button", 0)
 Spring.SetGameRulesParam("tutorial_stage", 13)</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>

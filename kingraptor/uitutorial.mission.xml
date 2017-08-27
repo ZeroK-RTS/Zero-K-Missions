@@ -457,7 +457,7 @@
                   <Instant xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Instant>
                 </TriggerLogic>
                 <TriggerLogic z:Id="132" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="133">Custom Action (Alternate)</Name>
+                  <Name z:Id="133">Custom Action</Name>
                   <CodeStr z:Id="134" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.PointTracker then
   WG.PointTracker.SetUseFade(false)
 end
@@ -1597,7 +1597,7 @@ Spring.SendCommands("info 0")</CodeStr>
                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">30</Frames>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1096" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1097">Custom Action (Alternate)</Name>
+                  <Name z:Id="1097">Custom Action</Name>
                   <CodeStr z:Id="1098" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local camState = Spring.GetCameraState()
 camState.height = 1000
 camState.py = 900
@@ -1662,7 +1662,7 @@ Got that? Practice a bit if you like, then press Next to continue.</Message>
                                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="1122" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="1123">Custom Action (Alternate)</Name>
+                                  <Name z:Id="1123">Custom Action</Name>
                                   <CodeStr z:Id="1124" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("uitutorial_stage", 0)
 Spring.SetGameRulesParam("uitutorial_show_next_button", 1)</CodeStr>
                                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
@@ -1730,7 +1730,7 @@ Spring.SetGameRulesParam("uitutorial_show_next_button", 1)</CodeStr>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1138" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1139">Custom Action (Alternate)</Name>
+                  <Name z:Id="1139">Custom Action</Name>
                   <CodeStr z:Id="1140" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("uitutorial_show_next_button", 0)</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
@@ -1799,7 +1799,7 @@ Click Next to continue.</Message>
                                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="1169" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="1170">Custom Action (Alternate)</Name>
+                                  <Name z:Id="1170">Custom Action</Name>
                                   <CodeStr z:Id="1171" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.PointTracker then
   WG.PointTracker.ClearPoints()
 end</CodeStr>
@@ -1869,7 +1869,7 @@ Select your commander to continue.</Message>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1184" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1185">Custom Action (Alternate)</Name>
+                  <Name z:Id="1185">Custom Action</Name>
                   <CodeStr z:Id="1186" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("uitutorial_show_next_button", 0)</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
@@ -3798,7 +3798,7 @@ Click Next to continue.</Message>
                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1714" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1715">Custom Action (Alternate)</Name>
+                  <Name z:Id="1715">Custom Action</Name>
                   <CodeStr z:Id="1716" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("uitutorial_show_next_button", 1)</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>

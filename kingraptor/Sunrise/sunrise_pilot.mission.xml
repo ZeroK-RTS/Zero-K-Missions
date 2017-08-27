@@ -5718,7 +5718,7 @@ Her name was Lilith, leader of an independent exploration team. She travelled th
                   <UseOrbitalDrop xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</UseOrbitalDrop>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1453" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1454">Custom Action (Alternate)</Name>
+                  <Name z:Id="1454">Custom Action</Name>
                   <CodeStr z:Id="1455" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local units = Spring.GetTeamUnits(1)
 
 for i=1,#units do
@@ -6005,7 +6005,7 @@ end</CodeStr>
                   <Name z:Id="1523">Restore Camera State</Name>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1524" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1525">Custom Action (Alternate)</Name>
+                  <Name z:Id="1525">Custom Action</Name>
                   <CodeStr z:Id="1526" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local unitID = GG.mission.FindUnitInGroup("Self")
 Spring.GiveOrderToUnit(unitID, CMD.CLOAK, {1}, {})</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
@@ -6637,7 +6637,7 @@ The Radar Tower also has good visual sight distance in addition to its radar, wh
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">150</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1694" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1695">Custom Action (Alternate)</Name>
+                  <Name z:Id="1695">Custom Action</Name>
                   <CodeStr z:Id="1696" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local unitID = GG.mission.FindUnitInGroup("Bunker 1")
 Spring.TransferUnit(unitID, 0, false)
 Spring.SetUnitNeutral(unitID, true)
@@ -9494,7 +9494,7 @@ end</CodeStr>
                   <UseOrbitalDrop xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</UseOrbitalDrop>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2450" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2451">Custom Action (Alternate)</Name>
+                  <Name z:Id="2451">Custom Action</Name>
                   <CodeStr z:Id="2452" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local y = Spring.GetGroundHeight(0,0)
 local unitID = GG.mission.FindUnitInGroup("Transport")
 Spring.SetUnitPosition(unitID, -600, y+200, -600)
@@ -9811,7 +9811,7 @@ Spring.GiveOrderToUnit( unitID, CMD.MOVE, {4730, 100, 3600}, {} )</CodeStr>
                   <UseOrbitalDrop xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</UseOrbitalDrop>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2550" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2551">Custom Action (Alternate)</Name>
+                  <Name z:Id="2551">Custom Action</Name>
                   <CodeStr z:Id="2552" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local unitID = GG.mission.FindUnitInGroup("Relic Comm")
 Spring.SetUnitNeutral(unitID, true)
 Spring.SetUnitNoSelect(unitID, true)
@@ -9821,7 +9821,7 @@ Spring.SetUnitSensorRadius(unitID,"airLos", 0)</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2553" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2554">Custom Action (Alternate)</Name>
+                  <Name z:Id="2554">Custom Action</Name>
                   <CodeStr z:Id="2555" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local unitID = GG.mission.FindUnitInGroup("Transport")
 local targetID = GG.mission.FindUnitInGroup("Relic Comm")
 GG.SetUnitInvulnerable(unitID, true)

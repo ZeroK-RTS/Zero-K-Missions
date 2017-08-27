@@ -201,7 +201,7 @@ terrarestoreonly=1;</CustomModOptions>
                   <Name z:Id="71">Game Preload</Name>
                 </TriggerLogic>
                 <TriggerLogic z:Id="72" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="73">Custom Action (Alternate)</Name>
+                  <Name z:Id="73">Custom Action</Name>
                   <CodeStr z:Id="74" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">-- tree cleaner
 local features = Spring.GetAllFeatures()
 for i=1,#features do
@@ -6049,7 +6049,7 @@ GG.CAI.SuspendAI(1, true)</CodeStr>
                   <Queue xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Queue>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1556" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1557">Custom Action (Alternate)</Name>
+                  <Name z:Id="1557">Custom Action</Name>
                   <CodeStr z:Id="1558" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local units = GG.mission.FindUnitsInGroup("Dereg")
 for unitID in pairs(units) do
   GG.CAI.RemoveUnit(unitID)

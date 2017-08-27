@@ -302,7 +302,7 @@ Her thoughts flowed into the machine, and massive command unit came alive with a
             <items z:Id="77" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
               <_items z:Id="78" z:Size="64">
                 <TriggerLogic z:Id="79" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="80">Custom Action (Alternate)</Name>
+                  <Name z:Id="80">Custom Action</Name>
                   <CodeStr z:Id="81" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">-- disable resource bars
 Spring.SendCommands("resbar 0")</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
@@ -4508,7 +4508,7 @@ Spring.SendCommands("resbar 0")</CodeStr>
                                   <Queue xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Queue>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="1407" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="1408">Custom Action (Alternate)</Name>
+                                  <Name z:Id="1408">Custom Action</Name>
                                   <CodeStr z:Id="1409" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local units = Spring.GetTeamUnits(0)
 local unitID
 
@@ -7175,7 +7175,7 @@ Make sure to keep enemy units from getting too close, they're not built for a st
                   </Triggers>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2070" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2071">Custom Action (Alternate)</Name>
+                  <Name z:Id="2071">Custom Action</Name>
                   <CodeStr z:Id="2072" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local unitID = GG.mission.FindUnitInGroup("Transport")
 local commID = GG.mission.FindUnitInGroup("Commander")
 Spring.GiveOrderToUnit(unitID, CMD.LOAD_UNITS, {commID}, 0)</CodeStr>

@@ -4252,7 +4252,7 @@
                   <Name z:Id="849">Game Preload</Name>
                 </TriggerLogic>
                 <TriggerLogic z:Id="850" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="851">Custom Action (Alternate)</Name>
+                  <Name z:Id="851">Custom Action</Name>
                   <CodeStr z:Id="852" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local units = GG.mission.FindUnitsInGroup("Dereg")
 for unitID in pairs(units) do
   local unitDefID = Spring.GetUnitDefID(unitID)
@@ -5640,7 +5640,7 @@ end</CodeStr>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">165</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1947" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1948">Custom Action (Alternate)</Name>
+                  <Name z:Id="1948">Custom Action</Name>
                   <CodeStr z:Id="1949" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">for i=2,3 do
  GG.CAI.SuspendAI(i, false)
 end</CodeStr>
@@ -6253,7 +6253,7 @@ end</CodeStr>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">PT8M</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2109" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2110">Custom Action (Alternate)</Name>
+                  <Name z:Id="2110">Custom Action</Name>
                   <CodeStr z:Id="2111" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local x = 3700
 local y = Spring.GetGroundHeight(x, 0) + 100
 local z = -1200
@@ -6719,7 +6719,7 @@ GG.SetUnitInvulnerable(unitID, true)</CodeStr>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">120</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2266" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2267">Custom Action (Alternate)</Name>
+                  <Name z:Id="2267">Custom Action</Name>
                   <CodeStr z:Id="2268" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local unitID = GG.mission.FindUnitInGroup("Athenion")
 Spring.DestroyUnit(unitID)</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
@@ -7137,7 +7137,7 @@ GG.mission.SendMissionVariables({ AthenionDead = value })</CodeStr>
                   <CutsceneID z:Id="2389" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Current Cutscene</CutsceneID>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2390" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2391">Custom Action (Alternate)</Name>
+                  <Name z:Id="2391">Custom Action</Name>
                   <CodeStr z:Id="2392" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">GG.CAI.SuspendAI(1, false)
 local unitID = GG.mission.FindUnitInGroup("Ada")
 Spring.SetUnitRulesParam(unitID, "facplop", 1, {inlos = true})

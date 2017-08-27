@@ -3444,7 +3444,7 @@
                   <Value xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Value>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1038" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1039">Custom Action (Alternate)</Name>
+                  <Name z:Id="1039">Custom Action</Name>
                   <CodeStr z:Id="1040" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">GG.CAI.SuspendAI(1, true)
 
 local roaches = GG.mission.FindUnitsInGroup("Roaches")
@@ -4180,7 +4180,7 @@ Spread out Roaches to avoid them blowing each other up.</Message>
                   <UseOrbitalDrop xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</UseOrbitalDrop>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1244" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1245">Custom Action (Alternate)</Name>
+                  <Name z:Id="1245">Custom Action</Name>
                   <CodeStr z:Id="1246" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local unitID = GG.mission.FindUnitInGroup("Dante")
 GG.CAI.RemoveUnit(unitID)</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
@@ -4631,7 +4631,7 @@ Spring.DestroyUnit(unitID, false, true)</CodeStr>
                   <Name z:Id="1381">Clear Convo Message Queue</Name>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1382" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1383">Custom Action (Alternate)</Name>
+                  <Name z:Id="1383">Custom Action</Name>
                   <CodeStr z:Id="1384" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local unitID = GG.mission.FindUnitInGroup("Ada")
 local _,_,_,x, y, z = Spring.GetUnitPosition(unitID, true)
 Spring.SpawnCEG("gate", x, y, z)

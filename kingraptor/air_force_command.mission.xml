@@ -6833,7 +6833,7 @@ A key feature of the Swift is its speed boost ability, invaluable for getting qu
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">PT7.5S</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1734" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1735">Custom Action (Alternate)</Name>
+                  <Name z:Id="1735">Custom Action</Name>
                   <CodeStr z:Id="1736" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.GameOver( {1} )</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
@@ -7399,7 +7399,7 @@ This situation is ideal for the Phoenix napalm bomber. You're cleared to build P
                                                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">305</Width>
                                                 </TriggerLogic>
                                                 <TriggerLogic z:Id="1882" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                                  <Name z:Id="1883">Custom Action (Alternate)</Name>
+                                                  <Name z:Id="1883">Custom Action</Name>
                                                   <CodeStr z:Id="1884" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">-- spawn our Phoenixes slightly offmap and have them fly to us
 local x = Game.mapSizeX * 0.6
 local y = 150
@@ -10116,7 +10116,7 @@ Hard targets will generally require multiple passes in close sequence in order t
                   <UseOrbitalDrop xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</UseOrbitalDrop>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2493" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2494">Custom Action (Alternate)</Name>
+                  <Name z:Id="2494">Custom Action</Name>
                   <CodeStr z:Id="2495" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">-- add a pair of Brawlers to the emergency reinforcements
 local x = Game.mapSizeX * 0.45
 local y = 150
@@ -10273,7 +10273,7 @@ Do not pursue. Your work here is done, Commander - return to base.</Message>
                   <Title z:Ref="76" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                 </TriggerLogic>
                 <TriggerLogic z:Id="2533" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2534">Custom Action (Alternate)</Name>
+                  <Name z:Id="2534">Custom Action</Name>
                   <CodeStr z:Id="2535" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local frame = Spring.GetGameFrame()
 local PAR_TIME = 30*60*18  -- 18 minutes
 local bonus = (PAR_TIME - frame) * 5

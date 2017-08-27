@@ -2869,7 +2869,7 @@
                   <UseOrbitalDrop xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</UseOrbitalDrop>
                 </TriggerLogic>
                 <TriggerLogic z:Id="616" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="617">Custom Action (Alternate)</Name>
+                  <Name z:Id="617">Custom Action</Name>
                   <CodeStr z:Id="618" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SendCommands("luaui enablewidget Mission Night")
 WG.Night.SetWantedDayTime(0.2)
 WG.Night.SetDayTime(0.2)
@@ -2877,7 +2877,7 @@ WG.Night.SetDayLength(7200)</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Synced>
                 </TriggerLogic>
                 <TriggerLogic z:Id="619" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="620">Custom Action (Alternate)</Name>
+                  <Name z:Id="620">Custom Action</Name>
                   <CodeStr z:Id="621" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">GG.CAI.SuspendAI(1, true)
 GG.CAI.SuspendAI(2, true)
 
@@ -4895,7 +4895,7 @@ Spring.SetTeamResource(3,"e",500)</CodeStr>
                                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">320</Width>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="1451" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="1452">Custom Action (Alternate)</Name>
+                                  <Name z:Id="1452">Custom Action</Name>
                                   <CodeStr z:Id="1453" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">WG.Night.SetWantedDayTime(0.3)</CodeStr>
                                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Synced>
                                 </TriggerLogic>
@@ -4980,7 +4980,7 @@ Spring.SetTeamResource(3,"e",500)</CodeStr>
                   <Name z:Id="1466">Clear Convo Message Queue</Name>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1467" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1468">Custom Action (Alternate)</Name>
+                  <Name z:Id="1468">Custom Action</Name>
                   <CodeStr z:Id="1469" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local unitID = GG.mission.FindUnitInGroup("ValComm")
 local _,_,_,x, y, z = Spring.GetUnitPosition(unitID, true)
 Spring.SpawnCEG("gate", x, y, z)
@@ -5108,7 +5108,7 @@ Spring.KillTeam(2)</CodeStr>
                   <Name z:Id="1513">Clear Convo Message Queue</Name>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1514" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1515">Custom Action (Alternate)</Name>
+                  <Name z:Id="1515">Custom Action</Name>
                   <CodeStr z:Id="1516" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local unitID = GG.mission.FindUnitInGroup("Ada")
 local _,_,_,x, y, z = Spring.GetUnitPosition(unitID, true)
 Spring.SpawnCEG("gate", x, y, z)
@@ -6007,7 +6007,7 @@ GG.SetUnitInvulnerable(unitID, true)</CodeStr>
                   <Name z:Id="1809">Clear Convo Message Queue</Name>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1810" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1811">Custom Action (Alternate)</Name>
+                  <Name z:Id="1811">Custom Action</Name>
                   <CodeStr z:Id="1812" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SendCommands("luaui disablewidget Nightvision Shader")
 WG.Cutscene.SetDrawCameraScreen(false)</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Synced>

@@ -5039,7 +5039,7 @@
                   <Instant xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Instant>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1023" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1024">Custom Action (Alternate)</Name>
+                  <Name z:Id="1024">Custom Action</Name>
                   <CodeStr z:Id="1025" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">GG.CAI.SuspendAI(1, true)
 GG.TacticalResponse.EnableForTeam(2)
 
@@ -5967,7 +5967,7 @@ end</CodeStr>
                   <UseOrbitalDrop xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</UseOrbitalDrop>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1608" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1609">Custom Action (Alternate)</Name>
+                  <Name z:Id="1609">Custom Action</Name>
                   <CodeStr z:Id="1610" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local x, z = 3700, 920
 local y = Spring.GetGroundHeight(x, z)
 local units = GG.mission.FindUnitsInGroup("Pyros")
@@ -6296,7 +6296,7 @@ Spring.PlaySoundFile("sounds/misc/teleport2.wav", 2.0, x, y, z, nil, nil, nil, "
                                   <Name z:Id="1710">Restore Camera State</Name>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="1711" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="1712">Custom Action (Alternate)</Name>
+                                  <Name z:Id="1712">Custom Action</Name>
                                   <CodeStr z:Id="1713" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local resources = {
   [0] = {300, 500},
   {100, 100},
@@ -6314,7 +6314,7 @@ end</CodeStr>
                                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">60</Frames>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="1716" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="1717">Custom Action (Alternate)</Name>
+                                  <Name z:Id="1717">Custom Action</Name>
                                   <CodeStr z:Id="1718" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local unitID = GG.mission.FindUnitInGroup("MachineComm")
 Spring.MoveCtrl.Disable(unitID)
 GG.CAI.SuspendAI(1, false)
@@ -7401,7 +7401,7 @@ end</CodeStr>
                   <TitleStringID i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                 </TriggerLogic>
                 <TriggerLogic z:Id="2040" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2041">Custom Action (Alternate)</Name>
+                  <Name z:Id="2041">Custom Action</Name>
                   <CodeStr z:Id="2042" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local unitID = GG.mission.FindUnitInGroup("MachineComm")
 Spring.SetUnitHealth(unitID, {paralyze = 10000})
 GG.SetUnitInvulnerable(unitID, true)
@@ -8181,7 +8181,7 @@ The Roach can burrow to avoid detection until enemies are close, then rush them 
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">PT20M</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2289" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2290">Custom Action (Alternate)</Name>
+                  <Name z:Id="2290">Custom Action</Name>
                   <CodeStr z:Id="2291" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local x = -1800
 local z = Game.mapSizeZ + 1800
 local y = 300

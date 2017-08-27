@@ -7570,7 +7570,7 @@ metalmult = 0.85;</CustomModOptions>
                   </Units>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2193" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2194">Custom Action (Alternate)</Name>
+                  <Name z:Id="2194">Custom Action</Name>
                   <CodeStr z:Id="2195" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local units = GG.mission.FindUnitsInGroup("Dead")
 for unitID in pairs(units) do
   Spring.DestroyUnit(unitID)
@@ -7767,7 +7767,7 @@ GG.CAI.SetFactoryDefImportance(1, UnitDefNames.factorytank.id, 0)</CodeStr>
                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">30</Frames>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2258" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2259">Custom Action (Alternate)</Name>
+                  <Name z:Id="2259">Custom Action</Name>
                   <CodeStr z:Id="2260" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local ada = GG.mission.FindUnitInGroup("Ada")
 local nearestEnemy = Spring.GetUnitNearestEnemy(ada)
 Spring.GiveOrderToUnit(ada, CMD.MANUALFIRE, {nearestEnemy}, 0)</CodeStr>
@@ -7831,7 +7831,7 @@ Spring.GiveOrderToUnit(ada, CMD.MANUALFIRE, {nearestEnemy}, 0)</CodeStr>
                                   <Name z:Id="2285">Restore Camera State</Name>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="2286" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="2287">Custom Action (Alternate)</Name>
+                                  <Name z:Id="2287">Custom Action</Name>
                                   <CodeStr z:Id="2288" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetTeamResource(0,"m",500)
 Spring.SetTeamResource(0,"e",1000)
 Spring.SetTeamResource(1,"m",100)
@@ -7848,7 +7848,7 @@ Spring.SetTeamResource(1,"e",200)</CodeStr>
                                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">60</Frames>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="2292" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="2293">Custom Action (Alternate)</Name>
+                                  <Name z:Id="2293">Custom Action</Name>
                                   <CodeStr z:Id="2294" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local unitID = GG.mission.FindUnitInGroup("ImpComm")
 local x, z = 700, 700
 local y = Spring.GetGroundHeight(x, z)
@@ -9319,7 +9319,7 @@ GG.CAI.SuspendAI(1, false)
             <items z:Id="2686" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
               <_items z:Id="2687" z:Size="16">
                 <TriggerLogic z:Id="2688" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2689">Custom Action (Alternate)</Name>
+                  <Name z:Id="2689">Custom Action</Name>
                   <CodeStr z:Id="2690" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">GG.CAI.SuspendAI(1, true)</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>

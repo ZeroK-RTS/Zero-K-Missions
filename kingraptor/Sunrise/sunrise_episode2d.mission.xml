@@ -789,7 +789,7 @@
                   <UseOrbitalDrop xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</UseOrbitalDrop>
                 </TriggerLogic>
                 <TriggerLogic z:Id="197" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="198">Custom Action (Alternate)</Name>
+                  <Name z:Id="198">Custom Action</Name>
                   <CodeStr z:Id="199" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local function SpawnBurrow(x, z)
   local unitID = GG.Chicken.SpawnBurrow(1, {x, Spring.GetGroundHeight(x, z), z})
   Spring.SetUnitAlwaysVisible(unitID, true)
@@ -2610,7 +2610,7 @@ GG.CAI.SetFactoryDefImportance(1, UnitDefNames.factoryjump.id, 0)
                                   <TitleStringID z:Id="962" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">sunrise2d_objTitle_getToSafety</TitleStringID>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="963" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="964">Custom Action (Alternate)</Name>
+                                  <Name z:Id="964">Custom Action</Name>
                                   <CodeStr z:Id="965" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local units = GG.mission.FindUnitsInGroup("Start Burrows")
 for unitID in pairs(units) do
   Spring.SetUnitAlwaysVisible(unitID, false)
@@ -2985,7 +2985,7 @@ Initially, you will only be attacked by basic chickens, which are fairly easy to
                             <items z:Id="1080" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
                               <_items z:Id="1081" z:Size="16">
                                 <TriggerLogic z:Id="1082" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="1083">Custom Action (Alternate)</Name>
+                                  <Name z:Id="1083">Custom Action</Name>
                                   <CodeStr z:Id="1084" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local unitID = GG.mission.FindUnitInGroup("Ada")
 GG.SetUnitInvulnerable(unitID, true)
 </CodeStr>

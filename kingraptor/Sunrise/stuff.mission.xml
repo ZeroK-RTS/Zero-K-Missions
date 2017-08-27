@@ -939,7 +939,7 @@
                   <UseOrbitalDrop xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</UseOrbitalDrop>
                 </TriggerLogic>
                 <TriggerLogic z:Id="111" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="112">Custom Action (Alternate)</Name>
+                  <Name z:Id="112">Custom Action</Name>
                   <CodeStr z:Id="113" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">for i=1,6 do
   GG.CAI.SuspendAI(i, true)
 end</CodeStr>

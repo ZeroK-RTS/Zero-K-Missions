@@ -2723,7 +2723,7 @@ terrarestoreonly=1;</CustomModOptions>
                   <Name z:Id="581">Game Preload</Name>
                 </TriggerLogic>
                 <TriggerLogic z:Id="582" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="583">Custom Action (Alternate)</Name>
+                  <Name z:Id="583">Custom Action</Name>
                   <CodeStr z:Id="584" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local gaia = Spring.GetGaiaTeamID()
 local unitID = GG.mission.FindUnitInGroup("Artefact")
 --Spring.TransferUnit(unitID, gaia, false)
@@ -3946,7 +3946,7 @@ GG.CAI.SetFactoryDefImportance(1, UnitDefNames.factoryspider.id, 0)</CodeStr>
                   <TrackPath z:Id="1198" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">G:\Games\Spring\ZK-Missions\kingraptor\music\Epic_Soul_Factory_-_La_Busqueda_de_Lanna.ogg</TrackPath>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1199" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1200">Custom Action (Alternate)</Name>
+                  <Name z:Id="1200">Custom Action</Name>
                   <CodeStr z:Id="1201" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local units = Spring.GetAllUnits()
 for i=1,#units do
   Spring.SetUnitAlwaysVisible(units[i], true)
@@ -5993,7 +5993,7 @@ GG.CAI.SuspendAI(2, false)</CodeStr>
                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Frames>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1691" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1692">Custom Action (Alternate)</Name>
+                  <Name z:Id="1692">Custom Action</Name>
                   <CodeStr z:Id="1693" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">GG.UseOrbitalStrike("kinetic_impactor", 2, 4100, 4100, 500, 15, 10)</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
@@ -6284,7 +6284,7 @@ Spring.DestroyUnit(unitID, false, true)
                                   <Name z:Id="1792">Clear Convo Message Queue</Name>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="1793" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="1794">Custom Action (Alternate)</Name>
+                                  <Name z:Id="1794">Custom Action</Name>
                                   <CodeStr z:Id="1795" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local unitID = GG.mission.FindUnitInGroup("Ada")
 local _,_,_,x, y, z = Spring.GetUnitPosition(unitID, true)
 Spring.SpawnCEG("gate", x, y, z)

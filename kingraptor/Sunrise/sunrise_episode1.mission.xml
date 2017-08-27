@@ -2360,7 +2360,7 @@
                   </Units>
                 </TriggerLogic>
                 <TriggerLogic z:Id="853" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="854">Custom Action (Alternate)</Name>
+                  <Name z:Id="854">Custom Action</Name>
                   <CodeStr z:Id="855" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">GG.TacticalResponse.EnableForTeam(1)
 local units = GG.mission.FindUnitsInGroup("Dereg")
 for unitID in pairs(units) do
@@ -2519,7 +2519,7 @@ end</CodeStr>
                             <items z:Id="918" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
                               <_items z:Id="919" z:Size="8">
                                 <TriggerLogic z:Id="920" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="921">Custom Action (Alternate)</Name>
+                                  <Name z:Id="921">Custom Action</Name>
                                   <CodeStr z:Id="922" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local resources = {
   [0] = {300, 300},
   {17, 9},
@@ -2537,7 +2537,7 @@ end</CodeStr>
                                   <Instant xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Instant>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="925" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="926">Custom Action (Alternate)</Name>
+                                  <Name z:Id="926">Custom Action</Name>
                                   <CodeStr z:Id="927" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.Music then
   WG.Music.SetWarThreshold(0)
 end</CodeStr>
@@ -3182,13 +3182,13 @@ HINT: You can increase or decrease line/block spacing with the Z and X keys.</Me
                   </Units>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1122" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1123">Custom Action (Alternate)</Name>
+                  <Name z:Id="1123">Custom Action</Name>
                   <CodeStr z:Id="1124" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local unitID = GG.mission.FindUnitInGroup("Self")
 Spring.SetUnitRulesParam(unitID, "facplop", 1, {inlos = true})</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1125" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1126">Custom Action (Alternate)</Name>
+                  <Name z:Id="1126">Custom Action</Name>
                   <CodeStr z:Id="1127" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.Music then
   WG.Music.SetWarThreshold(5000)
 end</CodeStr>

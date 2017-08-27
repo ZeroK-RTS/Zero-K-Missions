@@ -10311,7 +10311,7 @@ metalmult=0.75;</CustomModOptions>
                   <Value xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Value>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2036" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2037">Custom Action (Alternate)</Name>
+                  <Name z:Id="2037">Custom Action</Name>
                   <CodeStr z:Id="2038" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">for i=1,3 do
   GG.CAI.SuspendAI(i, true)
   GG.CAI.SetFactoryDefImportance(i, UnitDefNames.factorytank.id, 0)
@@ -11035,7 +11035,7 @@ Clear all enemies around the building and place a unit in the circle to disarm e
                   </Units>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2415" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2416">Custom Action (Alternate)</Name>
+                  <Name z:Id="2416">Custom Action</Name>
                   <CodeStr z:Id="2417" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.Music then
   WG.Music.SetWarThreshold(0)
   WG.Music.SetPeaceThreshold(-1)
@@ -11294,7 +11294,7 @@ end</CodeStr>
                                   <Instant xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Instant>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="2498" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="2499">Custom Action (Alternate)</Name>
+                                  <Name z:Id="2499">Custom Action</Name>
                                   <CodeStr z:Id="2500" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local resources = {
   [0] = {1000, 1000},
   {0, 250},
@@ -11892,7 +11892,7 @@ end</CodeStr>
                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">60</Frames>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2657" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2658">Custom Action (Alternate)</Name>
+                  <Name z:Id="2658">Custom Action</Name>
                   <CodeStr z:Id="2659" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local x1, z1 = 11380, 2780 
 local x2, z2 = 9380, 2780 
 local y = Spring.GetGroundHeight(x2, z2) + 200
@@ -12762,7 +12762,7 @@ Spring.DestroyUnit(unitID, false, true)</CodeStr>
                                                                                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">1800</Frames>
                                                                                 </TriggerLogic>
                                                                                 <TriggerLogic z:Id="2934" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                                                                  <Name z:Id="2935">Custom Action (Alternate)</Name>
+                                                                                  <Name z:Id="2935">Custom Action</Name>
                                                                                   <CodeStr z:Id="2936" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if GG.mission.counters["Fidus Dead"] ~= 1 then
   GG.mission.SetTriggerEnabledByName("Fidus Dialogue 2", true)
 end</CodeStr>
@@ -12891,7 +12891,7 @@ end</CodeStr>
                                                                             <items z:Id="2966" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
                                                                               <_items z:Id="2967" z:Size="4">
                                                                                 <TriggerLogic z:Id="2968" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                                                                  <Name z:Id="2969">Custom Action (Alternate)</Name>
+                                                                                  <Name z:Id="2969">Custom Action</Name>
                                                                                   <CodeStr z:Id="2970" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local unitID = GG.mission.FindUnitInGroup("Fidus")
 local _,_,_,x, y, z = Spring.GetUnitPosition(unitID, true)
 x = x + math.random(-15, 15)
@@ -13122,7 +13122,7 @@ end</CodeStr>
                                                                   <Value xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">1</Value>
                                                                 </TriggerLogic>
                                                                 <TriggerLogic z:Id="3044" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                                                  <Name z:Id="3045">Custom Action (Alternate)</Name>
+                                                                  <Name z:Id="3045">Custom Action</Name>
                                                                   <CodeStr z:Id="3046" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if WG.Music and WG.Music.StopTrack then
   if WG.nearDetonate then
       WG.Music.StopTrack(false)
@@ -13832,7 +13832,7 @@ end</CodeStr>
             <items z:Id="3230" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
               <_items z:Id="3231" z:Size="8">
                 <TriggerLogic z:Id="3232" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="3233">Custom Action (Alternate)</Name>
+                  <Name z:Id="3233">Custom Action</Name>
                   <CodeStr z:Id="3234" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local unitID = GG.mission.FindUnitInGroup("Fidus")
 local _,_,_,x, y, z = Spring.GetUnitPosition(unitID, true)
 Spring.SpawnCEG("gate", x, y, z)
@@ -13845,7 +13845,7 @@ Spring.DestroyUnit(unitID, false, true)</CodeStr>
                   <Name z:Id="3236">Clear Convo Message Queue</Name>
                 </TriggerLogic>
                 <TriggerLogic z:Id="3237" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="3238">Custom Action (Alternate)</Name>
+                  <Name z:Id="3238">Custom Action</Name>
                   <CodeStr z:Ref="14" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
@@ -14052,7 +14052,7 @@ Spring.DestroyUnit(unitID, false, true)</CodeStr>
                   <Name z:Id="3322">Restore Camera State</Name>
                 </TriggerLogic>
                 <TriggerLogic z:Id="3323" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="3324">Custom Action (Alternate)</Name>
+                  <Name z:Id="3324">Custom Action</Name>
                   <CodeStr z:Id="3325" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local units = Spring.GetTeamUnits(0)
 for i=1,#units do
   GG.SetUnitInvulnerable(units[i], false)

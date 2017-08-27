@@ -12128,7 +12128,7 @@ cratermult = 0.5;</CustomModOptions>
                   <Instant xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Instant>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2416" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2417">Custom Action (Alternate)</Name>
+                  <Name z:Id="2417">Custom Action</Name>
                   <CodeStr z:Id="2418" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local units = GG.mission.FindUnitsInGroup("Dereg")
 for unitID in pairs(units) do
   GG.CAI.RemoveUnit(unitID)
@@ -12231,7 +12231,7 @@ end</CodeStr>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">16</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2445" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2446">Custom Action (Alternate)</Name>
+                  <Name z:Id="2446">Custom Action</Name>
                   <CodeStr z:Id="2447" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local units = GG.mission.FindUnitsInGroup("March")
 local x, z = 8470, 6760
 local y = Spring.GetGroundHeight(x, z)
@@ -13908,7 +13908,7 @@ end</CodeStr>
                   </Triggers>
                 </TriggerLogic>
                 <TriggerLogic z:Id="2820" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="2821">Custom Action (Alternate)</Name>
+                  <Name z:Id="2821">Custom Action</Name>
                   <CodeStr z:Id="2822" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetTeamResource(0,"m",500)
 Spring.SetTeamResource(0,"e",420)
 Spring.SetTeamResource(1,"m",2700)
@@ -14051,7 +14051,7 @@ Spring.SetTeamResource(3,"e",550)</CodeStr>
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">PT1S</Time>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="2878" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="2879">Custom Action (Alternate)</Name>
+                                  <Name z:Id="2879">Custom Action</Name>
                                   <CodeStr z:Id="2880" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local units = Spring.GetUnitsInCylinder(6090, 5590, 750)
 local pwUnits = GG.mission.FindUnitsInGroup("PW")
 local secure = 1
@@ -14406,7 +14406,7 @@ end</CodeStr>
                                                   <Instant xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Instant>
                                                 </TriggerLogic>
                                                 <TriggerLogic z:Id="3005" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                                  <Name z:Id="3006">Custom Action (Alternate)</Name>
+                                                  <Name z:Id="3006">Custom Action</Name>
                                                   <CodeStr z:Id="3007" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local unitID = GG.mission.FindUnitInGroup("Ada")
 Spring.SetUnitRulesParam(unitID, "facplop", 1, {inlos = true})</CodeStr>
                                                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
@@ -14789,7 +14789,7 @@ end</CodeStr>
             <items z:Id="3088" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
               <_items z:Id="3089" z:Size="8">
                 <TriggerLogic z:Id="3090" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="3091">Custom Action (Alternate)</Name>
+                  <Name z:Id="3091">Custom Action</Name>
                   <CodeStr z:Id="3092" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local altPos = GG.mission.counters["Using Alt Insertion"] == 1
 
 local x, z
@@ -15066,7 +15066,7 @@ GG.mission.AddUnitGroup(unitID, "Krow")</CodeStr>
                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">PT8M</Time>
                 </TriggerLogic>
                 <TriggerLogic z:Id="3185" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="3186">Custom Action (Alternate)</Name>
+                  <Name z:Id="3186">Custom Action</Name>
                   <CodeStr z:Id="3187" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if GG.mission.counters["Scipio Astra Dead"] ~= 1 then
   GG.mission.SetTriggerEnabledByName("Astra Dialogue 2", true)
 end</CodeStr>
@@ -15315,7 +15315,7 @@ end</CodeStr>
                   <Name z:Id="3269">Save Camera State</Name>
                 </TriggerLogic>
                 <TriggerLogic z:Id="3270" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="3271">Custom Action (Alternate)</Name>
+                  <Name z:Id="3271">Custom Action</Name>
                   <CodeStr z:Id="3272" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local scipioAstraID = GG.mission.FindUnitInGroup("ScipioAstra")
 local _,_,_,x, y, z = Spring.GetUnitPosition(scipioAstraID, true)
 Spring.SetUnitHealth(scipioAstraID, {paralyze = 999999})
@@ -15710,7 +15710,7 @@ Spring.DestroyUnit(unitID, false, true)</CodeStr>
                                                                                   </Triggers>
                                                                                 </TriggerLogic>
                                                                                 <TriggerLogic z:Id="3403" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                                                                  <Name z:Id="3404">Custom Action (Alternate)</Name>
+                                                                                  <Name z:Id="3404">Custom Action</Name>
                                                                                   <CodeStr z:Id="3405" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">GG.mission.SendMissionVariables({ EmpireEnding = 3 })</CodeStr>
                                                                                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                                                                                 </TriggerLogic>
@@ -15774,7 +15774,7 @@ Spring.DestroyUnit(unitID, false, true)</CodeStr>
                                                                   </Triggers>
                                                                 </TriggerLogic>
                                                                 <TriggerLogic z:Id="3423" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                                                  <Name z:Id="3424">Custom Action (Alternate)</Name>
+                                                                  <Name z:Id="3424">Custom Action</Name>
                                                                   <CodeStr z:Id="3425" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">GG.mission.SendMissionVariables({ EmpireEnding = 2 })</CodeStr>
                                                                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                                                                 </TriggerLogic>
@@ -16580,7 +16580,7 @@ end</CodeStr>
                                   </Triggers>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="3662" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="3663">Custom Action (Alternate)</Name>
+                                  <Name z:Id="3663">Custom Action</Name>
                                   <CodeStr z:Id="3664" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local unitID = GG.mission.FindUnitInGroup("Ada")
 if unitID then
   GG.SetUnitInvulnerable(unitID, true)
@@ -16739,7 +16739,7 @@ end</CodeStr>
                                                   <Value xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">1</Value>
                                                 </TriggerLogic>
                                                 <TriggerLogic z:Id="3711" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                                  <Name z:Id="3712">Custom Action (Alternate)</Name>
+                                                  <Name z:Id="3712">Custom Action</Name>
                                                   <CodeStr z:Id="3713" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">if GG.mission.counters["Scipio Astra Dead"] == 1 and GG.mission.counters["Hill Secure"] == 1 then
   GG.mission.ExecuteTriggerByName("Ending")
 end</CodeStr>
@@ -16980,7 +16980,7 @@ Spring.GiveOrderToUnit(unitID, CMD.FIRE_STATE, {0}, 0)</CodeStr>
                                   <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">489.01492298213259</Y>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="3772" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="3773">Custom Action (Alternate)</Name>
+                                  <Name z:Id="3773">Custom Action</Name>
                                   <CodeStr z:Id="3774" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local hillUnits = Spring.GetAllUnits()  --Spring.GetUnitsInCylinder(6090, 5590, 2500)
 for i=1,#hillUnits do
   local unitID = hillUnits[i]
@@ -17149,7 +17149,7 @@ end</CodeStr>
                   <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">489.01492298213259</Y>
                 </TriggerLogic>
                 <TriggerLogic z:Id="3811" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="3812">Custom Action (Alternate)</Name>
+                  <Name z:Id="3812">Custom Action</Name>
                   <CodeStr z:Id="3813" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local hillUnits = Spring.GetAllUnits()  --Spring.GetUnitsInCylinder(6090, 5590, 2500)
 for i=1,#hillUnits do
   local unitID = hillUnits[i]

@@ -4683,7 +4683,7 @@ metalmult = 0.7;</CustomModOptions>
                   <Value xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Value>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1249" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1250">Custom Action (Alternate)</Name>
+                  <Name z:Id="1250">Custom Action</Name>
                   <CodeStr z:Id="1251" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">GG.CAI.SuspendAI(1, true)
 
 local lockedFacs = {
@@ -4762,7 +4762,7 @@ Spring.GiveOrderToUnit(unitID, 34223, {3}, 0) -- retreat</CodeStr>
                   <Y xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">859.32</Y>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1270" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1271">(time) Custom Action (Alternate)</Name>
+                  <Name z:Id="1271">(time) Custom Action</Name>
                   <CodeStr z:Id="1272" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">WG.Night.SetWantedDayTime(0.25)
 WG.Night.SetDayTime(0.25)</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Synced>
@@ -5092,7 +5092,7 @@ GG.CAI.SuspendAI(1, false)</CodeStr>
                                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Conditions">PT3S</Time>
                                                 </TriggerLogic>
                                                 <TriggerLogic z:Id="1383" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                                  <Name z:Id="1384">Custom Action (Alternate)</Name>
+                                                  <Name z:Id="1384">Custom Action</Name>
                                                   <CodeStr z:Id="1385" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local points = {
   {5350, 4750},
   {7250, 2380},
@@ -5632,7 +5632,7 @@ Spring.DestroyUnit(unitID, false, true)</CodeStr>
                             <items z:Id="1533" z:Type="System.Collections.Generic.List`1[[CMissionLib.TriggerLogic, CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" z:Assembly="0">
                               <_items z:Id="1534" z:Size="4">
                                 <TriggerLogic z:Id="1535" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="1536">Custom Action (Alternate)</Name>
+                                  <Name z:Id="1536">Custom Action</Name>
                                   <CodeStr z:Id="1537" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">-- spawn our Hawks slightly offmap and have them move to patrol the pass
 local x = Game.mapSizeX * 1.25
 local y = 150
@@ -5787,7 +5787,7 @@ end</CodeStr>
                   <Value xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Value>
                 </TriggerLogic>
                 <TriggerLogic z:Id="1575" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Id="1576">Custom Action (Alternate)</Name>
+                  <Name z:Id="1576">Custom Action</Name>
                   <CodeStr z:Id="1577" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">local unitID = GG.mission.FindUnitInGroup("Ada")
 if unitID then
   GG.SetUnitInvulnerable(unitID, true)
