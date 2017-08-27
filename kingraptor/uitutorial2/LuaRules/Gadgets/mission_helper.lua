@@ -18,7 +18,7 @@ end
 -- shared constants
 
 local STAGE_PARAM = "tutorial_stage"
-local MOVE_CIRCLE_RADIUS = 40
+local MOVE_CIRCLE_RADIUS = 50
 local MOVE_CIRCLE_RADIUS_SQ = MOVE_CIRCLE_RADIUS^2
 
 local circles = {
@@ -73,7 +73,15 @@ local function AdvanceStage()
 	end
 end
 
-local function Stage7Check()
+local function count(tab)
+	local count = 0
+	for i in pairs(tab) do
+		count = count + 1
+	end
+	return count
+end
+
+local function LineMoveCheck()
 	-- check if all the circles have units already there or heading to it
 	local validCircles = {}
 	local occupiedCircles = {}
@@ -92,6 +100,7 @@ local function Stage7Check()
 					if distSq < MOVE_CIRCLE_RADIUS_SQ then
 						validCircles[i] = true
 						occupiedCircles[i] = true
+						break
 					else
 						-- check if unit is headed there
 						local cmd = (Spring.GetUnitCommands(unitID, 1))[1]
@@ -99,19 +108,20 @@ local function Stage7Check()
 							distSq = (cmd.params[1] - circle[1])^2 + (cmd.params[3] - circle[3])^2
 							if distSq < MOVE_CIRCLE_RADIUS_SQ then
 								validCircles[i] = true
+								break
 							end
 						end
 					end
 				end
 			end
 		end
-		if #validCircles == 4 then
+		if count(validCircles) == 4 then
 			break
 		end
 	end
-	if #occupiedCircles == 4 then
+	if count(occupiedCircles) == 4 then
 		AdvanceStage()
-	elseif #validCircles < 4 then
+	elseif count(validCircles) < 4 then
 		Spring.GiveOrderToUnitArray(units, CMD.STOP, {}, 0)
 	end
 end
@@ -140,7 +150,7 @@ end
 
 function gadget:GameFrame(n)
 	if Spring.GetGameRulesParam(STAGE_PARAM) == 7 then
-		Stage7Check()
+		LineMoveCheck()
 	end
 end
 
@@ -152,6 +162,7 @@ else
 --------------------------------------------------------------------------------
 local UPDATE_INTERVAL = 4	-- every 4 screenframes
 local circleDivs = 65
+local ZOOM_DIST_SQ = 750 * 750
 
 local stageChecks = {
 	[1] = function()
@@ -164,7 +175,7 @@ local stageChecks = {
 		local x2, y2, z2 = Spring.GetUnitPosition(unitID)
 		
 		local distSq = (x2-x1)^2 + (z2-z1)^2
-		if distSq <= (500000) and (y1 - y2) < 500 then
+		if distSq <= ZOOM_DIST_SQ and (y1 - y2) < 500 then
 			return true
 		end
 		return false

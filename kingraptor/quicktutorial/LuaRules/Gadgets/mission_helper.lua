@@ -18,7 +18,7 @@ end
 -- shared constants
 
 local STAGE_PARAM = "tutorial_stage"
-local MOVE_CIRCLE_RADIUS = 40
+local MOVE_CIRCLE_RADIUS = 50
 local MOVE_CIRCLE_RADIUS_SQ = MOVE_CIRCLE_RADIUS^2
 
 local circles = {
@@ -29,8 +29,9 @@ local circles = {
 }
 
 local MOVE_DEST_1 = {3410, 3580}
-local SOLAR_POS = {5128, 3512}
-local FAC_POS = {5294, 3572}
+local SOLAR_POS = {5112, 3464}
+local MEX_POS = {5112, 3592}
+local FAC_POS = {5296, 3576}
 
 for i=1,#circles do
 	local circle = circles[i]
@@ -79,6 +80,14 @@ local function AdvanceStage()
 	end
 end
 
+local function count(tab)
+	local count = 0
+	for i in pairs(tab) do
+		count = count + 1
+	end
+	return count
+end
+
 local function LineMoveCheck()
 	-- check if all the circles have units already there or heading to it
 	local validCircles = {}
@@ -98,6 +107,7 @@ local function LineMoveCheck()
 					if distSq < MOVE_CIRCLE_RADIUS_SQ then
 						validCircles[i] = true
 						occupiedCircles[i] = true
+						break
 					else
 						-- check if unit is headed there
 						local cmd = (Spring.GetUnitCommands(unitID, 1))[1]
@@ -105,31 +115,45 @@ local function LineMoveCheck()
 							distSq = (cmd.params[1] - circle[1])^2 + (cmd.params[3] - circle[3])^2
 							if distSq < MOVE_CIRCLE_RADIUS_SQ then
 								validCircles[i] = true
+								break
 							end
 						end
 					end
 				end
 			end
 		end
-		if #validCircles == 4 then
+		if count(validCircles) == 4 then
 			break
 		end
 	end
-	if #occupiedCircles == 4 then
+	if count(occupiedCircles) == 4 then
 		AdvanceStage()
-	elseif #validCircles < 4 then
+	elseif count(validCircles) < 4 then
 		Spring.GiveOrderToUnitArray(units, CMD.STOP, {}, 0)
 	end
+end
+
+local function CmdDistCheck(cmdParams, targetPos, maxDist)
+	maxDist = maxDist or 8
+	local x, z = cmdParams[1], cmdParams[3]
+	return math.abs(targetPos[1] - x) < maxDist and math.abs(targetPos[2] - z) < maxDist
 end
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 function gadget:AllowCommand_GetWantedCommand()	
-	return {[CMD.MOVE] = true, [CMD_RAW_MOVE] = true, [-UnitDefNames.energysolar.id] = true, [-UnitDefNames.factorycloak.id] = true}
+	return {
+		[CMD.MOVE] = true,
+		[CMD_RAW_MOVE] = true,
+		[CMD.ATTACK] = true,
+		[CMD.STOP] = true,
+		[-UnitDefNames.staticmex.id] = true,
+		[-UnitDefNames.energysolar.id] = true,
+		[-UnitDefNames.factorycloak.id] = true
+	}
 end
 
-local commDefID = UnitDefNames.comm_mission_tutorial1 and UnitDefNames.comm_mission_tutorial1.id or nil
 function gadget:AllowCommand_GetWantedUnitDefID()	
-	return commDefID and {[commDefID] = true}
+	return true
 end
 
 function gadget:AllowCommand(unitID, unitDefID, teamID, cmdID, cmdParams, cmdOpts, cmdTag, synced)
@@ -138,14 +162,22 @@ function gadget:AllowCommand(unitID, unitDefID, teamID, cmdID, cmdParams, cmdOpt
 	end
 	
 	if (cmdID == CMD_RAW_MOVE or cmdID == CMD.MOVE) and Spring.GetGameRulesParam(STAGE_PARAM) == 3 then
-		local x, z = cmdParams[1], cmdParams[3]
-		return math.abs(MOVE_DEST_1[1] - x) < 80 and math.abs(MOVE_DEST_1[2] - z) < 80
+		return CmdDistCheck(cmdParams, MOVE_DEST_1, 120)
+		
+	elseif (cmdID == CMD.ATTACK) and Spring.GetGameRulesParam(STAGE_PARAM) == 6 then
+		return #cmdParams == 1
+		
+	elseif (cmdID == -UnitDefNames.staticmex.id) and Spring.GetGameRulesParam(STAGE_PARAM) == 7 then
+		return CmdDistCheck(cmdParams, MEX_POS)
+		
 	elseif (cmdID == -UnitDefNames.energysolar.id) and Spring.GetGameRulesParam(STAGE_PARAM) == 8 then
-		local x, z = cmdParams[1], cmdParams[3]
-		return math.abs(SOLAR_POS[1] - x) < 80 and math.abs(SOLAR_POS[2] - z) < 80
+		return CmdDistCheck(cmdParams, SOLAR_POS)
+		
 	elseif (cmdID == -UnitDefNames.factorycloak.id) and Spring.GetGameRulesParam(STAGE_PARAM) == 9 then
-		local x, z = cmdParams[1], cmdParams[3]
-		return math.abs(FAC_POS[1] - x) < 80 and math.abs(FAC_POS[2] - z) < 80
+		return CmdDistCheck(cmdParams, FAC_POS) and cmdParams[4] == 1
+	
+	elseif (cmdID == CMD.STOP) and Spring.GetGameRulesParam(STAGE_PARAM) == 10 then
+		return false
 	end
 	
 	return true
@@ -179,6 +211,7 @@ else
 --------------------------------------------------------------------------------
 local UPDATE_INTERVAL = 4	-- every 4 screenframes
 local circleDivs = 65
+local ZOOM_DIST_SQ = 800 * 800
 
 local stageChecks = {
 	[1] = function()
@@ -191,7 +224,7 @@ local stageChecks = {
 		local x2, y2, z2 = Spring.GetUnitPosition(unitID)
 		
 		local distSq = (x2-x1)^2 + (z2-z1)^2
-		if distSq <= (500000) and (y1 - y2) < 500 then
+		if distSq <= ZOOM_DIST_SQ and (y1 - y2) < 600 then
 			return true
 		end
 		return false
