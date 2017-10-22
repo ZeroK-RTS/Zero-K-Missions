@@ -22,16 +22,17 @@ local MOVE_CIRCLE_RADIUS = 50
 local MOVE_CIRCLE_RADIUS_SQ = MOVE_CIRCLE_RADIUS^2
 
 local circles = {
-	{4185, 0, 3445},
-	{4080, 0, 3545},
-	{4185, 0, 3645},
-	{4080, 0, 3745},
+	{4245, 0, 3445},
+	{4140, 0, 3545},
+	{4245, 0, 3645},
+	{4140, 0, 3745},
 }
 
-local MOVE_DEST_1 = {3410, 3580}
+local MOVE_DEST_1 = {3610, 3580}
+local FIGHT_DEST = {6378, 3580}
 local SOLAR_POS = {5112, 3464}
 local MEX_POS = {5112, 3592}
-local FAC_POS = {5296, 3576}
+local FAC_POS = {5120, 3752}
 
 for i=1,#circles do
 	local circle = circles[i]
@@ -65,9 +66,10 @@ local stages = {
 	[7] = {name = "build mex"},
 	[8] = {name = "build solar"},
 	[9] = {name = "build factory"},
-	[10] = {name = "build glaives"},
-	[11] = {name = "attack move", trigger = "Victory"},
-	[12] = {name = "end"},
+	[10] = {name = "assist fac", trigger = "Build Glaives"},
+	[11] = {name = "build glaives"},
+	[12] = {name = "attack move", trigger = "Victory"},
+	[13] = {name = "end"},
 }
 
 --------------------------------------------------------------------------------
@@ -138,6 +140,25 @@ local function CmdDistCheck(cmdParams, targetPos, maxDist)
 	local x, z = cmdParams[1], cmdParams[3]
 	return math.abs(targetPos[1] - x) < maxDist and math.abs(targetPos[2] - z) < maxDist
 end
+
+local function RemoveReclaimCommand()
+	local commID = GG.mission.FindUnitInGroup("Comm")
+	if not commID then
+		return
+	end
+	local queue = Spring.GetUnitCommands(commID, 2)
+	if queue and queue[1] then
+		local cmdID = queue[1].id
+		if cmdID == CMD.RECLAIM and not (queue[2] and queue[2].id == CMD.FIGHT) then
+			--local tag = queue[1].tag
+			--Spring.GiveOrderToUnit(commID, CMD.REMOVE, {tag}, {})
+			--Spring.GiveOrderToUnit(commID, CMD.REMOVE, {CMD.RECLAIM}, {"alt"})
+			--Spring.GiveOrderToUnit(commID, CMD.WAIT, {}, 0)
+			--Spring.GiveOrderToUnit(commID, CMD.WAIT, {}, 0)
+			Spring.GiveOrderToUnit(commID, CMD.STOP, {}, 0)
+		end
+	end
+end
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 function gadget:AllowCommand_GetWantedCommand()	
@@ -145,7 +166,11 @@ function gadget:AllowCommand_GetWantedCommand()
 		[CMD.MOVE] = true,
 		[CMD_RAW_MOVE] = true,
 		[CMD.ATTACK] = true,
+		[CMD.FIGHT] = true,
+		[CMD.RECLAIM] = true,
+		[CMD.GUARD] = true,
 		[CMD.STOP] = true,
+		
 		[-UnitDefNames.staticmex.id] = true,
 		[-UnitDefNames.energysolar.id] = true,
 		[-UnitDefNames.factorycloak.id] = true
@@ -159,6 +184,10 @@ end
 function gadget:AllowCommand(unitID, unitDefID, teamID, cmdID, cmdParams, cmdOpts, cmdTag, synced)
 	if teamID ~= 0 then
 		return true
+	end
+	
+	if cmdID == CMD.RECLAIM then
+		return false
 	end
 	
 	if (cmdID == CMD_RAW_MOVE or cmdID == CMD.MOVE) and Spring.GetGameRulesParam(STAGE_PARAM) == 3 then
@@ -175,9 +204,27 @@ function gadget:AllowCommand(unitID, unitDefID, teamID, cmdID, cmdParams, cmdOpt
 		
 	elseif (cmdID == -UnitDefNames.factorycloak.id) and Spring.GetGameRulesParam(STAGE_PARAM) == 9 then
 		return CmdDistCheck(cmdParams, FAC_POS) and cmdParams[4] == 1
+		
+	elseif (cmdID == CMD.GUARD) and Spring.GetGameRulesParam(STAGE_PARAM) == 10 then
+		local commID = GG.mission.FindUnitInGroup("Comm")
+		if commID and commID ~= unitID then
+			return false
+		end
+		
+		local targetID = cmdParams[1]
+		local tDefID = Spring.GetUnitDefID(targetID)
+		if tDefID == UnitDefNames.factorycloak.id then
+			AdvanceStage()
+			return true
+		else
+			return false
+		end
 	
-	elseif (cmdID == CMD.STOP) and Spring.GetGameRulesParam(STAGE_PARAM) == 10 then
+	elseif (cmdID == CMD.STOP) and Spring.GetGameRulesParam(STAGE_PARAM) == 11 then
 		return false
+	
+	elseif Spring.GetGameRulesParam(STAGE_PARAM) == 12 and #cmdParams >= 3 then
+		return cmdParams[2] >= 260 and CmdDistCheck(cmdParams, FIGHT_DEST, 1200)
 	end
 	
 	return true
@@ -201,6 +248,7 @@ function gadget:GameFrame(n)
 	if Spring.GetGameRulesParam(STAGE_PARAM) == 5 then
 		LineMoveCheck()
 	end
+	--RemoveReclaimCommand()
 end
 
 --------------------------------------------------------------------------------
@@ -211,7 +259,7 @@ else
 --------------------------------------------------------------------------------
 local UPDATE_INTERVAL = 4	-- every 4 screenframes
 local circleDivs = 65
-local ZOOM_DIST_SQ = 800 * 800
+local ZOOM_DIST_SQ = 900 * 900
 
 local stageChecks = {
 	[1] = function()
@@ -224,7 +272,7 @@ local stageChecks = {
 		local x2, y2, z2 = Spring.GetUnitPosition(unitID)
 		
 		local distSq = (x2-x1)^2 + (z2-z1)^2
-		if distSq <= ZOOM_DIST_SQ and (y1 - y2) < 600 then
+		if distSq <= ZOOM_DIST_SQ and (y1 - y2) < 900 then
 			return true
 		end
 		return false
@@ -261,6 +309,12 @@ function gadget:Update()
 		if stageChecks[stage] and stageChecks[stage]() == true then	-- NEXT!
 			Spring.SendLuaRulesMsg("tutorial_next")
 		end
+	end
+end
+
+function gadget:DefaultCommand(type, targetID)
+	if (type == 'feature') then
+		return CMD.MOVE
 	end
 end
 
