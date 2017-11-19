@@ -77,7 +77,7 @@ local function LockCMD(cmdID)
 	unlockedCMDs[cmdID] = nil
 	local units = Spring.GetTeamUnits(0)
 	for i=1,#units do
-		SetCMDEnabled(units[i], cmdID, false)
+		SetCMDEnabled(units[i], cmdID, false)	
 	end
 end
 
@@ -131,6 +131,11 @@ end
 
 function gadget:AllowCommand(unitID, unitDefID, teamID, cmdID, cmdParams, cmdOpts, cmdTag, synced)
 	if (teamID ~= 0) then return true end
+	
+	if cmdID == CMD.INSERT then
+		cmdID = cmdParams[2]
+	end
+	
 	if cmdID > 0 and not unlockedCMDs[cmdID] then
 		return false
 	end

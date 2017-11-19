@@ -166,17 +166,20 @@ local ZOOM_DIST_SQ = 750 * 750
 
 local stageChecks = {
 	[1] = function()
-		local visible = Spring.GetVisibleUnits(nil, nil, false)
+		local visible = Spring.GetVisibleUnits(0, nil, false)
 		if #visible == 0 then
 			return false
 		end
-		local unitID = visible[1]
-		local x1, y1, z1 = Spring.GetCameraPosition()
-		local x2, y2, z2 = Spring.GetUnitPosition(unitID)
-		
-		local distSq = (x2-x1)^2 + (z2-z1)^2
-		if distSq <= ZOOM_DIST_SQ and (y1 - y2) < 500 then
-			return true
+		for i=1,#visible do
+			local unitID = visible[i]
+			local unitDefID = Spring.GetUnitDefID(unitID)
+			local x1, y1, z1 = Spring.GetCameraPosition()
+			local x2, y2, z2 = Spring.GetUnitPosition(unitID)
+			
+			local distSq = (x2-x1)^2 + (z2-z1)^2
+			if distSq <= ZOOM_DIST_SQ and (y1 - y2) < 700 then
+				return true
+			end
 		end
 		return false
 	end,
