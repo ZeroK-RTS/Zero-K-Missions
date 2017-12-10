@@ -16,6 +16,7 @@ end
 local soundDir = "sounds/"
 local imgDir = "LuaRules/Images/powerups/"
 
+local SAVE_FILE = "Gadgets/kodachiRally/unit_powerups.lua"
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 if(gadgetHandler:IsSyncedCode()) then
@@ -33,7 +34,7 @@ local blockedDefs = {
 	[ UnitDefNames['terraunit'].id ] = true,
 	[ UnitDefNames['wolverine_mine'].id ] = true,
 	[ UnitDefNames['pw_dropfac'].id ] = true,
-	[ UnitDefNames['pw_dropdepot'].id ] = true,
+	[ UnitDefNames['pw_bomberfac'].id ] = true,
 	[ UnitDefNames['fakeunit_los'].id ] = true,
 }
 local DIRTBAG_DEF_ID = UnitDefNames.shieldscout.id
@@ -192,10 +193,14 @@ local powerupDefs = {
 }
 --local gameframe = Spring.GetGameFrame()
 
-_G.powerupUnits = powerupUnits
-_G.powerupTexts = powerupTexts
-_G.damageBoost = damageBoost
-_G.invulnerable = invulnerable
+local function LinkUnsyncedTables()
+	_G.powerupUnits = powerupUnits
+	_G.powerupTexts = powerupTexts
+	_G.damageBoost = damageBoost
+	_G.speedBoost = speedBoost
+	_G.invulnerable = invulnerable
+end
+LinkUnsyncedTables()
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 local function GetSetCount(set)
@@ -342,6 +347,21 @@ function gadget:UnitPreDamaged(unitID, unitDefID, unitTeam, damage, paralyzer, w
 	return damage
 end
 
+function gadget:Load(zip)
+	if not GG.SaveLoad then
+		Spring.Log(gadget:GetInfo().name, LOG.ERROR, "Failed to access save/load API")
+		return
+	end
+	
+	local loadData = GG.SaveLoad.ReadFile(zip, "Kodachi Rally Powerups", SAVE_FILE) or {}
+	powerupUnits = GG.SaveLoad.GetNewUnitIDKeys(loadData.powerupUnits)
+	invulnerable = GG.SaveLoad.GetNewUnitIDKeys(loadData.invulnerable)
+	damageBoost = GG.SaveLoad.GetNewUnitIDKeys(loadData.damageBoost)
+	speedBoost = GG.SaveLoad.GetNewUnitIDKeys(loadData.speedBoost)
+	
+	LinkUnsyncedTables()
+end
+
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 else
@@ -449,53 +469,70 @@ end
 function gadget:DrawWorld()
 	phase = phase + 0.01
 	if not Spring.IsGUIHidden() then
-		local units = SYNCED.powerupUnits
+		local units = SYNCED.powerupUnits or {}
 		local offset = math.sin(phase) * 10
 		--glDepthTest(true)
 		for unitID, powerupType in spairs(units) do
-			if spIsUnitVisible(unitID, 32, true) then
+			--if spIsUnitVisible(unitID, 32, true) then
 				local texture = powerupDefs[powerupType].icon
 				glDrawFuncAtUnit(unitID, false, DrawPowerupIcon, texture, offset)
-			end
+			--end
 		end
 		glTexture(false)
-		
-		glBlending(GL_ONE, GL_ONE)
-		glDepthTest(GL_LEQUAL)
-		glPolygonOffset(-10, -10)
-		glCulling(GL_BACK)
-		local invulnerable = SYNCED.invulnerable
-		for u in spairs(invulnerable) do
-			local _,_,_,x,y,z = spGetUnitPosition(u, true)
-			glColor(0,0.25,1,1)
-			if spIsUnitVisible(u, 32, true) then
-				glUnit(u, true)
-			end
+	end	
+	glBlending(GL_ONE, GL_ONE)
+	glDepthTest(GL_LEQUAL)
+	glPolygonOffset(-10, -10)
+	glCulling(GL_BACK)
+	local invulnerable = SYNCED.invulnerable or {}
+	for u in spairs(invulnerable) do
+		local _,_,_,x,y,z = spGetUnitPosition(u, true)
+		glColor(0,0.25,1,1)
+		if spIsUnitVisible(u, 32, true) then
+			glUnit(u, true)
 		end
-		local damageBoost = SYNCED.damageBoost
-		for u in spairs(damageBoost) do
-			local _,_,_,x,y,z = spGetUnitPosition(u, true)
-			glColor(1,0.1,0.1,1)
-			if spIsUnitVisible(u, 32, true) then
-				glUnit(u, true)
-			end
-		end
-		glBlending(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA)
-		glPolygonOffset(false)
-		glCulling(false)
-		glDepthTest(false)
-		glColor(1,1,1,1)
-		--glDepthTest(false)
 	end
+	local damageBoost = SYNCED.damageBoost
+	for u in spairs(damageBoost) do
+		local _,_,_,x,y,z = spGetUnitPosition(u, true)
+		glColor(1,0.1,0.1,1)
+		if spIsUnitVisible(u, 32, true) then
+			glUnit(u, true)
+		end
+	end
+	glBlending(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA)
+	glPolygonOffset(false)
+	glCulling(false)
+	glDepthTest(false)
+	glColor(1,1,1,1)
+	--glDepthTest(false)
 end
 
 function gadget:DrawScreen()
 	if not Spring.IsGUIHidden() then
-		local texts = SYNCED.powerupTexts
+		local texts = SYNCED.powerupTexts or {}
 		for _,textInfo in spairs(texts) do
 			DrawPowerupText(textInfo)
 		end
 	end
+end
+
+local MakeRealTable = Spring.Utilities.MakeRealTable
+
+function gadget:Save(zip)
+	if not GG.SaveLoad then
+		Spring.Log(gadget:GetInfo().name, LOG.ERROR, "Failed to access save/load API")
+		return
+	end
+	
+	local toSave = {
+		powerupUnits = MakeRealTable(SYNCED.powerupUnits),
+		damageBoost = MakeRealTable(SYNCED.damageBoost),
+		speedBoost = MakeRealTable(SYNCED.speedBoost),
+		invulnerable = MakeRealTable(SYNCED.invulnerable),
+	}
+	
+	GG.SaveLoad.WriteSaveData(zip, SAVE_FILE, toSave)
 end
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
