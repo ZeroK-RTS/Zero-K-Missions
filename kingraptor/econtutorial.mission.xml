@@ -3060,7 +3060,8 @@ end</CodeStr>
                                 <TriggerLogic z:Id="1251" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="1252">Custom Action</Name>
                                   <CodeStr z:Id="1253" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_show_next_button", 0)
-Spring.SetGameRulesParam("tutorial_stage", 13)</CodeStr>
+Spring.SetGameRulesParam("tutorial_stage", 13)
+Spring.SendLuaMenuMsg("mission_complete_tutorial_econ")</CodeStr>
                                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="1254" z:Type="CMissionLib.VictoryAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">

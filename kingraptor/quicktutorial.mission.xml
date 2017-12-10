@@ -2818,6 +2818,8 @@ end</CodeStr>
                                 <TriggerLogic z:Id="1210" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Ref="812" i:nil="true" />
                                   <CodeStr z:Id="1211" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Spring.SetGameRulesParam("tutorial_show_next_button", 0)
+Spring.SendLuaMenuMsg("mission_complete_tutorial_quick")
+
 if GG.MissionGameOver then
   GG.MissionGameOver(true)
 else

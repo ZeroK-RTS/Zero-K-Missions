@@ -131,6 +131,7 @@ end
 
 function gadget:AllowCommand(unitID, unitDefID, teamID, cmdID, cmdParams, cmdOpts, cmdTag, synced)
 	if (teamID ~= 0) then return true end
+	if synced then return true end
 	
 	if cmdID == CMD.INSERT then
 		cmdID = cmdParams[2]
