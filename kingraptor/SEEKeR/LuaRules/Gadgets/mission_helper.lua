@@ -208,6 +208,7 @@ local function SetRoundSpecs(round)
 end
 
 local function StartRound(n)
+	n = n or round
   SetRoundSpecs(n)
   
   --objUnits = GG.mission.FindUnitsInGroup("ObjMex")
@@ -329,7 +330,7 @@ function gadget:UnitDestroyed(unitID, unitDefID, unitTeam)
   local groups = (GG.mission.unitGroups[unitID] or emptyTable)
   
   if groups["ObjMex"] then
-		local objCount = CountUnitsInGroup("ObjMex")
+		local objCount = CountUnitsInGroup("ObjMex") - 1
     if roundRunning then
       ModifyScore(killScores[unitDefID] or 50)
       if objCount <= 0 then
