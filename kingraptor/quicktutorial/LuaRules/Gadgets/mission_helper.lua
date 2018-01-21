@@ -90,6 +90,18 @@ local function count(tab)
 	return count
 end
 
+local function ProcessForbiddenCommand(unitID, cmdID, cmdParams)
+	if #cmdParams >= 3 then
+		SendToUnsynced("mission_CommandBlocked", cmdID, cmdParams[1], cmdParams[2], cmdParams[3], cmdParams[4])
+	else
+		if #cmdParams == 1 then unitID = cmdParams[1] end
+		local x, y, z = Spring.GetUnitPosition(unitID)
+		if x and y and z then
+			SendToUnsynced("mission_CommandBlocked", cmdID, x, y, z)
+		end
+	end
+end
+
 local function LineMoveCheck()
 	-- check if all the circles have units already there or heading to it
 	local validCircles = {}
@@ -131,12 +143,18 @@ local function LineMoveCheck()
 	if count(occupiedCircles) == 4 then
 		AdvanceStage()
 	elseif count(validCircles) < 4 then
+		for i=1,#units do
+			local cmds = Spring.GetUnitCommands(units[i], 1)
+			if cmds[1] then
+				ProcessForbiddenCommand(units[i], cmds[1].id, cmds[1].params)
+			end
+		end
 		Spring.GiveOrderToUnitArray(units, CMD.STOP, {}, 0)
 	end
 end
 
 local function CmdDistCheck(cmdParams, targetPos, maxDist)
-	maxDist = maxDist or 8
+	maxDist = maxDist or 96
 	local x, z = cmdParams[1], cmdParams[3]
 	return math.abs(targetPos[1] - x) < maxDist and math.abs(targetPos[2] - z) < maxDist
 end
@@ -219,7 +237,7 @@ function gadget:AllowCommand(unitID, unitDefID, teamID, cmdID, cmdParams, cmdOpt
 	end
 	local allowed = IsCommandAllowed(unitID, unitDefID, teamID, cmdID, cmdParams, cmdOpts, cmdTag, synced)
 	if not allowed then
-		-- TODO: notify failure
+		ProcessForbiddenCommand(unitID, cmdID, cmdParams)
 		return false
 	end
 	
@@ -299,15 +317,15 @@ local stageChecks = {
 	end,
 }
 
-local timer = 0
+
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
+local screenTimer = 0
 local stage = 1
 function gadget:Update()
-	timer = timer + 1
-	if timer > UPDATE_INTERVAL then
-		timer = 0
-		
+	screenTimer = screenTimer + 1
+	if screenTimer > UPDATE_INTERVAL then
+		screenTimer = 0
 		stage = Spring.GetGameRulesParam(STAGE_PARAM)
 		if stageChecks[stage] and stageChecks[stage]() == true then	-- NEXT!
 			Spring.SendLuaRulesMsg("tutorial_next")
@@ -327,7 +345,6 @@ end
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 -- drawing functions
-
 
 -- from customFormations2
 local function tVerts(verts)
@@ -388,11 +405,6 @@ local function DrawPointCircle(point)
 	gl.BeginEnd(GL.TRIANGLES, DrawCircleInside, circleDivs, r1, g1, b1, 0.8, MOVE_CIRCLE_RADIUS)
 	gl.PopMatrix()
 end
-
-local function DrawCross()
-
-end
-
 
 function gadget:DrawWorldPreUnit()
 	if not Spring.IsGUIHidden() and Spring.GetGameRulesParam(STAGE_PARAM) == 5 then

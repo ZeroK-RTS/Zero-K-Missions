@@ -81,6 +81,18 @@ local function count(tab)
 	return count
 end
 
+local function ProcessForbiddenCommand(unitID, cmdID, cmdParams)
+	if #cmdParams >= 3 then
+		SendToUnsynced("mission_CommandBlocked", cmdID, cmdParams[1], cmdParams[2], cmdParams[3], cmdParams[4])
+	else
+		if #cmdParams == 1 then unitID = cmdParams[1] end
+		local x, y, z = Spring.GetUnitPosition(unitID)
+		if x and y and z then
+			SendToUnsynced("mission_CommandBlocked", cmdID, x, y, z)
+		end
+	end
+end
+
 local function LineMoveCheck()
 	-- check if all the circles have units already there or heading to it
 	local validCircles = {}
@@ -122,6 +134,12 @@ local function LineMoveCheck()
 	if count(occupiedCircles) == 4 then
 		AdvanceStage()
 	elseif count(validCircles) < 4 then
+		for i=1,#units do
+			local cmds = Spring.GetUnitCommands(units[i], 1)
+			if cmds[1] then
+				ProcessForbiddenCommand(units[i], cmds[1].id, cmds[1].params)
+			end
+		end
 		Spring.GiveOrderToUnitArray(units, CMD.STOP, {}, 0)
 	end
 end
