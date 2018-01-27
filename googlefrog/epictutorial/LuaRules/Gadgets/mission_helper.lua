@@ -166,7 +166,7 @@ else
 --------------------------------------------------------------------------------
 local UPDATE_INTERVAL = 4	-- every 4 screenframes
 local circleDivs = 65
-local ZOOM_DIST_SQ = 1200 * 1200
+local ZOOM_DIST_SQ = 1600 * 1600
 
 local circles = {
 	{3670, 0, 3440},
