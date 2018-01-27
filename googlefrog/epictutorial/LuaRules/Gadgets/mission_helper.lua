@@ -116,19 +116,45 @@ function gadget:Initialize()
 	Spring.SetGameRulesParam(STAGE_PARAM, 0)
 end
 
-function gadget:GameFrame(n)
-	if n%5 == 0 then
-		local stage = Spring.GetGameRulesParam(STAGE_PARAM)
-		if stageKillGroups[stage] then
-			local units = GG.mission.FindUnitsInGroup(stageKillGroups[stage])
-			for unitID in pairs(units) do
-				return
-			end
-			AdvanceStage()
+local function CheckAdvanceStage(stage)
+	if stageKillGroups[stage] then
+		local units = GG.mission.FindUnitsInGroup(stageKillGroups[stage])
+		for unitID in pairs(units) do
+			return
 		end
+		AdvanceStage()
 	end
 end
 
+local vitalUnits = {
+	[UnitDefNames["cloakraid"].id] = true,
+	[UnitDefNames["cloakassault"].id] = true,
+}
+
+local function CheckUnitLossLoss(stage)
+	if stage == 5 then
+		return
+	end
+	local units = Spring.GetTeamUnits(0)
+	if not units then
+		return
+	end
+	for i = 1, #units do
+		if vitalUnits[Spring.GetUnitDefID(units[i])] then
+			return
+		end
+	end
+	GG.mission.ExecuteTriggerByName("Mission Defeat")
+end
+
+function gadget:GameFrame(n)
+	if n%5 == 4 then
+		local stage = Spring.GetGameRulesParam(STAGE_PARAM)
+		CheckAdvanceStage(stage)
+		CheckUnitLossLoss(stage)
+	end
+end
+	
 function gadget:Shutdown()
 end
 
