@@ -186,12 +186,13 @@ function widget:Update(dt)
     --if isInCutscene and WG.IsGUIHidden() then
     --  spSetMouseCursor('none')
     --end
+    if isInCutscene and WG.IsGUIHidden() and (Spring.GetGameFrame() > 0) then
+      spWarpMouse(vsx/2, vsy/2)
+	end
+	
     timer = timer + dt
     if timer > UPDATE_PERIOD then
       if isInCutscene then
-        if WG.IsGUIHidden() then
-          --spWarpMouse(vsx/2, vsy/2)
-        end
         if isExitingCutscene then
           ProgressCutsceneExit(timer)
         elseif isEnteringCutscene then
