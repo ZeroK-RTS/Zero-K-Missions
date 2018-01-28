@@ -166,7 +166,7 @@ else
 --------------------------------------------------------------------------------
 local UPDATE_INTERVAL = 4	-- every 4 screenframes
 local circleDivs = 65
-local ZOOM_DIST_SQ = 1600 * 1600
+local ZOOM_DIST_SQ = 1000 * 1000
 
 local circles = {
 	{3670, 0, 3440},
@@ -200,7 +200,7 @@ local stageChecks = {
 				local x2, y2, z2 = Spring.GetUnitPosition(unitID)
 				
 				local distSq = (x2-x1)^2 + (z2-z1)^2
-				if distSq <= ZOOM_DIST_SQ and (y1 - y2) < 700 then
+				if distSq <= ZOOM_DIST_SQ and (y1 - y2) < 1200 then
 					return true
 				end
 			end
