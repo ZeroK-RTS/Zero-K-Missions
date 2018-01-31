@@ -12100,11 +12100,11 @@ end
                                   <PZ xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">5950</PZ>
                                   <RX xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">-40</RX>
                                   <RY xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">-130</RY>
-                                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Time>
+                                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.4</Time>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="2835" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="2836">Wait for Camera</Name>
-                                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">9</Frames>
+                                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</Frames>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="2837" z:Type="CMissionLib.Actions.FadeInAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="2838">Fade In</Name>
