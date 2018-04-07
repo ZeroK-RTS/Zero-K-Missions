@@ -5884,25 +5884,63 @@ end]],
 						["pz"] = 5950,
 						["rx"] = -40,
 						["ry"] = -130,
-						["time"] = 0,
+						["time"] = 0.1,
 					},
 					["name"] = [[Camera Start]],
 				},
 				[6] = {
 					["logicType"] = [[WaitAction]],
 					["args"] = {
-						["frames"] = 9,
+						["frames"] = 6,
 					},
 					["name"] = [[Wait for Camera]],
 				},
 				[7] = {
+					["logicType"] = [[SetCameraPosDirAction]],
+					["args"] = {
+						["px"] = 4300,
+						["py"] = 600,
+						["pz"] = 5950,
+						["rx"] = -40,
+						["ry"] = -130,
+						["time"] = 0,
+					},
+					["name"] = [[Set Camera Position/Direction]],
+				},
+				[8] = {
+					["logicType"] = [[WaitAction]],
+					["args"] = {
+						["frames"] = 6,
+					},
+					["name"] = [[Wait]],
+				},
+				[9] = {
+					["logicType"] = [[SetCameraPosDirAction]],
+					["args"] = {
+						["px"] = 4300,
+						["py"] = 600,
+						["pz"] = 5950,
+						["rx"] = -40,
+						["ry"] = -130,
+						["time"] = 0.1,
+					},
+					["name"] = [[Set Camera Position/Direction]],
+				},
+				[10] = {
+					["logicType"] = [[WaitAction]],
+					["args"] = {
+						["frames"] = 6,
+					},
+					["name"] = [[Wait]],
+				},
+				[11] = {
 					["logicType"] = [[FadeInAction]],
 					["args"] = {
 						["instant"] = false,
 					},
 					["name"] = [[Fade In]],
 				},
-				[8] = {
+				[12] = {
 					["logicType"] = [[SetCameraPosDirAction]],
 					["args"] = {
 						["px"] = 5500,
@@ -5914,26 +5952,26 @@ end]],
 					},
 					["name"] = [[Camera End]],
 				},
-				[9] = {
+				[13] = {
 					["logicType"] = [[WaitAction]],
 					["args"] = {
 						["frames"] = 240,
 					},
 					["name"] = [[Wait]],
 				},
-				[10] = {
+				[14] = {
 					["logicType"] = [[LeaveCutsceneAction]],
 					["args"] = {
 						["instant"] = false,
 					},
 					["name"] = [[Leave Cutscene]],
 				},
-				[11] = {
+				[15] = {
 					["logicType"] = [[RestoreCameraStateAction]],
 					["args"] = {},
 					["name"] = [[Restore Camera State]],
 				},
-				[12] = {
+				[16] = {
 					["logicType"] = [[ExecuteTriggersAction]],
 					["args"] = {
 						["triggers"] = {

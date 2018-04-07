@@ -58,12 +58,8 @@ local stageKillGroups = {
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
-local function AdvanceStage(stageNum)
-	local stage = stageNum or Spring.GetGameRulesParam(STAGE_PARAM)
-	-- hax: block double execution
-	if stage < Spring.GetGameRulesParam(STAGE_PARAM) then
-		return
-	end
+local function AdvanceStage()
+	local stage = Spring.GetGameRulesParam(STAGE_PARAM)		
 	local stagedata = stages[stage]
 	if stagedata and stagedata.trigger then
 		GG.mission.ExecuteTriggerByName(stagedata.trigger)
@@ -110,10 +106,8 @@ function gadget:AllowCommand(unitID, unitDefID, teamID, cmdID, cmdParams, cmdOpt
 end
 
 function gadget:RecvLuaMsg(msg)
-	if msg:find("tutorial_next") then
-		local stage = string.sub(msg, 14)
-		local stageNum = tonumber(stage)
-		AdvanceStage(stageNum)
+	if msg == "tutorial_next" then
+		AdvanceStage()
 	end
 end
 
