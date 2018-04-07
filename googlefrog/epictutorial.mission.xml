@@ -12093,21 +12093,12 @@ end
                                   <Instant xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Instant>
                                   <Skippable xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Skippable>
                                 </TriggerLogic>
-                                <TriggerLogic z:Id="2833" z:Type="CMissionLib.Actions.SetCameraPosDirAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="2834">Camera Start</Name>
-                                  <PX xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">4300</PX>
-                                  <PY xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">600</PY>
-                                  <PZ xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">5950</PZ>
-                                  <RX xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">-40</RX>
-                                  <RY xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">-130</RY>
-                                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.1</Time>
-                                </TriggerLogic>
-                                <TriggerLogic z:Id="2835" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="2836">Wait for Camera</Name>
+                                <TriggerLogic z:Id="2833" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                  <Name z:Id="2834">Wait</Name>
                                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">6</Frames>
                                 </TriggerLogic>
-                                <TriggerLogic z:Id="2837" z:Type="CMissionLib.Actions.SetCameraPosDirAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="2838">Set Camera Position/Direction</Name>
+                                <TriggerLogic z:Id="2835" z:Type="CMissionLib.Actions.SetCameraPosDirAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                  <Name z:Id="2836">Camera Start</Name>
                                   <PX xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">4300</PX>
                                   <PY xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">600</PY>
                                   <PZ xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">5950</PZ>
@@ -12115,39 +12106,39 @@ end
                                   <RY xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">-130</RY>
                                   <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Time>
                                 </TriggerLogic>
-                                <TriggerLogic z:Id="2839" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="2840">Wait</Name>
+                                <TriggerLogic z:Id="2837" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                  <Name z:Id="2838">Wait for Camera</Name>
                                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">6</Frames>
                                 </TriggerLogic>
-                                <TriggerLogic z:Id="2841" z:Type="CMissionLib.Actions.SetCameraPosDirAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Ref="2838" i:nil="true" />
-                                  <PX xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">4300</PX>
-                                  <PY xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">600</PY>
-                                  <PZ xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">5950</PZ>
-                                  <RX xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">-40</RX>
-                                  <RY xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">-130</RY>
-                                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0.1</Time>
-                                </TriggerLogic>
-                                <TriggerLogic z:Id="2842" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Ref="2840" i:nil="true" />
-                                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">6</Frames>
-                                </TriggerLogic>
-                                <TriggerLogic z:Id="2843" z:Type="CMissionLib.Actions.FadeInAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="2844">Fade In</Name>
+                                <TriggerLogic z:Id="2839" z:Type="CMissionLib.Actions.FadeInAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                  <Name z:Id="2840">Fade In</Name>
                                   <Instant xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">false</Instant>
                                 </TriggerLogic>
-                                <TriggerLogic z:Id="2845" z:Type="CMissionLib.Actions.SetCameraPosDirAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                                  <Name z:Id="2846">Camera End</Name>
-                                  <PX xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">5500</PX>
+                                <TriggerLogic z:Id="2841" z:Type="CMissionLib.Actions.SetCameraPosDirAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                  <Name z:Id="2842">Camera End</Name>
+                                  <PX xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">5300</PX>
                                   <PY xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">700</PY>
-                                  <PZ xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">6100</PZ>
+                                  <PZ xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">6000</PZ>
                                   <RX xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">-30</RX>
                                   <RY xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">-135</RY>
-                                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</Time>
+                                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Time>
+                                </TriggerLogic>
+                                <TriggerLogic z:Id="2843" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                  <Name z:Id="2844">Wait</Name>
+                                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">30</Frames>
+                                </TriggerLogic>
+                                <TriggerLogic z:Id="2845" z:Type="CMissionLib.Actions.SetCameraPosDirAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+                                  <Name z:Id="2846">Set Camera Position/Direction</Name>
+                                  <PX xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">5300</PX>
+                                  <PY xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">700</PY>
+                                  <PZ xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">6000</PZ>
+                                  <RX xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">-30</RX>
+                                  <RY xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">-135</RY>
+                                  <Time xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">0</Time>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="2847" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="2848">Wait</Name>
-                                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Frames>
+                                  <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">210</Frames>
                                 </TriggerLogic>
                                 <TriggerLogic z:Id="2849" z:Type="CMissionLib.Actions.LeaveCutsceneAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
                                   <Name z:Id="2850">Leave Cutscene</Name>
@@ -12237,9 +12228,10 @@ end</CodeStr>
                                 <TriggerLogic i:nil="true" />
                                 <TriggerLogic i:nil="true" />
                                 <TriggerLogic i:nil="true" />
+                                <TriggerLogic i:nil="true" />
                               </_items>
-                              <_size>16</_size>
-                              <_version>146</_version>
+                              <_size>15</_size>
+                              <_version>161</_version>
                             </items>
                             <_monitor xmlns:d15p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel" z:Id="2875">
                               <d15p1:_busyCount>0</d15p1:_busyCount>
@@ -13971,7 +13963,7 @@ end</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
                 <TriggerLogic z:Id="3369" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="2848" i:nil="true" />
+                  <Name z:Ref="2844" i:nil="true" />
                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">21</Frames>
                 </TriggerLogic>
                 <TriggerLogic z:Id="3370" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -13981,7 +13973,7 @@ Spring.GiveOrderToUnit(unitID, CMD.WAIT, {}, 0)</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
                 <TriggerLogic z:Id="3373" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="2848" i:nil="true" />
+                  <Name z:Ref="2844" i:nil="true" />
                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</Frames>
                 </TriggerLogic>
                 <TriggerLogic z:Id="3374" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -13991,7 +13983,7 @@ Spring.GiveOrderToUnit(unitID, CMD.WAIT, {}, 0)</CodeStr>
                   <Synced xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">true</Synced>
                 </TriggerLogic>
                 <TriggerLogic z:Id="3377" z:Type="CMissionLib.Actions.WaitAction" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-                  <Name z:Ref="2848" i:nil="true" />
+                  <Name z:Ref="2844" i:nil="true" />
                   <Frames xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">12</Frames>
                 </TriggerLogic>
                 <TriggerLogic z:Id="3378" z:Type="CMissionLib.Actions.CustomAction2" z:Assembly="CMissionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">

@@ -5877,25 +5877,13 @@ end]],
 					["name"] = [[Enter Cutscene (set ID)]],
 				},
 				[5] = {
-					["logicType"] = [[SetCameraPosDirAction]],
-					["args"] = {
-						["px"] = 4300,
-						["py"] = 600,
-						["pz"] = 5950,
-						["rx"] = -40,
-						["ry"] = -130,
-						["time"] = 0.1,
-					},
-					["name"] = [[Camera Start]],
-				},
-				[6] = {
 					["logicType"] = [[WaitAction]],
 					["args"] = {
 						["frames"] = 6,
 					},
-					["name"] = [[Wait for Camera]],
+					["name"] = [[Wait]],
 				},
-				[7] = {
+				[6] = {
 					["logicType"] = [[SetCameraPosDirAction]],
 					["args"] = {
 						["px"] = 4300,
@@ -5905,73 +5893,73 @@ end]],
 						["ry"] = -130,
 						["time"] = 0,
 					},
-					["name"] = [[Set Camera Position/Direction]],
+					["name"] = [[Camera Start]],
+				},
+				[7] = {
+					["logicType"] = [[WaitAction]],
+					["args"] = {
+						["frames"] = 6,
+					},
+					["name"] = [[Wait for Camera]],
 				},
 				[8] = {
-					["logicType"] = [[WaitAction]],
-					["args"] = {
-						["frames"] = 6,
-					},
-					["name"] = [[Wait]],
-				},
-				[9] = {
-					["logicType"] = [[SetCameraPosDirAction]],
-					["args"] = {
-						["px"] = 4300,
-						["py"] = 600,
-						["pz"] = 5950,
-						["rx"] = -40,
-						["ry"] = -130,
-						["time"] = 0.1,
-					},
-					["name"] = [[Set Camera Position/Direction]],
-				},
-				[10] = {
-					["logicType"] = [[WaitAction]],
-					["args"] = {
-						["frames"] = 6,
-					},
-					["name"] = [[Wait]],
-				},
-				[11] = {
 					["logicType"] = [[FadeInAction]],
 					["args"] = {
 						["instant"] = false,
 					},
 					["name"] = [[Fade In]],
 				},
-				[12] = {
+				[9] = {
 					["logicType"] = [[SetCameraPosDirAction]],
 					["args"] = {
-						["px"] = 5500,
+						["px"] = 5300,
 						["py"] = 700,
-						["pz"] = 6100,
+						["pz"] = 6000,
 						["rx"] = -30,
 						["ry"] = -135,
-						["time"] = 12,
+						["time"] = 0,
 					},
 					["name"] = [[Camera End]],
 				},
-				[13] = {
+				[10] = {
 					["logicType"] = [[WaitAction]],
 					["args"] = {
-						["frames"] = 240,
+						["frames"] = 30,
 					},
 					["name"] = [[Wait]],
 				},
-				[14] = {
+				[11] = {
+					["logicType"] = [[SetCameraPosDirAction]],
+					["args"] = {
+						["px"] = 5300,
+						["py"] = 700,
+						["pz"] = 6000,
+						["rx"] = -30,
+						["ry"] = -135,
+						["time"] = 0,
+					},
+					["name"] = [[Set Camera Position/Direction]],
+				},
+				[12] = {
+					["logicType"] = [[WaitAction]],
+					["args"] = {
+						["frames"] = 210,
+					},
+					["name"] = [[Wait]],
+				},
+				[13] = {
 					["logicType"] = [[LeaveCutsceneAction]],
 					["args"] = {
 						["instant"] = false,
 					},
 					["name"] = [[Leave Cutscene]],
 				},
-				[15] = {
+				[14] = {
 					["logicType"] = [[RestoreCameraStateAction]],
 					["args"] = {},
 					["name"] = [[Restore Camera State]],
 				},
-				[16] = {
+				[15] = {
 					["logicType"] = [[ExecuteTriggersAction]],
 					["args"] = {
 						["triggers"] = {
