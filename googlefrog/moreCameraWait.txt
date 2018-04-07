@@ -1,0 +1,59 @@
+[GAME]
+{
+	MapName=FolsomDamDeluxeV4;
+	StartposType=2;
+	GameType=Quick Rocket Tutorial;
+	IsHost=1;
+	OnlyLocal=1;
+	MyPlayerName=Player;
+	GameStartDelay=0;
+	[MODOPTIONS]
+	{
+
+	}
+	[PLAYER0]
+	{
+		Name=Player;
+		Team=0;
+	}
+	[AI0]
+	{
+		Name=Ally;
+		ShortName=NullAI;
+		Team=1;
+		Host=0;
+	}
+	[AI1]
+	{
+		Name=Enemy;
+		ShortName=NullAI;
+		Team=2;
+		Host=0;
+	}
+	[TEAM0]
+	{
+		TeamLeader=0;
+		AllyTeam=0;
+		RGBColor=0 1 0.07618538;
+	}
+	[TEAM1]
+	{
+		TeamLeader=0;
+		AllyTeam=0;
+		RGBColor=0.1247718 0 1;
+	}
+	[TEAM2]
+	{
+		TeamLeader=0;
+		AllyTeam=1;
+		RGBColor=1 0 0;
+	}
+	[ALLYTEAM0]
+	{
+		NumAllies=0;
+		StartRectTop=0;		StartRectBottom=0;		StartRectLeft=1;		StartRectRight=1;	}
+	[ALLYTEAM1]
+	{
+		NumAllies=0;
+		StartRectTop=0;		StartRectBottom=0;		StartRectLeft=1;		StartRectRight=1;	}
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<ArrayOfMissionSlot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MissionSlot>
+    <AiShortName>NullAI</AiShortName>
+    <AiVersion>0.1</AiVersion>
+    <AllyID>0</AllyID>
+    <AllyName>West</AllyName>
+    <Color>5177088</Color>
+    <IsHuman>true</IsHuman>
+    <IsRequired>true</IsRequired>
+    <TeamID>0</TeamID>
+    <TeamName>Player</TeamName>
+  </MissionSlot>
+  <MissionSlot>
+    <AiShortName>NullAI</AiShortName>
+    <AiVersion>0.1</AiVersion>
+    <AllyID>0</AllyID>
+    <AllyName>West</AllyName>
+    <Color>16711779</Color>
+    <IsHuman>false</IsHuman>
+    <IsRequired>false</IsRequired>
+    <TeamID>1</TeamID>
+    <TeamName>Ally</TeamName>
+  </MissionSlot>
+  <MissionSlot>
+    <AiShortName>NullAI</AiShortName>
+    <AiVersion>0.1</AiVersion>
+    <AllyID>1</AllyID>
+    <AllyName>East</AllyName>
+    <Color>255</Color>
+    <IsHuman>false</IsHuman>
+    <IsRequired>false</IsRequired>
+    <TeamID>2</TeamID>
+    <TeamName>Enemy</TeamName>
+  </MissionSlot>
+</ArrayOfMissionSlot>
