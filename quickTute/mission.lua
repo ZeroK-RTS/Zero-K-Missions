@@ -229,6 +229,7 @@ else
     local y = Spring.GetGroundHeight(x, z)
     local unitID = GG.DropUnit(startUnit, x, y, z, 0, teamID, _, _, _, _, _, GG.ModularCommAPI.GetProfileIDByBaseDefID(startUnit), teamInfo and tonumber(teamInfo.static_level), true)
     Spring.TransferUnit(unitID, Spring.GetGaiaTeamID(), false) -- Gaia
+    Spring.SetUnitRulesParam(unitID, "avoidAttackingNeutral", 1)
     GG.mission.AddUnitGroup(unitID,"Comm")
   end
 end]],
