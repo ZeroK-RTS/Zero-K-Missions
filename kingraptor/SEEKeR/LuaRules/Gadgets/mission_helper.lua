@@ -102,11 +102,13 @@ GenerateSaveTable()
 local awaitingPostGameLoad = false
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
+local difficulty = 4
 
 -- 1 = easy, 2 = normal, 3 = hard, 4 = brutal
 local function DifficultyScaling()
-	local difficulty = Spring.GetModOptions().planetmissiondifficulty
-	if difficulty == nil or difficulty == "" then
+	difficulty = tonumber(Spring.GetModOptions().planetmissiondifficulty)
+	if difficulty == nil then
+		difficulty = 4
 		return
 	end
 	local mult = 1 - 0.125 * (4 - difficulty)
@@ -167,6 +169,10 @@ local function SetScore(score)
 end
 
 local function SpawnPowerups(count, type, ignoreSafeZone)
+  if count > 1 and difficulty <= 2 then
+    count = count + 1
+  end
+  
   for i=1,count do
     local x, z
     local tries = 0
@@ -191,15 +197,15 @@ end
 local function SetRound(n)
   lastRound = round
   round = n
-	GenerateSaveTable()
+  GenerateSaveTable()
   Spring.SetGameRulesParam("round", n)
 end
 
 local function SetRoundSpecs(round)
-	local roundData = rounds[round]
-	wantedUnitCount = math.floor(roundData.unitCount/2 + 0.5)
-	powerupInterval = roundData.powerupInterval
-	if not roundData.noFac then
+  local roundData = rounds[round]
+  wantedUnitCount = math.floor(roundData.unitCount/2 + 0.5)
+  powerupInterval = roundData.powerupInterval
+  if not roundData.noFac then
     local units = GG.mission.FindUnitsInGroup("Fac")
     for unitID in pairs(units) do
       Spring.SetUnitBuildSpeed(unitID, roundData.facStrength or 5)
@@ -208,7 +214,7 @@ local function SetRoundSpecs(round)
 end
 
 local function StartRound(n)
-	n = n or round
+  n = n or round
   SetRoundSpecs(n)
   
   --objUnits = GG.mission.FindUnitsInGroup("ObjMex")
@@ -222,7 +228,7 @@ local function StartRound(n)
     Spring.GiveOrderToUnit(unitID, CMD.WAIT, emptyTable, 0)
   end  
   roundRunning = true
-	_G.toSave.roundRunning = true
+  _G.toSave.roundRunning = true
   CheckIdleUnits()
   
   -- TODO: make them path around the map
@@ -233,7 +239,7 @@ end
 
 local function EndRound(defeat)
   roundRunning = false
-	_G.toSave.roundRunning = false
+  _G.toSave.roundRunning = false
   local units = GG.mission.FindUnitsInGroup("Fac")
   for unitID in pairs(units) do
     Spring.SetUnitBuildSpeed(unitID, 0)
@@ -330,7 +336,7 @@ function gadget:UnitDestroyed(unitID, unitDefID, unitTeam)
   local groups = (GG.mission.unitGroups[unitID] or emptyTable)
   
   if groups["ObjMex"] then
-		local objCount = CountUnitsInGroup("ObjMex") - 1
+    local objCount = CountUnitsInGroup("ObjMex") - 1
     if roundRunning then
       ModifyScore(killScores[unitDefID] or 50)
       if objCount <= 0 then
@@ -406,8 +412,8 @@ function gadget:Initialize()
   GG.SetRound = SetRound
   GG.ModifyScore = ModifyScore
   GG.RefreshObjDisplay = RefreshObjDisplay
-	
-	DifficultyScaling()
+  
+  DifficultyScaling()
 end
 
 function gadget:Shutdown()
@@ -439,8 +445,8 @@ function gadget:Load(zip)
 	powerupTicker = loadData.powerupTicker
 	roundScores = loadData.roundScores
 	local roundData = rounds[loadData.round]
-  objCount = roundData.objCount
-  powerupInterval = roundData.powerupInterval
+	objCount = roundData.objCount
+	powerupInterval = roundData.powerupInterval
 	
 	-- reload units
 	invulnerableUnits = GG.SaveLoad.GetNewUnitIDKeys(loadData.invulnerableUnits)
@@ -585,7 +591,7 @@ end
 function gadget:Initialize()
   UpdateDrawList()
   gadgetHandler:AddSyncAction('RallyRoundComplete', WrapRoundComplete)
-	gadgetHandler:AddSyncAction('RallyUpdateScore', WrapUpdateScore)
+  gadgetHandler:AddSyncAction('RallyUpdateScore', WrapUpdateScore)
 end
 
 function gadget:Shutdown()

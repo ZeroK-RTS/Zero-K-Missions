@@ -235,6 +235,9 @@ local function CheckPowerupUnit(unitID)
 		powerupDefs[powerupType].func(unitID)
 		powerupTexts[#powerupTexts + 1] = {x = ux, y = uy, z = uz, ttl = 60, length = 60, text = powerupDefs[powerupType].text}
 		Spring.DestroyUnit(unitID, false, true)
+		ux = math.floor((ux+8)/16)*16
+		uz = math.floor((uz+8)/16)*16
+		Spring.RevertHeightMap(ux - 48, uz - 48, ux + 48, uz + 48, 1)
 	end
 end
 
