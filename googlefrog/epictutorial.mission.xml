@@ -12168,7 +12168,8 @@ end
                                                   <Message z:Id="2864" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">\255\255\255\0\Zoom the camera\008 to your \255\255\255\0\Glaives\008.
 
 + Pan the camera with \255\0\255\0\arrow keys\008, the \255\0\255\0\screen edge\008 or \255\0\255\0\middle mouse\008 button.
-+ Zoom with \255\0\255\0\scrollwheel\008 or \255\0\255\0\Page Up and Page Down\008.</Message>
++ Zoom with \255\0\255\0\scrollwheel\008 or \255\0\255\0\Page Up and Page Down\008.
++ Tilt the camera with \255\0\255\0\Ctrl + scrollwheel\008.</Message>
                                                   <StringID z:Id="2865" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">quicktutorial_persistent_camera</StringID>
                                                   <Width xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">400</Width>
                                                 </TriggerLogic>
