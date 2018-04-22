@@ -1449,7 +1449,7 @@ end</CodeStr>
                   <FontSize xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">14</FontSize>
                   <Height xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">240</Height>
                   <ImagePath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
-                  <Message z:Id="804" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">You can select multiple units by holding \255\0\255\0\left click\008 and \255\0\255\0\dragging a box\008 around them. \255\0\255\0\Shift\008 + \255\0\255\0\click\008 on a unit to add it to your current selection.
+                  <Message z:Id="804" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">You can select multiple units by holding \255\0\255\0\left click\008 and \255\0\255\0\dragging a box\008 around them. \255\0\255\0\Shift\008 + \255\0\255\0\click\008 on a unit adds it to the current selection (or removes it, if it's already selected).
 
 Note: When box-selecting a \255\255\255\0\mixed group\008 of combat units and structures or non-combat units, \255\255\255\0\only the combat units\008 will be selected. Hold down \255\0\255\0\Shift\008 to not do this.
 
@@ -1499,9 +1499,8 @@ end</CodeStr>
                   <ImagePath i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions" />
                   <Message z:Id="818" xmlns="http://schemas.datacontract.org/2004/07/CMissionLib.Actions">Good work. Here are some other ways to select units.
 
-+ \255\0\255\0\Ctrl\008 + \255\0\255\0\left click\008 a unit to select if if not currently selected, or deselect it if it is.
++ \255\0\255\0\Ctrl\008 + \255\0\255\0\left click\008 or \255\0\255\0\double click\008 a unit to select all units of that type on the screen.
 + \255\0\255\0\Left click\008 on empty terrain deselects your units, if you are not issuing an order.
-+ \255\0\255\0\Double click\008 a unit to select all units of that type on the screen.
 + \255\0\255\0\Ctrl\008 + \255\0\255\0\A\008 selects all units across the map. \255\0\255\0\Ctrl\008 + \255\0\255\0\Z\008 is the same, but only for units of the same type as those currently selected.
 
 Click Next to continue. </Message>
